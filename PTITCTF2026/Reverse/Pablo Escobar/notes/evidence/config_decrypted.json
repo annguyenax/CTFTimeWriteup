@@ -1,0 +1,24 @@
+{
+  "url": "http://144.79.188.36:6500/",
+  "title": "WebView Tool",
+  "width": 1280,
+  "height": 800,
+  "min_width": 640,
+  "min_height": 480,
+  "resizable": true,
+  "center": true,
+  "debug": false,
+  "data_dir": "",
+  "_recovery": {
+    "password": "RqriV3LFYnQcOwZoTc5UQJLP59wyhg99VATMAqrIhlo=",
+    "kdf": "pbkdf2-sha256",
+    "iterations": 210000,
+    "salt_b64": "91fS3SAVqIPnMb8UEB0GWA",
+    "nonce_b64": "5Oql/E6+RenWpfIQ",
+    "key_fn_va": "0x140103660",
+    "t1_va": "0x140297CC0",
+    "t2_va": "0x140297C80",
+    "key_len": 44,
+    "formula": "out[i] = ((73*i + 0x5D) ^ (t1[i] ^ t2[i])) & 0xFF"
+  }
+}

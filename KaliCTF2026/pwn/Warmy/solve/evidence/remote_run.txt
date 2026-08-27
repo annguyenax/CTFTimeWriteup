@@ -1,0 +1,3 @@
+$ python solve/solve.py remote chall.kali-team.online 10017
+
+The Flag: KaliTeam{e8b9c40c-bd93-454f-96a1-fb8b9470ac0a}

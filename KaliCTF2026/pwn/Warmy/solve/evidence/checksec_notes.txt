@@ -1,0 +1,20 @@
+Binary: warmy (ELF64)
+RELRO: Partial
+Canary: No
+NX: Yes
+PIE: No (base 0x400000)
+RUNPATH: ./
+
+Key symbols:
+  win  = 0x401236  (fopen("flag.txt") + print chars)
+  vuln = 0x4012ce  (puts banner; gets(buf))
+  main = 0x4012fd  (setvbuf; call vuln)
+
+PLT of interest: gets, puts, printf, fopen, fgetc, putchar, exit
+
+vuln stack frame:
+  sub rsp, 0x40
+  lea rax, [rbp-0x40]
+  call gets@plt
+  leave; ret
+=> RIP overwrite offset = 0x40 + 8 = 0x48

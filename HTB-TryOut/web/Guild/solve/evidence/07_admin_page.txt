@@ -1,0 +1,3 @@
+Q: /admin lists pending verification ids? |+ hidden user_id + verification_id |- empty
+GET /admin
+form /verify: user_id=2 verification_id=1

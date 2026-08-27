@@ -1,0 +1,4 @@
+﻿{
+  "message": "Firmware version HTB{b1om3tric_l0cks_4nd_fl1cker1ng_l1ghts_6d45d44e5c2034af11b95b9d6def5c48} update initiated."
+}
+

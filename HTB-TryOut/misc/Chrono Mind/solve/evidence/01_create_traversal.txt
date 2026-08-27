@@ -1,0 +1,4 @@
+POST /api/create topic=../config.py
+status=201
+set-cookie=room=3c25ac9d-964b-4cf0-a8cd-2f3da2c462d2; Path=/; SameSite=lax
+body={"room":"3c25ac9d-964b-4cf0-a8cd-2f3da2c462d2","topic":"../config.py"}

@@ -1,0 +1,15 @@
+Jump-table mapping decode (prompt_and_update_pos @0x11e3)
+==========================================================
+switch:  eax = toupper(ch); eax -= 'B' (0x42); if eax > 0x13 -> return
+         jmp [0x2080 + eax*4] (rel32 targets relative to table base 0x2080)
+
+entry   letter  target   case body (from disasm_text.txt)
+0x00    B       0x12f3   y-1  (sub [rbx+4])        -> B = Back    = y-1
+0x02    D       0x138d   z-1  (sub [rbx+8])        -> D = Down    = z-1
+0x04    F       0x133b   y+1  (add [rbx+4])        -> F = Forward = y+1
+0x0a    L       0x1262   x-1  (sub [rbx+0])        -> L = Left    = x-1
+0x0f    Q       0x1430   puts("Goodbye!"); exit(-2)
+0x10    R       0x12a8   x+1  (add [rbx+0])        -> R = Right   = x+1
+0x13    U       0x13de   z+1  (add [rbx+8])        -> U = Up      = z+1
+
+=> L/R move x, F/B move y, D/U move z (NOT the naive F=x, U=z assignment).

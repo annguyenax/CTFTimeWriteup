@@ -1,0 +1,13 @@
+checksec: Full RELRO, No canary, NX, PIE, RUNPATH=./
+No win() gadget path required for intended solve.
+
+vuln():
+1) for i in 0..99: snprintf(blocks[i], 64, " Block %d data: 0x%08X (No flag here)", i, rand())
+   - these rand() calls use default seed before srand — irrelevant to secret index
+2) srand(time(NULL))
+3) secret = rand() % 100   # via imul magic 0x51eb851f
+4) fgets(flag, 64, fp) into blocks[secret]
+5) read index (max 15 bytes) -> atoi; if 0..99 print "DATA: %s", blocks[idx]
+
+Attack: predict secret with glibc PRNG; send index.
+Not stack BOF for the intended solve (read length 0xf is small).

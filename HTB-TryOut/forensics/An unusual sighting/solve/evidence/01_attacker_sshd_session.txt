@@ -1,0 +1,15 @@
+Attacker session excerpt — sshd.log (2024-02-19)
+================================================
+[2024-02-19 04:00:14] Connection from 2.67.182.119 port 60071 on 100.107.36.130 port 2221 rdomain ""
+[2024-02-19 04:00:14] Failed publickey for root from 2.67.182.119 port 60071 ssh2: ECDSA SHA256:OPkBSs6okUKraq8pYo4XwwBg55QSo210F09FCe1-yj4
+[2024-02-19 04:00:14] Accepted password for root from 2.67.182.119 port 60071 ssh2
+[2024-02-19 04:00:14] Starting session: shell on pts/2 for root from 2.67.182.119 port 60071 id 0
+[2024-02-19 04:38:17] syslogin_perform_logout: logout() returned an error
+[2024-02-19 04:38:17] Received disconnect from 2.67.182.119 port 60071:11: disconnected by user
+[2024-02-19 04:38:17] Disconnected from user root 2.67.182.119 port 60071
+
+Key facts:
+- Source IP 2.67.182.119 is a public (RIPE) address; the dev team otherwise
+  connects from 100.x / 101.x / 102.x addresses via Tailscale-style VPN.
+- Login user = root (password), not the dev user softdev.
+- Session time 04:00-04:38 (odd hour, outside working hours).

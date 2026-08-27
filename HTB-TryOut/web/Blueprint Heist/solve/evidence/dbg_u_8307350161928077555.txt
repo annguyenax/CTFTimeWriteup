@@ -1,0 +1,23 @@
+file:///etc/passwd
+500
+Error generating PDF: Error: Fontconfig error: No writable cache directories
+
+Fontconfig error: No writable cache directories
+
+Fontconfig error: No writable cache directories
+
+Fontconfig error: No writable cache directories
+
+Fontconfig error: No writable cache directories
+
+Fontconfig error: No writable cache directories
+
+Fontconfig error: No writable cache directories
+
+Exit with code 1, due to unknown error.
+
+wkhtmltopdf exited with code 1
+    at handleError (/app/node_modules/wkhtmltopdf/index.js:161:16)
+    at ChildProcess.&lt;anonymous&gt; (/app/node_modules/wkhtmltopdf/index.js:133:7)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12) 

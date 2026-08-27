@@ -1,0 +1,40 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.0.0
+2 info using node@v24.19.0
+3 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\download\CTFTimeWriteup\HTB-TryOut\misc\Prison Pipeline\solve\pkg\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm publish
+8 verbose argv "publish" "--registry" "http://localhost:4873"
+9 verbose logfile logs-max:10 dir:D:\download\CTFTimeWriteup\HTB-TryOut\misc\Prison Pipeline\solve\.npmcache\_logs\2026-08-19T18_16_49_754Z-
+10 verbose logfile D:\download\CTFTimeWriteup\HTB-TryOut\misc\Prison Pipeline\solve\.npmcache\_logs\2026-08-19T18_16_49_754Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose publish [ '.' ]
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 notice
+15 notice 📦  prisoner-db@1.0.1
+16 notice Tarball Contents
+17 notice 71B README.md
+17 notice 2.1kB curl.js
+17 notice 3.2kB index.js
+17 notice 392B package.json
+18 notice Tarball Details
+19 notice name: prisoner-db
+20 notice version: 1.0.1
+21 notice filename: prisoner-db-1.0.1.tgz
+22 notice package size: 1.9 kB
+23 notice unpacked size: 5.8 kB
+24 notice shasum: fd71ab958618dbed0b2dd44d09eec4c0ed62814e
+25 notice integrity: sha512-1RoKZuk3p5b4B[...]yB8FKyfifvkTA==
+26 notice total files: 4
+27 notice
+28 http fetch GET 200 http://localhost:4873/prisoner-db 1019ms (cache miss)
+29 notice Publishing to http://localhost:4873/ with tag latest and default access
+30 http fetch PUT 201 http://localhost:4873/prisoner-db 1273ms
+31 verbose cwd D:\download\CTFTimeWriteup\HTB-TryOut\misc\Prison Pipeline\solve\pkg
+32 verbose os Windows_NT 10.0.26200
+33 verbose node v24.19.0
+34 verbose npm  v11.0.0
+35 verbose exit 0
+36 info ok

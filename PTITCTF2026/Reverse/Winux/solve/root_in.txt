@@ -1,0 +1,8 @@
+winadmin
+Rootme_12345
+id
+ls /root
+cat /root/flag.txt
+cat /root/real_password
+whoami
+exit

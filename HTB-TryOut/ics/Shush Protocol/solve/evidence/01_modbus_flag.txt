@@ -1,0 +1,3 @@
+Q: which Modbus frame carries the secret?
+frame=35 192.168.178.105:39888 -> 192.168.178.23:502 FC=0x66 TID=12
+FLAG=HTB{50m371m35_cu570m_p2070c01_423_n07_3n0u9h7}

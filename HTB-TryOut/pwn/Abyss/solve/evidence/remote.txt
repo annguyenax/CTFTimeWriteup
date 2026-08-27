@@ -1,0 +1,4 @@
+154.57.164.82:32138
+USER overwrite i then ret -> 0x4014eb (cmd_read after logged_in check)
+file: flag.txt
+flag: HTB{sH0u1D_h4v3-NU11-t3rmIn4tEd_buf!_46c5f0ca8383b8de8432e99c738629e5}

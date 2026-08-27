@@ -1,0 +1,103 @@
+﻿
+D:\download\CTFTimeWriteup\HTB-TryOut\rev\Don't Panic!\files\_work\rev_dontpanic\dontpanic:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000009060 <_ZN3src10check_flag17h397d174e03dc8c74E>:
+    9060:	41 56                	push   %r14
+    9062:	53                   	push   %rbx
+    9063:	48 81 ec 38 01 00 00 	sub    $0x138,%rsp
+    906a:	48 89 fb             	mov    %rdi,%rbx
+    906d:	48 8d 05 0c fb ff ff 	lea    -0x4f4(%rip),%rax        # 8b80 <_ZN4core3ops8function6FnOnce9call_once17h32497efb348ffe3cE>
+    9074:	48 89 44 24 10       	mov    %rax,0x10(%rsp)
+    9079:	48 8d 05 00 fd ff ff 	lea    -0x300(%rip),%rax        # 8d80 <_ZN4core3ops8function6FnOnce9call_once17h827ece763c8c7e2eE>
+    9080:	48 89 44 24 18       	mov    %rax,0x18(%rsp)
+    9085:	48 8d 05 b4 fc ff ff 	lea    -0x34c(%rip),%rax        # 8d40 <_ZN4core3ops8function6FnOnce9call_once17h784eba9476a4f0f4E>
+    908c:	48 89 44 24 20       	mov    %rax,0x20(%rsp)
+    9091:	48 8d 05 68 fd ff ff 	lea    -0x298(%rip),%rax        # 8e00 <_ZN4core3ops8function6FnOnce9call_once17hc26775751c1be756E>
+    9098:	48 89 44 24 28       	mov    %rax,0x28(%rsp)
+    909d:	48 8d 05 9c fd ff ff 	lea    -0x264(%rip),%rax        # 8e40 <_ZN4core3ops8function6FnOnce9call_once17hc599f6727ca8db95E>
+    90a4:	48 89 44 24 30       	mov    %rax,0x30(%rsp)
+    90a9:	48 8d 05 50 fb ff ff 	lea    -0x4b0(%rip),%rax        # 8c00 <_ZN4core3ops8function6FnOnce9call_once17h40d00bd196c3c783E>
+    90b0:	48 89 44 24 38       	mov    %rax,0x38(%rsp)
+    90b5:	48 8d 05 c4 fb ff ff 	lea    -0x43c(%rip),%rax        # 8c80 <_ZN4core3ops8function6FnOnce9call_once17h4e1d94269d5dab9fE>
+    90bc:	48 89 44 24 40       	mov    %rax,0x40(%rsp)
+    90c1:	48 8d 0d f8 f9 ff ff 	lea    -0x608(%rip),%rcx        # 8ac0 <_ZN4core3ops8function6FnOnce9call_once17h1e50475f0ef4e3b2E>
+    90c8:	48 89 4c 24 48       	mov    %rcx,0x48(%rsp)
+    90cd:	48 8d 15 2c fa ff ff 	lea    -0x5d4(%rip),%rdx        # 8b00 <_ZN4core3ops8function6FnOnce9call_once17h28c42c5fb55e3f9fE>
+    90d4:	48 89 54 24 50       	mov    %rdx,0x50(%rsp)
+    90d9:	48 8d 3d a0 f9 ff ff 	lea    -0x660(%rip),%rdi        # 8a80 <_ZN4core3ops8function6FnOnce9call_once17h08f069e45c38c91bE>
+    90e0:	48 89 7c 24 58       	mov    %rdi,0x58(%rsp)
+    90e5:	48 8d 3d 14 fc ff ff 	lea    -0x3ec(%rip),%rdi        # 8d00 <_ZN4core3ops8function6FnOnce9call_once17h70ddab66eb3eaf7eE>
+    90ec:	48 89 7c 24 60       	mov    %rdi,0x60(%rsp)
+    90f1:	48 89 44 24 68       	mov    %rax,0x68(%rsp)
+    90f6:	48 8d 05 c3 fb ff ff 	lea    -0x43d(%rip),%rax        # 8cc0 <_ZN4core3ops8function6FnOnce9call_once17h5935cc8a67508b36E>
+    90fd:	48 89 44 24 70       	mov    %rax,0x70(%rsp)
+    9102:	48 8d 05 37 fa ff ff 	lea    -0x5c9(%rip),%rax        # 8b40 <_ZN4core3ops8function6FnOnce9call_once17h2ed86dfdd0fc9ca5E>
+    9109:	48 89 44 24 78       	mov    %rax,0x78(%rsp)
+    910e:	48 89 94 24 80 00 00 	mov    %rdx,0x80(%rsp)
+    9115:	00 
+    9116:	48 89 84 24 88 00 00 	mov    %rax,0x88(%rsp)
+    911d:	00 
+    911e:	48 89 bc 24 90 00 00 	mov    %rdi,0x90(%rsp)
+    9125:	00 
+    9126:	48 89 8c 24 98 00 00 	mov    %rcx,0x98(%rsp)
+    912d:	00 
+    912e:	48 89 84 24 a0 00 00 	mov    %rax,0xa0(%rsp)
+    9135:	00 
+    9136:	48 8d 05 03 f9 ff ff 	lea    -0x6fd(%rip),%rax        # 8a40 <_ZN4core3ops8function6FnOnce9call_once17h076f93abc7994a2bE>
+    913d:	48 89 84 24 a8 00 00 	mov    %rax,0xa8(%rsp)
+    9144:	00 
+    9145:	48 89 94 24 b0 00 00 	mov    %rdx,0xb0(%rsp)
+    914c:	00 
+    914d:	48 89 8c 24 b8 00 00 	mov    %rcx,0xb8(%rsp)
+    9154:	00 
+    9155:	48 89 84 24 c0 00 00 	mov    %rax,0xc0(%rsp)
+    915c:	00 
+    915d:	48 8d 05 5c fc ff ff 	lea    -0x3a4(%rip),%rax        # 8dc0 <_ZN4core3ops8function6FnOnce9call_once17ha0a2d91800448694E>
+    9164:	48 89 84 24 c8 00 00 	mov    %rax,0xc8(%rsp)
+    916b:	00 
+    916c:	48 89 94 24 d0 00 00 	mov    %rdx,0xd0(%rsp)
+    9173:	00 
+    9174:	48 8d 05 05 fd ff ff 	lea    -0x2fb(%rip),%rax        # 8e80 <_ZN4core3ops8function6FnOnce9call_once17hd3a717188d9c9564E>
+    917b:	48 89 84 24 d8 00 00 	mov    %rax,0xd8(%rsp)
+    9182:	00 
+    9183:	48 8d 05 b6 fa ff ff 	lea    -0x54a(%rip),%rax        # 8c40 <_ZN4core3ops8function6FnOnce9call_once17h4aee5a63c69b281cE>
+    918a:	48 89 84 24 e0 00 00 	mov    %rax,0xe0(%rsp)
+    9191:	00 
+    9192:	48 89 84 24 e8 00 00 	mov    %rax,0xe8(%rsp)
+    9199:	00 
+    919a:	48 8d 0d 1f fa ff ff 	lea    -0x5e1(%rip),%rcx        # 8bc0 <_ZN4core3ops8function6FnOnce9call_once17h3dae80a6281f81f5E>
+    91a1:	48 89 8c 24 f0 00 00 	mov    %rcx,0xf0(%rsp)
+    91a8:	00 
+    91a9:	48 89 84 24 f8 00 00 	mov    %rax,0xf8(%rsp)
+    91b0:	00 
+    91b1:	48 8d 05 08 fd ff ff 	lea    -0x2f8(%rip),%rax        # 8ec0 <_ZN4core3ops8function6FnOnce9call_once17he29dc24b9b003076E>
+    91b8:	48 89 84 24 00 01 00 	mov    %rax,0x100(%rsp)
+    91bf:	00 
+    91c0:	48 89 34 24          	mov    %rsi,(%rsp)
+    91c4:	48 c7 44 24 08 1f 00 	movq   $0x1f,0x8(%rsp)
+    91cb:	00 00 
+    91cd:	48 83 fe 1f          	cmp    $0x1f,%rsi
+    91d1:	75 2d                	jne    9200 <_ZN3src10check_flag17h397d174e03dc8c74E+0x1a0>
+    91d3:	31 c0                	xor    %eax,%eax
+    91d5:	66 66 2e 0f 1f 84 00 	data16 cs nopw 0x0(%rax,%rax,1)
+    91dc:	00 00 00 00 
+    91e0:	4c 8d 70 01          	lea    0x1(%rax),%r14
+    91e4:	0f b6 3c 03          	movzbl (%rbx,%rax,1),%edi
+    91e8:	ff 54 c4 10          	call   *0x10(%rsp,%rax,8)
+    91ec:	4c 89 f0             	mov    %r14,%rax
+    91ef:	49 83 fe 1f          	cmp    $0x1f,%r14
+    91f3:	75 eb                	jne    91e0 <_ZN3src10check_flag17h397d174e03dc8c74E+0x180>
+    91f5:	48 81 c4 38 01 00 00 	add    $0x138,%rsp
+    91fc:	5b                   	pop    %rbx
+    91fd:	41 5e                	pop    %r14
+    91ff:	c3                   	ret
+    9200:	48 c7 84 24 08 01 00 	movq   $0x0,0x108(%rsp)
+    9207:	00 00 00 00 00 
+    920c:	48 89 e7             	mov    %rsp,%rdi
+    920f:	48 8d 74 24 08       	lea    0x8(%rsp),%rsi
+    9214:	48 8d 94 24 08 01 00 	lea    0x108(%rsp),%rdx
+    921b:	00 
+    921c:	e8 5f ce ff ff       	call   6080 <_ZN4core9panicking13assert_failed17hb9915114bebb1f93E>

@@ -1,0 +1,27 @@
+# Key evidence excerpts (FlagCasino / casino ELF x86-64, not stripped)
+
+## main() loop (objdump -d -M intel)  -- core logic
+  1185 <main>:
+  11b8: jmp  1258 <main+0xd3>          ; loop entry
+  11bd: lea  rdi,[rip+0xf35]  # 20f9   ; "> " prompt
+  11c9: call printf@plt
+  11d5: lea  rdi,[rip+0xf20]  # 20fc   ; "%c"
+  11e1: call __isoc99_scanf@plt       ; scanf("%c", &bet)
+  11e6: cmp  eax,0x1 ; jne exit(-1)
+  11f5: movzx eax,BYTE PTR [rbp-0x5]  ; bet char
+  11fe: call srand@plt                ; srand(bet)
+  1203: call rand@plt                 ; rand()
+  1208: mov  edx,[rbp-0x4]            ; index i
+  1216: lea  rdx,[rip+0x2e63] # 4080 <check>   ; check[] DWORD array
+  1220: cmp  eax,edx                  ; rand() == check[i] ?
+  1222: jne  1232                     ; -> INCORRECT + exit(-2)
+  1224: puts "[ * CORRECT *]"
+  1258: cmp  eax,0x1c ; jbe 11bd       ; i <= 0x1c  -> 29 iterations
+  1264: puts "[ ** HOUSE BALANCE $0 - PLEASE COME BACK LATER ** ]"
+
+## Conclusion
+- 29-char flag; per char: srand(char); must have rand() == check[i].
+- check[] = 29 little-endian DWORDs at VA 0x4080 in .data (see check_array.txt).
+- Brute-forced each position over printable ASCII against real glibc
+  srand/rand ground truth (see rand_table.txt, generated on glibc).
+- Recovered + native-glibc-replayed: HTB{r4nd_1s_v3ry_pr3d1ct4bl3}

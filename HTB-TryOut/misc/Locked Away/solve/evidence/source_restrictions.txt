@@ -1,0 +1,18 @@
+# Locked Away — source restrictions (files/misc_locked_away.zip -> challenge/main.py)
+
+Sandbox: python:3.11-alpine, socat EXEC 'python3 main.py', WORKDIR /home/ctf.
+Flag file: /home/ctf/flag.txt (copied via ADD challenge/* /home/ctf/).
+
+Loop: input -> if any blacklisted substring -> "Invalid command!" (continue)
+      else exec(command); any exception -> "You have been locked away..." exit(1337).
+
+blacklist = [
+    'import', 'os', 'sys', 'breakpoint',
+    'flag', 'txt', 'read', 'eval', 'exec',
+    'dir', 'print', 'subprocess', '[', ']',
+    'echo', 'cat', '>', '<', '"', '\'', 'open'
+]
+
+Helpers available in globals(): open_chest() reads flag.txt and prints it.
+Note: 'open_chest' itself contains 'open' -> cannot be typed literally.
+'[' ']' banned -> no subscripting; quotes banned -> no string literals.

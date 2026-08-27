@@ -1,0 +1,21 @@
+
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|         Title          |                                                                                       Description                                                                                        |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Silicon Data Sleuthing |                         In the dust and sand surrounding the vault, you unearth a rusty PCB... You try to read the etched print, it says Open..W...RT, a router!                         |
+|                        |                                                         You hand it over to the hardware gurus and to their surprise the ROM Chip is intact!                                             |
+|                        |                                                    They manage to read the data off the tarnished silicon and they give you back a firmware image.                                       |
+|                        |              It's now your job to examine the firmware and maybe recover some useful information that will be important for unlocking and bypassing some of the vault's countermeasures! |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[95mWhat version of OpenWRT runs on the router (ex: 21.02.0)
+[0m> [92m[+] Correct!
+
+[95m[95mWhat is the Linux kernel version (ex: 5.4.143)
+[0m> [92m[+] Correct!
+
+[95m[95mWhat's the hash of the root account's password, enter the whole line (ex: root:$2$JgiaOAai....)
+[0m> [91m[-] Wrong Answer.
+[95mWhat's the hash of the root account's password, enter the whole line (ex: root:$2$JgiaOAai....)
+[0m
+> 

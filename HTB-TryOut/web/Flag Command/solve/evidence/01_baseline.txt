@@ -1,0 +1,18 @@
+﻿STATUS=200
+LEN=1473
+Connection: close
+Content-Length: 1473
+Content-Type: text/html; charset=utf-8
+Date: Wed, 19 Aug 2026 13:28:19 GMT
+Server: Werkzeug/3.0.1 Python/3.11.8
+TITLE=<title>Flag Command</title>
+SCRIPTS=
+/static/terminal/audio/typing_sound.mp3
+/static/terminal/js/commands.js
+/static/terminal/js/main.js
+/static/terminal/js/game.js
+HREFS=
+/static/terminal/css/terminal.css
+/static/terminal/css/commands.css
+API_HINTS=
+

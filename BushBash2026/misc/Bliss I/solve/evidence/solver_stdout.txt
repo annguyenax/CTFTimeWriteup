@@ -1,0 +1,6 @@
+screen and (aspect-ratio: 6/7): [6, 20, 23, 36, 44, 52, 55, 60] -> bushbash
+screen and (pointer: coarse): [22, 28, 49, 52, 58, 61] -> alWaY$
+print and (orientation: landscape): [2, 9, 17, 23, 31, 34, 47, 50] -> quEsTi0N
+(monochrome): [12, 33, 59, 63] -> yoUR
+screen and (-webkit-device-pixel-ratio: 3): [7, 21, 24, 38, 52, 64] -> m3d1a!
+bushbash{alWaY$-quEsTi0N-yoUR-m3d1a!}

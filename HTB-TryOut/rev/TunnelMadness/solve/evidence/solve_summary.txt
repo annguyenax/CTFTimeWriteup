@@ -1,0 +1,40 @@
+TunnelMadness — solve evidence (concise)
+=========================================
+Binary: files/_work/rev_tunnelmadness/tunnel — ELF64 x86-64, PIE (ET_DYN),
+144,144 bytes, NOT stripped (symbols: main 0x1538, get_flag 0x1446,
+prompt_and_update_pos 0x11e3, get_cell 0x11b5).
+
+Key strings (rodata @0x2000):
+  0x2004 "Direction (L/R/F/B/U/D/Q)? "
+  0x2024 "Cannot move that way"
+  0x2039 "Goodbye!"
+  0x2044 "/flag.txt"
+  0x204e "HTB{fake_flag_for_testing}"   <- fallback when /flag.txt missing
+  0x214e0 "You break into the vault and read the secrets within..."
+
+Game logic:
+  - grid: 8000 cells x 16 bytes @ file offset 0x20e0; cell = {x,y,z,val}
+    index = 400*x + 20*y + z   (get_cell: 16*(400x+20y+z) + 0x20e0)
+  - val: 0 = start (0,0,0), 1 = room (62 cells), 2 = wall (7936), 3 = exit (19,19,19)
+  - main loop: prompt_and_update_pos -> get_cell; if cell.val==3 break;
+    then puts("You break into the vault...") and get_flag() reads /flag.txt.
+  - movement switch: toupper(ch)-'B' dispatch via jump table @0x2080
+    (rel32 targets relative to table base, verified against case bodies):
+      L -> x-1   R -> x+1   B -> y-1   F -> y+1   D -> z-1   U -> z+1
+    bounds 0..19 per axis; target cell with val==2 blocks the move.
+
+Unique shortest path (BFS over exact grid bytes), 59 moves:
+  UUURFURURRFRRFFUUFURRUFUFFRFUFUUUUFFRRUUUFURFDFFUFFRRRRRFRR
+  (num shortest paths = 1; exit dist = 59)
+
+Unique Hamiltonian path through all 64 walkable cells, 63 moves:
+  UUURFURURRFRRFFUUFURRUFUFFRFUFUUUUFFRRUUUFURFDFFUFFRFRBDRURRFRR
+
+Dynamic verification (unicorn emulation of main@0x1538, libc calls hooked:
+scanf feeds input, fopen->NULL, puts no-op except success string):
+  shortest(59)  -> reaches exit: True
+  hamiltonian(63)-> reaches exit: True
+  bad(10x U)    -> reaches exit: False
+
+Flag (input sequence that solves the maze, cf. FlagCasino same event/author):
+  HTB{UUURFURURRFRRFFUUFURRUFUFFRFUFUUUUFFRRUUUFURFDFFUFFRRRRRFRR}

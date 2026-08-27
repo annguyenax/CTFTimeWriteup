@@ -1,0 +1,61 @@
+# Tool output — decisive excerpts only
+# Sources: `objdump -dW library_dec.so` (decrypted region), `readelf`, local ELF header read.
+
+## 1) ELF identity (satellite + library.so)
+```
+satellite:  magic: ELF  class: 2  data: 1  etype: 0x0003  machine: 0x003e   # 64-bit LSB ET_DYN x86-64
+library.so: magic: ELF  class: 2  data: 1  etype: 0x0003  machine: 0x003e
+```
+
+## 2) satellite main (0x1185) — only calls send_satellite_message in a loop
+```
+11b0: lea 0x1035(%rip),%rsi   # 21ec
+11bc: call 1080 <send_satellite_message@plt>      # init call
+...
+1202: lea -0x410(%rbp),%rax   # input buffer
+1216: call 1070 <read@plt>
+...
+1270: mov $0x0,%edi
+1275: call 1080 <send_satellite_message@plt>      # per-input call
+127a: jmp 11ee                                      # infinite loop
+```
+
+## 3) send_satellite_message stub (0x25d0) — env gate + unpack
+```
+25e7: movabs $0x4550535160554254,%rax   # "TB`UQSPE"  (each byte-1 => "SAT_PROD")
+25f1: movabs $0x4f50534a574f4660,%rdx
+2603: movabs $0x554f464e4f5053,%rax     # => "SAT_PRODENVIRONMENT" after -1 each
+...
+2645: call 1030 <getenv@plt>
+264a: test %rax,%rax
+264d: je  2659
+2654: call 23e3                         # unpacker (mmap+memcpy+memfrob)
+```
+
+## 4) Checker 0x1235 (decrypted) — key + verification loop
+```
+1235: movabs $0x37593076307b356c,%rax
+123f: movabs $0x3a7c3e753f665666,%rdx
+1253: movabs $0x784c7c214f3a7c3e,%rax
+125d: movabs $0x663b2c6a246f21,%rdx
+...
+1276: lea -0x28(%rsp),%rcx          # rcx = key base
+1280: movzbl (%rdi,%rax,1),%edx     # dl = input[i]
+1284: xor    (%rax,%rcx,1),%dl      # dl ^= key[i]
+1287: movsbq %dl,%rdx
+128b: cmp    %rax,%rdx              # key[i]^input[i] == i ?
+128e: jne    12ac                   # no -> return 0
+1290: add    $1,%rax
+1299: cmp    $0x1c,%rax             # i reached 28 ?
+129f: mov    $1,%eax                # valid -> return 1
+```
+
+## 5) Solver run (solve.py)
+```
+key   : l5{0v0Y7fVf?u>|:O!|Lx!o$j,;f
+inner : l4y3r5_0n_l4y3r5_0n_l4y3r5!}
+flag  : HTB{l4y3r5_0n_l4y3r5_0n_l4y3r5!}
+[+] checker re-simulation passed (key[i]^inner[i]==i for i=0..27)
+[+] flag format OK  HTB{...}
+[+] wrote final_flag.txt
+```

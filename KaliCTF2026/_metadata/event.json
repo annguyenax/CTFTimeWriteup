@@ -1,0 +1,20 @@
+{
+  "event": "Kali Team - CTF 26",
+  "ctftime": "https://ctftime.org/event/3328",
+  "platform": "https://kali-team.online/challenges",
+  "flag_format": "KaliTeam{...}",
+  "scrape_source": "d:\\download\\kali-ctf26-challenges-full-1785925360288.json",
+  "scraped_at": "2026-08-05T10:22:40.288Z",
+  "challenge_count": 21,
+  "categories": [
+    "Crypto",
+    "Guests",
+    "Misc",
+    "OSINT",
+    "Pwn",
+    "Reverse Engineering",
+    "Warmup",
+    "Web"
+  ],
+  "imported_at": "2026-08-05T10:25:24Z"
+}

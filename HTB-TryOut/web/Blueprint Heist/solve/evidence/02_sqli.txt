@@ -1,0 +1,3 @@
+Q: XHR POST GraphQL SQLi INTO OUTFILE 404.ejs?
+{"errors":[{"message":"Expected Iterable, but did not find one for field \"Query.getDataByName\".","locations":
+[{"line":1,"column":2}],"path":["getDataByName"]}],"data":{"getDataByName":null}}

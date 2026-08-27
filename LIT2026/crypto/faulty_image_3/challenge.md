@@ -1,0 +1,3 @@
+﻿# faulty_image_3
+
+A hacker sent us another suspicious image. We don't know what to do with it. Maybe you do? It's pretty colorful though...

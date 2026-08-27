@@ -1,0 +1,4 @@
+# rev/TunnelMadness  (HTB Try Out — spawn snapshot 2026-08-20; port đổi nếu reset instance)
+TYPE=TCP
+TARGET=154.57.164.82:30636
+CONNECT=nc 154.57.164.82 30636

@@ -1,0 +1,9 @@
+Q: replay GET /
+FLAG=HTB{r3inv3nting_th3_wh331_c4n_cr34t3_h34dach35_edcec11fd46a9fe5e9820f74ebb11c6a}
+LEN=163
+HTTP/1.1 200 OK
+Server: HTB proxy
+Content-Length: 80
+Content-Type: text/html
+
+HTB{r3inv3nting_th3_wh331_c4n_cr34t3_h34dach35_edcec11fd46a9fe5e9820f74ebb11c6a}

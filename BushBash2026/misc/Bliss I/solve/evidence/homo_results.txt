@@ -1,0 +1,1 @@
+rank0 raw zxing=None score=1.059

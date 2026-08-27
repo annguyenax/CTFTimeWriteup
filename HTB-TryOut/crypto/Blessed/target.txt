@@ -1,0 +1,5 @@
+# crypto/Blessed  (HTB Try Out — spawn snapshot 2026-08-20; port đổi nếu reset instance)
+TYPE=TCP
+TARGET=154.57.164.65:31465
+CONNECT=nc 154.57.164.65 31465
+FLAG=HTB{uNv31leD_5eCre7s_0f_BLS_r0gu3_k3y_4t7aCk_w1th_cu5t0m_zkp_4nd_ec-lcg!!_62773e24b8287635ec3fe1c4a83efe2b}

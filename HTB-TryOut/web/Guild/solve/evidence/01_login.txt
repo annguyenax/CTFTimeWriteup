@@ -1,0 +1,3 @@
+Q: signup+login as pwn87146677? |+ redirected, session cookie | -
+POST /signup email=pwn87146677@ex.com username=pwn87146677
+POST /login -> session established (later used for /verification)

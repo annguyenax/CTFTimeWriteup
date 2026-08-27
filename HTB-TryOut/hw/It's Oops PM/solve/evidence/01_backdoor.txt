@@ -1,0 +1,8 @@
+backdoor trigger (backdoor.vhdl pattern): D == 1111111111101001 (0xFFE9) -> B='1'
+leaked key (key.vhdl constant):           K == 0110001111100001 (0x63E1)
+tpm.vhdl MUX: Output = Key when B='1', else Encrypted   => tpm(0xFFE9) = 0x63E1
+encryption.vhdl: E(i)=D(i)^K(i) for i in 1..15; E(0)=~K(0), E(6)=~K(6), E(13)=~K(13)
+                 (bits 0/6/13 leak NOT K, independent of data; decrypt loses those bits)
+verified sim: encrypt(0xFFFF)=0x9C1E  encrypt(0x0000)=0x43A0  tpm(trigger)=0x63E1
+activation input to send to satellite: 1111111111101001
+NOTE: flag text not present in any provided file -> needs live satellite service.

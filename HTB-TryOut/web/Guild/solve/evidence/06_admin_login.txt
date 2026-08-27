@@ -1,0 +1,3 @@
+Q: login username=admin new password? |+ 200 Location /admin title Guild Master |- incorrect password
+POST /login username=admin password=AdminPwn1!
+-> url=http://154.57.164.82:31795/admin title=Guild Master

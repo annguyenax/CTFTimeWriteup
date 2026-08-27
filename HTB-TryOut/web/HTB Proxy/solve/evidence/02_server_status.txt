@@ -1,0 +1,2 @@
+﻿STATUS=200
+Hostname: ng-team-280401-webhtbproxybiz2024-4xqf3-5f5d7f77bd-6rwgc, Operating System: linux, Architecture: amd64, CPU Count: 64, Go Version: go1.21.10, IPs: 10.244.40.122

@@ -1,0 +1,5 @@
+[extraction 1] strings scan (regex HTB\{[^}]+\}) -> HTB{n33dl3_1n_a_l00t_stack}
+[extraction 2] raw byte search -> exact match at file offset 15440 (0x3C50)
+[section]      .rodata (vaddr 0x3000, size 0x20CB) per ELF section-header parse
+[context]      ...Quicksilver, Seal of Nightmares\x00HTB{n33dl3_1n_a_l00t_stack}\x00Glimmer, Prophecy of Magic...
+[result]       FLAG = HTB{n33dl3_1n_a_l00t_stack}

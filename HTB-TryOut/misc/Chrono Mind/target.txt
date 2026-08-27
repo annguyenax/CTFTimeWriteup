@@ -1,0 +1,4 @@
+# misc/Chrono Mind (HTB Try Out, instance RELOADED 2026-08-19)
+TYPE=Web
+TARGET=154.57.164.83:31805
+CONNECT=http://154.57.164.83:31805

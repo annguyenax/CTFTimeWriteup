@@ -1,0 +1,5 @@
+154.57.164.65:31465
+verify prompt: C = x * G1
+EC-LCG LLL recovered 3 consecutive P-256 points from 6 robot_id MSBs
+unveil: Secrets have been unveiled!
+HTB{uNv31leD_5eCre7s_0f_BLS_r0gu3_k3y_4t7aCk_w1th_cu5t0m_zkp_4nd_ec-lcg!!_62773e24b8287635ec3fe1c4a83efe2b}

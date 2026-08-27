@@ -1,0 +1,17 @@
+target=(None, (13, 14))                         moves=  1 bfs=    0.1ms  GR
+target=('R', (15, 6))                           moves=  2 bfs=    0.1ms  RD RR
+target=('B', (6, 13))                           moves=  2 bfs=    0.4ms  BD BR
+target=('Y', (11, 9))                           moves=  3 bfs=    2.4ms  YU YR YD
+target=('G', (6, 3))                            moves=  4 bfs=    8.0ms  GU GL GD GL
+target=('B', (11, 0))                           moves=  4 bfs=   10.4ms  BU BR BD BL
+target=('B', (13, 5))                           moves=  4 bfs=   11.3ms  BU BL BD BR
+target=('Y', (3, 6))                            moves=  4 bfs=   11.4ms  BU YU YR YD
+target=('Y', (1, 4))                            moves=  6 bfs=  138.9ms  YD YR BD BL YL YU
+target=('Y', (14, 3))                           moves=  7 bfs=  226.5ms  RD RR BD YD YR YD YL
+target=('R', (1, 14))                           moves=  8 bfs=  414.3ms  RD RR GL GU GR RU RR RU
+target=('R', (9, 1))                            moves=  8 bfs=  599.4ms  RD RR RU RL YL RU RR RD
+target=('B', (2, 1))                            moves=  8 bfs=  938.1ms  GU BD GL BU BL YL BU BR
+target=('G', (14, 10))                          moves=  9 bfs= 2362.3ms  GU BR YD YR BD YL YD GD GL
+target=('R', (2, 11))                           moves= 10 bfs= 3076.0ms  RL RU RR RD RL RU RR BR RD RL
+target=('G', (8, 5))                            moves= 10 bfs= 4120.9ms  RD RR RU GL RD GD GL GU GR GU
+target=('G', (9, 13))                           moves= 12 bfs=13896.2ms  RU RR RD GL GU GR BU BR BD BR GD GL

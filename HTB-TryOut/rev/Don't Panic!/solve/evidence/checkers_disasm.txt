@@ -1,0 +1,103 @@
+﻿
+D:\download\CTFTimeWriteup\HTB-TryOut\rev\Don't Panic!\files\_work\rev_dontpanic\dontpanic:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000008a40 <_ZN4core3ops8function6FnOnce9call_once17h076f93abc7994a2bE>:
+    8a40:	50                   	push   %rax
+    8a41:	40 80 ff 68          	cmp    $0x68,%dil
+    8a45:	72 04                	jb     8a4b <_ZN4core3ops8function6FnOnce9call_once17h076f93abc7994a2bE+0xb>
+    8a47:	75 1b                	jne    8a64 <_ZN4core3ops8function6FnOnce9call_once17h076f93abc7994a2bE+0x24>
+    8a49:	58                   	pop    %rax
+    8a4a:	c3                   	ret
+    8a4b:	48 8d 3d 5e e6 03 00 	lea    0x3e65e(%rip),%rdi        # 470b0 <str.1>
+    8a52:	48 8d 15 3f f8 04 00 	lea    0x4f83f(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8a59:	be 21 00 00 00       	mov    $0x21,%esi
+    8a5e:	ff 15 7c 25 05 00    	call   *0x5257c(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8a64:	48 8d 3d 75 e6 03 00 	lea    0x3e675(%rip),%rdi        # 470e0 <str.2>
+    8a6b:	48 8d 15 26 f8 04 00 	lea    0x4f826(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8a72:	be 1c 00 00 00       	mov    $0x1c,%esi
+    8a77:	ff 15 63 25 05 00    	call   *0x52563(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8a7d:	0f 1f 00             	nopl   (%rax)
+
+0000000000008a80 <_ZN4core3ops8function6FnOnce9call_once17h08f069e45c38c91bE>:
+    8a80:	50                   	push   %rax
+    8a81:	40 80 ff 70          	cmp    $0x70,%dil
+    8a85:	72 04                	jb     8a8b <_ZN4core3ops8function6FnOnce9call_once17h08f069e45c38c91bE+0xb>
+    8a87:	75 1b                	jne    8aa4 <_ZN4core3ops8function6FnOnce9call_once17h08f069e45c38c91bE+0x24>
+    8a89:	58                   	pop    %rax
+    8a8a:	c3                   	ret
+    8a8b:	48 8d 3d 1e e6 03 00 	lea    0x3e61e(%rip),%rdi        # 470b0 <str.1>
+    8a92:	48 8d 15 ff f7 04 00 	lea    0x4f7ff(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8a99:	be 21 00 00 00       	mov    $0x21,%esi
+    8a9e:	ff 15 3c 25 05 00    	call   *0x5253c(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8aa4:	48 8d 3d 35 e6 03 00 	lea    0x3e635(%rip),%rdi        # 470e0 <str.2>
+    8aab:	48 8d 15 e6 f7 04 00 	lea    0x4f7e6(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8ab2:	be 1c 00 00 00       	mov    $0x1c,%esi
+    8ab7:	ff 15 23 25 05 00    	call   *0x52523(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8abd:	0f 1f 00             	nopl   (%rax)
+
+0000000000008ac0 <_ZN4core3ops8function6FnOnce9call_once17h1e50475f0ef4e3b2E>:
+    8ac0:	50                   	push   %rax
+    8ac1:	40 80 ff 74          	cmp    $0x74,%dil
+    8ac5:	72 04                	jb     8acb <_ZN4core3ops8function6FnOnce9call_once17h1e50475f0ef4e3b2E+0xb>
+    8ac7:	75 1b                	jne    8ae4 <_ZN4core3ops8function6FnOnce9call_once17h1e50475f0ef4e3b2E+0x24>
+    8ac9:	58                   	pop    %rax
+    8aca:	c3                   	ret
+    8acb:	48 8d 3d de e5 03 00 	lea    0x3e5de(%rip),%rdi        # 470b0 <str.1>
+    8ad2:	48 8d 15 bf f7 04 00 	lea    0x4f7bf(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8ad9:	be 21 00 00 00       	mov    $0x21,%esi
+    8ade:	ff 15 fc 24 05 00    	call   *0x524fc(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8ae4:	48 8d 3d f5 e5 03 00 	lea    0x3e5f5(%rip),%rdi        # 470e0 <str.2>
+    8aeb:	48 8d 15 a6 f7 04 00 	lea    0x4f7a6(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8af2:	be 1c 00 00 00       	mov    $0x1c,%esi
+    8af7:	ff 15 e3 24 05 00    	call   *0x524e3(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8afd:	0f 1f 00             	nopl   (%rax)
+
+0000000000008b00 <_ZN4core3ops8function6FnOnce9call_once17h28c42c5fb55e3f9fE>:
+    8b00:	50                   	push   %rax
+    8b01:	40 80 ff 5f          	cmp    $0x5f,%dil
+    8b05:	72 04                	jb     8b0b <_ZN4core3ops8function6FnOnce9call_once17h28c42c5fb55e3f9fE+0xb>
+    8b07:	75 1b                	jne    8b24 <_ZN4core3ops8function6FnOnce9call_once17h28c42c5fb55e3f9fE+0x24>
+    8b09:	58                   	pop    %rax
+    8b0a:	c3                   	ret
+    8b0b:	48 8d 3d 9e e5 03 00 	lea    0x3e59e(%rip),%rdi        # 470b0 <str.1>
+    8b12:	48 8d 15 7f f7 04 00 	lea    0x4f77f(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8b19:	be 21 00 00 00       	mov    $0x21,%esi
+    8b1e:	ff 15 bc 24 05 00    	call   *0x524bc(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8b24:	48 8d 3d b5 e5 03 00 	lea    0x3e5b5(%rip),%rdi        # 470e0 <str.2>
+    8b2b:	48 8d 15 66 f7 04 00 	lea    0x4f766(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8b32:	be 1c 00 00 00       	mov    $0x1c,%esi
+    8b37:	ff 15 a3 24 05 00    	call   *0x524a3(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8b3d:	0f 1f 00             	nopl   (%rax)
+
+0000000000008b40 <_ZN4core3ops8function6FnOnce9call_once17h2ed86dfdd0fc9ca5E>:
+    8b40:	50                   	push   %rax
+    8b41:	40 80 ff 63          	cmp    $0x63,%dil
+    8b45:	72 04                	jb     8b4b <_ZN4core3ops8function6FnOnce9call_once17h2ed86dfdd0fc9ca5E+0xb>
+    8b47:	75 1b                	jne    8b64 <_ZN4core3ops8function6FnOnce9call_once17h2ed86dfdd0fc9ca5E+0x24>
+    8b49:	58                   	pop    %rax
+    8b4a:	c3                   	ret
+    8b4b:	48 8d 3d 5e e5 03 00 	lea    0x3e55e(%rip),%rdi        # 470b0 <str.1>
+    8b52:	48 8d 15 3f f7 04 00 	lea    0x4f73f(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8b59:	be 21 00 00 00       	mov    $0x21,%esi
+    8b5e:	ff 15 7c 24 05 00    	call   *0x5247c(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8b64:	48 8d 3d 75 e5 03 00 	lea    0x3e575(%rip),%rdi        # 470e0 <str.2>
+    8b6b:	48 8d 15 26 f7 04 00 	lea    0x4f726(%rip),%rdx        # 58298 <__do_global_dtors_aux_fini_array_entry+0x108>
+    8b72:	be 1c 00 00 00       	mov    $0x1c,%esi
+    8b77:	ff 15 63 24 05 00    	call   *0x52463(%rip)        # 5afe0 <_GLOBAL_OFFSET_TABLE_+0x6d0>
+    8b7d:	0f 1f 00             	nopl   (%rax)
+
+0000000000008b80 <_ZN4core3ops8function6FnOnce9call_once17h32497efb348ffe3cE>:
+    8b80:	50                   	push   %rax
+    8b81:	40 80 ff 48          	cmp    $0x48,%dil
+    8b85:	72 04                	jb     8b8b <_ZN4core3ops8function6FnOnce9call_once17h32497efb348ffe3cE+0xb>
+    8b87:	75 1b                	jne    8ba4 <_ZN4core3ops8function6FnOnce9call_once17h32497efb348ffe3cE+0x24>
+    8b89:	58                   	pop    %rax
+    8b8a:	c3                   	ret
+    8b8b:	48                   	rex.W
+    8b8c:	8d                   	.byte 0x8d
+    8b8d:	3d                   	.byte 0x3d
+    8b8e:	1e                   	(bad)
+    8b8f:	e5                   	.byte 0xe5

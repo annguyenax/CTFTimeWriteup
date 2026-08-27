@@ -1,0 +1,11 @@
+zip entries (hardware_its_oops_pm.zip):
+hardware_its_oops_pm/encryption.vhdl   490
+hardware_its_oops_pm/backdoor.vhdl     470
+hardware_its_oops_pm/schematic.png     8403726
+hardware_its_oops_pm/key.vhdl          291
+hardware_its_oops_pm/tpm.vhdl          1155
+
+Full-content scan for 'HTB{' / 'flag' across all extracted files: none found.
+schematic.png: 1024x1024 RGBA, no tEXt/zTXt/iTXt chunks, no trailing data after IEND.
+RGB/alpha LSB scan: no HTB{...} pattern, no readable ASCII runs (scanner noise only).
+Windows OCR (original, 2x upscaled BW, inverted): only "INPUT", "CRYPTO", "LOGIC", "MUX".

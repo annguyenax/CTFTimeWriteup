@@ -1,0 +1,51 @@
+{
+  "name": "prisoner-db",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "0.0.1": {
+      "name": "prisoner-db",
+      "version": "0.0.1",
+      "description": "Database interface for prisoners of Prison-Pipeline.",
+      "dist": {
+        "integrity": "sha512-rVvu00q6p7Lwtef6w70Ev95aFRNDvvX4psT1ohsQy195Dy+0Sg8TykGZqUHkt/h2seDjBENPsqXJ54vGIHTPLw==",
+        "shasum": "03281085bfea245f3a23688a2f6add735a34d558",
+        "tarball": "http://registry.prison-pipeline.htb:1337/prisoner-db/-/prisoner-db-0.0.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 4996,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCID4Nl9WEZ2uo3GwpwxVki5LKvFfLA6f5WUsz8ne8eigzAiA7FxIQhaCC9N6PnMkuHh8FrmlBsLpnlKMiOpHyCByXZA=="
+          }
+        ]
+      },
+      "directories": {},
+      "_hasShrinkwrap": false,
+      "hasInstallScript": false
+    },
+    "1.0.0": {
+      "name": "prisoner-db",
+      "version": "1.0.0",
+      "description": "Database interface for prisoners of Prison-Pipeline.",
+      "dist": {
+        "integrity": "sha512-bvMX7SeDG9pfKmuCyETrEL9f8VmJCKJb+8iY3b4113qQb5Y1vEWVaX6mUk/JFY6s5ig4L7RRYnJjYtC87Pf5hQ==",
+        "shasum": "b4c0ef8ac4108339a53b49931c1586c14f457697",
+        "tarball": "http://registry.prison-pipeline.htb:1337/prisoner-db/-/prisoner-db-1.0.0.tgz"
+      },
+      "dependencies": {
+        "js-yaml": "^4.1.0",
+        "node-libcurl": "4.0.0"
+      },
+      "hasInstallScript": false
+    }
+  },
+  "modified": "2024-05-19T02:54:24.811Z",
+  "time": {
+    "created": "2024-05-19T00:10:19.808Z",
+    "0.0.1": "2024-05-19T00:10:20.109Z",
+    "modified": "2024-05-19T02:54:24.811Z",
+    "1.0.0": "2024-05-19T02:54:24.811Z"
+  }
+}

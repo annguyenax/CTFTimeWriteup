@@ -1,0 +1,7 @@
+easy
+You've managed to get lost in the bush... In order to find your way you have to need to find a service that can tell you where you are. You just have to login first...
+
+nc 34.40.133.67 4434
+Note: this challenge requires some brute-forcing. Please do not brute force the infrastucture and instead conduct the attack offline then use this knowledge to solve the problem online.
+
+Author: Vals

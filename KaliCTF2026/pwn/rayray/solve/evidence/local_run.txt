@@ -1,0 +1,8 @@
+$ python run_docker.py  # container with bundled ld/libc
+
+cmp seed=1   py=83 c=83 match
+cmp seed=123 py=93 c=93 match
+window single second
+send 32
+b' \n\nReading block 32...\nDATA: KaliTeam{fake_flag}\n\n'
+OK

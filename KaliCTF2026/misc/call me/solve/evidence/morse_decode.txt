@@ -1,0 +1,5 @@
+Carrier ~800 Hz OOK Morse (unit≈80ms):
+VVV VVV NEXT CHECK MY LINKEDIN TO GET PART2
+
+Author LinkedIn (from challenge HTML): https://www.linkedin.com/in/ali-hloul
+(LinkedIn may hold optional part2; spectrogram already contains complete flag string including literal part2)

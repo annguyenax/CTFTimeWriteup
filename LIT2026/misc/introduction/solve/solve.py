@@ -1,0 +1,1 @@
+﻿print('LITCTF{W3lc0m3_T0_L1TCTF}')

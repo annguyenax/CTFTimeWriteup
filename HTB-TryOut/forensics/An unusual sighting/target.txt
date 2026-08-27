@@ -1,0 +1,4 @@
+# forensics/An unusual sighting  (HTB Try Out — snapshot spawn 2026-08-19; port đổi nếu reset instance)
+TYPE=TCP
+TARGET=154.57.164.69:32684
+CONNECT=nc 154.57.164.69 32684

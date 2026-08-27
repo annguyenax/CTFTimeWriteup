@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="680" viewBox="0 0 1020 680">
+<rect width="100%" height="100%" fill="white"/>
+<path d="M20.00,20 V148" stroke="#ddd"/>
+<path d="M20,20.00 H148" stroke="#ddd"/>
+<path d="M38.29,20 V148" stroke="#ddd"/>
+<path d="M20,38.29 H148" stroke="#ddd"/>
+<path d="M56.57,20 V148" stroke="#ddd"/>
+<path d="M20,56.57 H148" stroke="#ddd"/>
+<path d="M74.86,20 V148" stroke="#ddd"/>
+<path d="M20,74.86 H148" stroke="#ddd"/>
+<path d="M93.14,20 V148" stroke="#ddd"/>
+<path d="M20,93.14 H148" stroke="#ddd"/>
+<path d="M111.43,20 V148" stroke="#ddd"/>
+<path d="M20,111.43 H148" stroke="#ddd"/>
+<path d="M129.71,20 V148" stroke="#ddd"/>
+<path d="M20,129.71 H148" stroke="#ddd"/>
+<path d="M148.00,20 V148" stroke="#ddd"/>
+<path d="M20,148.00 H148" stroke="#ddd"/>
+<polyline points="111.43,111.43 111.43,93.14 111.43,74.86 111.43,56.57 93.14,74.86 74.86,74.86 56.57,74.86 38.29,93.14 38.29,74.86 38.29,56.57 38.29,38.29 38.29,56.57 38.29,74.86 38.29,93.14 38.29,111.43 38.29,93.14 56.57,74.86 74.86,74.86 93.14,74.86 111.43,56.57 111.43,38.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="14" font-family="monospace" font-size="13">Game 01</text>
+<path d="M190.00,20 V148" stroke="#ddd"/>
+<path d="M190,20.00 H318" stroke="#ddd"/>
+<path d="M208.29,20 V148" stroke="#ddd"/>
+<path d="M190,38.29 H318" stroke="#ddd"/>
+<path d="M226.57,20 V148" stroke="#ddd"/>
+<path d="M190,56.57 H318" stroke="#ddd"/>
+<path d="M244.86,20 V148" stroke="#ddd"/>
+<path d="M190,74.86 H318" stroke="#ddd"/>
+<path d="M263.14,20 V148" stroke="#ddd"/>
+<path d="M190,93.14 H318" stroke="#ddd"/>
+<path d="M281.43,20 V148" stroke="#ddd"/>
+<path d="M190,111.43 H318" stroke="#ddd"/>
+<path d="M299.71,20 V148" stroke="#ddd"/>
+<path d="M190,129.71 H318" stroke="#ddd"/>
+<path d="M318.00,20 V148" stroke="#ddd"/>
+<path d="M190,148.00 H318" stroke="#ddd"/>
+<polyline points="281.43,111.43 281.43,93.14 263.14,74.86 281.43,74.86 281.43,56.57 263.14,38.29 244.86,38.29 226.57,38.29 208.29,56.57 226.57,74.86 208.29,93.14 208.29,74.86 208.29,93.14 208.29,111.43 208.29,93.14 226.57,74.86 244.86,74.86" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="190" y="14" font-family="monospace" font-size="13">Game 02</text>
+<path d="M360.00,20 V148" stroke="#ddd"/>
+<path d="M360,20.00 H488" stroke="#ddd"/>
+<path d="M378.29,20 V148" stroke="#ddd"/>
+<path d="M360,38.29 H488" stroke="#ddd"/>
+<path d="M396.57,20 V148" stroke="#ddd"/>
+<path d="M360,56.57 H488" stroke="#ddd"/>
+<path d="M414.86,20 V148" stroke="#ddd"/>
+<path d="M360,74.86 H488" stroke="#ddd"/>
+<path d="M433.14,20 V148" stroke="#ddd"/>
+<path d="M360,93.14 H488" stroke="#ddd"/>
+<path d="M451.43,20 V148" stroke="#ddd"/>
+<path d="M360,111.43 H488" stroke="#ddd"/>
+<path d="M469.71,20 V148" stroke="#ddd"/>
+<path d="M360,129.71 H488" stroke="#ddd"/>
+<path d="M488.00,20 V148" stroke="#ddd"/>
+<path d="M360,148.00 H488" stroke="#ddd"/>
+<polyline points="414.86,74.86 396.57,93.14 396.57,111.43 396.57,93.14 396.57,74.86 396.57,56.57 414.86,38.29 396.57,38.29 414.86,38.29 433.14,38.29 451.43,38.29 469.71,56.57 451.43,74.86 433.14,74.86 451.43,93.14 469.71,111.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360" y="14" font-family="monospace" font-size="13">Game 03</text>
+<path d="M530.00,20 V148" stroke="#ddd"/>
+<path d="M530,20.00 H658" stroke="#ddd"/>
+<path d="M548.29,20 V148" stroke="#ddd"/>
+<path d="M530,38.29 H658" stroke="#ddd"/>
+<path d="M566.57,20 V148" stroke="#ddd"/>
+<path d="M530,56.57 H658" stroke="#ddd"/>
+<path d="M584.86,20 V148" stroke="#ddd"/>
+<path d="M530,74.86 H658" stroke="#ddd"/>
+<path d="M603.14,20 V148" stroke="#ddd"/>
+<path d="M530,93.14 H658" stroke="#ddd"/>
+<path d="M621.43,20 V148" stroke="#ddd"/>
+<path d="M530,111.43 H658" stroke="#ddd"/>
+<path d="M639.71,20 V148" stroke="#ddd"/>
+<path d="M530,129.71 H658" stroke="#ddd"/>
+<path d="M658.00,20 V148" stroke="#ddd"/>
+<path d="M530,148.00 H658" stroke="#ddd"/>
+<polyline points="584.86,111.43 603.14,111.43 621.43,93.14 621.43,74.86 621.43,56.57 603.14,38.29 584.86,38.29 566.57,38.29 548.29,56.57 548.29,74.86 548.29,93.14 548.29,111.43 566.57,111.43 548.29,111.43 548.29,93.14 548.29,74.86 548.29,56.57 548.29,38.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="530" y="14" font-family="monospace" font-size="13">Game 04</text>
+<path d="M700.00,20 V148" stroke="#ddd"/>
+<path d="M700,20.00 H828" stroke="#ddd"/>
+<path d="M718.29,20 V148" stroke="#ddd"/>
+<path d="M700,38.29 H828" stroke="#ddd"/>
+<path d="M736.57,20 V148" stroke="#ddd"/>
+<path d="M700,56.57 H828" stroke="#ddd"/>
+<path d="M754.86,20 V148" stroke="#ddd"/>
+<path d="M700,74.86 H828" stroke="#ddd"/>
+<path d="M773.14,20 V148" stroke="#ddd"/>
+<path d="M700,93.14 H828" stroke="#ddd"/>
+<path d="M791.43,20 V148" stroke="#ddd"/>
+<path d="M700,111.43 H828" stroke="#ddd"/>
+<path d="M809.71,20 V148" stroke="#ddd"/>
+<path d="M700,129.71 H828" stroke="#ddd"/>
+<path d="M828.00,20 V148" stroke="#ddd"/>
+<path d="M700,148.00 H828" stroke="#ddd"/>
+<polyline points="754.86,93.14 754.86,74.86 754.86,56.57 773.14,38.29 791.43,38.29 773.14,38.29 754.86,38.29 736.57,38.29 718.29,38.29 736.57,38.29 754.86,38.29 773.14,38.29 754.86,56.57 754.86,74.86 754.86,93.14 754.86,111.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="700" y="14" font-family="monospace" font-size="13">Game 05</text>
+<path d="M870.00,20 V148" stroke="#ddd"/>
+<path d="M870,20.00 H998" stroke="#ddd"/>
+<path d="M888.29,20 V148" stroke="#ddd"/>
+<path d="M870,38.29 H998" stroke="#ddd"/>
+<path d="M906.57,20 V148" stroke="#ddd"/>
+<path d="M870,56.57 H998" stroke="#ddd"/>
+<path d="M924.86,20 V148" stroke="#ddd"/>
+<path d="M870,74.86 H998" stroke="#ddd"/>
+<path d="M943.14,20 V148" stroke="#ddd"/>
+<path d="M870,93.14 H998" stroke="#ddd"/>
+<path d="M961.43,20 V148" stroke="#ddd"/>
+<path d="M870,111.43 H998" stroke="#ddd"/>
+<path d="M979.71,20 V148" stroke="#ddd"/>
+<path d="M870,129.71 H998" stroke="#ddd"/>
+<path d="M998.00,20 V148" stroke="#ddd"/>
+<path d="M870,148.00 H998" stroke="#ddd"/>
+<polyline points="961.43,111.43 979.71,93.14 979.71,74.86 979.71,56.57 961.43,38.29 943.14,38.29 924.86,38.29 906.57,56.57 906.57,74.86 906.57,93.14 924.86,111.43 943.14,111.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="870" y="14" font-family="monospace" font-size="13">Game 06</text>
+<path d="M20.00,190 V318" stroke="#ddd"/>
+<path d="M20,190.00 H148" stroke="#ddd"/>
+<path d="M38.29,190 V318" stroke="#ddd"/>
+<path d="M20,208.29 H148" stroke="#ddd"/>
+<path d="M56.57,190 V318" stroke="#ddd"/>
+<path d="M20,226.57 H148" stroke="#ddd"/>
+<path d="M74.86,190 V318" stroke="#ddd"/>
+<path d="M20,244.86 H148" stroke="#ddd"/>
+<path d="M93.14,190 V318" stroke="#ddd"/>
+<path d="M20,263.14 H148" stroke="#ddd"/>
+<path d="M111.43,190 V318" stroke="#ddd"/>
+<path d="M20,281.43 H148" stroke="#ddd"/>
+<path d="M129.71,190 V318" stroke="#ddd"/>
+<path d="M20,299.71 H148" stroke="#ddd"/>
+<path d="M148.00,190 V318" stroke="#ddd"/>
+<path d="M20,318.00 H148" stroke="#ddd"/>
+<polyline points="111.43,281.43 93.14,263.14 74.86,244.86 93.14,226.57 111.43,208.29 93.14,226.57 74.86,244.86 56.57,244.86 38.29,263.14 38.29,244.86 38.29,226.57 38.29,208.29 38.29,226.57 38.29,244.86 38.29,263.14 38.29,281.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="184" font-family="monospace" font-size="13">Game 07</text>
+<path d="M190.00,190 V318" stroke="#ddd"/>
+<path d="M190,190.00 H318" stroke="#ddd"/>
+<path d="M208.29,190 V318" stroke="#ddd"/>
+<path d="M190,208.29 H318" stroke="#ddd"/>
+<path d="M226.57,190 V318" stroke="#ddd"/>
+<path d="M190,226.57 H318" stroke="#ddd"/>
+<path d="M244.86,190 V318" stroke="#ddd"/>
+<path d="M190,244.86 H318" stroke="#ddd"/>
+<path d="M263.14,190 V318" stroke="#ddd"/>
+<path d="M190,263.14 H318" stroke="#ddd"/>
+<path d="M281.43,190 V318" stroke="#ddd"/>
+<path d="M190,281.43 H318" stroke="#ddd"/>
+<path d="M299.71,190 V318" stroke="#ddd"/>
+<path d="M190,299.71 H318" stroke="#ddd"/>
+<path d="M318.00,190 V318" stroke="#ddd"/>
+<path d="M190,318.00 H318" stroke="#ddd"/>
+<polyline points="281.43,281.43 263.14,281.43 244.86,281.43 226.57,281.43 208.29,263.14 226.57,244.86 208.29,226.57 208.29,244.86 208.29,226.57 208.29,208.29 226.57,208.29 244.86,208.29 263.14,208.29 281.43,208.29 263.14,208.29 244.86,208.29 226.57,208.29 208.29,208.29 208.29,226.57 226.57,244.86 244.86,244.86 263.14,244.86 244.86,244.86 226.57,244.86 208.29,263.14 208.29,281.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="190" y="184" font-family="monospace" font-size="13">Game 08</text>
+<path d="M360.00,190 V318" stroke="#ddd"/>
+<path d="M360,190.00 H488" stroke="#ddd"/>
+<path d="M378.29,190 V318" stroke="#ddd"/>
+<path d="M360,208.29 H488" stroke="#ddd"/>
+<path d="M396.57,190 V318" stroke="#ddd"/>
+<path d="M360,226.57 H488" stroke="#ddd"/>
+<path d="M414.86,190 V318" stroke="#ddd"/>
+<path d="M360,244.86 H488" stroke="#ddd"/>
+<path d="M433.14,190 V318" stroke="#ddd"/>
+<path d="M360,263.14 H488" stroke="#ddd"/>
+<path d="M451.43,190 V318" stroke="#ddd"/>
+<path d="M360,281.43 H488" stroke="#ddd"/>
+<path d="M469.71,190 V318" stroke="#ddd"/>
+<path d="M360,299.71 H488" stroke="#ddd"/>
+<path d="M488.00,190 V318" stroke="#ddd"/>
+<path d="M360,318.00 H488" stroke="#ddd"/>
+<polyline points="451.43,281.43 433.14,281.43 414.86,281.43 396.57,281.43 378.29,281.43 378.29,263.14 378.29,244.86 378.29,226.57 396.57,244.86 414.86,244.86 433.14,244.86 414.86,244.86 396.57,244.86 378.29,226.57 396.57,208.29 378.29,208.29 396.57,208.29 414.86,208.29 433.14,208.29 451.43,208.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360" y="184" font-family="monospace" font-size="13">Game 09</text>
+<path d="M530.00,190 V318" stroke="#ddd"/>
+<path d="M530,190.00 H658" stroke="#ddd"/>
+<path d="M548.29,190 V318" stroke="#ddd"/>
+<path d="M530,208.29 H658" stroke="#ddd"/>
+<path d="M566.57,190 V318" stroke="#ddd"/>
+<path d="M530,226.57 H658" stroke="#ddd"/>
+<path d="M584.86,190 V318" stroke="#ddd"/>
+<path d="M530,244.86 H658" stroke="#ddd"/>
+<path d="M603.14,190 V318" stroke="#ddd"/>
+<path d="M530,263.14 H658" stroke="#ddd"/>
+<path d="M621.43,190 V318" stroke="#ddd"/>
+<path d="M530,281.43 H658" stroke="#ddd"/>
+<path d="M639.71,190 V318" stroke="#ddd"/>
+<path d="M530,299.71 H658" stroke="#ddd"/>
+<path d="M658.00,190 V318" stroke="#ddd"/>
+<path d="M530,318.00 H658" stroke="#ddd"/>
+<polyline points="548.29,281.43 548.29,263.14 548.29,244.86 566.57,244.86 584.86,244.86 603.14,244.86 621.43,226.57 603.14,208.29 584.86,208.29 566.57,208.29 548.29,208.29 548.29,226.57" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="530" y="184" font-family="monospace" font-size="13">Game 10</text>
+<path d="M700.00,190 V318" stroke="#ddd"/>
+<path d="M700,190.00 H828" stroke="#ddd"/>
+<path d="M718.29,190 V318" stroke="#ddd"/>
+<path d="M700,208.29 H828" stroke="#ddd"/>
+<path d="M736.57,190 V318" stroke="#ddd"/>
+<path d="M700,226.57 H828" stroke="#ddd"/>
+<path d="M754.86,190 V318" stroke="#ddd"/>
+<path d="M700,244.86 H828" stroke="#ddd"/>
+<path d="M773.14,190 V318" stroke="#ddd"/>
+<path d="M700,263.14 H828" stroke="#ddd"/>
+<path d="M791.43,190 V318" stroke="#ddd"/>
+<path d="M700,281.43 H828" stroke="#ddd"/>
+<path d="M809.71,190 V318" stroke="#ddd"/>
+<path d="M700,299.71 H828" stroke="#ddd"/>
+<path d="M828.00,190 V318" stroke="#ddd"/>
+<path d="M700,318.00 H828" stroke="#ddd"/>
+<polyline points="828.00,244.86 828.00,226.57 828.00,208.29 828.00,226.57 828.00,244.86 828.00,263.14 809.71,281.43 791.43,281.43 773.14,281.43 754.86,263.14 754.86,244.86 754.86,226.57 754.86,208.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="700" y="184" font-family="monospace" font-size="13">Game 11</text>
+<path d="M870.00,190 V318" stroke="#ddd"/>
+<path d="M870,190.00 H998" stroke="#ddd"/>
+<path d="M888.29,190 V318" stroke="#ddd"/>
+<path d="M870,208.29 H998" stroke="#ddd"/>
+<path d="M906.57,190 V318" stroke="#ddd"/>
+<path d="M870,226.57 H998" stroke="#ddd"/>
+<path d="M924.86,190 V318" stroke="#ddd"/>
+<path d="M870,244.86 H998" stroke="#ddd"/>
+<path d="M943.14,190 V318" stroke="#ddd"/>
+<path d="M870,263.14 H998" stroke="#ddd"/>
+<path d="M961.43,190 V318" stroke="#ddd"/>
+<path d="M870,281.43 H998" stroke="#ddd"/>
+<path d="M979.71,190 V318" stroke="#ddd"/>
+<path d="M870,299.71 H998" stroke="#ddd"/>
+<path d="M998.00,190 V318" stroke="#ddd"/>
+<path d="M870,318.00 H998" stroke="#ddd"/>
+<polyline points="924.86,244.86 906.57,244.86 888.29,263.14 888.29,244.86 888.29,226.57 888.29,208.29 906.57,208.29 924.86,208.29 943.14,208.29 961.43,226.57 943.14,244.86 961.43,226.57 943.14,208.29 924.86,208.29 906.57,208.29 888.29,208.29 888.29,226.57 888.29,244.86 888.29,263.14 888.29,281.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="870" y="184" font-family="monospace" font-size="13">Game 12</text>
+<path d="M20.00,360 V488" stroke="#ddd"/>
+<path d="M20,360.00 H148" stroke="#ddd"/>
+<path d="M38.29,360 V488" stroke="#ddd"/>
+<path d="M20,378.29 H148" stroke="#ddd"/>
+<path d="M56.57,360 V488" stroke="#ddd"/>
+<path d="M20,396.57 H148" stroke="#ddd"/>
+<path d="M74.86,360 V488" stroke="#ddd"/>
+<path d="M20,414.86 H148" stroke="#ddd"/>
+<path d="M93.14,360 V488" stroke="#ddd"/>
+<path d="M20,433.14 H148" stroke="#ddd"/>
+<path d="M111.43,360 V488" stroke="#ddd"/>
+<path d="M20,451.43 H148" stroke="#ddd"/>
+<path d="M129.71,360 V488" stroke="#ddd"/>
+<path d="M20,469.71 H148" stroke="#ddd"/>
+<path d="M148.00,360 V488" stroke="#ddd"/>
+<path d="M20,488.00 H148" stroke="#ddd"/>
+<polyline points="74.86,414.86 74.86,433.14 93.14,451.43 111.43,433.14 111.43,414.86 111.43,396.57 111.43,378.29 111.43,396.57 111.43,414.86 111.43,433.14 93.14,451.43 74.86,433.14 56.57,451.43 38.29,433.14 38.29,414.86 38.29,396.57 38.29,378.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="354" font-family="monospace" font-size="13">Game 13</text>
+<path d="M190.00,360 V488" stroke="#ddd"/>
+<path d="M190,360.00 H318" stroke="#ddd"/>
+<path d="M208.29,360 V488" stroke="#ddd"/>
+<path d="M190,378.29 H318" stroke="#ddd"/>
+<path d="M226.57,360 V488" stroke="#ddd"/>
+<path d="M190,396.57 H318" stroke="#ddd"/>
+<path d="M244.86,360 V488" stroke="#ddd"/>
+<path d="M190,414.86 H318" stroke="#ddd"/>
+<path d="M263.14,360 V488" stroke="#ddd"/>
+<path d="M190,433.14 H318" stroke="#ddd"/>
+<path d="M281.43,360 V488" stroke="#ddd"/>
+<path d="M190,451.43 H318" stroke="#ddd"/>
+<path d="M299.71,360 V488" stroke="#ddd"/>
+<path d="M190,469.71 H318" stroke="#ddd"/>
+<path d="M318.00,360 V488" stroke="#ddd"/>
+<path d="M190,488.00 H318" stroke="#ddd"/>
+<polyline points="244.86,414.86 244.86,433.14 244.86,451.43 263.14,451.43 281.43,451.43 263.14,451.43 244.86,451.43 226.57,451.43 208.29,451.43 226.57,451.43 244.86,451.43 244.86,433.14 244.86,414.86 244.86,396.57 244.86,378.29 263.14,378.29 281.43,378.29 263.14,378.29 244.86,378.29 226.57,378.29 208.29,378.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="190" y="354" font-family="monospace" font-size="13">Game 14</text>
+<path d="M360.00,360 V488" stroke="#ddd"/>
+<path d="M360,360.00 H488" stroke="#ddd"/>
+<path d="M378.29,360 V488" stroke="#ddd"/>
+<path d="M360,378.29 H488" stroke="#ddd"/>
+<path d="M396.57,360 V488" stroke="#ddd"/>
+<path d="M360,396.57 H488" stroke="#ddd"/>
+<path d="M414.86,360 V488" stroke="#ddd"/>
+<path d="M360,414.86 H488" stroke="#ddd"/>
+<path d="M433.14,360 V488" stroke="#ddd"/>
+<path d="M360,433.14 H488" stroke="#ddd"/>
+<path d="M451.43,360 V488" stroke="#ddd"/>
+<path d="M360,451.43 H488" stroke="#ddd"/>
+<path d="M469.71,360 V488" stroke="#ddd"/>
+<path d="M360,469.71 H488" stroke="#ddd"/>
+<path d="M488.00,360 V488" stroke="#ddd"/>
+<path d="M360,488.00 H488" stroke="#ddd"/>
+<polyline points="451.43,451.43 451.43,433.14 451.43,414.86 451.43,396.57 469.71,378.29 488.00,378.29 469.71,378.29 451.43,378.29 433.14,378.29 414.86,378.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360" y="354" font-family="monospace" font-size="13">Game 15</text>
+<path d="M530.00,360 V488" stroke="#ddd"/>
+<path d="M530,360.00 H658" stroke="#ddd"/>
+<path d="M548.29,360 V488" stroke="#ddd"/>
+<path d="M530,378.29 H658" stroke="#ddd"/>
+<path d="M566.57,360 V488" stroke="#ddd"/>
+<path d="M530,396.57 H658" stroke="#ddd"/>
+<path d="M584.86,360 V488" stroke="#ddd"/>
+<path d="M530,414.86 H658" stroke="#ddd"/>
+<path d="M603.14,360 V488" stroke="#ddd"/>
+<path d="M530,433.14 H658" stroke="#ddd"/>
+<path d="M621.43,360 V488" stroke="#ddd"/>
+<path d="M530,451.43 H658" stroke="#ddd"/>
+<path d="M639.71,360 V488" stroke="#ddd"/>
+<path d="M530,469.71 H658" stroke="#ddd"/>
+<path d="M658.00,360 V488" stroke="#ddd"/>
+<path d="M530,488.00 H658" stroke="#ddd"/>
+<polyline points="621.43,451.43 621.43,433.14 621.43,414.86 621.43,396.57 603.14,414.86 584.86,414.86 566.57,414.86 548.29,414.86 548.29,433.14 548.29,451.43 548.29,433.14 548.29,414.86 548.29,396.57 548.29,378.29 548.29,396.57 548.29,414.86 566.57,414.86 584.86,414.86 603.14,414.86 621.43,396.57 621.43,378.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="530" y="354" font-family="monospace" font-size="13">Game 16</text>
+<path d="M700.00,360 V488" stroke="#ddd"/>
+<path d="M700,360.00 H828" stroke="#ddd"/>
+<path d="M718.29,360 V488" stroke="#ddd"/>
+<path d="M700,378.29 H828" stroke="#ddd"/>
+<path d="M736.57,360 V488" stroke="#ddd"/>
+<path d="M700,396.57 H828" stroke="#ddd"/>
+<path d="M754.86,360 V488" stroke="#ddd"/>
+<path d="M700,414.86 H828" stroke="#ddd"/>
+<path d="M773.14,360 V488" stroke="#ddd"/>
+<path d="M700,433.14 H828" stroke="#ddd"/>
+<path d="M791.43,360 V488" stroke="#ddd"/>
+<path d="M700,451.43 H828" stroke="#ddd"/>
+<path d="M809.71,360 V488" stroke="#ddd"/>
+<path d="M700,469.71 H828" stroke="#ddd"/>
+<path d="M828.00,360 V488" stroke="#ddd"/>
+<path d="M700,488.00 H828" stroke="#ddd"/>
+<polyline points="791.43,451.43 791.43,433.14 791.43,414.86 791.43,396.57 791.43,378.29 773.14,378.29 754.86,378.29 773.14,378.29 791.43,378.29 809.71,378.29 828.00,378.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="700" y="354" font-family="monospace" font-size="13">Game 17</text>
+<path d="M870.00,360 V488" stroke="#ddd"/>
+<path d="M870,360.00 H998" stroke="#ddd"/>
+<path d="M888.29,360 V488" stroke="#ddd"/>
+<path d="M870,378.29 H998" stroke="#ddd"/>
+<path d="M906.57,360 V488" stroke="#ddd"/>
+<path d="M870,396.57 H998" stroke="#ddd"/>
+<path d="M924.86,360 V488" stroke="#ddd"/>
+<path d="M870,414.86 H998" stroke="#ddd"/>
+<path d="M943.14,360 V488" stroke="#ddd"/>
+<path d="M870,433.14 H998" stroke="#ddd"/>
+<path d="M961.43,360 V488" stroke="#ddd"/>
+<path d="M870,451.43 H998" stroke="#ddd"/>
+<path d="M979.71,360 V488" stroke="#ddd"/>
+<path d="M870,469.71 H998" stroke="#ddd"/>
+<path d="M998.00,360 V488" stroke="#ddd"/>
+<path d="M870,488.00 H998" stroke="#ddd"/>
+<polyline points="961.43,451.43 961.43,433.14 961.43,414.86 961.43,396.57 961.43,378.29 961.43,396.57 943.14,414.86 924.86,414.86 906.57,414.86 888.29,396.57 888.29,378.29 888.29,396.57 888.29,414.86 888.29,433.14 888.29,451.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="870" y="354" font-family="monospace" font-size="13">Game 18</text>
+<path d="M20.00,530 V658" stroke="#ddd"/>
+<path d="M20,530.00 H148" stroke="#ddd"/>
+<path d="M38.29,530 V658" stroke="#ddd"/>
+<path d="M20,548.29 H148" stroke="#ddd"/>
+<path d="M56.57,530 V658" stroke="#ddd"/>
+<path d="M20,566.57 H148" stroke="#ddd"/>
+<path d="M74.86,530 V658" stroke="#ddd"/>
+<path d="M20,584.86 H148" stroke="#ddd"/>
+<path d="M93.14,530 V658" stroke="#ddd"/>
+<path d="M20,603.14 H148" stroke="#ddd"/>
+<path d="M111.43,530 V658" stroke="#ddd"/>
+<path d="M20,621.43 H148" stroke="#ddd"/>
+<path d="M129.71,530 V658" stroke="#ddd"/>
+<path d="M20,639.71 H148" stroke="#ddd"/>
+<path d="M148.00,530 V658" stroke="#ddd"/>
+<path d="M20,658.00 H148" stroke="#ddd"/>
+<polyline points="111.43,621.43 93.14,621.43 74.86,621.43 56.57,621.43 38.29,621.43 38.29,603.14 56.57,584.86 74.86,584.86 93.14,584.86 74.86,584.86 56.57,584.86 38.29,584.86 38.29,566.57 56.57,548.29 38.29,548.29 56.57,548.29 74.86,548.29 93.14,548.29 111.43,548.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="524" font-family="monospace" font-size="13">Game 19</text>
+<path d="M190.00,530 V658" stroke="#ddd"/>
+<path d="M190,530.00 H318" stroke="#ddd"/>
+<path d="M208.29,530 V658" stroke="#ddd"/>
+<path d="M190,548.29 H318" stroke="#ddd"/>
+<path d="M226.57,530 V658" stroke="#ddd"/>
+<path d="M190,566.57 H318" stroke="#ddd"/>
+<path d="M244.86,530 V658" stroke="#ddd"/>
+<path d="M190,584.86 H318" stroke="#ddd"/>
+<path d="M263.14,530 V658" stroke="#ddd"/>
+<path d="M190,603.14 H318" stroke="#ddd"/>
+<path d="M281.43,530 V658" stroke="#ddd"/>
+<path d="M190,621.43 H318" stroke="#ddd"/>
+<path d="M299.71,530 V658" stroke="#ddd"/>
+<path d="M190,639.71 H318" stroke="#ddd"/>
+<path d="M318.00,530 V658" stroke="#ddd"/>
+<path d="M190,658.00 H318" stroke="#ddd"/>
+<polyline points="244.86,621.43 263.14,621.43 281.43,603.14 299.71,621.43 281.43,603.14 299.71,584.86 299.71,566.57 281.43,548.29 263.14,548.29 244.86,548.29 226.57,566.57 226.57,584.86 226.57,603.14" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="190" y="524" font-family="monospace" font-size="13">Game 20</text>
+<path d="M360.00,530 V658" stroke="#ddd"/>
+<path d="M360,530.00 H488" stroke="#ddd"/>
+<path d="M378.29,530 V658" stroke="#ddd"/>
+<path d="M360,548.29 H488" stroke="#ddd"/>
+<path d="M396.57,530 V658" stroke="#ddd"/>
+<path d="M360,566.57 H488" stroke="#ddd"/>
+<path d="M414.86,530 V658" stroke="#ddd"/>
+<path d="M360,584.86 H488" stroke="#ddd"/>
+<path d="M433.14,530 V658" stroke="#ddd"/>
+<path d="M360,603.14 H488" stroke="#ddd"/>
+<path d="M451.43,530 V658" stroke="#ddd"/>
+<path d="M360,621.43 H488" stroke="#ddd"/>
+<path d="M469.71,530 V658" stroke="#ddd"/>
+<path d="M360,639.71 H488" stroke="#ddd"/>
+<path d="M488.00,530 V658" stroke="#ddd"/>
+<path d="M360,658.00 H488" stroke="#ddd"/>
+<polyline points="414.86,621.43 396.57,621.43 378.29,603.14 378.29,584.86 378.29,566.57 378.29,548.29 378.29,566.57 378.29,584.86 378.29,603.14 396.57,621.43 414.86,621.43 433.14,621.43 451.43,603.14 451.43,584.86 451.43,566.57 451.43,548.29" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360" y="524" font-family="monospace" font-size="13">Game 21</text>
+<path d="M530.00,530 V658" stroke="#ddd"/>
+<path d="M530,530.00 H658" stroke="#ddd"/>
+<path d="M548.29,530 V658" stroke="#ddd"/>
+<path d="M530,548.29 H658" stroke="#ddd"/>
+<path d="M566.57,530 V658" stroke="#ddd"/>
+<path d="M530,566.57 H658" stroke="#ddd"/>
+<path d="M584.86,530 V658" stroke="#ddd"/>
+<path d="M530,584.86 H658" stroke="#ddd"/>
+<path d="M603.14,530 V658" stroke="#ddd"/>
+<path d="M530,603.14 H658" stroke="#ddd"/>
+<path d="M621.43,530 V658" stroke="#ddd"/>
+<path d="M530,621.43 H658" stroke="#ddd"/>
+<path d="M639.71,530 V658" stroke="#ddd"/>
+<path d="M530,639.71 H658" stroke="#ddd"/>
+<path d="M658.00,530 V658" stroke="#ddd"/>
+<path d="M530,658.00 H658" stroke="#ddd"/>
+<polyline points="621.43,621.43 603.14,621.43 584.86,621.43 566.57,621.43 548.29,603.14 566.57,584.86 548.29,566.57 548.29,548.29 566.57,548.29 584.86,548.29 603.14,548.29 621.43,548.29 603.14,548.29 584.86,548.29 566.57,548.29 548.29,548.29 548.29,566.57 548.29,584.86 548.29,566.57 566.57,584.86 584.86,584.86 603.14,584.86 584.86,584.86 566.57,584.86 548.29,603.14 548.29,621.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="530" y="524" font-family="monospace" font-size="13">Game 22</text>
+<path d="M700.00,530 V658" stroke="#ddd"/>
+<path d="M700,530.00 H828" stroke="#ddd"/>
+<path d="M718.29,530 V658" stroke="#ddd"/>
+<path d="M700,548.29 H828" stroke="#ddd"/>
+<path d="M736.57,530 V658" stroke="#ddd"/>
+<path d="M700,566.57 H828" stroke="#ddd"/>
+<path d="M754.86,530 V658" stroke="#ddd"/>
+<path d="M700,584.86 H828" stroke="#ddd"/>
+<path d="M773.14,530 V658" stroke="#ddd"/>
+<path d="M700,603.14 H828" stroke="#ddd"/>
+<path d="M791.43,530 V658" stroke="#ddd"/>
+<path d="M700,621.43 H828" stroke="#ddd"/>
+<path d="M809.71,530 V658" stroke="#ddd"/>
+<path d="M700,639.71 H828" stroke="#ddd"/>
+<path d="M828.00,530 V658" stroke="#ddd"/>
+<path d="M700,658.00 H828" stroke="#ddd"/>
+<polyline points="791.43,621.43 773.14,621.43 754.86,621.43 736.57,621.43 718.29,603.14 736.57,584.86 754.86,584.86 773.14,584.86 754.86,584.86 736.57,584.86 718.29,584.86 718.29,566.57 736.57,548.29 754.86,548.29 773.14,548.29 791.43,548.29 773.14,548.29 754.86,548.29 736.57,548.29 718.29,548.29 736.57,548.29 718.29,566.57 718.29,584.86 736.57,584.86 718.29,603.14 718.29,621.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="700" y="524" font-family="monospace" font-size="13">Game 23</text>
+<path d="M870.00,530 V658" stroke="#ddd"/>
+<path d="M870,530.00 H998" stroke="#ddd"/>
+<path d="M888.29,530 V658" stroke="#ddd"/>
+<path d="M870,548.29 H998" stroke="#ddd"/>
+<path d="M906.57,530 V658" stroke="#ddd"/>
+<path d="M870,566.57 H998" stroke="#ddd"/>
+<path d="M924.86,530 V658" stroke="#ddd"/>
+<path d="M870,584.86 H998" stroke="#ddd"/>
+<path d="M943.14,530 V658" stroke="#ddd"/>
+<path d="M870,603.14 H998" stroke="#ddd"/>
+<path d="M961.43,530 V658" stroke="#ddd"/>
+<path d="M870,621.43 H998" stroke="#ddd"/>
+<path d="M979.71,530 V658" stroke="#ddd"/>
+<path d="M870,639.71 H998" stroke="#ddd"/>
+<path d="M998.00,530 V658" stroke="#ddd"/>
+<path d="M870,658.00 H998" stroke="#ddd"/>
+<polyline points="979.71,603.14 961.43,603.14 979.71,584.86 979.71,566.57 979.71,548.29 979.71,566.57 979.71,584.86 961.43,603.14 979.71,621.43 961.43,603.14 943.14,584.86 924.86,566.57 906.57,566.57 906.57,548.29 906.57,566.57 906.57,584.86 906.57,603.14 906.57,621.43" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="870" y="524" font-family="monospace" font-size="13">Game 24</text>
+</svg>

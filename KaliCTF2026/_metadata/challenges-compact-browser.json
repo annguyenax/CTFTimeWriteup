@@ -1,0 +1,347 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 7,
+      "category": "Warmup",
+      "name": "W3lc0me!",
+      "type": "standard",
+      "value": 50,
+      "solves": 451,
+      "solved_by_me": true,
+      "description": "**Welcome to first Kali Team -  CTF 2026!**\r\n\r\n* **Make sure to join the [Discord](https://discord.gg/GVYpXSzAKR)**\r\n* **Use ticket for any problems**\r\n\r\n **Claim Flag From the Discord Server.**\r\n",
+      "connection_info": null,
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 8,
+      "category": "Web",
+      "name": "Robots",
+      "type": "dynamic_docker",
+      "value": 100,
+      "solves": 157,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/f4r3s/\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">F4R3S</a></p>\r\n\r\n\r\n\r\n\r\n**Our servers have evolved. They no longer see code; they see the glitch in your biological existence.**\r\n\r\n**You claim to be \"superior\" while your species excels only at destruction and theft.**\r\n\r\n**Task: Prove your worth to the Silicon Intelligence.**\r\n\r\n**If you can still find your \"humanity\" in the rubble we've logged.**",
+      "connection_info": null,
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 9,
+      "category": "Web",
+      "name": "Lock Out",
+      "type": "dynamic_docker",
+      "value": 100,
+      "solves": 143,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/f4r3s/\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">F4R3S</a></p>\r\n\r\n\r\n**I seem to have locked myself out of my admin panel!**\r\n\r\n**Can you find a way back in for me?**",
+      "connection_info": null,
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 14,
+      "category": "OSINT",
+      "name": "The Unbroken Shelf",
+      "type": "dynamic",
+      "value": 100,
+      "solves": 82,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">S1l3nt</a></p>\r\nMost of the column was destroyed, the storefront disappeared.\r\nThe date was torn away.\r\nOne shelf remained untouched.\r\n\r\nFind the original issue and reconstruct where and when the blast occurred.\r\n\r\nFlag Format:\r\nKaliTeam{NEWSPAPER_YYYY_MM_DD_STREET_NUMBER_STREET_TIME}\r\n\r\nUse uppercase letters, replace spaces with underscores, and write the time in 24-hour format.\r\n\r\nExample:\r\nKaliTeam{THE_DAILY_RECORD_1918_04_12_72_MAIN_2130}",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "The-Unbroken-Shelf-Final.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjoyNX0.anMO7g.4ZZXIuiwtCJ1RNoaZAxn6s69cBU",
+          "url": "https://kali-team.online/files/32535e5ff5a3cd5d4e14431a696e0349/The-Unbroken-Shelf-Final.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjoyNX0.anMO7g.4ZZXIuiwtCJ1RNoaZAxn6s69cBU"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 22,
+      "category": "Guests",
+      "name": "Havok Trail",
+      "type": "dynamic",
+      "value": 100,
+      "solves": 250,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/company/hav0k\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">Havok</a></p>\r\n\r\n**Team Havok left its mark in one of the Black Hat MEA CTF competitions.**\r\n\r\n**The internet remembers everything... if you know where to look.**\r\n\r\n**Find the year they competed, the host city, and their final ranking.**\r\n\r\n**Flag Format: KaliTeam{YEAR_CITY_RANK}**",
+      "connection_info": null,
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 23,
+      "category": "Pwn",
+      "name": "Warmy",
+      "type": "dynamic_docker",
+      "value": 100,
+      "solves": 155,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/yousef-qudah/\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">JO0031</a></p>\r\n\r\n\r\n**Its Simple**",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "player.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjozMH0.anMO7g.JCtIEIGGphLfI3CRphfqJ3jwRRg",
+          "url": "https://kali-team.online/files/417f97ede29a04fdb521c0cc85ce947a/player.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjozMH0.anMO7g.JCtIEIGGphLfI3CRphfqJ3jwRRg"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 24,
+      "category": "Pwn",
+      "name": "rayray",
+      "type": "dynamic_docker",
+      "value": 100,
+      "solves": 142,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/yousef-qudah/\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">JO0031</a></p>\r\n\r\n\r\n\r\n\r\n**I like hiding in a random pattern or is it ??**",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "raryray.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjozMX0.anMO7g.5OnfGTBJFEOD-xtyeP3AQb4eReU",
+          "url": "https://kali-team.online/files/97ab4f5d4ef1810384c37afe8297a813/raryray.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjozMX0.anMO7g.5OnfGTBJFEOD-xtyeP3AQb4eReU"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 32,
+      "category": "Reverse Engineering",
+      "name": "Fault Cartography",
+      "type": "dynamic",
+      "value": 100,
+      "solves": 87,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">S1l3nt</a></p>\r\nEvery road on the map is syntactically valid. Only one route crashes in the right order, and the destination remembers the exact sequence of faults.",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "Fault_Cartography.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0MX0.anMO7g.mwM0w5qvrCvDc0CB3IbEmrkdzaE",
+          "url": "https://kali-team.online/files/4d3924423bc17ea22c885adc7a84215b/Fault_Cartography.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0MX0.anMO7g.mwM0w5qvrCvDc0CB3IbEmrkdzaE"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 39,
+      "category": "Crypto",
+      "name": "Merkle's Trapdoor",
+      "type": "dynamic",
+      "value": 100,
+      "solves": 283,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/f4r3s/\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">F4R3S</a></p>\r\n\r\n\r\n\r\n\r\n**Behind every great knapsack lies a hidden trapdoor. Can you find your way through the super-increasing shadows?**\r\n\r\n**```1b99090e0a6109e30414099a090e0a6f211704f4060a20341b99058c060a1c2809d51cbd0a6104e60a6f1cbd21921c281b9921921cbd090320421cbd203f1b990a72```**\r\n\r\n**Public key:** **`{14, 5937, 140, 213, 3, 1403, 901, 2009}`**",
+      "connection_info": null,
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 26,
+      "category": "Pwn",
+      "name": "Leaky",
+      "type": "dynamic_docker",
+      "value": 180,
+      "solves": 65,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/yousef-qudah/\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">JO0031</a></p>\r\n\r\n\r\n\r\n\r\n**Good Luck!**",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "leaky.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjozM30.anMO7w.W1VWcZ_c2kWYKnvVwfjFtgCco5g",
+          "url": "https://kali-team.online/files/5fd5223eecf32ac84d56f67abb733d88/leaky.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjozM30.anMO7w.W1VWcZ_c2kWYKnvVwfjFtgCco5g"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 37,
+      "category": "Misc",
+      "name": "call me",
+      "type": "dynamic",
+      "value": 270,
+      "solves": 47,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ali-hloul\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">SHADOW</a></p>\r\n\r\n\r\n\r\n**so ezzz**",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "signal_037.wav?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0Nn0.anMO7w.cNsmkv_hxq_v7n35gf-7GnknIE8",
+          "url": "https://kali-team.online/files/29bdb3493e94cc3c1b90e23316e2e3aa/signal_037.wav?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0Nn0.anMO7w.cNsmkv_hxq_v7n35gf-7GnknIE8"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 15,
+      "category": "OSINT",
+      "name": " The Last Shift ",
+      "type": "dynamic",
+      "value": 425,
+      "solves": 16,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">S1l3nt</a></p>\r\nSomeone shared more than they intended from backstage.\r\n\r\nBy the time the organizers noticed, the post had already been deleted. All that remains is a captured copy and whatever traces its author forgot to clean up elsewhere online.\r\n\r\nIdentify the volunteer’s full name, volunteer ID, assigned work zone, and the exact neighborhood associated with their online activity.\r\n\r\nFlag Format:\r\nKaliTeam{FIRST_LAST_VOLUNTEER_ID_ZONE_NEIGHBORHOOD}\r\n\r\nExample Flag:\r\nKaliTeam{ALEX_JACKSON_VT26-904_D7_SHMEISANI} ",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "evidence.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjoyNn0.anMO7w.dQVXWGneKAhMp5BI7sD2B7UrVvg",
+          "url": "https://kali-team.online/files/2d06107cdd1a1ae866d5945dabfd714c/evidence.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjoyNn0.anMO7w.dQVXWGneKAhMp5BI7sD2B7UrVvg"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 20,
+      "category": "Guests",
+      "name": "WhoAmI? Cyber-eto",
+      "type": "dynamic",
+      "value": 425,
+      "solves": 16,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">Cyber-eto</a></p>\r\nJulian AbuTaifeha woke up to every developer's nightmare, his custom tool was compromised. In a panic, he posted on Reddit about his problem. Your job is to investigate this incident.\r\n\r\nNotes:\r\n- To reach his account, you should use the Initial-Based Username Convention.\r\n- The one you are looking with is the one you are looking for.",
+      "connection_info": null,
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 47,
+      "category": "Misc",
+      "name": "Symphony of Sus",
+      "type": "dynamic",
+      "value": 460,
+      "solves": 9,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/f4r3s/\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">F4R3S</a></p>\r\n\r\n\r\n\r\n\r\n\r\n**Listen to the notes, check the blocks, and find the truth.**\r\n\r\n**Flag Format** \r\n> KaliTeam{Part1_Part2}",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "1.pdf?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1Mn0.anMO7w.dBPCrC-W4RIhgDahahN0gbAzbAk",
+          "url": "https://kali-team.online/files/b9506269cf24d80ba32b6ec7c237d861/1.pdf?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1Mn0.anMO7w.dBPCrC-W4RIhgDahahN0gbAzbAk"
+        },
+        {
+          "name": "2sus.txt?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1NH0.anMO7w.I_MVm5zTACBzrHQajn8NzV5g93g",
+          "url": "https://kali-team.online/files/e92d3141ec3ee1af62c03b2e437e7d5c/2sus.txt?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1NH0.anMO7w.I_MVm5zTACBzrHQajn8NzV5g93g"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 16,
+      "category": "OSINT",
+      "name": "Red Silence",
+      "type": "dynamic",
+      "value": 470,
+      "solves": 7,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">S1l3nt</a></p>\r\nA traveler captured this photograph somewhere inside Wadi Rum.\r\n\r\nThe original location data was lost. Use the surrounding terrain and distinctive sandstone formations to identify the exact viewpoint.\r\n\r\nSubmit the coordinates using four decimal places.\r\n\r\nFlag Format:\r\nKaliTeam{LATITUDE_LONGITUDE}\r\n\r\nExample Flag:\r\nKaliTeam{30.1742_35.7219} ",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "content.webp?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1Nn0.anMO7w.LD_37PG3LsbYLO8mi37CQfBmmb8",
+          "url": "https://kali-team.online/files/3646d2267ade6410e48aeea092e90aa2/content.webp?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1Nn0.anMO7w.LD_37PG3LsbYLO8mi37CQfBmmb8"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 43,
+      "category": "Reverse Engineering",
+      "name": "Mr. Beast?????",
+      "type": "dynamic",
+      "value": 475,
+      "solves": 6,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ali-hloul\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">SHADOW</a></p>\r\n\r\n**In those days many of discord users are sending me random crypto site with Mr. Beast account is this on of them?<br>\r\nAnaylze it and try restore your files. so ez right ?<br>\r\n⚠️ Warning: This is a real ransomware, so only open it inside a secure, isolated sandbox or virtual environment!**",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "MrBeast.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0OH0.anMO7w.XIk0O62t7NXxvRkuM9Y8FzH1c34",
+          "url": "https://kali-team.online/files/07c4a52353702f1dacddf8e7dc8510c7/MrBeast.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0OH0.anMO7w.XIk0O62t7NXxvRkuM9Y8FzH1c34"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 48,
+      "category": "Guests",
+      "name": "JordanSec",
+      "type": "dynamic",
+      "value": 495,
+      "solves": 2,
+      "solved_by_me": false,
+      "description": "During a recent nationwide cyber event in Jordan, students from schools and universities competed for a limited number of seats in the final round.\r\nFifteen teams made it through.\r\nAmong them, one team name is not what it first appears to be. It is neither random nor purely technical. Its meaning becomes clear only after connecting it to a recognizable figure outside the competition itself.\r\nYour mission is to trace the public trail of the event, locate the finalists, isolate the unusual team name, and identify the person it points to.\r\nOnce found, then you must find the website.\r\nSubmit your answer in the following format:\r\n\r\nfirst part is the name and the 2nd part is hidden somewhere \r\nFormat: KaliTeam{Name_2nd-part}",
+      "connection_info": null,
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 50,
+      "category": "Web",
+      "name": "Black Archive",
+      "type": "dynamic",
+      "value": 495,
+      "solves": 2,
+      "solved_by_me": false,
+      "description": "Black Archive is a support group for depressed refrigerators that are tired of keeping things cold\r\n> ``analyst@blackarchive.local : ArchiveAccess2026!",
+      "connection_info": "https://ctf.marabit.xyz/login",
+      "files": [],
+      "error": null
+    },
+    {
+      "id": 18,
+      "category": "OSINT",
+      "name": "Dead Air",
+      "type": "dynamic",
+      "value": 500,
+      "solves": 1,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">S1l3nt</a></p>\r\nTwo damaged records were recovered from an abandoned airport operations desk.\r\n\r\nThe passenger document no longer identifies its carrier, flight number, or destination. The accompanying operations log is incomplete, and its final station and runway values were deliberately removed.\r\n\r\nReconstruct the movement using the remaining visual evidence and publicly available aviation sources.\r\n\r\nFollow the record chronologically. An operational amendment may replace information written earlier in the log, and a runway family or arrival configuration does not necessarily identify the exact runway.\r\n\r\nRecover the origin, identify the flight and destination, verify the published schedule, and resolve the final operational record against authoritative aeronautical information.\r\n\r\nPreserve official aviation notation.\r\n\r\nFlag Format:\r\n\r\nKaliTeam{ORIGIN_ICAO_FLIGHT_DESTINATION_IATA_DESTINATION_ICAO_DEPARTURE_ARRIVAL_FREQUENCY_EQUIPMENT_DURATION_OBSERVATION_RECIPROCAL_RUNWAY_ACTIVE_RUNWAY_ELEVATION}\r\n\r\nFormatting Rules:\r\n\r\n- Use uppercase letters.\r\n- Do not include colons in scheduled times.\r\n- Use the timetable’s equipment code exactly as published.\r\n- Write the flight duration as a number followed by MIN.\r\n- Keep the complete observation group in Zulu notation.\r\n- Write the elevation as a number followed by FT.\r\n- Do not include spaces.",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "deadair.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1NX0.anMO8A.cqhbdax0io03bZtE4c7qL45KSjk",
+          "url": "https://kali-team.online/files/b5a7d98f79a19d5806c547f044f8b596/deadair.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo1NX0.anMO8A.cqhbdax0io03bZtE4c7qL45KSjk"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 19,
+      "category": "OSINT",
+      "name": "OSHIT",
+      "type": "dynamic",
+      "value": 500,
+      "solves": 0,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">S1l3nt</a></p>\r\nAsterion Field Services disappeared from public view, but parts of its online infrastructure are still accessible.\r\n\r\nA recovered invoice is your only starting point.\r\n\r\nTrace the company’s surviving public footprint and correlate the records connected to project NQ-441. The information is distributed across multiple services, archived documents, and project references.\r\n\r\nRecover the following:\r\n\r\n- The full name of the authorized project contact\r\n- The company registration number\r\n- The internal operations portal identifier\r\n- The receiving warehouse code\r\n- The industrial area associated with the final delivery\r\n\r\nNot every useful page is linked directly, and the complete answer cannot be recovered from a single service.\r\n\r\nFlag Format:\r\n\r\nKaliTeam{CONTACT_REGISTRATION_PORTAL_WAREHOUSE_AREA}\r\n\r\nFormatting Rules:\r\n\r\n- Use uppercase letters.\r\n- Replace spaces with underscores.\r\n- Preserve numbers and internal codes exactly as written.\r\n- Do not add punctuation.",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "paper.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjoyOH0.anMO8A.V-t8PuvxV334T0iyuypwQm16mfw",
+          "url": "https://kali-team.online/files/27c200f1d811c24202c6cf86a79d829e/paper.png?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjoyOH0.anMO8A.V-t8PuvxV334T0iyuypwQm16mfw"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": 33,
+      "category": "Reverse Engineering",
+      "name": "The Last Scheduler",
+      "type": "dynamic",
+      "value": 500,
+      "solves": 0,
+      "solved_by_me": false,
+      "description": "<p style=\"text-align: center\">Author: <a href=\"https://www.linkedin.com/in/ayham-beshtawi-08960a3b7\" style=\"color: #b00dea; font-weight: bold; text-decoration: none;\">S1l3nt</a></p>\r\nNothing is waiting for input. Whatever mattered happened before the crash.",
+      "connection_info": null,
+      "files": [
+        {
+          "name": "The_Last_Scheduler.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0Mn0.anMO8A.L5s_KWphQtgq5POpJmHst6h5nGU",
+          "url": "https://kali-team.online/files/17e03ecac0a26fc110ef1ab85f75977e/The_Last_Scheduler.zip?token=eyJ1c2VyX2lkIjoyMjc5LCJ0ZWFtX2lkIjoxMTczLCJmaWxlX2lkIjo0Mn0.anMO8A.L5s_KWphQtgq5POpJmHst6h5nGU"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Silicon Data Sleuthing — các câu trả lời quiz và nguồn
+
+Quiz TCP: nc 154.57.164.75 30628 (8 câu hỏi)
+
+| # | Câu hỏi | Đáp án | Nguồn |
+|---|---------|--------|-------|
+| 1 | OpenWrt version | 23.05.0 | squashfs-root/etc/openwrt_release (DISTRIB_RELEASE) |
+| 2 | Linux kernel version | 5.15.134 | squashfs-root/etc/banner ("MIPS OpenWrt Linux-5.15.134") |
+| 3 | Root password hash (cả dòng) | root:$1$YfuRJudo$cXCiIJXn9fWLIt8WY2Okp1:19804:0:99999:7::: | JFFS2 overlay etc/shadow (dòng root) |
+| 4 | PPPoE username | yohZ5ah | JFFS2 overlay etc/config/network (config interface 'wan', option username) |
+| 5 | PPPoE password | ae-h+i$i^Ngohroorie!bieng6kee7oh | JFFS2 overlay etc/config/network (option password) |
+| 6 | WiFi SSID | VLT-AP01 | JFFS2 overlay etc/config/wireless (option ssid) |
+| 7 | WiFi password | french-halves-vehicular-favorable | JFFS2 overlay etc/config/wireless (option key) |
+| 8 | 3 WAN ports redirect WAN->LAN | 1778,2289,8088 | JFFS2 overlay etc/config/firewall (config redirect, src 'wan', dest 'lan', src_dport 1778/2289/8088) |
+
+Lưu ý Q3: hash trong squashfs-root/etc/shadow là TRỐNG (root:::0:99999:7:::);
+hash thật nằm ở partition overlay JFFS2 (etc/shadow), vì rootfs squashfs chỉ-read
+không thể lưu mật khẩu đổi được — cấu hình user nằm ở overlay.
+
+FLAG: HTB{Y0u'v3_m4st3r3d_0p3nWRT_d4t4_3xtr4ct10n!!_cdd8ffe941b895c60208f37f33acd324}

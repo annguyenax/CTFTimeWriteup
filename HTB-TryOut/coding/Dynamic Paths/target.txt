@@ -1,0 +1,4 @@
+# coding/Dynamic Paths (HTB Try Out, instance RELOADED 2026-08-19)
+TYPE=TCP
+TARGET=154.57.164.78:30321
+CONNECT=nc 154.57.164.78 30321

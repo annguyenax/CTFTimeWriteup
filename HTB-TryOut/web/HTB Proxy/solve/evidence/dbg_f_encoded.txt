@@ -1,0 +1,20 @@
+REQ_LEN=158
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 156
+Date: Wed, 19 Aug 2026 13:56:06 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /%66lushInterface</pre>
+</body>
+</html>

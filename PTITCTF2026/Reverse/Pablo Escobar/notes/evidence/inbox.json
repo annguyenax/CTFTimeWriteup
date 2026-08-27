@@ -1,0 +1,38 @@
+{
+  "images": [
+    {
+      "id": 4,
+      "name": "images.jpg",
+      "size": 35998,
+      "recipient": "luongvd",
+      "message": "Chạy đến đâu rồi em.",
+      "createdAt": "2026-08-22T01:56:31Z",
+      "url": "/api/images/4"
+    },
+    {
+      "id": 2,
+      "name": "3.jpg",
+      "size": 119827,
+      "recipient": "luongvd",
+      "message": "Ở xưởng có cái toilet hài vl",
+      "createdAt": "2026-08-22T01:53:08Z",
+      "url": "/api/images/2"
+    },
+    {
+      "id": 1,
+      "name": "pexels-taiwo-samson-1239982962-38512126.jpg",
+      "size": 1768998,
+      "recipient": "luongvd",
+      "message": "Chuẩn bị có đơn hàng lớn nha em, nghe nói công an",
+      "createdAt": "2026-08-22T01:52:39Z",
+      "url": "/api/images/1"
+    }
+  ],
+  "_notes": {
+    "id3": "exists; GET /api/images/3 as luongvd -> 403 Khong co quyen xem anh.; unauth -> 500 empty body",
+    "ids_exist": [1, 2, 3, 4],
+    "cookie": "anhhop_session",
+    "login": "POST /api/session {username,password} -> {user:{username,role}}",
+    "user_role": "luongvd / user"
+  }
+}

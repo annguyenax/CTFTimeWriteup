@@ -1,0 +1,30 @@
+games.pgn sha256: 045e6724243e8413e41989af7d550e6992aa3bc2dc4b5f5be1c623510e9de6bf
+game count: 24
+
+01 H: f3 f4 f5 f6 e5 d5 c5 b4 b5 b6 b7 b6 b5 b4 b3 b4 c5 d5 e5 f6 f7
+02 A: f3 f4 e5 f5 f6 e7 d7 c7 b6 c5 b4 b5 b4 b3 b4 c5 d5
+03 R: d5 c4 c3 c4 c5 c6 d7 c7 d7 e7 f7 g6 f5 e5 f4 g3
+04 D: d3 e3 f4 f5 f6 e7 d7 c7 b6 b5 b4 b3 c3 b3 b4 b5 b6 b7
+05 T: d4 d5 d6 e7 f7 e7 d7 c7 b7 c7 d7 e7 d6 d5 d4 d3
+06 O: f3 g4 g5 g6 f7 e7 d7 c6 c5 c4 d3 e3
+07 K: f3 e4 d5 e6 f7 e6 d5 c5 b4 b5 b6 b7 b6 b5 b4 b3
+08 E: f3 e3 d3 c3 b4 c5 b6 b5 b6 b7 c7 d7 e7 f7 e7 d7 c7 b7 b6 c5 d5 e5 d5 c5 b4 b3
+09 E: f3 e3 d3 c3 b3 b4 b5 b6 c5 d5 e5 d5 c5 b6 c7 b7 c7 d7 e7 f7
+10 P: b3 b4 b5 c5 d5 e5 f6 e7 d7 c7 b7 b6
+11 U: h5 h6 h7 h6 h5 h4 g3 f3 e3 d4 d5 d6 d7
+12 P: d5 c5 b4 b5 b6 b7 c7 d7 e7 f6 e5 f6 e7 d7 c7 b7 b6 b5 b4 b3
+13 W: d5 d4 e3 f4 f5 f6 f7 f6 f5 f4 e3 d4 c3 b4 b5 b6 b7
+14 I: d5 d4 d3 e3 f3 e3 d3 c3 b3 c3 d3 d4 d5 d6 d7 e7 f7 e7 d7 c7 b7
+15 T: f3 f4 f5 f6 g7 h7 g7 f7 e7 d7
+16 H: f3 f4 f5 f6 e5 d5 c5 b5 b4 b3 b4 b5 b6 b7 b6 b5 c5 d5 e5 f6 f7
+17 T: f3 f4 f5 f6 f7 e7 d7 e7 f7 g7 h7
+18 H: f3 f4 f5 f6 f7 f6 e5 d5 c5 b6 b7 b6 b5 b4 b3
+19 E: f3 e3 d3 c3 b3 b4 c5 d5 e5 d5 c5 b5 b6 c7 b7 c7 d7 e7 f7
+20 Q: d3 e3 f4 g3 f4 g5 g6 f7 e7 d7 c6 c5 c4
+21 U: d3 c3 b4 b5 b6 b7 b6 b5 b4 c3 d3 e3 f4 f5 f6 f7
+22 E: f3 e3 d3 c3 b4 c5 b6 b7 c7 d7 e7 f7 e7 d7 c7 b7 b6 b5 b6 c5 d5 e5 d5 c5 b4 b3
+23 E: f3 e3 d3 c3 b4 c5 d5 e5 d5 c5 b5 b6 c7 d7 e7 f7 e7 d7 c7 b7 c7 b6 b5 c5 b4 b3
+24 N: g4 f4 g5 g6 g7 g6 g5 f4 g3 f4 e5 d6 c6 c7 c6 c5 c4 c3
+
+decoded phrase: HARD TO KEEP UP WITH THE QUEEN
+flag: L3AK{HARD_TO_KEEP_UP_WITH_THE_QUEEN}

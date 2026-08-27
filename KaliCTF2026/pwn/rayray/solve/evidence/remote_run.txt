@@ -1,0 +1,5 @@
+$ python solve/solve.py remote chall.kali-team.online 10050
+# (if clock skew, retry with seed = time at prompt)
+
+Reading block 2...
+DATA: KaliTeam{7aedaa46-cf9f-4ccd-b4cb-c9a6ce046f6c}

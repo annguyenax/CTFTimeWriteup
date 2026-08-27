@@ -1,0 +1,19 @@
+checksec: Full RELRO | No canary | NX | No PIE | IBT/SHSTK noted (not enforced here)
+
+challenge():
+  setvbuf x2
+  puts("Welcome! Enter input:")
+  read(0, [rbp-0x10], 0x60)   # BOF: 0x60 into 0x10
+  printf(buf)                 # format string (fmt = user buf)
+  leave; ret
+
+do_syscall @ 0x401196: bare syscall gadget (rax not set by helper)
+
+Fmt arg layout (x64):
+  $6 = first 8 bytes of buffer
+  $7 = second 8 bytes -> place GOT addr, use %7$s
+
+Stage1: leak puts@GOT + fake_rbp + ret + challenge
+Stage2: system("/bin/sh") with pop rdi from libc (off 0x2a3e5)
+
+Critical: ret2challenge is a RET not CALL -> stack alignment; insert ret.

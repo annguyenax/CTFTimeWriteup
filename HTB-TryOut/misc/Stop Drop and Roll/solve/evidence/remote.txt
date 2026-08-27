@@ -1,0 +1,4 @@
+154.57.164.82:31142
+GORGE->STOP PHREAK->DROP FIRE->ROLL
+~500 rounds then:
+Fantastic work! The flag is HTB{1_wiLl_sT0p_dR0p_4nD_r0Ll_mY_w4Y_oUt!}

@@ -1,0 +1,4 @@
+# general/Welcome to CTF  (HTB Try Out — spawn snapshot 2026-08-20)
+TYPE=Web
+TARGET=154.57.164.82:30352
+CONNECT=http://154.57.164.82:30352

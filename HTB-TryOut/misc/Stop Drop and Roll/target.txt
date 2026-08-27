@@ -1,0 +1,5 @@
+# misc/Stop Drop and Roll (HTB Try Out, instance RELOADED 2026-08-19)
+TYPE=TCP
+TARGET=154.57.164.82:31142
+CONNECT=nc 154.57.164.82 31142
+FLAG=HTB{1_wiLl_sT0p_dR0p_4nD_r0Ll_mY_w4Y_oUt!}

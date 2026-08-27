@@ -1,0 +1,4 @@
+# misc/Hidden Path (HTB Try Out, instance RELOADED 2026-08-19)
+TYPE=Web
+TARGET=154.57.164.75:30683
+CONNECT=http://154.57.164.75:30683

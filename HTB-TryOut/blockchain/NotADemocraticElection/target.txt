@@ -1,0 +1,5 @@
+# blockchain/NotADemocraticElection (HTB Try Out, instance RELOADED 2026-08-19)
+TYPE=TCP
+TARGET=154.57.164.75:31342
+RPC=http://154.57.164.75:30261
+CONNECT=nc 154.57.164.75 31342

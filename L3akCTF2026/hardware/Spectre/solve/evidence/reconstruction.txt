@@ -1,0 +1,33 @@
+Input SHA-256:
+e85821313acfb8f480eba24472917c670bbc0fb27d3d4356cf1705c59d8acbbf
+
+Image properties:
+mode=L
+shape=192x4494 (frequency x time)
+stable spoken-unit count=107 for thresholds 8, 12, 16, 20, 24, 32, 40, 48, 64
+
+Reconstruction parameters:
+mel power display range=-80..0 dB
+sr=22050
+n_fft=2048
+hop_length=512
+win_length=2048
+Griffin-Lim iterations=24
+
+Independent replay:
+seed=0 samples=2300416 duration=104.327256 s
+seed=1 samples=2300416 duration=104.327256 s
+
+Aligned ASR agreement (selected overlap excerpts):
+tiny.en seed 0: "R E 4 L M underscore R 3 M 4 1"
+base.en seed 0: "R E 4 L M underscore, R 3 M 4 1"
+tiny.en seed 0: "R O C R 4 M underscore L E A V 1"
+base.en seed 0: "R O G R 4 M underscore L E A V 1"
+tiny.en seed 0: "O Y underscore C R A C 3 5 underscore O F"
+base.en seed 0: "l, y, underscore, g, r, a, c, 3, 5, underscore, o, f"
+tiny.en seed 1: "0, 5, 7, L, Y ... R, A, C, 3, 5 ... W, H, 4 ... 0, in C, 3"
+
+Recovered 107-character message:
+L3AK{5p3c7r3_0f_7h3_fr3qu3ncy_r34lm_r3m41n5_w17h1n_7h3_5p3c7r0gr4m_l34v1ng_gh057ly_7r4c35_0f_wh47_0nc3_w45}
+
+Verification status: verified by deterministic reconstruction invariants plus two phase seeds and two ASR model sizes with overlapping windows.

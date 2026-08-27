@@ -1,0 +1,10 @@
+# Answers recovered from firmware (chal_router_dump.bin) — the hash suffix in the
+# flag is per-instance; the Q/A below regenerate it against any spawn.
+OpenWRT version         : 23.05.0                         (/etc/openwrt_release, squashfs)
+Linux kernel version    : 5.15.134                        (/lib/modules/<ver>, squashfs)
+root shadow line        : root:$1$YfuRJudo$cXCiIJXn9fWLIt8WY2Okp1:19804:0:99999:7:::   (JFFS2 overlay /etc/shadow, LZMA)
+PPPoE username          : yohZ5ah                         (JFFS2 /etc/config/network)
+PPPoE password          : ae-h+i$i^Ngohroorie!bieng6kee7oh
+WiFi SSID               : VLT-AP01                        (JFFS2 /etc/config/wireless)
+WiFi Password (key)     : french-halves-vehicular-favorable
+3 WAN redirect ports    : 1778,2289,8088                  (JFFS2 /etc/config/firewall, src_dport of 3 DNAT redirects)

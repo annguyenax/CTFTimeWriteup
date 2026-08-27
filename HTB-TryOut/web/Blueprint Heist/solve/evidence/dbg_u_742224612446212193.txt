@@ -1,0 +1,3 @@
+data:text/html,<iframe src='file:///app/.env'></iframe>
+200
+PDF/ok magic=b'%PDF-1.4' len=7977

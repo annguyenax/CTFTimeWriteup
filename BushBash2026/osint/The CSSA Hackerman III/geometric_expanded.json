@@ -1,0 +1,3950 @@
+[
+  {
+    "path": "sv_expanded\\0094_Deakin_Newdegate_Street_73.jpg",
+    "good_matches": 53,
+    "inliers": 42,
+    "inlier_ratio": 0.7924528301886793,
+    "median_error": 1.6407668590545654
+  },
+  {
+    "path": "sv_expanded\\0048_Duffy_Tullaroop_Street_180.jpg",
+    "good_matches": 55,
+    "inliers": 42,
+    "inlier_ratio": 0.7636363636363637,
+    "median_error": 2.3586111068725586
+  },
+  {
+    "path": "sv_expanded\\0355_Waramanga_Woralul_Street_23.jpg",
+    "good_matches": 61,
+    "inliers": 39,
+    "inlier_ratio": 0.639344262295082,
+    "median_error": 1.2298067808151245
+  },
+  {
+    "path": "sv_expanded\\0231_Torrens_Brookman_Street_183.jpg",
+    "good_matches": 79,
+    "inliers": 31,
+    "inlier_ratio": 0.3924050632911392,
+    "median_error": 2.560175657272339
+  },
+  {
+    "path": "sv_expanded\\0473_Red_Hill_Investigator_Street_163.jpg",
+    "good_matches": 42,
+    "inliers": 30,
+    "inlier_ratio": 0.7142857142857143,
+    "median_error": 0.12574036419391632
+  },
+  {
+    "path": "sv_expanded\\0442_Kambah_Wyselaskie_Circuit_73.jpg",
+    "good_matches": 55,
+    "inliers": 28,
+    "inlier_ratio": 0.509090909090909,
+    "median_error": 1.588001012802124
+  },
+  {
+    "path": "sv_expanded\\0075_Duffy_Kallara_Close_3.jpg",
+    "good_matches": 41,
+    "inliers": 27,
+    "inlier_ratio": 0.6585365853658537,
+    "median_error": 0.5722050070762634
+  },
+  {
+    "path": "sv_expanded\\0340_Waramanga_Nangor_Street_226.jpg",
+    "good_matches": 38,
+    "inliers": 25,
+    "inlier_ratio": 0.6578947368421053,
+    "median_error": 0.5284299850463867
+  },
+  {
+    "path": "sv_expanded\\0141_Hughes_Goble_Street_73.jpg",
+    "good_matches": 40,
+    "inliers": 24,
+    "inlier_ratio": 0.6,
+    "median_error": 0.7918341159820557
+  },
+  {
+    "path": "sv_expanded\\0438_Kambah_Wyselaskie_Circuit_46.jpg",
+    "good_matches": 35,
+    "inliers": 22,
+    "inlier_ratio": 0.6285714285714286,
+    "median_error": 1.2897684574127197
+  },
+  {
+    "path": "sv_expanded\\0238_Torrens_Brookman_Street_90.jpg",
+    "good_matches": 34,
+    "inliers": 21,
+    "inlier_ratio": 0.6176470588235294,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0406_Mawson_Wilkins_Street_333.jpg",
+    "good_matches": 44,
+    "inliers": 21,
+    "inlier_ratio": 0.4772727272727273,
+    "median_error": 0.4860481917858124
+  },
+  {
+    "path": "sv_expanded\\0452_Red_Hill_Golden_Grove_185.jpg",
+    "good_matches": 33,
+    "inliers": 20,
+    "inlier_ratio": 0.6060606060606061,
+    "median_error": 1.012589454650879
+  },
+  {
+    "path": "sv_expanded\\0358_Waramanga_Woralul_Street_315.jpg",
+    "good_matches": 39,
+    "inliers": 19,
+    "inlier_ratio": 0.48717948717948717,
+    "median_error": 1.0207699537277222
+  },
+  {
+    "path": "sv_expanded\\0049_Duffy_Tullaroop_Street_0.jpg",
+    "good_matches": 35,
+    "inliers": 18,
+    "inlier_ratio": 0.5142857142857142,
+    "median_error": 1.0537066459655762
+  },
+  {
+    "path": "sv_expanded\\0362_Waramanga_Alawa_Street_255.jpg",
+    "good_matches": 30,
+    "inliers": 17,
+    "inlier_ratio": 0.5666666666666667,
+    "median_error": 0.7163622379302979
+  },
+  {
+    "path": "sv_expanded\\0339_Waramanga_Nangor_Street_318.jpg",
+    "good_matches": 31,
+    "inliers": 17,
+    "inlier_ratio": 0.5483870967741935,
+    "median_error": 0.7952005863189697
+  },
+  {
+    "path": "sv_expanded\\0439_Kambah_Wyselaskie_Circuit_226.jpg",
+    "good_matches": 36,
+    "inliers": 17,
+    "inlier_ratio": 0.4722222222222222,
+    "median_error": 2.5577056407928467
+  },
+  {
+    "path": "sv_expanded\\0319_Fisher_Rossarden_Street_40.jpg",
+    "good_matches": 57,
+    "inliers": 17,
+    "inlier_ratio": 0.2982456140350877,
+    "median_error": 0.9572193026542664
+  },
+  {
+    "path": "sv_expanded\\0352_Waramanga_Woralul_Street_153.jpg",
+    "good_matches": 62,
+    "inliers": 17,
+    "inlier_ratio": 0.27419354838709675,
+    "median_error": 0.013504243455827236
+  },
+  {
+    "path": "sv_expanded\\0528_Watson_Irvine_Street_105.jpg",
+    "good_matches": 32,
+    "inliers": 16,
+    "inlier_ratio": 0.5,
+    "median_error": 1.0809204578399658
+  },
+  {
+    "path": "sv_expanded\\0198_Lyons_Burnie_Street_345.jpg",
+    "good_matches": 33,
+    "inliers": 16,
+    "inlier_ratio": 0.48484848484848486,
+    "median_error": 0.8054889440536499
+  },
+  {
+    "path": "sv_expanded\\0493_Campbell_Blamey_Crescent_323.jpg",
+    "good_matches": 50,
+    "inliers": 16,
+    "inlier_ratio": 0.32,
+    "median_error": 0.7689724564552307
+  },
+  {
+    "path": "sv_expanded\\0327_Fisher_Chillagoe_Street_147.jpg",
+    "good_matches": 30,
+    "inliers": 15,
+    "inlier_ratio": 0.5,
+    "median_error": 0.35111507773399353
+  },
+  {
+    "path": "sv_expanded\\0378_Mawson_Hurley_Street_141.jpg",
+    "good_matches": 33,
+    "inliers": 15,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.7228878736495972
+  },
+  {
+    "path": "sv_expanded\\0506_Campbell_Blamey_Crescent_307.jpg",
+    "good_matches": 40,
+    "inliers": 15,
+    "inlier_ratio": 0.375,
+    "median_error": 0.9310022592544556
+  },
+  {
+    "path": "sv_expanded\\0070_Duffy_Kallara_Close_133.jpg",
+    "good_matches": 20,
+    "inliers": 14,
+    "inlier_ratio": 0.7,
+    "median_error": 0.5430630445480347
+  },
+  {
+    "path": "sv_expanded\\0103_Deakin_Macgregor_Street_82.jpg",
+    "good_matches": 20,
+    "inliers": 14,
+    "inlier_ratio": 0.7,
+    "median_error": 0.38712501525878906
+  },
+  {
+    "path": "sv_expanded\\0041_Duffy_Tullaroop_Street_246.jpg",
+    "good_matches": 22,
+    "inliers": 14,
+    "inlier_ratio": 0.6363636363636364,
+    "median_error": 0.011668378487229347
+  },
+  {
+    "path": "sv_expanded\\0124_Deakin_Canterbury_Crescent_147.jpg",
+    "good_matches": 24,
+    "inliers": 14,
+    "inlier_ratio": 0.5833333333333334,
+    "median_error": 1.5839149951934814
+  },
+  {
+    "path": "sv_expanded\\0474_Red_Hill_Investigator_Street_227.jpg",
+    "good_matches": 27,
+    "inliers": 14,
+    "inlier_ratio": 0.5185185185185185,
+    "median_error": 0.2269565761089325
+  },
+  {
+    "path": "sv_expanded\\0299_Chifley_Wilsmore_Crescent_70.jpg",
+    "good_matches": 31,
+    "inliers": 14,
+    "inlier_ratio": 0.45161290322580644,
+    "median_error": 2.0120859146118164
+  },
+  {
+    "path": "sv_expanded\\0021_Downer_Blacket_Street_96.jpg",
+    "good_matches": 35,
+    "inliers": 14,
+    "inlier_ratio": 0.4,
+    "median_error": 0.16498470306396484
+  },
+  {
+    "path": "sv_expanded\\0129_Deakin_Canterbury_Crescent_86.jpg",
+    "good_matches": 54,
+    "inliers": 14,
+    "inlier_ratio": 0.25925925925925924,
+    "median_error": 0.872117817401886
+  },
+  {
+    "path": "sv_expanded\\0039_Duffy_Somerset_Street_10.jpg",
+    "good_matches": 23,
+    "inliers": 13,
+    "inlier_ratio": 0.5652173913043478,
+    "median_error": 1.1631015539169312
+  },
+  {
+    "path": "sv_expanded\\0422_Kambah_McDermott_Street_114.jpg",
+    "good_matches": 25,
+    "inliers": 13,
+    "inlier_ratio": 0.52,
+    "median_error": 0.031993430107831955
+  },
+  {
+    "path": "sv_expanded\\0479_Red_Hill_Investigator_Street_298.jpg",
+    "good_matches": 26,
+    "inliers": 13,
+    "inlier_ratio": 0.5,
+    "median_error": 0.5339281558990479
+  },
+  {
+    "path": "sv_expanded\\0497_Campbell_Blamey_Crescent_303.jpg",
+    "good_matches": 26,
+    "inliers": 13,
+    "inlier_ratio": 0.5,
+    "median_error": 0.5381455421447754
+  },
+  {
+    "path": "sv_expanded\\0058_Duffy_Burdekin_Street_331.jpg",
+    "good_matches": 30,
+    "inliers": 13,
+    "inlier_ratio": 0.43333333333333335,
+    "median_error": 0.01183977909386158
+  },
+  {
+    "path": "sv_expanded\\0360_Waramanga_Woralul_Street_68.jpg",
+    "good_matches": 32,
+    "inliers": 13,
+    "inlier_ratio": 0.40625,
+    "median_error": 0.45873352885246277
+  },
+  {
+    "path": "sv_expanded\\0421_Kambah_McDermott_Street_52.jpg",
+    "good_matches": 40,
+    "inliers": 13,
+    "inlier_ratio": 0.325,
+    "median_error": 0.25262629985809326
+  },
+  {
+    "path": "sv_expanded\\0298_Chifley_Wilsmore_Crescent_250.jpg",
+    "good_matches": 22,
+    "inliers": 12,
+    "inlier_ratio": 0.5454545454545454,
+    "median_error": 1.3274147510528564
+  },
+  {
+    "path": "sv_expanded\\0209_Lyons_Deloraine_Street_195.jpg",
+    "good_matches": 24,
+    "inliers": 12,
+    "inlier_ratio": 0.5,
+    "median_error": 2.0392489433288574
+  },
+  {
+    "path": "sv_expanded\\0386_Mawson_Hurley_Street_164.jpg",
+    "good_matches": 26,
+    "inliers": 12,
+    "inlier_ratio": 0.46153846153846156,
+    "median_error": 0.6600812077522278
+  },
+  {
+    "path": "sv_expanded\\0214_Lyons_Deloraine_Street_162.jpg",
+    "good_matches": 27,
+    "inliers": 12,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.06996674835681915
+  },
+  {
+    "path": "sv_expanded\\0436_Kambah_Wyselaskie_Circuit_88.jpg",
+    "good_matches": 18,
+    "inliers": 11,
+    "inlier_ratio": 0.6111111111111112,
+    "median_error": 0.18441160023212433
+  },
+  {
+    "path": "sv_expanded\\0167_Hughes_Bamford_Street_188.jpg",
+    "good_matches": 20,
+    "inliers": 11,
+    "inlier_ratio": 0.55,
+    "median_error": 1.3393220901489258
+  },
+  {
+    "path": "sv_expanded\\0234_Torrens_Brookman_Street_221.jpg",
+    "good_matches": 21,
+    "inliers": 11,
+    "inlier_ratio": 0.5238095238095238,
+    "median_error": 1.347235083580017
+  },
+  {
+    "path": "sv_expanded\\0136_Hughes_Goble_Street_293.jpg",
+    "good_matches": 22,
+    "inliers": 11,
+    "inlier_ratio": 0.5,
+    "median_error": 0.4686140716075897
+  },
+  {
+    "path": "sv_expanded\\0066_Duffy_Kallara_Close_325.jpg",
+    "good_matches": 24,
+    "inliers": 11,
+    "inlier_ratio": 0.4583333333333333,
+    "median_error": 0.8459914326667786
+  },
+  {
+    "path": "sv_expanded\\0301_Chifley_Maclaurin_Crescent_66.jpg",
+    "good_matches": 24,
+    "inliers": 11,
+    "inlier_ratio": 0.4583333333333333,
+    "median_error": 0.6946139335632324
+  },
+  {
+    "path": "sv_expanded\\0445_Kambah_Wyselaskie_Circuit_85.jpg",
+    "good_matches": 26,
+    "inliers": 11,
+    "inlier_ratio": 0.4230769230769231,
+    "median_error": 0.00016220315592363477
+  },
+  {
+    "path": "sv_expanded\\0179_Hughes_Groom_Street_15.jpg",
+    "good_matches": 29,
+    "inliers": 11,
+    "inlier_ratio": 0.3793103448275862,
+    "median_error": 1.9743281602859497
+  },
+  {
+    "path": "sv_expanded\\0408_Mawson_Wilkins_Street_308.jpg",
+    "good_matches": 34,
+    "inliers": 11,
+    "inlier_ratio": 0.3235294117647059,
+    "median_error": 0.1461549997329712
+  },
+  {
+    "path": "sv_expanded\\0417_Mawson_Hoseason_Street_145.jpg",
+    "good_matches": 15,
+    "inliers": 10,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.3006832003593445
+  },
+  {
+    "path": "sv_expanded\\0247_Torrens_Jefferis_Street_31.jpg",
+    "good_matches": 16,
+    "inliers": 10,
+    "inlier_ratio": 0.625,
+    "median_error": 0.8357257843017578
+  },
+  {
+    "path": "sv_expanded\\0074_Duffy_Kallara_Close_183.jpg",
+    "good_matches": 18,
+    "inliers": 10,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.38847774267196655
+  },
+  {
+    "path": "sv_expanded\\0342_Waramanga_Nangor_Street_212.jpg",
+    "good_matches": 18,
+    "inliers": 10,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.7495420575141907
+  },
+  {
+    "path": "sv_expanded\\0084_Deakin_Strickland_Crescent_333.jpg",
+    "good_matches": 19,
+    "inliers": 10,
+    "inlier_ratio": 0.5263157894736842,
+    "median_error": 0.9802687764167786
+  },
+  {
+    "path": "sv_expanded\\0090_Deakin_Newdegate_Street_56.jpg",
+    "good_matches": 19,
+    "inliers": 10,
+    "inlier_ratio": 0.5263157894736842,
+    "median_error": 0.8736578822135925
+  },
+  {
+    "path": "sv_expanded\\0369_Waramanga_Alawa_Street_296.jpg",
+    "good_matches": 19,
+    "inliers": 10,
+    "inlier_ratio": 0.5263157894736842,
+    "median_error": 1.0273501873016357
+  },
+  {
+    "path": "sv_expanded\\0057_Duffy_Burdekin_Street_268.jpg",
+    "good_matches": 22,
+    "inliers": 10,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 2.5074543952941895
+  },
+  {
+    "path": "sv_expanded\\0062_Duffy_Burdekin_Street_21.jpg",
+    "good_matches": 22,
+    "inliers": 10,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.3593823313713074
+  },
+  {
+    "path": "sv_expanded\\0456_Red_Hill_Golden_Grove_332.jpg",
+    "good_matches": 23,
+    "inliers": 10,
+    "inlier_ratio": 0.43478260869565216,
+    "median_error": 2.081338882446289
+  },
+  {
+    "path": "sv_expanded\\0207_Lyons_Deloraine_Street_177.jpg",
+    "good_matches": 24,
+    "inliers": 10,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.8949661254882812
+  },
+  {
+    "path": "sv_expanded\\0008_Downer_Blacket_Street_272.jpg",
+    "good_matches": 25,
+    "inliers": 10,
+    "inlier_ratio": 0.4,
+    "median_error": 1.3296202421188354
+  },
+  {
+    "path": "sv_expanded\\0224_Lyons_Ulverstone_Street_350.jpg",
+    "good_matches": 29,
+    "inliers": 10,
+    "inlier_ratio": 0.3448275862068966,
+    "median_error": 1.7463217973709106
+  },
+  {
+    "path": "sv_expanded\\0443_Kambah_Wyselaskie_Circuit_253.jpg",
+    "good_matches": 31,
+    "inliers": 10,
+    "inlier_ratio": 0.3225806451612903,
+    "median_error": 1.1345970630645752
+  },
+  {
+    "path": "sv_expanded\\0036_Duffy_Somerset_Street_320.jpg",
+    "good_matches": 36,
+    "inliers": 10,
+    "inlier_ratio": 0.2777777777777778,
+    "median_error": 2.067020893096924
+  },
+  {
+    "path": "sv_expanded\\0320_Fisher_Rossarden_Street_246.jpg",
+    "good_matches": 41,
+    "inliers": 10,
+    "inlier_ratio": 0.24390243902439024,
+    "median_error": 0.6737616658210754
+  },
+  {
+    "path": "sv_expanded\\0383_Mawson_Hurley_Street_139.jpg",
+    "good_matches": 41,
+    "inliers": 10,
+    "inlier_ratio": 0.24390243902439024,
+    "median_error": 1.8121097087860107
+  },
+  {
+    "path": "sv_expanded\\0377_Mawson_Hurley_Street_108.jpg",
+    "good_matches": 15,
+    "inliers": 9,
+    "inlier_ratio": 0.6,
+    "median_error": 1.0179575681686401
+  },
+  {
+    "path": "sv_expanded\\0235_Torrens_Brookman_Street_41.jpg",
+    "good_matches": 17,
+    "inliers": 9,
+    "inlier_ratio": 0.5294117647058824,
+    "median_error": 0.7932192087173462
+  },
+  {
+    "path": "sv_expanded\\0431_Kambah_McDermott_Street_52.jpg",
+    "good_matches": 17,
+    "inliers": 9,
+    "inlier_ratio": 0.5294117647058824,
+    "median_error": 0.8449300527572632
+  },
+  {
+    "path": "sv_expanded\\0305_Chifley_Maclaurin_Crescent_148.jpg",
+    "good_matches": 18,
+    "inliers": 9,
+    "inlier_ratio": 0.5,
+    "median_error": 1.6348096132278442
+  },
+  {
+    "path": "sv_expanded\\0081_Deakin_Strickland_Crescent_325.jpg",
+    "good_matches": 19,
+    "inliers": 9,
+    "inlier_ratio": 0.47368421052631576,
+    "median_error": 1.2600550651550293
+  },
+  {
+    "path": "sv_expanded\\0175_Hughes_Bamford_Street_274.jpg",
+    "good_matches": 19,
+    "inliers": 9,
+    "inlier_ratio": 0.47368421052631576,
+    "median_error": 1.649245262145996
+  },
+  {
+    "path": "sv_expanded\\0434_Kambah_Wyselaskie_Circuit_60.jpg",
+    "good_matches": 22,
+    "inliers": 9,
+    "inlier_ratio": 0.4090909090909091,
+    "median_error": 1.706343412399292
+  },
+  {
+    "path": "sv_expanded\\0020_Downer_Blacket_Street_276.jpg",
+    "good_matches": 24,
+    "inliers": 9,
+    "inlier_ratio": 0.375,
+    "median_error": 0.9514099955558777
+  },
+  {
+    "path": "sv_expanded\\0241_Torrens_Brookman_Street_176.jpg",
+    "good_matches": 25,
+    "inliers": 9,
+    "inlier_ratio": 0.36,
+    "median_error": 1.0198290348052979
+  },
+  {
+    "path": "sv_expanded\\0524_Watson_Irvine_Street_120.jpg",
+    "good_matches": 26,
+    "inliers": 9,
+    "inlier_ratio": 0.34615384615384615,
+    "median_error": 1.9058476686477661
+  },
+  {
+    "path": "sv_expanded\\0462_Red_Hill_Torres_Street_83.jpg",
+    "good_matches": 27,
+    "inliers": 9,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.9729055762290955
+  },
+  {
+    "path": "sv_expanded\\0060_Duffy_Burdekin_Street_293.jpg",
+    "good_matches": 30,
+    "inliers": 9,
+    "inlier_ratio": 0.3,
+    "median_error": 0.2642829120159149
+  },
+  {
+    "path": "sv_expanded\\0498_Campbell_Blamey_Crescent_124.jpg",
+    "good_matches": 30,
+    "inliers": 9,
+    "inlier_ratio": 0.3,
+    "median_error": 0.5322141051292419
+  },
+  {
+    "path": "sv_expanded\\0035_Duffy_Somerset_Street_75.jpg",
+    "good_matches": 12,
+    "inliers": 8,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.2399114966392517
+  },
+  {
+    "path": "sv_expanded\\0461_Red_Hill_Torres_Street_251.jpg",
+    "good_matches": 13,
+    "inliers": 8,
+    "inlier_ratio": 0.6153846153846154,
+    "median_error": 1.2166204452514648
+  },
+  {
+    "path": "sv_expanded\\0317_Chifley_Maclaurin_Crescent_160.jpg",
+    "good_matches": 16,
+    "inliers": 8,
+    "inlier_ratio": 0.5,
+    "median_error": 1.030314564704895
+  },
+  {
+    "path": "sv_expanded\\0363_Waramanga_Alawa_Street_75.jpg",
+    "good_matches": 16,
+    "inliers": 8,
+    "inlier_ratio": 0.5,
+    "median_error": 0.17201650142669678
+  },
+  {
+    "path": "sv_expanded\\0561_Watson_Piddington_Street_358.jpg",
+    "good_matches": 16,
+    "inliers": 8,
+    "inlier_ratio": 0.5,
+    "median_error": 0.06873404234647751
+  },
+  {
+    "path": "sv_expanded\\0040_Duffy_Tullaroop_Street_66.jpg",
+    "good_matches": 19,
+    "inliers": 8,
+    "inlier_ratio": 0.42105263157894735,
+    "median_error": 0.4997800290584564
+  },
+  {
+    "path": "sv_expanded\\0174_Hughes_Bamford_Street_94.jpg",
+    "good_matches": 19,
+    "inliers": 8,
+    "inlier_ratio": 0.42105263157894735,
+    "median_error": 0.37285327911376953
+  },
+  {
+    "path": "sv_expanded\\0111_Deakin_Macgregor_Street_88.jpg",
+    "good_matches": 20,
+    "inliers": 8,
+    "inlier_ratio": 0.4,
+    "median_error": 0.21654769778251648
+  },
+  {
+    "path": "sv_expanded\\0132_Deakin_Canterbury_Crescent_315.jpg",
+    "good_matches": 20,
+    "inliers": 8,
+    "inlier_ratio": 0.4,
+    "median_error": 1.1070349216461182
+  },
+  {
+    "path": "sv_expanded\\0200_Lyons_Burnie_Street_163.jpg",
+    "good_matches": 20,
+    "inliers": 8,
+    "inlier_ratio": 0.4,
+    "median_error": 0.9624115228652954
+  },
+  {
+    "path": "sv_expanded\\0314_Chifley_Maclaurin_Crescent_336.jpg",
+    "good_matches": 20,
+    "inliers": 8,
+    "inlier_ratio": 0.4,
+    "median_error": 1.529822826385498
+  },
+  {
+    "path": "sv_expanded\\0318_Fisher_Rossarden_Street_220.jpg",
+    "good_matches": 20,
+    "inliers": 8,
+    "inlier_ratio": 0.4,
+    "median_error": 0.1438141167163849
+  },
+  {
+    "path": "sv_expanded\\0079_Deakin_Strickland_Crescent_140.jpg",
+    "good_matches": 21,
+    "inliers": 8,
+    "inlier_ratio": 0.38095238095238093,
+    "median_error": 1.049707055091858
+  },
+  {
+    "path": "sv_expanded\\0101_Deakin_Macgregor_Street_79.jpg",
+    "good_matches": 21,
+    "inliers": 8,
+    "inlier_ratio": 0.38095238095238093,
+    "median_error": 0.4690901041030884
+  },
+  {
+    "path": "sv_expanded\\0527_Watson_Irvine_Street_334.jpg",
+    "good_matches": 21,
+    "inliers": 8,
+    "inlier_ratio": 0.38095238095238093,
+    "median_error": 2.4716408252716064
+  },
+  {
+    "path": "sv_expanded\\0388_Mawson_Hurley_Street_346.jpg",
+    "good_matches": 22,
+    "inliers": 8,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.3573397397994995
+  },
+  {
+    "path": "sv_expanded\\0426_Kambah_McDermott_Street_236.jpg",
+    "good_matches": 22,
+    "inliers": 8,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 1.56882643699646
+  },
+  {
+    "path": "sv_expanded\\0206_Lyons_Deloraine_Street_357.jpg",
+    "good_matches": 23,
+    "inliers": 8,
+    "inlier_ratio": 0.34782608695652173,
+    "median_error": 1.1544396877288818
+  },
+  {
+    "path": "sv_expanded\\0208_Lyons_Deloraine_Street_15.jpg",
+    "good_matches": 23,
+    "inliers": 8,
+    "inlier_ratio": 0.34782608695652173,
+    "median_error": 0.367522656917572
+  },
+  {
+    "path": "sv_expanded\\0204_Lyons_Deloraine_Street_355.jpg",
+    "good_matches": 25,
+    "inliers": 8,
+    "inlier_ratio": 0.32,
+    "median_error": 0.39782437682151794
+  },
+  {
+    "path": "sv_expanded\\0190_Lyons_Burnie_Street_345.jpg",
+    "good_matches": 27,
+    "inliers": 8,
+    "inlier_ratio": 0.2962962962962963,
+    "median_error": 0.8786219358444214
+  },
+  {
+    "path": "sv_expanded\\0464_Red_Hill_Torres_Street_101.jpg",
+    "good_matches": 28,
+    "inliers": 8,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.1562858521938324
+  },
+  {
+    "path": "sv_expanded\\0329_Fisher_Chillagoe_Street_163.jpg",
+    "good_matches": 31,
+    "inliers": 8,
+    "inlier_ratio": 0.25806451612903225,
+    "median_error": 3.461638927459717
+  },
+  {
+    "path": "sv_expanded\\0391_Mawson_Hurley_Street_358.jpg",
+    "good_matches": 11,
+    "inliers": 7,
+    "inlier_ratio": 0.6363636363636364,
+    "median_error": 0.1971912980079651
+  },
+  {
+    "path": "sv_expanded\\0284_Chifley_Gledden_Street_2.jpg",
+    "good_matches": 12,
+    "inliers": 7,
+    "inlier_ratio": 0.5833333333333334,
+    "median_error": 1.3355604410171509
+  },
+  {
+    "path": "sv_expanded\\0119_Deakin_Grey_Street_253.jpg",
+    "good_matches": 13,
+    "inliers": 7,
+    "inlier_ratio": 0.5384615384615384,
+    "median_error": 0.9340116381645203
+  },
+  {
+    "path": "sv_expanded\\0178_Hughes_Groom_Street_195.jpg",
+    "good_matches": 13,
+    "inliers": 7,
+    "inlier_ratio": 0.5384615384615384,
+    "median_error": 0.90660160779953
+  },
+  {
+    "path": "sv_expanded\\0271_Curtin_Allan_Street_200.jpg",
+    "good_matches": 14,
+    "inliers": 7,
+    "inlier_ratio": 0.5,
+    "median_error": 0.9206565022468567
+  },
+  {
+    "path": "sv_expanded\\0315_Chifley_Maclaurin_Crescent_156.jpg",
+    "good_matches": 14,
+    "inliers": 7,
+    "inlier_ratio": 0.5,
+    "median_error": 0.8662233352661133
+  },
+  {
+    "path": "sv_expanded\\0321_Fisher_Rossarden_Street_66.jpg",
+    "good_matches": 14,
+    "inliers": 7,
+    "inlier_ratio": 0.5,
+    "median_error": 0.057661272585392
+  },
+  {
+    "path": "sv_expanded\\0450_Red_Hill_Golden_Grove_347.jpg",
+    "good_matches": 14,
+    "inliers": 7,
+    "inlier_ratio": 0.5,
+    "median_error": 0.5917402505874634
+  },
+  {
+    "path": "sv_expanded\\0495_Campbell_Blamey_Crescent_319.jpg",
+    "good_matches": 14,
+    "inliers": 7,
+    "inlier_ratio": 0.5,
+    "median_error": 0.42860424518585205
+  },
+  {
+    "path": "sv_expanded\\0107_Deakin_Macgregor_Street_90.jpg",
+    "good_matches": 15,
+    "inliers": 7,
+    "inlier_ratio": 0.4666666666666667,
+    "median_error": 0.10319814831018448
+  },
+  {
+    "path": "sv_expanded\\0130_Deakin_Canterbury_Crescent_323.jpg",
+    "good_matches": 15,
+    "inliers": 7,
+    "inlier_ratio": 0.4666666666666667,
+    "median_error": 1.058478832244873
+  },
+  {
+    "path": "sv_expanded\\0245_Torrens_Jefferis_Street_338.jpg",
+    "good_matches": 15,
+    "inliers": 7,
+    "inlier_ratio": 0.4666666666666667,
+    "median_error": 0.13684533536434174
+  },
+  {
+    "path": "sv_expanded\\0248_Torrens_Jefferis_Street_268.jpg",
+    "good_matches": 15,
+    "inliers": 7,
+    "inlier_ratio": 0.4666666666666667,
+    "median_error": 0.4963192939758301
+  },
+  {
+    "path": "sv_expanded\\0335_Fisher_Chillagoe_Street_24.jpg",
+    "good_matches": 15,
+    "inliers": 7,
+    "inlier_ratio": 0.4666666666666667,
+    "median_error": 0.7884506583213806
+  },
+  {
+    "path": "sv_expanded\\0441_Kambah_Wyselaskie_Circuit_166.jpg",
+    "good_matches": 15,
+    "inliers": 7,
+    "inlier_ratio": 0.4666666666666667,
+    "median_error": 0.5685412287712097
+  },
+  {
+    "path": "sv_expanded\\0031_Duffy_Somerset_Street_108.jpg",
+    "good_matches": 16,
+    "inliers": 7,
+    "inlier_ratio": 0.4375,
+    "median_error": 0.026545733213424683
+  },
+  {
+    "path": "sv_expanded\\0195_Lyons_Burnie_Street_165.jpg",
+    "good_matches": 16,
+    "inliers": 7,
+    "inlier_ratio": 0.4375,
+    "median_error": 1.4025293588638306
+  },
+  {
+    "path": "sv_expanded\\0278_Chifley_Gledden_Street_30.jpg",
+    "good_matches": 16,
+    "inliers": 7,
+    "inlier_ratio": 0.4375,
+    "median_error": 1.0157767534255981
+  },
+  {
+    "path": "sv_expanded\\0501_Campbell_Blamey_Crescent_291.jpg",
+    "good_matches": 16,
+    "inliers": 7,
+    "inlier_ratio": 0.4375,
+    "median_error": 0.8753249645233154
+  },
+  {
+    "path": "sv_expanded\\0085_Deakin_Strickland_Crescent_153.jpg",
+    "good_matches": 17,
+    "inliers": 7,
+    "inlier_ratio": 0.4117647058823529,
+    "median_error": 2.7120320796966553
+  },
+  {
+    "path": "sv_expanded\\0215_Lyons_Deloraine_Street_342.jpg",
+    "good_matches": 17,
+    "inliers": 7,
+    "inlier_ratio": 0.4117647058823529,
+    "median_error": 0.38961467146873474
+  },
+  {
+    "path": "sv_expanded\\0350_Waramanga_Woralul_Street_112.jpg",
+    "good_matches": 17,
+    "inliers": 7,
+    "inlier_ratio": 0.4117647058823529,
+    "median_error": 0.2346547693014145
+  },
+  {
+    "path": "sv_expanded\\0403_Mawson_Wilkins_Street_168.jpg",
+    "good_matches": 17,
+    "inliers": 7,
+    "inlier_ratio": 0.4117647058823529,
+    "median_error": 6.103515625e-05
+  },
+  {
+    "path": "sv_expanded\\0253_Torrens_Jefferis_Street_121.jpg",
+    "good_matches": 18,
+    "inliers": 7,
+    "inlier_ratio": 0.3888888888888889,
+    "median_error": 0.20378631353378296
+  },
+  {
+    "path": "sv_expanded\\0396_Mawson_Hurley_Street_24.jpg",
+    "good_matches": 18,
+    "inliers": 7,
+    "inlier_ratio": 0.3888888888888889,
+    "median_error": 1.3683130741119385
+  },
+  {
+    "path": "sv_expanded\\0475_Red_Hill_Investigator_Street_47.jpg",
+    "good_matches": 18,
+    "inliers": 7,
+    "inlier_ratio": 0.3888888888888889,
+    "median_error": 2.0878725051879883
+  },
+  {
+    "path": "sv_expanded\\0316_Chifley_Maclaurin_Crescent_340.jpg",
+    "good_matches": 19,
+    "inliers": 7,
+    "inlier_ratio": 0.3684210526315789,
+    "median_error": 0.22473876178264618
+  },
+  {
+    "path": "sv_expanded\\0343_Waramanga_Nangor_Street_32.jpg",
+    "good_matches": 19,
+    "inliers": 7,
+    "inlier_ratio": 0.3684210526315789,
+    "median_error": 0.2662050426006317
+  },
+  {
+    "path": "sv_expanded\\0449_Red_Hill_Golden_Grove_162.jpg",
+    "good_matches": 19,
+    "inliers": 7,
+    "inlier_ratio": 0.3684210526315789,
+    "median_error": 0.75841224193573
+  },
+  {
+    "path": "sv_expanded\\0470_Red_Hill_Torres_Street_65.jpg",
+    "good_matches": 19,
+    "inliers": 7,
+    "inlier_ratio": 0.3684210526315789,
+    "median_error": 1.2043566703796387
+  },
+  {
+    "path": "sv_expanded\\0313_Chifley_Maclaurin_Crescent_230.jpg",
+    "good_matches": 20,
+    "inliers": 7,
+    "inlier_ratio": 0.35,
+    "median_error": 0.677232563495636
+  },
+  {
+    "path": "sv_expanded\\0323_Fisher_Rossarden_Street_147.jpg",
+    "good_matches": 20,
+    "inliers": 7,
+    "inlier_ratio": 0.35,
+    "median_error": 2.2181615829467773
+  },
+  {
+    "path": "sv_expanded\\0398_Mawson_Wilkins_Street_252.jpg",
+    "good_matches": 20,
+    "inliers": 7,
+    "inlier_ratio": 0.35,
+    "median_error": 2.2460570335388184
+  },
+  {
+    "path": "sv_expanded\\0541_Watson_Irvine_Street_135.jpg",
+    "good_matches": 20,
+    "inliers": 7,
+    "inlier_ratio": 0.35,
+    "median_error": 1.0018466711044312
+  },
+  {
+    "path": "sv_expanded\\0072_Duffy_Kallara_Close_201.jpg",
+    "good_matches": 21,
+    "inliers": 7,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.09174147248268127
+  },
+  {
+    "path": "sv_expanded\\0140_Hughes_Goble_Street_253.jpg",
+    "good_matches": 21,
+    "inliers": 7,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 1.1284300088882446
+  },
+  {
+    "path": "sv_expanded\\0068_Duffy_Kallara_Close_60.jpg",
+    "good_matches": 22,
+    "inliers": 7,
+    "inlier_ratio": 0.3181818181818182,
+    "median_error": 0.08589345961809158
+  },
+  {
+    "path": "sv_expanded\\0521_Watson_Irvine_Street_58.jpg",
+    "good_matches": 22,
+    "inliers": 7,
+    "inlier_ratio": 0.3181818181818182,
+    "median_error": 0.17001007497310638
+  },
+  {
+    "path": "sv_expanded\\0279_Chifley_Gledden_Street_210.jpg",
+    "good_matches": 23,
+    "inliers": 7,
+    "inlier_ratio": 0.30434782608695654,
+    "median_error": 1.2559703588485718
+  },
+  {
+    "path": "sv_expanded\\0306_Chifley_Maclaurin_Crescent_17.jpg",
+    "good_matches": 23,
+    "inliers": 7,
+    "inlier_ratio": 0.30434782608695654,
+    "median_error": 0.031718820333480835
+  },
+  {
+    "path": "sv_expanded\\0150_Hughes_Goble_Street_260.jpg",
+    "good_matches": 25,
+    "inliers": 7,
+    "inlier_ratio": 0.28,
+    "median_error": 0.29581743478775024
+  },
+  {
+    "path": "sv_expanded\\0425_Kambah_McDermott_Street_3.jpg",
+    "good_matches": 25,
+    "inliers": 7,
+    "inlier_ratio": 0.28,
+    "median_error": 1.0365474224090576
+  },
+  {
+    "path": "sv_expanded\\0051_Duffy_Tullaroop_Street_67.jpg",
+    "good_matches": 27,
+    "inliers": 7,
+    "inlier_ratio": 0.25925925925925924,
+    "median_error": 1.26845121383667
+  },
+  {
+    "path": "sv_expanded\\0134_Deakin_Canterbury_Crescent_310.jpg",
+    "good_matches": 29,
+    "inliers": 7,
+    "inlier_ratio": 0.2413793103448276,
+    "median_error": 0.8454114198684692
+  },
+  {
+    "path": "sv_expanded\\0078_Deakin_Strickland_Crescent_320.jpg",
+    "good_matches": 30,
+    "inliers": 7,
+    "inlier_ratio": 0.23333333333333334,
+    "median_error": 0.45798659324645996
+  },
+  {
+    "path": "sv_expanded\\0356_Waramanga_Woralul_Street_271.jpg",
+    "good_matches": 30,
+    "inliers": 7,
+    "inlier_ratio": 0.23333333333333334,
+    "median_error": 0.6074286699295044
+  },
+  {
+    "path": "sv_expanded\\0483_Red_Hill_Investigator_Street_123.jpg",
+    "good_matches": 10,
+    "inliers": 6,
+    "inlier_ratio": 0.6,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0520_Watson_Irvine_Street_238.jpg",
+    "good_matches": 10,
+    "inliers": 6,
+    "inlier_ratio": 0.6,
+    "median_error": 0.21265406906604767
+  },
+  {
+    "path": "sv_expanded\\0545_Watson_Piddington_Street_282.jpg",
+    "good_matches": 10,
+    "inliers": 6,
+    "inlier_ratio": 0.6,
+    "median_error": 1.3352911472320557
+  },
+  {
+    "path": "sv_expanded\\0055_Duffy_Burdekin_Street_286.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 0.7118746042251587
+  },
+  {
+    "path": "sv_expanded\\0056_Duffy_Burdekin_Street_88.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 0.27786365151405334
+  },
+  {
+    "path": "sv_expanded\\0112_Deakin_Grey_Street_75.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 0.5911911129951477
+  },
+  {
+    "path": "sv_expanded\\0151_Hughes_Goble_Street_80.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0246_Torrens_Jefferis_Street_211.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 0.799031138420105
+  },
+  {
+    "path": "sv_expanded\\0270_Curtin_Allan_Street_20.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 0.5634228587150574
+  },
+  {
+    "path": "sv_expanded\\0410_Mawson_Hoseason_Street_281.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 0.46899333596229553
+  },
+  {
+    "path": "sv_expanded\\0548_Watson_Piddington_Street_150.jpg",
+    "good_matches": 12,
+    "inliers": 6,
+    "inlier_ratio": 0.5,
+    "median_error": 1.286424160003662
+  },
+  {
+    "path": "sv_expanded\\0025_Downer_Blacket_Street_121.jpg",
+    "good_matches": 13,
+    "inliers": 6,
+    "inlier_ratio": 0.46153846153846156,
+    "median_error": 0.04123865067958832
+  },
+  {
+    "path": "sv_expanded\\0182_Hughes_Groom_Street_16.jpg",
+    "good_matches": 13,
+    "inliers": 6,
+    "inlier_ratio": 0.46153846153846156,
+    "median_error": 0.9524977803230286
+  },
+  {
+    "path": "sv_expanded\\0322_Fisher_Rossarden_Street_327.jpg",
+    "good_matches": 13,
+    "inliers": 6,
+    "inlier_ratio": 0.46153846153846156,
+    "median_error": 0.25023242831230164
+  },
+  {
+    "path": "sv_expanded\\0331_Fisher_Chillagoe_Street_124.jpg",
+    "good_matches": 13,
+    "inliers": 6,
+    "inlier_ratio": 0.46153846153846156,
+    "median_error": 0.8604824542999268
+  },
+  {
+    "path": "sv_expanded\\0446_Red_Hill_Golden_Grove_290.jpg",
+    "good_matches": 13,
+    "inliers": 6,
+    "inlier_ratio": 0.46153846153846156,
+    "median_error": 1.0266573429107666
+  },
+  {
+    "path": "sv_expanded\\0499_Campbell_Blamey_Crescent_304.jpg",
+    "good_matches": 13,
+    "inliers": 6,
+    "inlier_ratio": 0.46153846153846156,
+    "median_error": 0.12423038482666016
+  },
+  {
+    "path": "sv_expanded\\0023_Downer_Blacket_Street_278.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 0.8143013715744019
+  },
+  {
+    "path": "sv_expanded\\0142_Hughes_Goble_Street_74.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 1.106119155883789
+  },
+  {
+    "path": "sv_expanded\\0143_Hughes_Goble_Street_254.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 0.7438177466392517
+  },
+  {
+    "path": "sv_expanded\\0255_Curtin_Allan_Street_195.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 0.22325372695922852
+  },
+  {
+    "path": "sv_expanded\\0311_Chifley_Maclaurin_Crescent_334.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 0.37273305654525757
+  },
+  {
+    "path": "sv_expanded\\0366_Waramanga_Alawa_Street_58.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 1.155243158340454
+  },
+  {
+    "path": "sv_expanded\\0515_Watson_ABeckett_Street_120.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 0.0738731399178505
+  },
+  {
+    "path": "sv_expanded\\0065_Duffy_Kallara_Close_246.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.00472676008939743
+  },
+  {
+    "path": "sv_expanded\\0092_Deakin_Newdegate_Street_208.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.7781569957733154
+  },
+  {
+    "path": "sv_expanded\\0244_Torrens_Jefferis_Street_158.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.4521479606628418
+  },
+  {
+    "path": "sv_expanded\\0312_Chifley_Maclaurin_Crescent_50.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.6535269021987915
+  },
+  {
+    "path": "sv_expanded\\0354_Waramanga_Woralul_Street_203.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.32394665479660034
+  },
+  {
+    "path": "sv_expanded\\0361_Waramanga_Woralul_Street_248.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0368_Waramanga_Alawa_Street_116.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.887179434299469
+  },
+  {
+    "path": "sv_expanded\\0416_Mawson_Hoseason_Street_325.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.5942598581314087
+  },
+  {
+    "path": "sv_expanded\\0429_Kambah_McDermott_Street_104.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 1.018264889717102
+  },
+  {
+    "path": "sv_expanded\\0433_Kambah_McDermott_Street_234.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 1.7163790464401245
+  },
+  {
+    "path": "sv_expanded\\0457_Red_Hill_Golden_Grove_152.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.8164215087890625
+  },
+  {
+    "path": "sv_expanded\\0511_Watson_ABeckett_Street_129.jpg",
+    "good_matches": 15,
+    "inliers": 6,
+    "inlier_ratio": 0.4,
+    "median_error": 0.041065290570259094
+  },
+  {
+    "path": "sv_expanded\\0015_Downer_Blacket_Street_96.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.05897543206810951
+  },
+  {
+    "path": "sv_expanded\\0042_Duffy_Tullaroop_Street_129.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.024871503934264183
+  },
+  {
+    "path": "sv_expanded\\0073_Duffy_Kallara_Close_21.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0109_Deakin_Macgregor_Street_88.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.19920575618743896
+  },
+  {
+    "path": "sv_expanded\\0165_Hughes_Bamford_Street_224.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.7641962170600891
+  },
+  {
+    "path": "sv_expanded\\0191_Lyons_Burnie_Street_165.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.03442060574889183
+  },
+  {
+    "path": "sv_expanded\\0268_Curtin_Allan_Street_6.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.5992337465286255
+  },
+  {
+    "path": "sv_expanded\\0286_Chifley_Gledden_Street_2.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.0706130713224411
+  },
+  {
+    "path": "sv_expanded\\0482_Red_Hill_Investigator_Street_303.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0488_Red_Hill_Investigator_Street_153.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 1.032114028930664
+  },
+  {
+    "path": "sv_expanded\\0076_Deakin_Strickland_Crescent_325.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.22664296627044678
+  },
+  {
+    "path": "sv_expanded\\0102_Deakin_Macgregor_Street_262.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.5310239791870117
+  },
+  {
+    "path": "sv_expanded\\0135_Deakin_Canterbury_Crescent_130.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.004169903229922056
+  },
+  {
+    "path": "sv_expanded\\0259_Curtin_Allan_Street_253.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.8626981973648071
+  },
+  {
+    "path": "sv_expanded\\0275_Chifley_Gledden_Street_153.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 1.6235811710357666
+  },
+  {
+    "path": "sv_expanded\\0367_Waramanga_Alawa_Street_238.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.12751120328903198
+  },
+  {
+    "path": "sv_expanded\\0380_Mawson_Hurley_Street_321.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.6511132717132568
+  },
+  {
+    "path": "sv_expanded\\0444_Kambah_Wyselaskie_Circuit_265.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.23486217856407166
+  },
+  {
+    "path": "sv_expanded\\0453_Red_Hill_Golden_Grove_5.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.17686580121517181
+  },
+  {
+    "path": "sv_expanded\\0549_Watson_Piddington_Street_330.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.6623266339302063
+  },
+  {
+    "path": "sv_expanded\\0011_Downer_Blacket_Street_90.jpg",
+    "good_matches": 18,
+    "inliers": 6,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.4078250825405121
+  },
+  {
+    "path": "sv_expanded\\0201_Lyons_Burnie_Street_343.jpg",
+    "good_matches": 18,
+    "inliers": 6,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.6115132570266724
+  },
+  {
+    "path": "sv_expanded\\0332_Fisher_Chillagoe_Street_271.jpg",
+    "good_matches": 18,
+    "inliers": 6,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.9868568778038025
+  },
+  {
+    "path": "sv_expanded\\0337_Fisher_Chillagoe_Street_12.jpg",
+    "good_matches": 18,
+    "inliers": 6,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.7784271836280823
+  },
+  {
+    "path": "sv_expanded\\0465_Red_Hill_Torres_Street_281.jpg",
+    "good_matches": 18,
+    "inliers": 6,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.476729154586792
+  },
+  {
+    "path": "sv_expanded\\0083_Deakin_Strickland_Crescent_154.jpg",
+    "good_matches": 19,
+    "inliers": 6,
+    "inlier_ratio": 0.3157894736842105,
+    "median_error": 0.7225991487503052
+  },
+  {
+    "path": "sv_expanded\\0185_Hughes_Groom_Street_17.jpg",
+    "good_matches": 19,
+    "inliers": 6,
+    "inlier_ratio": 0.3157894736842105,
+    "median_error": 0.5026407837867737
+  },
+  {
+    "path": "sv_expanded\\0326_Fisher_Chillagoe_Street_327.jpg",
+    "good_matches": 19,
+    "inliers": 6,
+    "inlier_ratio": 0.3157894736842105,
+    "median_error": 1.3128809928894043
+  },
+  {
+    "path": "sv_expanded\\0418_Mawson_Hoseason_Street_345.jpg",
+    "good_matches": 19,
+    "inliers": 6,
+    "inlier_ratio": 0.3157894736842105,
+    "median_error": 1.22938871383667
+  },
+  {
+    "path": "sv_expanded\\0510_Watson_ABeckett_Street_309.jpg",
+    "good_matches": 19,
+    "inliers": 6,
+    "inlier_ratio": 0.3157894736842105,
+    "median_error": 0.6474893689155579
+  },
+  {
+    "path": "sv_expanded\\0126_Deakin_Canterbury_Crescent_208.jpg",
+    "good_matches": 20,
+    "inliers": 6,
+    "inlier_ratio": 0.3,
+    "median_error": 0.8264471888542175
+  },
+  {
+    "path": "sv_expanded\\0137_Hughes_Goble_Street_113.jpg",
+    "good_matches": 20,
+    "inliers": 6,
+    "inlier_ratio": 0.3,
+    "median_error": 0.12792900204658508
+  },
+  {
+    "path": "sv_expanded\\0159_Hughes_Goble_Street_116.jpg",
+    "good_matches": 20,
+    "inliers": 6,
+    "inlier_ratio": 0.3,
+    "median_error": 0.19591468572616577
+  },
+  {
+    "path": "sv_expanded\\0288_Chifley_Wilsmore_Crescent_99.jpg",
+    "good_matches": 20,
+    "inliers": 6,
+    "inlier_ratio": 0.3,
+    "median_error": 1.1170769929885864
+  },
+  {
+    "path": "sv_expanded\\0489_Red_Hill_Investigator_Street_333.jpg",
+    "good_matches": 20,
+    "inliers": 6,
+    "inlier_ratio": 0.3,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0157_Hughes_Goble_Street_117.jpg",
+    "good_matches": 21,
+    "inliers": 6,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.8350920081138611
+  },
+  {
+    "path": "sv_expanded\\0236_Torrens_Brookman_Street_150.jpg",
+    "good_matches": 21,
+    "inliers": 6,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.7666948437690735
+  },
+  {
+    "path": "sv_expanded\\0440_Kambah_Wyselaskie_Circuit_346.jpg",
+    "good_matches": 21,
+    "inliers": 6,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.33606088161468506
+  },
+  {
+    "path": "sv_expanded\\0468_Red_Hill_Torres_Street_68.jpg",
+    "good_matches": 21,
+    "inliers": 6,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 1.6210651397705078
+  },
+  {
+    "path": "sv_expanded\\0504_Campbell_Blamey_Crescent_91.jpg",
+    "good_matches": 22,
+    "inliers": 6,
+    "inlier_ratio": 0.2727272727272727,
+    "median_error": 0.8493238687515259
+  },
+  {
+    "path": "sv_expanded\\0194_Lyons_Burnie_Street_345.jpg",
+    "good_matches": 23,
+    "inliers": 6,
+    "inlier_ratio": 0.2608695652173913,
+    "median_error": 0.034412264823913574
+  },
+  {
+    "path": "sv_expanded\\0542_Watson_Piddington_Street_104.jpg",
+    "good_matches": 23,
+    "inliers": 6,
+    "inlier_ratio": 0.2608695652173913,
+    "median_error": 0.23581214249134064
+  },
+  {
+    "path": "sv_expanded\\0116_Deakin_Grey_Street_73.jpg",
+    "good_matches": 24,
+    "inliers": 6,
+    "inlier_ratio": 0.25,
+    "median_error": 1.0191450119018555
+  },
+  {
+    "path": "sv_expanded\\0227_Lyons_Ulverstone_Street_220.jpg",
+    "good_matches": 25,
+    "inliers": 6,
+    "inlier_ratio": 0.24,
+    "median_error": 0.28011974692344666
+  },
+  {
+    "path": "sv_expanded\\0156_Hughes_Goble_Street_297.jpg",
+    "good_matches": 26,
+    "inliers": 6,
+    "inlier_ratio": 0.23076923076923078,
+    "median_error": 2.2946231365203857
+  },
+  {
+    "path": "sv_expanded\\0217_Lyons_Deloraine_Street_277.jpg",
+    "good_matches": 32,
+    "inliers": 6,
+    "inlier_ratio": 0.1875,
+    "median_error": 1.1929128170013428
+  },
+  {
+    "path": "sv_expanded\\0558_Watson_Piddington_Street_356.jpg",
+    "good_matches": 5,
+    "inliers": 5,
+    "inlier_ratio": 1.0,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0145_Hughes_Goble_Street_103.jpg",
+    "good_matches": 6,
+    "inliers": 5,
+    "inlier_ratio": 0.8333333333333334,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0509_Watson_ABeckett_Street_124.jpg",
+    "good_matches": 7,
+    "inliers": 5,
+    "inlier_ratio": 0.7142857142857143,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0526_Watson_Irvine_Street_154.jpg",
+    "good_matches": 7,
+    "inliers": 5,
+    "inlier_ratio": 0.7142857142857143,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0544_Watson_Piddington_Street_102.jpg",
+    "good_matches": 7,
+    "inliers": 5,
+    "inlier_ratio": 0.7142857142857143,
+    "median_error": 0.029963834211230278
+  },
+  {
+    "path": "sv_expanded\\0059_Duffy_Burdekin_Street_151.jpg",
+    "good_matches": 8,
+    "inliers": 5,
+    "inlier_ratio": 0.625,
+    "median_error": 0.0012665714602917433
+  },
+  {
+    "path": "sv_expanded\\0114_Deakin_Grey_Street_253.jpg",
+    "good_matches": 8,
+    "inliers": 5,
+    "inlier_ratio": 0.625,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0262_Curtin_Allan_Street_31.jpg",
+    "good_matches": 8,
+    "inliers": 5,
+    "inlier_ratio": 0.625,
+    "median_error": 0.058268625289201736
+  },
+  {
+    "path": "sv_expanded\\0277_Chifley_Gledden_Street_155.jpg",
+    "good_matches": 8,
+    "inliers": 5,
+    "inlier_ratio": 0.625,
+    "median_error": 0.03795146569609642
+  },
+  {
+    "path": "sv_expanded\\0476_Red_Hill_Investigator_Street_160.jpg",
+    "good_matches": 8,
+    "inliers": 5,
+    "inlier_ratio": 0.625,
+    "median_error": 5.50163458683528e-05
+  },
+  {
+    "path": "sv_expanded\\0127_Deakin_Canterbury_Crescent_28.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 1.52587890625e-05
+  },
+  {
+    "path": "sv_expanded\\0149_Hughes_Goble_Street_262.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.4220970869064331
+  },
+  {
+    "path": "sv_expanded\\0285_Chifley_Gledden_Street_182.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.00046044201008044183
+  },
+  {
+    "path": "sv_expanded\\0308_Chifley_Maclaurin_Crescent_336.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0387_Mawson_Hurley_Street_344.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.18869838118553162
+  },
+  {
+    "path": "sv_expanded\\0402_Mawson_Wilkins_Street_348.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.40715399384498596
+  },
+  {
+    "path": "sv_expanded\\0419_Mawson_Hoseason_Street_165.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.17851004004478455
+  },
+  {
+    "path": "sv_expanded\\0420_Kambah_McDermott_Street_232.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.03129901364445686
+  },
+  {
+    "path": "sv_expanded\\0507_Campbell_Blamey_Crescent_127.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.07415721565485
+  },
+  {
+    "path": "sv_expanded\\0523_Watson_Irvine_Street_303.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.010695268400013447
+  },
+  {
+    "path": "sv_expanded\\0552_Watson_Piddington_Street_108.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0556_Watson_Piddington_Street_136.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.17865656316280365
+  },
+  {
+    "path": "sv_expanded\\0002_Downer_Atherton_Street_231.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.012475389987230301
+  },
+  {
+    "path": "sv_expanded\\0024_Downer_Blacket_Street_301.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0148_Hughes_Goble_Street_82.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.002793692285194993
+  },
+  {
+    "path": "sv_expanded\\0152_Hughes_Goble_Street_320.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0187_Hughes_Groom_Street_15.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.04634881019592285
+  },
+  {
+    "path": "sv_expanded\\0221_Lyons_Ulverstone_Street_44.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0243_Torrens_Jefferis_Street_260.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.1940925121307373
+  },
+  {
+    "path": "sv_expanded\\0292_Chifley_Wilsmore_Crescent_54.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0349_Waramanga_Nangor_Street_275.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.3544567823410034
+  },
+  {
+    "path": "sv_expanded\\0371_Waramanga_Alawa_Street_342.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.17605407536029816
+  },
+  {
+    "path": "sv_expanded\\0385_Mawson_Hurley_Street_141.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.028337746858596802
+  },
+  {
+    "path": "sv_expanded\\0411_Mawson_Hoseason_Street_101.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.026057465001940727
+  },
+  {
+    "path": "sv_expanded\\0414_Mawson_Hoseason_Street_334.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.13787896931171417
+  },
+  {
+    "path": "sv_expanded\\0540_Watson_Irvine_Street_315.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 3.2597732543945312
+  },
+  {
+    "path": "sv_expanded\\0010_Downer_Blacket_Street_270.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.010217010043561459
+  },
+  {
+    "path": "sv_expanded\\0027_Downer_Blacket_Street_290.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.3323465585708618
+  },
+  {
+    "path": "sv_expanded\\0038_Duffy_Somerset_Street_190.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0054_Duffy_Burdekin_Street_106.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.013255488127470016
+  },
+  {
+    "path": "sv_expanded\\0133_Deakin_Canterbury_Crescent_135.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.011322562582790852
+  },
+  {
+    "path": "sv_expanded\\0233_Torrens_Brookman_Street_97.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.014419232495129108
+  },
+  {
+    "path": "sv_expanded\\0274_Chifley_Gledden_Street_333.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0293_Chifley_Wilsmore_Crescent_234.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.6665274500846863
+  },
+  {
+    "path": "sv_expanded\\0336_Fisher_Chillagoe_Street_192.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.05774122104048729
+  },
+  {
+    "path": "sv_expanded\\0389_Mawson_Hurley_Street_166.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0437_Kambah_Wyselaskie_Circuit_268.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0531_Watson_Irvine_Street_45.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.1628376841545105
+  },
+  {
+    "path": "sv_expanded\\0009_Downer_Blacket_Street_92.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.044624436646699905
+  },
+  {
+    "path": "sv_expanded\\0012_Downer_Blacket_Street_49.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.28621089458465576
+  },
+  {
+    "path": "sv_expanded\\0017_Downer_Blacket_Street_96.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.3605841398239136
+  },
+  {
+    "path": "sv_expanded\\0091_Deakin_Newdegate_Street_236.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.07721719890832901
+  },
+  {
+    "path": "sv_expanded\\0120_Deakin_Grey_Street_130.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.5684078931808472
+  },
+  {
+    "path": "sv_expanded\\0128_Deakin_Canterbury_Crescent_266.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 1.0183284282684326
+  },
+  {
+    "path": "sv_expanded\\0147_Hughes_Goble_Street_296.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0163_Hughes_Bamford_Street_275.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.17515376210212708
+  },
+  {
+    "path": "sv_expanded\\0219_Lyons_Ulverstone_Street_86.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.6525954008102417
+  },
+  {
+    "path": "sv_expanded\\0237_Torrens_Brookman_Street_330.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.1734929084777832
+  },
+  {
+    "path": "sv_expanded\\0249_Torrens_Jefferis_Street_88.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.39300501346588135
+  },
+  {
+    "path": "sv_expanded\\0324_Fisher_Rossarden_Street_29.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.0727267786860466
+  },
+  {
+    "path": "sv_expanded\\0376_Mawson_Hurley_Street_288.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.38864773511886597
+  },
+  {
+    "path": "sv_expanded\\0405_Mawson_Wilkins_Street_169.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.13323622941970825
+  },
+  {
+    "path": "sv_expanded\\0454_Red_Hill_Golden_Grove_37.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.5261378884315491
+  },
+  {
+    "path": "sv_expanded\\0513_Watson_ABeckett_Street_105.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.2940598726272583
+  },
+  {
+    "path": "sv_expanded\\0016_Downer_Blacket_Street_276.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.10942833125591278
+  },
+  {
+    "path": "sv_expanded\\0026_Downer_Blacket_Street_110.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0033_Duffy_Somerset_Street_263.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0087_Deakin_Strickland_Crescent_139.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.042424529790878296
+  },
+  {
+    "path": "sv_expanded\\0118_Deakin_Grey_Street_73.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.6588238477706909
+  },
+  {
+    "path": "sv_expanded\\0199_Lyons_Burnie_Street_165.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.06908001005649567
+  },
+  {
+    "path": "sv_expanded\\0213_Lyons_Deloraine_Street_277.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.25117412209510803
+  },
+  {
+    "path": "sv_expanded\\0240_Torrens_Brookman_Street_356.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.03876262158155441
+  },
+  {
+    "path": "sv_expanded\\0242_Torrens_Jefferis_Street_80.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.5664549469947815
+  },
+  {
+    "path": "sv_expanded\\0291_Chifley_Wilsmore_Crescent_358.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.39009183645248413
+  },
+  {
+    "path": "sv_expanded\\0325_Fisher_Rossarden_Street_209.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.5531820058822632
+  },
+  {
+    "path": "sv_expanded\\0328_Fisher_Chillagoe_Street_343.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.16265472769737244
+  },
+  {
+    "path": "sv_expanded\\0330_Fisher_Chillagoe_Street_304.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.3135499954223633
+  },
+  {
+    "path": "sv_expanded\\0347_Waramanga_Nangor_Street_324.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.00990369450300932
+  },
+  {
+    "path": "sv_expanded\\0390_Mawson_Hurley_Street_178.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.10590802878141403
+  },
+  {
+    "path": "sv_expanded\\0413_Mawson_Hoseason_Street_131.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.040978435426950455
+  },
+  {
+    "path": "sv_expanded\\0485_Red_Hill_Investigator_Street_314.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0487_Red_Hill_Investigator_Street_351.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0514_Watson_ABeckett_Street_300.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.06569454073905945
+  },
+  {
+    "path": "sv_expanded\\0529_Watson_Irvine_Street_285.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0095_Deakin_Newdegate_Street_253.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.16821666061878204
+  },
+  {
+    "path": "sv_expanded\\0169_Hughes_Bamford_Street_104.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.1399897336959839
+  },
+  {
+    "path": "sv_expanded\\0183_Hughes_Groom_Street_196.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.08558918535709381
+  },
+  {
+    "path": "sv_expanded\\0265_Curtin_Allan_Street_31.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.5067780613899231
+  },
+  {
+    "path": "sv_expanded\\0282_Chifley_Gledden_Street_169.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.09405601769685745
+  },
+  {
+    "path": "sv_expanded\\0283_Chifley_Gledden_Street_349.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0302_Chifley_Maclaurin_Crescent_245.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.23018313944339752
+  },
+  {
+    "path": "sv_expanded\\0381_Mawson_Hurley_Street_141.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.8192741274833679
+  },
+  {
+    "path": "sv_expanded\\0394_Mawson_Hurley_Street_23.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0430_Kambah_McDermott_Street_232.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 1.3171292543411255
+  },
+  {
+    "path": "sv_expanded\\0490_Campbell_Blamey_Crescent_160.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.08620954304933548
+  },
+  {
+    "path": "sv_expanded\\0028_Duffy_Somerset_Street_81.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.10013920068740845
+  },
+  {
+    "path": "sv_expanded\\0047_Duffy_Tullaroop_Street_22.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.2866973578929901
+  },
+  {
+    "path": "sv_expanded\\0100_Deakin_Macgregor_Street_259.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0158_Hughes_Goble_Street_296.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.8550609946250916
+  },
+  {
+    "path": "sv_expanded\\0180_Hughes_Groom_Street_196.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.2843444049358368
+  },
+  {
+    "path": "sv_expanded\\0181_Hughes_Groom_Street_16.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.03490022197365761
+  },
+  {
+    "path": "sv_expanded\\0184_Hughes_Groom_Street_197.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.10936037451028824
+  },
+  {
+    "path": "sv_expanded\\0357_Waramanga_Woralul_Street_91.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.35455620288848877
+  },
+  {
+    "path": "sv_expanded\\0393_Mawson_Hurley_Street_179.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.6898525953292847
+  },
+  {
+    "path": "sv_expanded\\0472_Red_Hill_Investigator_Street_343.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.10083837062120438
+  },
+  {
+    "path": "sv_expanded\\0534_Watson_Irvine_Street_266.jpg",
+    "good_matches": 15,
+    "inliers": 5,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.050830159336328506
+  },
+  {
+    "path": "sv_expanded\\0113_Deakin_Grey_Street_255.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0232_Torrens_Brookman_Street_277.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.2855415642261505
+  },
+  {
+    "path": "sv_expanded\\0295_Chifley_Wilsmore_Crescent_171.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 2.326972723007202
+  },
+  {
+    "path": "sv_expanded\\0303_Chifley_Maclaurin_Crescent_65.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.06619014590978622
+  },
+  {
+    "path": "sv_expanded\\0348_Waramanga_Nangor_Street_95.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.024845151230692863
+  },
+  {
+    "path": "sv_expanded\\0415_Mawson_Hoseason_Street_154.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.01530743483453989
+  },
+  {
+    "path": "sv_expanded\\0481_Red_Hill_Investigator_Street_332.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0505_Campbell_Blamey_Crescent_271.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.05559925362467766
+  },
+  {
+    "path": "sv_expanded\\0044_Duffy_Tullaroop_Street_193.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 1.0643200874328613
+  },
+  {
+    "path": "sv_expanded\\0050_Duffy_Tullaroop_Street_247.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.61281418800354
+  },
+  {
+    "path": "sv_expanded\\0153_Hughes_Goble_Street_140.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.37098053097724915
+  },
+  {
+    "path": "sv_expanded\\0170_Hughes_Bamford_Street_219.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.10215473920106888
+  },
+  {
+    "path": "sv_expanded\\0203_Lyons_Deloraine_Street_181.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.8087926506996155
+  },
+  {
+    "path": "sv_expanded\\0290_Chifley_Wilsmore_Crescent_178.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.12664684653282166
+  },
+  {
+    "path": "sv_expanded\\0432_Kambah_McDermott_Street_54.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.04833276569843292
+  },
+  {
+    "path": "sv_expanded\\0536_Watson_Irvine_Street_245.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.08242648094892502
+  },
+  {
+    "path": "sv_expanded\\0554_Watson_Piddington_Street_139.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 2.274425983428955
+  },
+  {
+    "path": "sv_expanded\\0448_Red_Hill_Golden_Grove_342.jpg",
+    "good_matches": 18,
+    "inliers": 5,
+    "inlier_ratio": 0.2777777777777778,
+    "median_error": 0.007796106394380331
+  },
+  {
+    "path": "sv_expanded\\0459_Red_Hill_Golden_Grove_335.jpg",
+    "good_matches": 18,
+    "inliers": 5,
+    "inlier_ratio": 0.2777777777777778,
+    "median_error": 0.08221431076526642
+  },
+  {
+    "path": "sv_expanded\\0480_Red_Hill_Investigator_Street_152.jpg",
+    "good_matches": 18,
+    "inliers": 5,
+    "inlier_ratio": 0.2777777777777778,
+    "median_error": 0.5447174906730652
+  },
+  {
+    "path": "sv_expanded\\0052_Duffy_Burdekin_Street_209.jpg",
+    "good_matches": 19,
+    "inliers": 5,
+    "inlier_ratio": 0.2631578947368421,
+    "median_error": 0.988812267780304
+  },
+  {
+    "path": "sv_expanded\\0123_Deakin_Grey_Street_341.jpg",
+    "good_matches": 19,
+    "inliers": 5,
+    "inlier_ratio": 0.2631578947368421,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0280_Chifley_Gledden_Street_293.jpg",
+    "good_matches": 20,
+    "inliers": 5,
+    "inlier_ratio": 0.25,
+    "median_error": 0.1921677440404892
+  },
+  {
+    "path": "sv_expanded\\0294_Chifley_Wilsmore_Crescent_351.jpg",
+    "good_matches": 20,
+    "inliers": 5,
+    "inlier_ratio": 0.25,
+    "median_error": 0.5980966091156006
+  },
+  {
+    "path": "sv_expanded\\0310_Chifley_Maclaurin_Crescent_154.jpg",
+    "good_matches": 20,
+    "inliers": 5,
+    "inlier_ratio": 0.25,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0399_Mawson_Wilkins_Street_72.jpg",
+    "good_matches": 20,
+    "inliers": 5,
+    "inlier_ratio": 0.25,
+    "median_error": 0.08295967429876328
+  },
+  {
+    "path": "sv_expanded\\0307_Chifley_Maclaurin_Crescent_197.jpg",
+    "good_matches": 21,
+    "inliers": 5,
+    "inlier_ratio": 0.23809523809523808,
+    "median_error": 2.029309034347534
+  },
+  {
+    "path": "sv_expanded\\0250_Torrens_Jefferis_Street_339.jpg",
+    "good_matches": 22,
+    "inliers": 5,
+    "inlier_ratio": 0.22727272727272727,
+    "median_error": 1.2463914155960083
+  },
+  {
+    "path": "sv_expanded\\0424_Kambah_McDermott_Street_183.jpg",
+    "good_matches": 22,
+    "inliers": 5,
+    "inlier_ratio": 0.22727272727272727,
+    "median_error": 2.30153489112854
+  },
+  {
+    "path": "sv_expanded\\0229_Lyons_Ulverstone_Street_252.jpg",
+    "good_matches": 23,
+    "inliers": 5,
+    "inlier_ratio": 0.21739130434782608,
+    "median_error": 0.09191381186246872
+  },
+  {
+    "path": "sv_expanded\\0276_Chifley_Gledden_Street_335.jpg",
+    "good_matches": 28,
+    "inliers": 5,
+    "inlier_ratio": 0.17857142857142858,
+    "median_error": 0.4346058666706085
+  },
+  {
+    "path": "sv_expanded\\0202_Lyons_Deloraine_Street_1.jpg",
+    "good_matches": 35,
+    "inliers": 5,
+    "inlier_ratio": 0.14285714285714285,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0053_Duffy_Burdekin_Street_29.jpg",
+    "good_matches": 4,
+    "inliers": 4,
+    "inlier_ratio": 1.0,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0164_Hughes_Bamford_Street_44.jpg",
+    "good_matches": 4,
+    "inliers": 4,
+    "inlier_ratio": 1.0,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0550_Watson_Piddington_Street_110.jpg",
+    "good_matches": 4,
+    "inliers": 4,
+    "inlier_ratio": 1.0,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0097_Deakin_Newdegate_Street_256.jpg",
+    "good_matches": 5,
+    "inliers": 4,
+    "inlier_ratio": 0.8,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0155_Hughes_Goble_Street_36.jpg",
+    "good_matches": 5,
+    "inliers": 4,
+    "inlier_ratio": 0.8,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0228_Lyons_Ulverstone_Street_72.jpg",
+    "good_matches": 5,
+    "inliers": 4,
+    "inlier_ratio": 0.8,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0384_Mawson_Hurley_Street_321.jpg",
+    "good_matches": 5,
+    "inliers": 4,
+    "inlier_ratio": 0.8,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0029_Duffy_Somerset_Street_261.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0045_Duffy_Tullaroop_Street_13.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0263_Curtin_Allan_Street_211.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0289_Chifley_Wilsmore_Crescent_279.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0372_Waramanga_Alawa_Street_320.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0455_Red_Hill_Golden_Grove_217.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0519_Watson_Irvine_Street_236.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0535_Watson_Irvine_Street_86.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0560_Watson_Piddington_Street_178.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0001_Downer_Atherton_Street_52.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0014_Downer_Blacket_Street_276.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0019_Downer_Blacket_Street_278.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0108_Deakin_Macgregor_Street_268.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0139_Hughes_Goble_Street_288.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0160_Hughes_Bamford_Street_97.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0166_Hughes_Bamford_Street_8.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0186_Hughes_Groom_Street_195.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0188_Lyons_Burnie_Street_189.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0197_Lyons_Burnie_Street_290.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0225_Lyons_Ulverstone_Street_170.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0379_Mawson_Hurley_Street_321.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0392_Mawson_Hurley_Street_359.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0400_Mawson_Wilkins_Street_349.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0407_Mawson_Wilkins_Street_153.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0496_Campbell_Blamey_Crescent_123.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0525_Watson_Irvine_Street_300.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0551_Watson_Piddington_Street_290.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0559_Watson_Piddington_Street_176.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0003_Downer_Atherton_Street_51.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0018_Downer_Blacket_Street_98.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0022_Downer_Blacket_Street_98.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0061_Duffy_Burdekin_Street_113.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0098_Deakin_Newdegate_Street_245.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0161_Hughes_Bamford_Street_277.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0212_Lyons_Deloraine_Street_97.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0258_Curtin_Allan_Street_73.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0266_Curtin_Allan_Street_20.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0273_Curtin_Allan_Street_220.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0281_Chifley_Gledden_Street_113.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0287_Chifley_Gledden_Street_182.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0338_Waramanga_Nangor_Street_138.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0364_Waramanga_Alawa_Street_13.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0395_Mawson_Hurley_Street_203.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0404_Mawson_Wilkins_Street_349.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0435_Kambah_Wyselaskie_Circuit_240.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0463_Red_Hill_Torres_Street_263.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0466_Red_Hill_Torres_Street_59.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0477_Red_Hill_Investigator_Street_340.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0500_Campbell_Blamey_Crescent_111.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0553_Watson_Piddington_Street_288.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0557_Watson_Piddington_Street_316.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0000_Downer_Atherton_Street_232.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0032_Duffy_Somerset_Street_83.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0222_Lyons_Ulverstone_Street_239.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0256_Curtin_Allan_Street_192.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0261_Curtin_Allan_Street_74.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0344_Waramanga_Nangor_Street_194.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0345_Waramanga_Nangor_Street_14.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0451_Red_Hill_Golden_Grove_167.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0467_Red_Hill_Torres_Street_239.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0494_Campbell_Blamey_Crescent_139.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0516_Watson_ABeckett_Street_1.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0518_Watson_Irvine_Street_56.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0562_Watson_Piddington_Street_334.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0006_Downer_Atherton_Street_5.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0046_Duffy_Tullaroop_Street_202.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0063_Duffy_Burdekin_Street_201.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0064_Duffy_Kallara_Close_66.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0138_Hughes_Goble_Street_108.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0351_Waramanga_Woralul_Street_292.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0375_Mawson_Hurley_Street_112.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0382_Mawson_Hurley_Street_319.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0428_Kambah_McDermott_Street_284.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0517_Watson_ABeckett_Street_181.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0522_Watson_Irvine_Street_123.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0532_Watson_Irvine_Street_226.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0533_Watson_Irvine_Street_46.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0538_Watson_Irvine_Street_316.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0004_Downer_Atherton_Street_34.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0005_Downer_Atherton_Street_214.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0030_Duffy_Somerset_Street_288.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0089_Deakin_Newdegate_Street_69.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0110_Deakin_Macgregor_Street_268.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.001470667077228427
+  },
+  {
+    "path": "sv_expanded\\0117_Deakin_Grey_Street_253.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.20444774627685547
+  },
+  {
+    "path": "sv_expanded\\0125_Deakin_Canterbury_Crescent_327.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0176_Hughes_Groom_Street_195.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.9108462929725647
+  },
+  {
+    "path": "sv_expanded\\0189_Lyons_Burnie_Street_9.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0210_Lyons_Deloraine_Street_51.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0254_Curtin_Allan_Street_15.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0260_Curtin_Allan_Street_254.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0373_Waramanga_Alawa_Street_140.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0423_Kambah_McDermott_Street_294.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0502_Campbell_Blamey_Crescent_291.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0508_Watson_ABeckett_Street_304.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0555_Watson_Piddington_Street_319.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0082_Deakin_Strickland_Crescent_334.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 2.3606410026550293
+  },
+  {
+    "path": "sv_expanded\\0096_Deakin_Newdegate_Street_76.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0144_Hughes_Goble_Street_283.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 2.4383625984191895
+  },
+  {
+    "path": "sv_expanded\\0154_Hughes_Goble_Street_216.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0162_Hughes_Bamford_Street_95.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0171_Hughes_Bamford_Street_39.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0272_Curtin_Allan_Street_40.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0300_Chifley_Maclaurin_Crescent_246.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0333_Fisher_Chillagoe_Street_91.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0334_Fisher_Chillagoe_Street_204.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0460_Red_Hill_Torres_Street_71.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0478_Red_Hill_Investigator_Street_118.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0484_Red_Hill_Investigator_Street_134.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0013_Downer_Blacket_Street_229.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0105_Deakin_Macgregor_Street_84.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 3.0283303260803223
+  },
+  {
+    "path": "sv_expanded\\0121_Deakin_Grey_Street_310.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0168_Hughes_Bamford_Street_284.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0341_Waramanga_Nangor_Street_46.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0346_Waramanga_Nangor_Street_144.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0401_Mawson_Wilkins_Street_169.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0537_Watson_Irvine_Street_65.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0546_Watson_Piddington_Street_150.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0104_Deakin_Macgregor_Street_264.jpg",
+    "good_matches": 14,
+    "inliers": 4,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0172_Hughes_Bamford_Street_281.jpg",
+    "good_matches": 14,
+    "inliers": 4,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0177_Hughes_Groom_Street_15.jpg",
+    "good_matches": 14,
+    "inliers": 4,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0252_Torrens_Jefferis_Street_301.jpg",
+    "good_matches": 14,
+    "inliers": 4,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0043_Duffy_Tullaroop_Street_309.jpg",
+    "good_matches": 15,
+    "inliers": 4,
+    "inlier_ratio": 0.26666666666666666,
+    "median_error": 0.12421227991580963
+  },
+  {
+    "path": "sv_expanded\\0067_Duffy_Kallara_Close_145.jpg",
+    "good_matches": 15,
+    "inliers": 4,
+    "inlier_ratio": 0.26666666666666666,
+    "median_error": 0.8318037986755371
+  },
+  {
+    "path": "sv_expanded\\0365_Waramanga_Alawa_Street_193.jpg",
+    "good_matches": 15,
+    "inliers": 4,
+    "inlier_ratio": 0.26666666666666666,
+    "median_error": 0.5150461196899414
+  },
+  {
+    "path": "sv_expanded\\0471_Red_Hill_Torres_Street_245.jpg",
+    "good_matches": 15,
+    "inliers": 4,
+    "inlier_ratio": 0.26666666666666666,
+    "median_error": 0.10061626136302948
+  },
+  {
+    "path": "sv_expanded\\0503_Campbell_Blamey_Crescent_111.jpg",
+    "good_matches": 15,
+    "inliers": 4,
+    "inlier_ratio": 0.26666666666666666,
+    "median_error": 0.030377840623259544
+  },
+  {
+    "path": "sv_expanded\\0037_Duffy_Somerset_Street_140.jpg",
+    "good_matches": 18,
+    "inliers": 4,
+    "inlier_ratio": 0.2222222222222222,
+    "median_error": 1.2672340869903564
+  },
+  {
+    "path": "sv_expanded\\0257_Curtin_Allan_Street_12.jpg",
+    "good_matches": 19,
+    "inliers": 4,
+    "inlier_ratio": 0.21052631578947367,
+    "median_error": 0.050179868936538696
+  },
+  {
+    "path": "sv_expanded\\0491_Campbell_Blamey_Crescent_340.jpg",
+    "good_matches": 19,
+    "inliers": 4,
+    "inlier_ratio": 0.21052631578947367,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0069_Duffy_Kallara_Close_240.jpg",
+    "good_matches": 23,
+    "inliers": 4,
+    "inlier_ratio": 0.17391304347826086,
+    "median_error": 0.017095834016799927
+  },
+  {
+    "path": "sv_expanded\\0093_Deakin_Newdegate_Street_28.jpg",
+    "good_matches": 23,
+    "inliers": 4,
+    "inlier_ratio": 0.17391304347826086,
+    "median_error": 0.20766499638557434
+  },
+  {
+    "path": "sv_expanded\\0122_Deakin_Grey_Street_161.jpg",
+    "good_matches": 23,
+    "inliers": 4,
+    "inlier_ratio": 0.17391304347826086,
+    "median_error": 0.0008288280223496258
+  },
+  {
+    "path": "sv_expanded\\0353_Waramanga_Woralul_Street_333.jpg",
+    "good_matches": 24,
+    "inliers": 4,
+    "inlier_ratio": 0.16666666666666666,
+    "median_error": 1.1223225593566895
+  },
+  {
+    "path": "sv_expanded\\0223_Lyons_Ulverstone_Street_59.jpg",
+    "good_matches": 25,
+    "inliers": 4,
+    "inlier_ratio": 0.16,
+    "median_error": 0.023056603968143463
+  },
+  {
+    "path": "sv_expanded\\0086_Deakin_Strickland_Crescent_319.jpg",
+    "good_matches": 26,
+    "inliers": 4,
+    "inlier_ratio": 0.15384615384615385,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0099_Deakin_Newdegate_Street_65.jpg",
+    "good_matches": 27,
+    "inliers": 4,
+    "inlier_ratio": 0.14814814814814814,
+    "median_error": 1.195671796798706
+  },
+  {
+    "path": "sv_expanded\\0412_Mawson_Hoseason_Street_311.jpg",
+    "good_matches": 30,
+    "inliers": 4,
+    "inlier_ratio": 0.13333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_expanded\\0146_Hughes_Goble_Street_116.jpg",
+    "good_matches": 10,
+    "inliers": 3,
+    "inlier_ratio": 0.3,
+    "median_error": 0.7859503030776978
+  },
+  {
+    "path": "sv_expanded\\0071_Duffy_Kallara_Close_313.jpg",
+    "good_matches": 11,
+    "inliers": 3,
+    "inlier_ratio": 0.2727272727272727,
+    "median_error": 0.15640057623386383
+  },
+  {
+    "path": "sv_expanded\\0205_Lyons_Deloraine_Street_175.jpg",
+    "good_matches": 12,
+    "inliers": 3,
+    "inlier_ratio": 0.25,
+    "median_error": 2.6883249282836914
+  },
+  {
+    "path": "sv_expanded\\0409_Mawson_Wilkins_Street_128.jpg",
+    "good_matches": 12,
+    "inliers": 3,
+    "inlier_ratio": 0.25,
+    "median_error": 0.06846040487289429
+  },
+  {
+    "path": "sv_expanded\\0131_Deakin_Canterbury_Crescent_143.jpg",
+    "good_matches": 13,
+    "inliers": 3,
+    "inlier_ratio": 0.23076923076923078,
+    "median_error": 0.09766887873411179
+  },
+  {
+    "path": "sv_expanded\\0193_Lyons_Burnie_Street_353.jpg",
+    "good_matches": 13,
+    "inliers": 3,
+    "inlier_ratio": 0.23076923076923078,
+    "median_error": 0.43223366141319275
+  },
+  {
+    "path": "sv_expanded\\0220_Lyons_Ulverstone_Street_224.jpg",
+    "good_matches": 14,
+    "inliers": 3,
+    "inlier_ratio": 0.21428571428571427,
+    "median_error": 1.5623360872268677
+  },
+  {
+    "path": "sv_expanded\\0309_Chifley_Maclaurin_Crescent_156.jpg",
+    "good_matches": 14,
+    "inliers": 3,
+    "inlier_ratio": 0.21428571428571427,
+    "median_error": 0.20880021154880524
+  },
+  {
+    "path": "sv_expanded\\0370_Waramanga_Alawa_Street_162.jpg",
+    "good_matches": 14,
+    "inliers": 3,
+    "inlier_ratio": 0.21428571428571427,
+    "median_error": 1.6430349349975586
+  },
+  {
+    "path": "sv_expanded\\0492_Campbell_Blamey_Crescent_143.jpg",
+    "good_matches": 14,
+    "inliers": 3,
+    "inlier_ratio": 0.21428571428571427,
+    "median_error": 0.05391174554824829
+  },
+  {
+    "path": "sv_expanded\\0088_Deakin_Newdegate_Street_249.jpg",
+    "good_matches": 15,
+    "inliers": 3,
+    "inlier_ratio": 0.2,
+    "median_error": 0.03654702752828598
+  },
+  {
+    "path": "sv_expanded\\0239_Torrens_Brookman_Street_270.jpg",
+    "good_matches": 16,
+    "inliers": 3,
+    "inlier_ratio": 0.1875,
+    "median_error": 0.052325788885354996
+  },
+  {
+    "path": "sv_expanded\\0359_Waramanga_Woralul_Street_135.jpg",
+    "good_matches": 17,
+    "inliers": 3,
+    "inlier_ratio": 0.17647058823529413,
+    "median_error": 2.783050060272217
+  },
+  {
+    "path": "sv_expanded\\0297_Chifley_Wilsmore_Crescent_205.jpg",
+    "good_matches": 18,
+    "inliers": 3,
+    "inlier_ratio": 0.16666666666666666,
+    "median_error": 0.025834036991000175
+  },
+  {
+    "path": "sv_expanded\\0447_Red_Hill_Golden_Grove_110.jpg",
+    "good_matches": 20,
+    "inliers": 3,
+    "inlier_ratio": 0.15,
+    "median_error": 4.588242053985596
+  },
+  {
+    "path": "sv_expanded\\0115_Deakin_Grey_Street_73.jpg",
+    "good_matches": 22,
+    "inliers": 3,
+    "inlier_ratio": 0.13636363636363635,
+    "median_error": 1.6800731420516968
+  },
+  {
+    "path": "sv_expanded\\0267_Curtin_Allan_Street_200.jpg",
+    "good_matches": 22,
+    "inliers": 3,
+    "inlier_ratio": 0.13636363636363635,
+    "median_error": 0.14827777445316315
+  },
+  {
+    "path": "sv_expanded\\0211_Lyons_Deloraine_Street_231.jpg",
+    "good_matches": 23,
+    "inliers": 3,
+    "inlier_ratio": 0.13043478260869565,
+    "median_error": 1.7210837602615356
+  },
+  {
+    "path": "sv_expanded\\0230_Torrens_Brookman_Street_3.jpg",
+    "good_matches": 27,
+    "inliers": 3,
+    "inlier_ratio": 0.1111111111111111,
+    "median_error": 0.03800583258271217
+  },
+  {
+    "path": "sv_expanded\\0173_Hughes_Bamford_Street_101.jpg",
+    "good_matches": 8,
+    "inliers": 2,
+    "inlier_ratio": 0.25,
+    "median_error": 0.24425703287124634
+  },
+  {
+    "path": "sv_expanded\\0216_Lyons_Deloraine_Street_97.jpg",
+    "good_matches": 11,
+    "inliers": 2,
+    "inlier_ratio": 0.18181818181818182,
+    "median_error": 3.2130448818206787
+  },
+  {
+    "path": "sv_expanded\\0469_Red_Hill_Torres_Street_248.jpg",
+    "good_matches": 12,
+    "inliers": 2,
+    "inlier_ratio": 0.16666666666666666,
+    "median_error": 2.831873655319214
+  },
+  {
+    "path": "sv_expanded\\0397_Mawson_Hurley_Street_204.jpg",
+    "good_matches": 15,
+    "inliers": 2,
+    "inlier_ratio": 0.13333333333333333,
+    "median_error": 0.05620919540524483
+  },
+  {
+    "path": "sv_expanded\\0539_Watson_Irvine_Street_136.jpg",
+    "good_matches": 15,
+    "inliers": 2,
+    "inlier_ratio": 0.13333333333333333,
+    "median_error": 0.7189419269561768
+  },
+  {
+    "path": "sv_expanded\\0374_Mawson_Hurley_Street_292.jpg",
+    "good_matches": 17,
+    "inliers": 2,
+    "inlier_ratio": 0.11764705882352941,
+    "median_error": 4.49658203125
+  },
+  {
+    "path": "sv_expanded\\0304_Chifley_Maclaurin_Crescent_328.jpg",
+    "good_matches": 22,
+    "inliers": 2,
+    "inlier_ratio": 0.09090909090909091,
+    "median_error": 0.019778665155172348
+  },
+  {
+    "path": "sv_expanded\\0486_Red_Hill_Investigator_Street_171.jpg",
+    "good_matches": 15,
+    "inliers": 1,
+    "inlier_ratio": 0.06666666666666667,
+    "median_error": 4.200702667236328
+  },
+  {
+    "path": "sv_expanded\\0530_Watson_Irvine_Street_225.jpg",
+    "good_matches": 19,
+    "inliers": 1,
+    "inlier_ratio": 0.05263157894736842,
+    "median_error": 3.92240047454834
+  },
+  {
+    "path": "sv_expanded\\0034_Duffy_Somerset_Street_255.jpg",
+    "good_matches": 21,
+    "inliers": 1,
+    "inlier_ratio": 0.047619047619047616,
+    "median_error": 4.413873672485352
+  },
+  {
+    "path": "sv_expanded\\0192_Lyons_Burnie_Street_173.jpg",
+    "good_matches": 21,
+    "inliers": 1,
+    "inlier_ratio": 0.047619047619047616,
+    "median_error": 4.548606872558594
+  },
+  {
+    "path": "sv_expanded\\0264_Curtin_Allan_Street_211.jpg",
+    "good_matches": 23,
+    "inliers": 1,
+    "inlier_ratio": 0.043478260869565216,
+    "median_error": 4.981138229370117
+  },
+  {
+    "path": "sv_expanded\\0106_Deakin_Macgregor_Street_270.jpg",
+    "good_matches": 25,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0218_Lyons_Ulverstone_Street_266.jpg",
+    "good_matches": 20,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0269_Curtin_Allan_Street_186.jpg",
+    "good_matches": 20,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0007_Downer_Atherton_Street_185.jpg",
+    "good_matches": 17,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0296_Chifley_Wilsmore_Crescent_25.jpg",
+    "good_matches": 17,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0251_Torrens_Jefferis_Street_159.jpg",
+    "good_matches": 14,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0563_Watson_Piddington_Street_154.jpg",
+    "good_matches": 7,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0226_Lyons_Ulverstone_Street_40.jpg",
+    "good_matches": 6,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0458_Red_Hill_Golden_Grove_155.jpg",
+    "good_matches": 6,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0543_Watson_Piddington_Street_284.jpg",
+    "good_matches": 6,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0547_Watson_Piddington_Street_330.jpg",
+    "good_matches": 6,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0077_Deakin_Strickland_Crescent_145.jpg",
+    "good_matches": 5,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0080_Deakin_Strickland_Crescent_145.jpg",
+    "good_matches": 5,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0196_Lyons_Burnie_Street_110.jpg",
+    "good_matches": 5,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0512_Watson_ABeckett_Street_285.jpg",
+    "good_matches": 3,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_expanded\\0427_Kambah_McDermott_Street_56.jpg",
+    "good_matches": 2,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  }
+]

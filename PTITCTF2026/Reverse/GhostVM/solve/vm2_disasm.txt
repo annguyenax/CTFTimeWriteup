@@ -1,0 +1,1644 @@
+0000: LOAD_IMM r0, 0x0
+000a: LOAD_IMM r1, 0x0
+0014: LOAD_IMM r2, 0x0
+001e: LOAD_IMM r3, 0x0
+0028: LOAD_INPUT r4, flag[19]
+002b: XOR_IMM r4, 0x56
+0035: OR r0, r4
+0038: LOAD_INPUT r4, flag[2]
+003b: XOR_IMM r4, 0xb6
+0045: SHL_IMM r4, 8
+0048: OR r0, r4
+004b: LOAD_INPUT r4, flag[25]
+004e: XOR_IMM r4, 0x38
+0058: SHL_IMM r4, 16
+005b: OR r0, r4
+005e: LOAD_INPUT r4, flag[7]
+0061: XOR_IMM r4, 0xc9
+006b: SHL_IMM r4, 24
+006e: OR r0, r4
+0071: LOAD_IMM r14, 0xa9317bd280edebc9
+007b: XOR_IMM r14, 0xa55aa55aa55aa55a
+0085: XOR_IMM r14, 0xa55aa55aa55aa55a
+008f: LOAD_INPUT r4, flag[14]
+0092: XOR_IMM r4, 0x8
+009c: SHL_IMM r4, 32
+009f: OR r0, r4
+00a2: LOAD_INPUT r4, flag[30]
+00a5: XOR_IMM r4, 0xc4
+00af: SHL_IMM r4, 40
+00b2: OR r0, r4
+00b5: LOAD_INPUT r4, flag[4]
+00b8: XOR_IMM r4, 0xa5
+00c2: SHL_IMM r4, 48
+00c5: OR r0, r4
+00c8: LOAD_INPUT r4, flag[22]
+00cb: XOR_IMM r4, 0x24
+00d5: SHL_IMM r4, 56
+00d8: OR r0, r4
+00db: LOAD_INPUT r4, flag[1]
+00de: XOR_IMM r4, 0xd2
+00e8: OR r1, r4
+00eb: LOAD_INPUT r4, flag[17]
+00ee: XOR_IMM r4, 0x79
+00f8: SHL_IMM r4, 8
+00fb: OR r1, r4
+00fe: LOAD_INPUT r4, flag[28]
+0101: XOR_IMM r4, 0xfb
+010b: SHL_IMM r4, 16
+010e: OR r1, r4
+0111: LOAD_IMM r14, 0x9db3f686b0fd3611
+011b: XOR_IMM r14, 0xa55aa55aa55aa55a
+0125: XOR_IMM r14, 0xa55aa55aa55aa55a
+012f: LOAD_INPUT r4, flag[11]
+0132: XOR_IMM r4, 0x47
+013c: SHL_IMM r4, 24
+013f: OR r1, r4
+0142: LOAD_INPUT r4, flag[5]
+0145: XOR_IMM r4, 0x39
+014f: SHL_IMM r4, 32
+0152: OR r1, r4
+0155: LOAD_INPUT r4, flag[24]
+0158: XOR_IMM r4, 0x9e
+0162: SHL_IMM r4, 40
+0165: OR r1, r4
+0168: LOAD_INPUT r4, flag[9]
+016b: XOR_IMM r4, 0xd5
+0175: SHL_IMM r4, 48
+0178: OR r1, r4
+017b: LOAD_INPUT r4, flag[31]
+017e: XOR_IMM r4, 0x9
+0188: SHL_IMM r4, 56
+018b: OR r1, r4
+018e: LOAD_INPUT r4, flag[13]
+0191: XOR_IMM r4, 0xc3
+019b: OR r2, r4
+019e: LOAD_INPUT r4, flag[0]
+01a1: XOR_IMM r4, 0x63
+01ab: SHL_IMM r4, 8
+01ae: OR r2, r4
+01b1: LOAD_IMM r14, 0x7a2dee8e6ff52006
+01bb: XOR_IMM r14, 0xa55aa55aa55aa55a
+01c5: XOR_IMM r14, 0xa55aa55aa55aa55a
+01cf: LOAD_INPUT r4, flag[21]
+01d2: XOR_IMM r4, 0x2b
+01dc: SHL_IMM r4, 16
+01df: OR r2, r4
+01e2: LOAD_INPUT r4, flag[6]
+01e5: XOR_IMM r4, 0xc7
+01ef: SHL_IMM r4, 24
+01f2: OR r2, r4
+01f5: LOAD_INPUT r4, flag[27]
+01f8: XOR_IMM r4, 0xa4
+0202: SHL_IMM r4, 32
+0205: OR r2, r4
+0208: LOAD_INPUT r4, flag[16]
+020b: XOR_IMM r4, 0x78
+0215: SHL_IMM r4, 40
+0218: OR r2, r4
+021b: LOAD_INPUT r4, flag[3]
+021e: XOR_IMM r4, 0x2e
+0228: SHL_IMM r4, 48
+022b: OR r2, r4
+022e: LOAD_INPUT r4, flag[18]
+0231: XOR_IMM r4, 0xc7
+023b: SHL_IMM r4, 56
+023e: OR r2, r4
+0241: LOAD_INPUT r4, flag[29]
+0244: XOR_IMM r4, 0x19
+024e: OR r3, r4
+0251: LOAD_IMM r14, 0x797d1438c09ce441
+025b: XOR_IMM r14, 0xa55aa55aa55aa55a
+0265: XOR_IMM r14, 0xa55aa55aa55aa55a
+026f: LOAD_INPUT r4, flag[10]
+0272: XOR_IMM r4, 0xdd
+027c: SHL_IMM r4, 8
+027f: OR r3, r4
+0282: LOAD_INPUT r4, flag[23]
+0285: XOR_IMM r4, 0x14
+028f: SHL_IMM r4, 16
+0292: OR r3, r4
+0295: LOAD_INPUT r4, flag[15]
+0298: XOR_IMM r4, 0xd8
+02a2: SHL_IMM r4, 24
+02a5: OR r3, r4
+02a8: LOAD_INPUT r4, flag[8]
+02ab: XOR_IMM r4, 0x0
+02b5: SHL_IMM r4, 32
+02b8: OR r3, r4
+02bb: LOAD_INPUT r4, flag[26]
+02be: XOR_IMM r4, 0x98
+02c8: SHL_IMM r4, 40
+02cb: OR r3, r4
+02ce: LOAD_INPUT r4, flag[12]
+02d1: XOR_IMM r4, 0x44
+02db: SHL_IMM r4, 48
+02de: OR r3, r4
+02e1: LOAD_INPUT r4, flag[20]
+02e4: XOR_IMM r4, 0xce
+02ee: SHL_IMM r4, 56
+02f1: OR r3, r4
+02f4: LOAD_IMM r14, 0xd2e8dccb09b223ba
+02fe: XOR_IMM r14, 0xa55aa55aa55aa55a
+0308: XOR_IMM r14, 0xa55aa55aa55aa55a
+0312: MOV r4, r2
+0315: XOR_IMM r4, 0xebfb276a021aa74b
+031f: MOV r6, r3
+0322: XOR_IMM r6, 0xa0761d6478bd642f
+032c: ROL_IMM r6, 13
+032f: ADD r4, r6
+0332: MOV r7, r4
+0335: SBOX_XOR r4, r7, shr=0, shl=56
+033a: SBOX_XOR r4, r7, shr=16, shl=32
+033f: SBOX_XOR r4, r7, shr=40, shl=8
+0344: SBOX_LOAD r8, r3, shr=24
+0348: MUL_IMM r8, 0x101010101010101
+0352: ADD r4, r8
+0355: MUL_IMM r4, 0xd6e8feb86659fd93
+035f: MOV r6, r4
+0362: ADD r6, r3
+0365: MOV r8, r4
+0368: SHR_IMM r8, 58
+036b: AND_IMM r8, 0x1f
+0375: ADD_IMM r8, 0x5
+037f: ROL r6, r8
+0382: XOR r4, r6
+0385: ADD_IMM r4, 0x94d049bb133111eb
+038f: MOV r6, r4
+0392: SHR_IMM r6, 23
+0395: XOR r4, r6
+0398: MUL_IMM r4, 0x9fb21c651e98df25
+03a2: MOV r6, r4
+03a5: SHR_IMM r6, 29
+03a8: XOR r4, r6
+03ab: MOV r6, r3
+03ae: ROL_IMM r6, 17
+03b1: ADD r4, r6
+03b4: MOV r6, r4
+03b7: SHR_IMM r6, 32
+03ba: XOR r4, r6
+03bd: MOV r5, r3
+03c0: XOR_IMM r5, 0x63ea8774f3294536
+03ca: MOV r6, r2
+03cd: XOR_IMM r6, 0xa0761d6478bd642f
+03d7: ROL_IMM r6, 3
+03da: ADD r5, r6
+03dd: MOV r7, r5
+03e0: SBOX_XOR r5, r7, shr=0, shl=56
+03e5: SBOX_XOR r5, r7, shr=16, shl=32
+03ea: SBOX_XOR r5, r7, shr=40, shl=8
+03ef: SBOX_LOAD r8, r2, shr=24
+03f3: MUL_IMM r8, 0x101010101010101
+03fd: ADD r5, r8
+0400: MUL_IMM r5, 0xd6e8feb86659fd93
+040a: MOV r6, r5
+040d: ADD r6, r2
+0410: MOV r8, r5
+0413: SHR_IMM r8, 58
+0416: AND_IMM r8, 0x1f
+0420: ADD_IMM r8, 0x5
+042a: ROL r6, r8
+042d: XOR r5, r6
+0430: ADD_IMM r5, 0xb50828dd31e8e89
+043a: MOV r6, r5
+043d: SHR_IMM r6, 23
+0440: XOR r5, r6
+0443: MUL_IMM r5, 0x9fb21c651e98df25
+044d: MOV r6, r5
+0450: SHR_IMM r6, 29
+0453: XOR r5, r6
+0456: MOV r6, r2
+0459: ROL_IMM r6, 17
+045c: ADD r5, r6
+045f: MOV r6, r5
+0462: SHR_IMM r6, 32
+0465: XOR r5, r6
+0468: MOV r10, r0
+046b: XOR r10, r4
+046e: MOV r11, r1
+0471: XOR r11, r5
+0474: MOV r0, r2
+0477: MOV r1, r3
+047a: MOV r2, r10
+047d: MOV r3, r11
+0480: LOAD_IMM r12, 0x7f3a1acef9337df
+048a: CMP_EQ r12, r12
+048d: JNZ +1 -> 0x493
+0492: FAIL
+0493: LOAD_IMM r13, 0x6597c2d4395bdf5d
+049d: ROL_IMM r13, 36
+04a0: ROR_IMM r13, 36
+04a3: XOR_IMM r13, 0x1c89b65df446d6a
+04ad: XOR_IMM r13, 0x1c89b65df446d6a
+04b7: JMP +6 -> 0x4c2
+04bc: NOT r0
+04be: SWAP r0, r3
+04c1: FAIL
+04c2: MOV r4, r2
+04c5: XOR_IMM r4, 0x2cde6bff7b5b8b0b
+04cf: MOV r6, r3
+04d2: XOR_IMM r6, 0xa0761d6478bd642f
+04dc: ROL_IMM r6, 20
+04df: ADD r4, r6
+04e2: MOV r7, r4
+04e5: SBOX_XOR r4, r7, shr=0, shl=56
+04ea: SBOX_XOR r4, r7, shr=16, shl=32
+04ef: SBOX_XOR r4, r7, shr=40, shl=8
+04f4: SBOX_LOAD r8, r3, shr=24
+04f8: MUL_IMM r8, 0x101010101010101
+0502: ADD r4, r8
+0505: MUL_IMM r4, 0xd6e8feb86659fd93
+050f: MOV r6, r4
+0512: ADD r6, r3
+0515: MOV r8, r4
+0518: SHR_IMM r8, 58
+051b: AND_IMM r8, 0x1f
+0525: ADD_IMM r8, 0x5
+052f: ROL r6, r8
+0532: XOR r4, r6
+0535: ADD_IMM r4, 0xae730026c7b6dfe
+053f: MOV r6, r4
+0542: SHR_IMM r6, 23
+0545: XOR r4, r6
+0548: MUL_IMM r4, 0x9fb21c651e98df25
+0552: MOV r6, r4
+0555: SHR_IMM r6, 29
+0558: XOR r4, r6
+055b: MOV r6, r3
+055e: ROL_IMM r6, 17
+0561: ADD r4, r6
+0564: MOV r6, r4
+0567: SHR_IMM r6, 32
+056a: XOR r4, r6
+056d: MOV r5, r3
+0570: XOR_IMM r5, 0xe56e5f467dc9dc2a
+057a: MOV r6, r2
+057d: XOR_IMM r6, 0xa0761d6478bd642f
+0587: ROL_IMM r6, 10
+058a: ADD r5, r6
+058d: MOV r7, r5
+0590: SBOX_XOR r5, r7, shr=0, shl=56
+0595: SBOX_XOR r5, r7, shr=16, shl=32
+059a: SBOX_XOR r5, r7, shr=40, shl=8
+059f: SBOX_LOAD r8, r2, shr=24
+05a3: MUL_IMM r8, 0x101010101010101
+05ad: ADD r5, r8
+05b0: MUL_IMM r5, 0xd6e8feb86659fd93
+05ba: MOV r6, r5
+05bd: ADD r6, r2
+05c0: MOV r8, r5
+05c3: SHR_IMM r8, 58
+05c6: AND_IMM r8, 0x1f
+05d0: ADD_IMM r8, 0x5
+05da: ROL r6, r8
+05dd: XOR r5, r6
+05e0: ADD_IMM r5, 0xa9680d4b2c4b0a9c
+05ea: MOV r6, r5
+05ed: SHR_IMM r6, 23
+05f0: XOR r5, r6
+05f3: MUL_IMM r5, 0x9fb21c651e98df25
+05fd: MOV r6, r5
+0600: SHR_IMM r6, 29
+0603: XOR r5, r6
+0606: MOV r6, r2
+0609: ROL_IMM r6, 17
+060c: ADD r5, r6
+060f: MOV r6, r5
+0612: SHR_IMM r6, 32
+0615: XOR r5, r6
+0618: MOV r10, r0
+061b: XOR r10, r4
+061e: MOV r11, r1
+0621: XOR r11, r5
+0624: MOV r0, r2
+0627: MOV r1, r3
+062a: MOV r2, r10
+062d: MOV r3, r11
+0630: LOAD_IMM r12, 0x90b0373a68b16011
+063a: CMP_EQ r12, r12
+063d: JNZ +1 -> 0x643
+0642: FAIL
+0643: LOAD_IMM r13, 0x7a0f6ca18a5a3fea
+064d: ROL_IMM r13, 4
+0650: ROR_IMM r13, 4
+0653: XOR_IMM r13, 0x9d5fe8302b6aeac1
+065d: XOR_IMM r13, 0x9d5fe8302b6aeac1
+0667: JMP +6 -> 0x672
+066c: NOT r0
+066e: SWAP r0, r3
+0671: FAIL
+0672: MOV r4, r2
+0675: XOR_IMM r4, 0x7145b83b1db499c3
+067f: MOV r6, r3
+0682: XOR_IMM r6, 0xa0761d6478bd642f
+068c: ROL_IMM r6, 27
+068f: ADD r4, r6
+0692: MOV r7, r4
+0695: SBOX_XOR r4, r7, shr=0, shl=56
+069a: SBOX_XOR r4, r7, shr=16, shl=32
+069f: SBOX_XOR r4, r7, shr=40, shl=8
+06a4: SBOX_LOAD r8, r3, shr=24
+06a8: MUL_IMM r8, 0x101010101010101
+06b2: ADD r4, r8
+06b5: MUL_IMM r4, 0xd6e8feb86659fd93
+06bf: MOV r6, r4
+06c2: ADD r6, r3
+06c5: MOV r8, r4
+06c8: SHR_IMM r8, 58
+06cb: AND_IMM r8, 0x1f
+06d5: ADD_IMM r8, 0x5
+06df: ROL r6, r8
+06e2: XOR r4, r6
+06e5: ADD_IMM r4, 0xa8bebac9eda5e9c1
+06ef: MOV r6, r4
+06f2: SHR_IMM r6, 23
+06f5: XOR r4, r6
+06f8: MUL_IMM r4, 0x9fb21c651e98df25
+0702: MOV r6, r4
+0705: SHR_IMM r6, 29
+0708: XOR r4, r6
+070b: MOV r6, r3
+070e: ROL_IMM r6, 17
+0711: ADD r4, r6
+0714: MOV r6, r4
+0717: SHR_IMM r6, 32
+071a: XOR r4, r6
+071d: MOV r5, r3
+0720: XOR_IMM r5, 0x53ca2519fd326188
+072a: MOV r6, r2
+072d: XOR_IMM r6, 0xa0761d6478bd642f
+0737: ROL_IMM r6, 53
+073a: ADD r5, r6
+073d: MOV r7, r5
+0740: SBOX_XOR r5, r7, shr=0, shl=56
+0745: SBOX_XOR r5, r7, shr=16, shl=32
+074a: SBOX_XOR r5, r7, shr=40, shl=8
+074f: SBOX_LOAD r8, r2, shr=24
+0753: MUL_IMM r8, 0x101010101010101
+075d: ADD r5, r8
+0760: MUL_IMM r5, 0xd6e8feb86659fd93
+076a: MOV r6, r5
+076d: ADD r6, r2
+0770: MOV r8, r5
+0773: SHR_IMM r8, 58
+0776: AND_IMM r8, 0x1f
+0780: ADD_IMM r8, 0x5
+078a: ROL r6, r8
+078d: XOR r5, r6
+0790: ADD_IMM r5, 0xf7c19e78d2abb6d3
+079a: MOV r6, r5
+079d: SHR_IMM r6, 23
+07a0: XOR r5, r6
+07a3: MUL_IMM r5, 0x9fb21c651e98df25
+07ad: MOV r6, r5
+07b0: SHR_IMM r6, 29
+07b3: XOR r5, r6
+07b6: MOV r6, r2
+07b9: ROL_IMM r6, 17
+07bc: ADD r5, r6
+07bf: MOV r6, r5
+07c2: SHR_IMM r6, 32
+07c5: XOR r5, r6
+07c8: MOV r10, r0
+07cb: XOR r10, r4
+07ce: MOV r11, r1
+07d1: XOR r11, r5
+07d4: MOV r0, r2
+07d7: MOV r1, r3
+07da: MOV r2, r10
+07dd: MOV r3, r11
+07e0: LOAD_IMM r12, 0xacf81f61fa1ac39c
+07ea: CMP_EQ r12, r12
+07ed: JNZ +1 -> 0x7f3
+07f2: FAIL
+07f3: LOAD_IMM r13, 0x25878d1689f4721d
+07fd: ROL_IMM r13, 46
+0800: ROR_IMM r13, 46
+0803: XOR_IMM r13, 0xf7e819efb2c2c57f
+080d: XOR_IMM r13, 0xf7e819efb2c2c57f
+0817: JMP +6 -> 0x822
+081c: NOT r0
+081e: SWAP r0, r3
+0821: FAIL
+0822: MOV r4, r2
+0825: XOR_IMM r4, 0x68adb30aece1522f
+082f: MOV r6, r3
+0832: XOR_IMM r6, 0xa0761d6478bd642f
+083c: ROL_IMM r6, 34
+083f: ADD r4, r6
+0842: MOV r7, r4
+0845: SBOX_XOR r4, r7, shr=0, shl=56
+084a: SBOX_XOR r4, r7, shr=16, shl=32
+084f: SBOX_XOR r4, r7, shr=40, shl=8
+0854: SBOX_LOAD r8, r3, shr=24
+0858: MUL_IMM r8, 0x101010101010101
+0862: ADD r4, r8
+0865: MUL_IMM r4, 0xd6e8feb86659fd93
+086f: MOV r6, r4
+0872: ADD r6, r3
+0875: MOV r8, r4
+0878: SHR_IMM r8, 58
+087b: AND_IMM r8, 0x1f
+0885: ADD_IMM r8, 0x5
+088f: ROL r6, r8
+0892: XOR r4, r6
+0895: ADD_IMM r4, 0x4e7624976eee65d4
+089f: MOV r6, r4
+08a2: SHR_IMM r6, 23
+08a5: XOR r4, r6
+08a8: MUL_IMM r4, 0x9fb21c651e98df25
+08b2: MOV r6, r4
+08b5: SHR_IMM r6, 29
+08b8: XOR r4, r6
+08bb: MOV r6, r3
+08be: ROL_IMM r6, 17
+08c1: ADD r4, r6
+08c4: MOV r6, r4
+08c7: SHR_IMM r6, 32
+08ca: XOR r4, r6
+08cd: MOV r5, r3
+08d0: XOR_IMM r5, 0xe51353af2f73b5f8
+08da: MOV r6, r2
+08dd: XOR_IMM r6, 0xa0761d6478bd642f
+08e7: ROL_IMM r6, 60
+08ea: ADD r5, r6
+08ed: MOV r7, r5
+08f0: SBOX_XOR r5, r7, shr=0, shl=56
+08f5: SBOX_XOR r5, r7, shr=16, shl=32
+08fa: SBOX_XOR r5, r7, shr=40, shl=8
+08ff: SBOX_LOAD r8, r2, shr=24
+0903: MUL_IMM r8, 0x101010101010101
+090d: ADD r5, r8
+0910: MUL_IMM r5, 0xd6e8feb86659fd93
+091a: MOV r6, r5
+091d: ADD r6, r2
+0920: MOV r8, r5
+0923: SHR_IMM r8, 58
+0926: AND_IMM r8, 0x1f
+0930: ADD_IMM r8, 0x5
+093a: ROL r6, r8
+093d: XOR r5, r6
+0940: ADD_IMM r5, 0x959918c653d432a6
+094a: MOV r6, r5
+094d: SHR_IMM r6, 23
+0950: XOR r5, r6
+0953: MUL_IMM r5, 0x9fb21c651e98df25
+095d: MOV r6, r5
+0960: SHR_IMM r6, 29
+0963: XOR r5, r6
+0966: MOV r6, r2
+0969: ROL_IMM r6, 17
+096c: ADD r5, r6
+096f: MOV r6, r5
+0972: SHR_IMM r6, 32
+0975: XOR r5, r6
+0978: MOV r10, r0
+097b: XOR r10, r4
+097e: MOV r11, r1
+0981: XOR r11, r5
+0984: MOV r0, r2
+0987: MOV r1, r3
+098a: MOV r2, r10
+098d: MOV r3, r11
+0990: LOAD_IMM r12, 0x5f5a70be5e40cb65
+099a: CMP_EQ r12, r12
+099d: JNZ +1 -> 0x9a3
+09a2: FAIL
+09a3: LOAD_IMM r13, 0xa70b94618c78d7aa
+09ad: ROL_IMM r13, 52
+09b0: ROR_IMM r13, 52
+09b3: XOR_IMM r13, 0xe4a9ca94bdc5d9f8
+09bd: XOR_IMM r13, 0xe4a9ca94bdc5d9f8
+09c7: JMP +6 -> 0x9d2
+09cc: NOT r0
+09ce: SWAP r0, r3
+09d1: FAIL
+09d2: MOV r4, r2
+09d5: XOR_IMM r4, 0xfbd3135d334cba83
+09df: MOV r6, r3
+09e2: XOR_IMM r6, 0xa0761d6478bd642f
+09ec: ROL_IMM r6, 41
+09ef: ADD r4, r6
+09f2: MOV r7, r4
+09f5: SBOX_XOR r4, r7, shr=0, shl=56
+09fa: SBOX_XOR r4, r7, shr=16, shl=32
+09ff: SBOX_XOR r4, r7, shr=40, shl=8
+0a04: SBOX_LOAD r8, r3, shr=24
+0a08: MUL_IMM r8, 0x101010101010101
+0a12: ADD r4, r8
+0a15: MUL_IMM r4, 0xd6e8feb86659fd93
+0a1f: MOV r6, r4
+0a22: ADD r6, r3
+0a25: MOV r8, r4
+0a28: SHR_IMM r8, 58
+0a2b: AND_IMM r8, 0x1f
+0a35: ADD_IMM r8, 0x5
+0a3f: ROL r6, r8
+0a42: XOR r4, r6
+0a45: ADD_IMM r4, 0xec0daf5eee18e1bf
+0a4f: MOV r6, r4
+0a52: SHR_IMM r6, 23
+0a55: XOR r4, r6
+0a58: MUL_IMM r4, 0x9fb21c651e98df25
+0a62: MOV r6, r4
+0a65: SHR_IMM r6, 29
+0a68: XOR r4, r6
+0a6b: MOV r6, r3
+0a6e: ROL_IMM r6, 17
+0a71: ADD r4, r6
+0a74: MOV r6, r4
+0a77: SHR_IMM r6, 32
+0a7a: XOR r4, r6
+0a7d: MOV r5, r3
+0a80: XOR_IMM r5, 0xc6203cb2408fb5ab
+0a8a: MOV r6, r2
+0a8d: XOR_IMM r6, 0xa0761d6478bd642f
+0a97: ROL_IMM r6, 31
+0a9a: ADD r5, r6
+0a9d: MOV r7, r5
+0aa0: SBOX_XOR r5, r7, shr=0, shl=56
+0aa5: SBOX_XOR r5, r7, shr=16, shl=32
+0aaa: SBOX_XOR r5, r7, shr=40, shl=8
+0aaf: SBOX_LOAD r8, r2, shr=24
+0ab3: MUL_IMM r8, 0x101010101010101
+0abd: ADD r5, r8
+0ac0: MUL_IMM r5, 0xd6e8feb86659fd93
+0aca: MOV r6, r5
+0acd: ADD r6, r2
+0ad0: MOV r8, r5
+0ad3: SHR_IMM r8, 58
+0ad6: AND_IMM r8, 0x1f
+0ae0: ADD_IMM r8, 0x5
+0aea: ROL r6, r8
+0aed: XOR r5, r6
+0af0: ADD_IMM r5, 0x8c8efba7ae689e5d
+0afa: MOV r6, r5
+0afd: SHR_IMM r6, 23
+0b00: XOR r5, r6
+0b03: MUL_IMM r5, 0x9fb21c651e98df25
+0b0d: MOV r6, r5
+0b10: SHR_IMM r6, 29
+0b13: XOR r5, r6
+0b16: MOV r6, r2
+0b19: ROL_IMM r6, 17
+0b1c: ADD r5, r6
+0b1f: MOV r6, r5
+0b22: SHR_IMM r6, 32
+0b25: XOR r5, r6
+0b28: MOV r10, r0
+0b2b: XOR r10, r4
+0b2e: MOV r11, r1
+0b31: XOR r11, r5
+0b34: MOV r0, r2
+0b37: MOV r1, r3
+0b3a: MOV r2, r10
+0b3d: MOV r3, r11
+0b40: LOAD_IMM r12, 0xc2ee50d5d4344028
+0b4a: CMP_EQ r12, r12
+0b4d: JNZ +1 -> 0xb53
+0b52: FAIL
+0b53: LOAD_IMM r13, 0xfe81fe267efb6988
+0b5d: ROL_IMM r13, 22
+0b60: ROR_IMM r13, 22
+0b63: XOR_IMM r13, 0x76d552b6f9dbcf2f
+0b6d: XOR_IMM r13, 0x76d552b6f9dbcf2f
+0b77: JMP +6 -> 0xb82
+0b7c: NOT r0
+0b7e: SWAP r0, r3
+0b81: FAIL
+0b82: MOV r4, r2
+0b85: XOR_IMM r4, 0x8623f2d9687d3447
+0b8f: MOV r6, r3
+0b92: XOR_IMM r6, 0xa0761d6478bd642f
+0b9c: ROL_IMM r6, 48
+0b9f: ADD r4, r6
+0ba2: MOV r7, r4
+0ba5: SBOX_XOR r4, r7, shr=0, shl=56
+0baa: SBOX_XOR r4, r7, shr=16, shl=32
+0baf: SBOX_XOR r4, r7, shr=40, shl=8
+0bb4: SBOX_LOAD r8, r3, shr=24
+0bb8: MUL_IMM r8, 0x101010101010101
+0bc2: ADD r4, r8
+0bc5: MUL_IMM r4, 0xd6e8feb86659fd93
+0bcf: MOV r6, r4
+0bd2: ADD r6, r3
+0bd5: MOV r8, r4
+0bd8: SHR_IMM r8, 58
+0bdb: AND_IMM r8, 0x1f
+0be5: ADD_IMM r8, 0x5
+0bef: ROL r6, r8
+0bf2: XOR r4, r6
+0bf5: ADD_IMM r4, 0x83c529246f457d82
+0bff: MOV r6, r4
+0c02: SHR_IMM r6, 23
+0c05: XOR r4, r6
+0c08: MUL_IMM r4, 0x9fb21c651e98df25
+0c12: MOV r6, r4
+0c15: SHR_IMM r6, 29
+0c18: XOR r4, r6
+0c1b: MOV r6, r3
+0c1e: ROL_IMM r6, 17
+0c21: ADD r4, r6
+0c24: MOV r6, r4
+0c27: SHR_IMM r6, 32
+0c2a: XOR r4, r6
+0c2d: MOV r5, r3
+0c30: XOR_IMM r5, 0x5733b244bd95135e
+0c3a: MOV r6, r2
+0c3d: XOR_IMM r6, 0xa0761d6478bd642f
+0c47: ROL_IMM r6, 38
+0c4a: ADD r5, r6
+0c4d: MOV r7, r5
+0c50: SBOX_XOR r5, r7, shr=0, shl=56
+0c55: SBOX_XOR r5, r7, shr=16, shl=32
+0c5a: SBOX_XOR r5, r7, shr=40, shl=8
+0c5f: SBOX_LOAD r8, r2, shr=24
+0c63: MUL_IMM r8, 0x101010101010101
+0c6d: ADD r5, r8
+0c70: MUL_IMM r5, 0xd6e8feb86659fd93
+0c7a: MOV r6, r5
+0c7d: ADD r6, r2
+0c80: MOV r8, r5
+0c83: SHR_IMM r8, 58
+0c86: AND_IMM r8, 0x1f
+0c90: ADD_IMM r8, 0x5
+0c9a: ROL r6, r8
+0c9d: XOR r5, r6
+0ca0: ADD_IMM r5, 0x2246626d2f951a20
+0caa: MOV r6, r5
+0cad: SHR_IMM r6, 23
+0cb0: XOR r5, r6
+0cb3: MUL_IMM r5, 0x9fb21c651e98df25
+0cbd: MOV r6, r5
+0cc0: SHR_IMM r6, 29
+0cc3: XOR r5, r6
+0cc6: MOV r6, r2
+0cc9: ROL_IMM r6, 17
+0ccc: ADD r5, r6
+0ccf: MOV r6, r5
+0cd2: SHR_IMM r6, 32
+0cd5: XOR r5, r6
+0cd8: MOV r10, r0
+0cdb: XOR r10, r4
+0cde: MOV r11, r1
+0ce1: XOR r11, r5
+0ce4: MOV r0, r2
+0ce7: MOV r1, r3
+0cea: MOV r2, r10
+0ced: MOV r3, r11
+0cf0: LOAD_IMM r12, 0xe0985d269a1e55ff
+0cfa: CMP_EQ r12, r12
+0cfd: JNZ +1 -> 0xd03
+0d02: FAIL
+0d03: LOAD_IMM r13, 0xfb0884fd5599445f
+0d0d: ROL_IMM r13, 42
+0d10: ROR_IMM r13, 42
+0d13: XOR_IMM r13, 0x3f26e10e36ff7f3b
+0d1d: XOR_IMM r13, 0x3f26e10e36ff7f3b
+0d27: JMP +6 -> 0xd32
+0d2c: NOT r0
+0d2e: SWAP r0, r3
+0d31: FAIL
+0d32: MOV r4, r2
+0d35: XOR_IMM r4, 0xb7c755c3cbe1da65
+0d3f: MOV r6, r3
+0d42: XOR_IMM r6, 0xa0761d6478bd642f
+0d4c: ROL_IMM r6, 55
+0d4f: ADD r4, r6
+0d52: MOV r7, r4
+0d55: SBOX_XOR r4, r7, shr=0, shl=56
+0d5a: SBOX_XOR r4, r7, shr=16, shl=32
+0d5f: SBOX_XOR r4, r7, shr=40, shl=8
+0d64: SBOX_LOAD r8, r3, shr=24
+0d68: MUL_IMM r8, 0x101010101010101
+0d72: ADD r4, r8
+0d75: MUL_IMM r4, 0xd6e8feb86659fd93
+0d7f: MOV r6, r4
+0d82: ADD r6, r3
+0d85: MOV r8, r4
+0d88: SHR_IMM r8, 58
+0d8b: AND_IMM r8, 0x1f
+0d95: ADD_IMM r8, 0x5
+0d9f: ROL r6, r8
+0da2: XOR r4, r6
+0da5: ADD_IMM r4, 0x219c93e3e88ff995
+0daf: MOV r6, r4
+0db2: SHR_IMM r6, 23
+0db5: XOR r4, r6
+0db8: MUL_IMM r4, 0x9fb21c651e98df25
+0dc2: MOV r6, r4
+0dc5: SHR_IMM r6, 29
+0dc8: XOR r4, r6
+0dcb: MOV r6, r3
+0dce: ROL_IMM r6, 17
+0dd1: ADD r4, r6
+0dd4: MOV r6, r4
+0dd7: SHR_IMM r6, 32
+0dda: XOR r4, r6
+0ddd: MOV r5, r3
+0de0: XOR_IMM r5, 0xb8ae126342526c30
+0dea: MOV r6, r2
+0ded: XOR_IMM r6, 0xa0761d6478bd642f
+0df7: ROL_IMM r6, 17
+0dfa: ADD r5, r6
+0dfd: MOV r7, r5
+0e00: SBOX_XOR r5, r7, shr=0, shl=56
+0e05: SBOX_XOR r5, r7, shr=16, shl=32
+0e0a: SBOX_XOR r5, r7, shr=40, shl=8
+0e0f: SBOX_LOAD r8, r2, shr=24
+0e13: MUL_IMM r8, 0x101010101010101
+0e1d: ADD r5, r8
+0e20: MUL_IMM r5, 0xd6e8feb86659fd93
+0e2a: MOV r6, r5
+0e2d: ADD r6, r2
+0e30: MOV r8, r5
+0e33: SHR_IMM r8, 58
+0e36: AND_IMM r8, 0x1f
+0e40: ADD_IMM r8, 0x5
+0e4a: ROL r6, r8
+0e4d: XOR r5, r6
+0e50: ADD_IMM r5, 0x4f3ff712adf58667
+0e5a: MOV r6, r5
+0e5d: SHR_IMM r6, 23
+0e60: XOR r5, r6
+0e63: MUL_IMM r5, 0x9fb21c651e98df25
+0e6d: MOV r6, r5
+0e70: SHR_IMM r6, 29
+0e73: XOR r5, r6
+0e76: MOV r6, r2
+0e79: ROL_IMM r6, 17
+0e7c: ADD r5, r6
+0e7f: MOV r6, r5
+0e82: SHR_IMM r6, 32
+0e85: XOR r5, r6
+0e88: MOV r10, r0
+0e8b: XOR r10, r4
+0e8e: MOV r11, r1
+0e91: XOR r11, r5
+0e94: MOV r0, r2
+0e97: MOV r1, r3
+0e9a: MOV r2, r10
+0e9d: MOV r3, r11
+0ea0: LOAD_IMM r12, 0x170ade66bbc69bf0
+0eaa: CMP_EQ r12, r12
+0ead: JNZ +1 -> 0xeb3
+0eb2: FAIL
+0eb3: LOAD_IMM r13, 0xf6e0c4fc1ac3dd6d
+0ebd: ROL_IMM r13, 9
+0ec0: ROR_IMM r13, 9
+0ec3: XOR_IMM r13, 0xc27fc21e28576fc8
+0ecd: XOR_IMM r13, 0xc27fc21e28576fc8
+0ed7: JMP +6 -> 0xee2
+0edc: NOT r0
+0ede: SWAP r0, r3
+0ee1: FAIL
+0ee2: MOV r4, r2
+0ee5: XOR_IMM r4, 0xc4f6871c6032a703
+0eef: MOV r6, r3
+0ef2: XOR_IMM r6, 0xa0761d6478bd642f
+0efc: ROL_IMM r6, 62
+0eff: ADD r4, r6
+0f02: MOV r7, r4
+0f05: SBOX_XOR r4, r7, shr=0, shl=56
+0f0a: SBOX_XOR r4, r7, shr=16, shl=32
+0f0f: SBOX_XOR r4, r7, shr=40, shl=8
+0f14: SBOX_LOAD r8, r3, shr=24
+0f18: MUL_IMM r8, 0x101010101010101
+0f22: ADD r4, r8
+0f25: MUL_IMM r4, 0xd6e8feb86659fd93
+0f2f: MOV r6, r4
+0f32: ADD r6, r3
+0f35: MOV r8, r4
+0f38: SHR_IMM r8, 58
+0f3b: AND_IMM r8, 0x1f
+0f45: ADD_IMM r8, 0x5
+0f4f: ROL r6, r8
+0f52: XOR r4, r6
+0f55: ADD_IMM r4, 0xc7541da968387578
+0f5f: MOV r6, r4
+0f62: SHR_IMM r6, 23
+0f65: XOR r4, r6
+0f68: MUL_IMM r4, 0x9fb21c651e98df25
+0f72: MOV r6, r4
+0f75: SHR_IMM r6, 29
+0f78: XOR r4, r6
+0f7b: MOV r6, r3
+0f7e: ROL_IMM r6, 17
+0f81: ADD r4, r6
+0f84: MOV r6, r4
+0f87: SHR_IMM r6, 32
+0f8a: XOR r4, r6
+0f8d: MOV r5, r3
+0f90: XOR_IMM r5, 0x9eb3126f37a42c53
+0f9a: MOV r6, r2
+0f9d: XOR_IMM r6, 0xa0761d6478bd642f
+0fa7: ROL_IMM r6, 24
+0faa: ADD r5, r6
+0fad: MOV r7, r5
+0fb0: SBOX_XOR r5, r7, shr=0, shl=56
+0fb5: SBOX_XOR r5, r7, shr=16, shl=32
+0fba: SBOX_XOR r5, r7, shr=40, shl=8
+0fbf: SBOX_LOAD r8, r2, shr=24
+0fc3: MUL_IMM r8, 0x101010101010101
+0fcd: ADD r5, r8
+0fd0: MUL_IMM r5, 0xd6e8feb86659fd93
+0fda: MOV r6, r5
+0fdd: ADD r6, r2
+0fe0: MOV r8, r5
+0fe3: SHR_IMM r8, 58
+0fe6: AND_IMM r8, 0x1f
+0ff0: ADD_IMM r8, 0x5
+0ffa: ROL r6, r8
+0ffd: XOR r5, r6
+1000: ADD_IMM r5, 0xeef771d82d3e024a
+100a: MOV r6, r5
+100d: SHR_IMM r6, 23
+1010: XOR r5, r6
+1013: MUL_IMM r5, 0x9fb21c651e98df25
+101d: MOV r6, r5
+1020: SHR_IMM r6, 29
+1023: XOR r5, r6
+1026: MOV r6, r2
+1029: ROL_IMM r6, 17
+102c: ADD r5, r6
+102f: MOV r6, r5
+1032: SHR_IMM r6, 32
+1035: XOR r5, r6
+1038: MOV r10, r0
+103b: XOR r10, r4
+103e: MOV r11, r1
+1041: XOR r11, r5
+1044: MOV r0, r2
+1047: MOV r1, r3
+104a: MOV r2, r10
+104d: MOV r3, r11
+1050: LOAD_IMM r12, 0xefbbdaa507d8e4a
+105a: CMP_EQ r12, r12
+105d: JNZ +1 -> 0x1063
+1062: FAIL
+1063: LOAD_IMM r13, 0x1b6f9a923251d620
+106d: ROL_IMM r13, 2
+1070: ROR_IMM r13, 2
+1073: XOR_IMM r13, 0x9b9c559b9e953f22
+107d: XOR_IMM r13, 0x9b9c559b9e953f22
+1087: JMP +6 -> 0x1092
+108c: NOT r0
+108e: SWAP r0, r3
+1091: FAIL
+1092: MOV r4, r2
+1095: XOR_IMM r4, 0xcc1efbe0bc120891
+109f: MOV r6, r3
+10a2: XOR_IMM r6, 0xa0761d6478bd642f
+10ac: ROL_IMM r6, 5
+10af: ADD r4, r6
+10b2: MOV r7, r4
+10b5: SBOX_XOR r4, r7, shr=0, shl=56
+10ba: SBOX_XOR r4, r7, shr=16, shl=32
+10bf: SBOX_XOR r4, r7, shr=40, shl=8
+10c4: SBOX_LOAD r8, r3, shr=24
+10c8: MUL_IMM r8, 0x101010101010101
+10d2: ADD r4, r8
+10d5: MUL_IMM r4, 0xd6e8feb86659fd93
+10df: MOV r6, r4
+10e2: ADD r6, r3
+10e5: MOV r8, r4
+10e8: SHR_IMM r8, 58
+10eb: AND_IMM r8, 0x1f
+10f5: ADD_IMM r8, 0x5
+10ff: ROL r6, r8
+1102: XOR r4, r6
+1105: ADD_IMM r4, 0x656b8470e962f143
+110f: MOV r6, r4
+1112: SHR_IMM r6, 23
+1115: XOR r4, r6
+1118: MUL_IMM r4, 0x9fb21c651e98df25
+1122: MOV r6, r4
+1125: SHR_IMM r6, 29
+1128: XOR r4, r6
+112b: MOV r6, r3
+112e: ROL_IMM r6, 17
+1131: ADD r4, r6
+1134: MOV r6, r4
+1137: SHR_IMM r6, 32
+113a: XOR r4, r6
+113d: MOV r5, r3
+1140: XOR_IMM r5, 0x61d218b2b93fcb6e
+114a: MOV r6, r2
+114d: XOR_IMM r6, 0xa0761d6478bd642f
+1157: ROL_IMM r6, 11
+115a: ADD r5, r6
+115d: MOV r7, r5
+1160: SBOX_XOR r5, r7, shr=0, shl=56
+1165: SBOX_XOR r5, r7, shr=16, shl=32
+116a: SBOX_XOR r5, r7, shr=40, shl=8
+116f: SBOX_LOAD r8, r2, shr=24
+1173: MUL_IMM r8, 0x101010101010101
+117d: ADD r5, r8
+1180: MUL_IMM r5, 0xd6e8feb86659fd93
+118a: MOV r6, r5
+118d: ADD r6, r2
+1190: MOV r8, r5
+1193: SHR_IMM r8, 58
+1196: AND_IMM r8, 0x1f
+11a0: ADD_IMM r8, 0x5
+11aa: ROL r6, r8
+11ad: XOR r5, r6
+11b0: ADD_IMM r5, 0x3914b4d1d6eaaf51
+11ba: MOV r6, r5
+11bd: SHR_IMM r6, 23
+11c0: XOR r5, r6
+11c3: MUL_IMM r5, 0x9fb21c651e98df25
+11cd: MOV r6, r5
+11d0: SHR_IMM r6, 29
+11d3: XOR r5, r6
+11d6: MOV r6, r2
+11d9: ROL_IMM r6, 17
+11dc: ADD r5, r6
+11df: MOV r6, r5
+11e2: SHR_IMM r6, 32
+11e5: XOR r5, r6
+11e8: MOV r10, r0
+11eb: XOR r10, r4
+11ee: MOV r11, r1
+11f1: XOR r11, r5
+11f4: MOV r0, r2
+11f7: MOV r1, r3
+11fa: MOV r2, r10
+11fd: MOV r3, r11
+1200: LOAD_IMM r12, 0x2dde909b2d091079
+120a: CMP_EQ r12, r12
+120d: JNZ +1 -> 0x1213
+1212: FAIL
+1213: LOAD_IMM r13, 0x368b0b820f2ba78d
+121d: ROL_IMM r13, 57
+1220: ROR_IMM r13, 57
+1223: XOR_IMM r13, 0xb994556257303b4f
+122d: XOR_IMM r13, 0xb994556257303b4f
+1237: JMP +6 -> 0x1242
+123c: NOT r0
+123e: SWAP r0, r3
+1241: FAIL
+1242: MOV r4, r2
+1245: XOR_IMM r4, 0x9f930ad7342f1a15
+124f: MOV r6, r3
+1252: XOR_IMM r6, 0xa0761d6478bd642f
+125c: ROL_IMM r6, 12
+125f: ADD r4, r6
+1262: MOV r7, r4
+1265: SBOX_XOR r4, r7, shr=0, shl=56
+126a: SBOX_XOR r4, r7, shr=16, shl=32
+126f: SBOX_XOR r4, r7, shr=40, shl=8
+1274: SBOX_LOAD r8, r3, shr=24
+1278: MUL_IMM r8, 0x101010101010101
+1282: ADD r4, r8
+1285: MUL_IMM r4, 0xd6e8feb86659fd93
+128f: MOV r6, r4
+1292: ADD r6, r3
+1295: MOV r8, r4
+1298: SHR_IMM r8, 58
+129b: AND_IMM r8, 0x1f
+12a5: ADD_IMM r8, 0x5
+12af: ROL r6, r8
+12b2: XOR r4, r6
+12b5: ADD_IMM r4, 0x1b230e3e6aaf4d56
+12bf: MOV r6, r4
+12c2: SHR_IMM r6, 23
+12c5: XOR r4, r6
+12c8: MUL_IMM r4, 0x9fb21c651e98df25
+12d2: MOV r6, r4
+12d5: SHR_IMM r6, 29
+12d8: XOR r4, r6
+12db: MOV r6, r3
+12de: ROL_IMM r6, 17
+12e1: ADD r4, r6
+12e4: MOV r6, r4
+12e7: SHR_IMM r6, 32
+12ea: XOR r4, r6
+12ed: MOV r5, r3
+12f0: XOR_IMM r5, 0x29180e6cf0580327
+12fa: MOV r6, r2
+12fd: XOR_IMM r6, 0xa0761d6478bd642f
+1307: ROL_IMM r6, 18
+130a: ADD r5, r6
+130d: MOV r7, r5
+1310: SBOX_XOR r5, r7, shr=0, shl=56
+1315: SBOX_XOR r5, r7, shr=16, shl=32
+131a: SBOX_XOR r5, r7, shr=40, shl=8
+131f: SBOX_LOAD r8, r2, shr=24
+1323: MUL_IMM r8, 0x101010101010101
+132d: ADD r5, r8
+1330: MUL_IMM r5, 0xd6e8feb86659fd93
+133a: MOV r6, r5
+133d: ADD r6, r2
+1340: MOV r8, r5
+1343: SHR_IMM r8, 58
+1346: AND_IMM r8, 0x1f
+1350: ADD_IMM r8, 0x5
+135a: ROL r6, r8
+135d: XOR r5, r6
+1360: ADD_IMM r5, 0xdf2c3e9f56172b24
+136a: MOV r6, r5
+136d: SHR_IMM r6, 23
+1370: XOR r5, r6
+1373: MUL_IMM r5, 0x9fb21c651e98df25
+137d: MOV r6, r5
+1380: SHR_IMM r6, 29
+1383: XOR r5, r6
+1386: MOV r6, r2
+1389: ROL_IMM r6, 17
+138c: ADD r5, r6
+138f: MOV r6, r5
+1392: SHR_IMM r6, 32
+1395: XOR r5, r6
+1398: MOV r10, r0
+139b: XOR r10, r4
+139e: MOV r11, r1
+13a1: XOR r11, r5
+13a4: MOV r0, r2
+13a7: MOV r1, r3
+13aa: MOV r2, r10
+13ad: MOV r3, r11
+13b0: LOAD_IMM r12, 0xf4eeee1069f0fe14
+13ba: CMP_EQ r12, r12
+13bd: JNZ +1 -> 0x13c3
+13c2: FAIL
+13c3: LOAD_IMM r13, 0x450a3ea07171d576
+13cd: ROL_IMM r13, 62
+13d0: ROR_IMM r13, 62
+13d3: XOR_IMM r13, 0xc7a7e39e4fbcf788
+13dd: XOR_IMM r13, 0xc7a7e39e4fbcf788
+13e7: JMP +6 -> 0x13f2
+13ec: NOT r0
+13ee: SWAP r0, r3
+13f1: FAIL
+13f2: MOV r4, r2
+13f5: XOR_IMM r4, 0xe0375b0e4d2ee789
+13ff: MOV r6, r3
+1402: XOR_IMM r6, 0xa0761d6478bd642f
+140c: ROL_IMM r6, 19
+140f: ADD r4, r6
+1412: MOV r7, r4
+1415: SBOX_XOR r4, r7, shr=0, shl=56
+141a: SBOX_XOR r4, r7, shr=16, shl=32
+141f: SBOX_XOR r4, r7, shr=40, shl=8
+1424: SBOX_LOAD r8, r3, shr=24
+1428: MUL_IMM r8, 0x101010101010101
+1432: ADD r4, r8
+1435: MUL_IMM r4, 0xd6e8feb86659fd93
+143f: MOV r6, r4
+1442: ADD r6, r3
+1445: MOV r8, r4
+1448: SHR_IMM r8, 58
+144b: AND_IMM r8, 0x1f
+1455: ADD_IMM r8, 0x5
+145f: ROL r6, r8
+1462: XOR r4, r6
+1465: ADD_IMM r4, 0xbafa8885ebd9c939
+146f: MOV r6, r4
+1472: SHR_IMM r6, 23
+1475: XOR r4, r6
+1478: MUL_IMM r4, 0x9fb21c651e98df25
+1482: MOV r6, r4
+1485: SHR_IMM r6, 29
+1488: XOR r4, r6
+148b: MOV r6, r3
+148e: ROL_IMM r6, 17
+1491: ADD r4, r6
+1494: MOV r6, r4
+1497: SHR_IMM r6, 32
+149a: XOR r4, r6
+149d: MOV r5, r3
+14a0: XOR_IMM r5, 0xd34d1bf42909da9f
+14aa: MOV r6, r2
+14ad: XOR_IMM r6, 0xa0761d6478bd642f
+14b7: ROL_IMM r6, 61
+14ba: ADD r5, r6
+14bd: MOV r7, r5
+14c0: SBOX_XOR r5, r7, shr=0, shl=56
+14c5: SBOX_XOR r5, r7, shr=16, shl=32
+14ca: SBOX_XOR r5, r7, shr=40, shl=8
+14cf: SBOX_LOAD r8, r2, shr=24
+14d3: MUL_IMM r8, 0x101010101010101
+14dd: ADD r5, r8
+14e0: MUL_IMM r5, 0xd6e8feb86659fd93
+14ea: MOV r6, r5
+14ed: ADD r6, r2
+14f0: MOV r8, r5
+14f3: SHR_IMM r8, 58
+14f6: AND_IMM r8, 0x1f
+1500: ADD_IMM r8, 0x5
+150a: ROL r6, r8
+150d: XOR r5, r6
+1510: ADD_IMM r5, 0xe586404cd477d77b
+151a: MOV r6, r5
+151d: SHR_IMM r6, 23
+1520: XOR r5, r6
+1523: MUL_IMM r5, 0x9fb21c651e98df25
+152d: MOV r6, r5
+1530: SHR_IMM r6, 29
+1533: XOR r5, r6
+1536: MOV r6, r2
+1539: ROL_IMM r6, 17
+153c: ADD r5, r6
+153f: MOV r6, r5
+1542: SHR_IMM r6, 32
+1545: XOR r5, r6
+1548: MOV r10, r0
+154b: XOR r10, r4
+154e: MOV r11, r1
+1551: XOR r11, r5
+1554: MOV r0, r2
+1557: MOV r1, r3
+155a: MOV r2, r10
+155d: MOV r3, r11
+1560: LOAD_IMM r12, 0x61579102dc726f51
+156a: CMP_EQ r12, r12
+156d: JNZ +1 -> 0x1573
+1572: FAIL
+1573: LOAD_IMM r13, 0x81efc65edb1d3b5c
+157d: ROL_IMM r13, 31
+1580: ROR_IMM r13, 31
+1583: XOR_IMM r13, 0x7e5d19e67bae84e2
+158d: XOR_IMM r13, 0x7e5d19e67bae84e2
+1597: JMP +6 -> 0x15a2
+159c: NOT r0
+159e: SWAP r0, r3
+15a1: FAIL
+15a2: MOV r4, r2
+15a5: XOR_IMM r4, 0x12f543adb83322f6
+15af: MOV r6, r3
+15b2: XOR_IMM r6, 0xa0761d6478bd642f
+15bc: ROL_IMM r6, 26
+15bf: ADD r4, r6
+15c2: MOV r7, r4
+15c5: SBOX_XOR r4, r7, shr=0, shl=56
+15ca: SBOX_XOR r4, r7, shr=16, shl=32
+15cf: SBOX_XOR r4, r7, shr=40, shl=8
+15d4: SBOX_LOAD r8, r3, shr=24
+15d8: MUL_IMM r8, 0x101010101010101
+15e2: ADD r4, r8
+15e5: MUL_IMM r4, 0xd6e8feb86659fd93
+15ef: MOV r6, r4
+15f2: ADD r6, r3
+15f5: MOV r8, r4
+15f8: SHR_IMM r8, 58
+15fb: AND_IMM r8, 0x1f
+1605: ADD_IMM r8, 0x5
+160f: ROL r6, r8
+1612: XOR r4, r6
+1615: ADD_IMM r4, 0x58b273436b02450c
+161f: MOV r6, r4
+1622: SHR_IMM r6, 23
+1625: XOR r4, r6
+1628: MUL_IMM r4, 0x9fb21c651e98df25
+1632: MOV r6, r4
+1635: SHR_IMM r6, 29
+1638: XOR r4, r6
+163b: MOV r6, r3
+163e: ROL_IMM r6, 17
+1641: ADD r4, r6
+1644: MOV r6, r4
+1647: SHR_IMM r6, 32
+164a: XOR r4, r6
+164d: MOV r5, r3
+1650: XOR_IMM r5, 0x62762fa4fee94a2c
+165a: MOV r6, r2
+165d: XOR_IMM r6, 0xa0761d6478bd642f
+1667: ROL_IMM r6, 4
+166a: ADD r5, r6
+166d: MOV r7, r5
+1670: SBOX_XOR r5, r7, shr=0, shl=56
+1675: SBOX_XOR r5, r7, shr=16, shl=32
+167a: SBOX_XOR r5, r7, shr=40, shl=8
+167f: SBOX_LOAD r8, r2, shr=24
+1683: MUL_IMM r8, 0x101010101010101
+168d: ADD r5, r8
+1690: MUL_IMM r5, 0xd6e8feb86659fd93
+169a: MOV r6, r5
+169d: ADD r6, r2
+16a0: MOV r8, r5
+16a3: SHR_IMM r8, 58
+16a6: AND_IMM r8, 0x1f
+16b0: ADD_IMM r8, 0x5
+16ba: ROL r6, r8
+16bd: XOR r5, r6
+16c0: ADD_IMM r5, 0x9b5dca0a55a0534e
+16ca: MOV r6, r5
+16cd: SHR_IMM r6, 23
+16d0: XOR r5, r6
+16d3: MUL_IMM r5, 0x9fb21c651e98df25
+16dd: MOV r6, r5
+16e0: SHR_IMM r6, 29
+16e3: XOR r5, r6
+16e6: MOV r6, r2
+16e9: ROL_IMM r6, 17
+16ec: ADD r5, r6
+16ef: MOV r6, r5
+16f2: SHR_IMM r6, 32
+16f5: XOR r5, r6
+16f8: MOV r10, r0
+16fb: XOR r10, r4
+16fe: MOV r11, r1
+1701: XOR r11, r5
+1704: MOV r0, r2
+1707: MOV r1, r3
+170a: MOV r2, r10
+170d: MOV r3, r11
+1710: LOAD_IMM r12, 0x572b7e1ac3bad436
+171a: CMP_EQ r12, r12
+171d: JNZ +1 -> 0x1723
+1722: FAIL
+1723: LOAD_IMM r13, 0x800a4563f6604e88
+172d: ROL_IMM r13, 22
+1730: ROR_IMM r13, 22
+1733: XOR_IMM r13, 0xbd18a6896eb775b6
+173d: XOR_IMM r13, 0xbd18a6896eb775b6
+1747: JMP +6 -> 0x1752
+174c: NOT r0
+174e: SWAP r0, r3
+1751: FAIL
+1752: MOV r4, r2
+1755: XOR_IMM r4, 0x7e00ccb468b24426
+175f: MOV r6, r3
+1762: XOR_IMM r6, 0xa0761d6478bd642f
+176c: ROL_IMM r6, 33
+176f: ADD r4, r6
+1772: MOV r7, r4
+1775: SBOX_XOR r4, r7, shr=0, shl=56
+177a: SBOX_XOR r4, r7, shr=16, shl=32
+177f: SBOX_XOR r4, r7, shr=40, shl=8
+1784: SBOX_LOAD r8, r3, shr=24
+1788: MUL_IMM r8, 0x101010101010101
+1792: ADD r4, r8
+1795: MUL_IMM r4, 0xd6e8feb86659fd93
+179f: MOV r6, r4
+17a2: ADD r6, r3
+17a5: MOV r8, r4
+17a8: SHR_IMM r8, 58
+17ab: AND_IMM r8, 0x1f
+17b5: ADD_IMM r8, 0x5
+17bf: ROL r6, r8
+17c2: XOR r4, r6
+17c5: ADD_IMM r4, 0xfe49fd0ae44cc117
+17cf: MOV r6, r4
+17d2: SHR_IMM r6, 23
+17d5: XOR r4, r6
+17d8: MUL_IMM r4, 0x9fb21c651e98df25
+17e2: MOV r6, r4
+17e5: SHR_IMM r6, 29
+17e8: XOR r4, r6
+17eb: MOV r6, r3
+17ee: ROL_IMM r6, 17
+17f1: ADD r4, r6
+17f4: MOV r6, r4
+17f7: SHR_IMM r6, 32
+17fa: XOR r4, r6
+17fd: MOV r5, r3
+1800: XOR_IMM r5, 0xc5dbb135abea0cf8
+180a: MOV r6, r2
+180d: XOR_IMM r6, 0xa0761d6478bd642f
+1817: ROL_IMM r6, 39
+181a: ADD r5, r6
+181d: MOV r7, r5
+1820: SBOX_XOR r5, r7, shr=0, shl=56
+1825: SBOX_XOR r5, r7, shr=16, shl=32
+182a: SBOX_XOR r5, r7, shr=40, shl=8
+182f: SBOX_LOAD r8, r2, shr=24
+1833: MUL_IMM r8, 0x101010101010101
+183d: ADD r5, r8
+1840: MUL_IMM r5, 0xd6e8feb86659fd93
+184a: MOV r6, r5
+184d: ADD r6, r2
+1850: MOV r8, r5
+1853: SHR_IMM r8, 58
+1856: AND_IMM r8, 0x1f
+1860: ADD_IMM r8, 0x5
+186a: ROL r6, r8
+186d: XOR r5, r6
+1870: ADD_IMM r5, 0xb272adebd034bee5
+187a: MOV r6, r5
+187d: SHR_IMM r6, 23
+1880: XOR r5, r6
+1883: MUL_IMM r5, 0x9fb21c651e98df25
+188d: MOV r6, r5
+1890: SHR_IMM r6, 29
+1893: XOR r5, r6
+1896: MOV r6, r2
+1899: ROL_IMM r6, 17
+189c: ADD r5, r6
+189f: MOV r6, r5
+18a2: SHR_IMM r6, 32
+18a5: XOR r5, r6
+18a8: MOV r10, r0
+18ab: XOR r10, r4
+18ae: MOV r11, r1
+18b1: XOR r11, r5
+18b4: MOV r0, r2
+18b7: MOV r1, r3
+18ba: MOV r2, r10
+18bd: MOV r3, r11
+18c0: LOAD_IMM r12, 0x7ce43a23b0b5bd39
+18ca: CMP_EQ r12, r12
+18cd: JNZ +1 -> 0x18d3
+18d2: FAIL
+18d3: LOAD_IMM r13, 0x134665cdc0b5d482
+18dd: ROL_IMM r13, 38
+18e0: ROR_IMM r13, 38
+18e3: XOR_IMM r13, 0xc915835e3e994a41
+18ed: XOR_IMM r13, 0xc915835e3e994a41
+18f7: JMP +6 -> 0x1902
+18fc: NOT r0
+18fe: SWAP r0, r3
+1901: FAIL
+1902: MOV r4, r2
+1905: XOR_IMM r4, 0x230fd7ece3e0f118
+190f: MOV r6, r3
+1912: XOR_IMM r6, 0xa0761d6478bd642f
+191c: ROL_IMM r6, 40
+191f: ADD r4, r6
+1922: MOV r7, r4
+1925: SBOX_XOR r4, r7, shr=0, shl=56
+192a: SBOX_XOR r4, r7, shr=16, shl=32
+192f: SBOX_XOR r4, r7, shr=40, shl=8
+1934: SBOX_LOAD r8, r3, shr=24
+1938: MUL_IMM r8, 0x101010101010101
+1942: ADD r4, r8
+1945: MUL_IMM r4, 0xd6e8feb86659fd93
+194f: MOV r6, r4
+1952: ADD r6, r3
+1955: MOV r8, r4
+1958: SHR_IMM r8, 58
+195b: AND_IMM r8, 0x1f
+1965: ADD_IMM r8, 0x5
+196f: ROL r6, r8
+1972: XOR r4, r6
+1975: ADD_IMM r4, 0x9c0167d065f95cfa
+197f: MOV r6, r4
+1982: SHR_IMM r6, 23
+1985: XOR r4, r6
+1988: MUL_IMM r4, 0x9fb21c651e98df25
+1992: MOV r6, r4
+1995: SHR_IMM r6, 29
+1998: XOR r4, r6
+199b: MOV r6, r3
+199e: ROL_IMM r6, 17
+19a1: ADD r4, r6
+19a4: MOV r6, r4
+19a7: SHR_IMM r6, 32
+19aa: XOR r4, r6
+19ad: MOV r5, r3
+19b0: XOR_IMM r5, 0x3cde2f30cfd6368d
+19ba: MOV r6, r2
+19bd: XOR_IMM r6, 0xa0761d6478bd642f
+19c7: ROL_IMM r6, 46
+19ca: ADD r5, r6
+19cd: MOV r7, r5
+19d0: SBOX_XOR r5, r7, shr=0, shl=56
+19d5: SBOX_XOR r5, r7, shr=16, shl=32
+19da: SBOX_XOR r5, r7, shr=40, shl=8
+19df: SBOX_LOAD r8, r2, shr=24
+19e3: MUL_IMM r8, 0x101010101010101
+19ed: ADD r5, r8
+19f0: MUL_IMM r5, 0xd6e8feb86659fd93
+19fa: MOV r6, r5
+19fd: ADD r6, r2
+1a00: MOV r8, r5
+1a03: SHR_IMM r8, 58
+1a06: AND_IMM r8, 0x1f
+1a10: ADD_IMM r8, 0x5
+1a1a: ROL r6, r8
+1a1d: XOR r5, r6
+1a20: ADD_IMM r5, 0x500a17b151613ac8
+1a2a: MOV r6, r5
+1a2d: SHR_IMM r6, 23
+1a30: XOR r5, r6
+1a33: MUL_IMM r5, 0x9fb21c651e98df25
+1a3d: MOV r6, r5
+1a40: SHR_IMM r6, 29
+1a43: XOR r5, r6
+1a46: MOV r6, r2
+1a49: ROL_IMM r6, 17
+1a4c: ADD r5, r6
+1a4f: MOV r6, r5
+1a52: SHR_IMM r6, 32
+1a55: XOR r5, r6
+1a58: MOV r10, r0
+1a5b: XOR r10, r4
+1a5e: MOV r11, r1
+1a61: XOR r11, r5
+1a64: MOV r0, r2
+1a67: MOV r1, r3
+1a6a: MOV r2, r10
+1a6d: MOV r3, r11
+1a70: LOAD_IMM r12, 0x7ec2972ee7c32031
+1a7a: CMP_EQ r12, r12
+1a7d: JNZ +1 -> 0x1a83
+1a82: FAIL
+1a83: LOAD_IMM r13, 0x74cac200d584c9bf
+1a8d: ROL_IMM r13, 59
+1a90: ROR_IMM r13, 59
+1a93: XOR_IMM r13, 0x55aac551f77eb626
+1a9d: XOR_IMM r13, 0x55aac551f77eb626
+1aa7: JMP +6 -> 0x1ab2
+1aac: NOT r0
+1aae: SWAP r0, r3
+1ab1: FAIL
+1ab2: MOV r4, r2
+1ab5: XOR_IMM r4, 0x69eff027f00bf12f
+1abf: MOV r6, r3
+1ac2: XOR_IMM r6, 0xa0761d6478bd642f
+1acc: ROL_IMM r6, 47
+1acf: ADD r4, r6
+1ad2: MOV r7, r4
+1ad5: SBOX_XOR r4, r7, shr=0, shl=56
+1ada: SBOX_XOR r4, r7, shr=16, shl=32
+1adf: SBOX_XOR r4, r7, shr=40, shl=8
+1ae4: SBOX_LOAD r8, r3, shr=24
+1ae8: MUL_IMM r8, 0x101010101010101
+1af2: ADD r4, r8
+1af5: MUL_IMM r4, 0xd6e8feb86659fd93
+1aff: MOV r6, r4
+1b02: ADD r6, r3
+1b05: MOV r8, r4
+1b08: SHR_IMM r8, 58
+1b0b: AND_IMM r8, 0x1f
+1b15: ADD_IMM r8, 0x5
+1b1f: ROL r6, r8
+1b22: XOR r4, r6
+1b25: ADD_IMM r4, 0x33d8e19fe523d8cd
+1b2f: MOV r6, r4
+1b32: SHR_IMM r6, 23
+1b35: XOR r4, r6
+1b38: MUL_IMM r4, 0x9fb21c651e98df25
+1b42: MOV r6, r4
+1b45: SHR_IMM r6, 29
+1b48: XOR r4, r6
+1b4b: MOV r6, r3
+1b4e: ROL_IMM r6, 17
+1b51: ADD r4, r6
+1b54: MOV r6, r4
+1b57: SHR_IMM r6, 32
+1b5a: XOR r4, r6
+1b5d: MOV r5, r3
+1b60: XOR_IMM r5, 0x50977f08990043c1
+1b6a: MOV r6, r2
+1b6d: XOR_IMM r6, 0xa0761d6478bd642f
+1b77: ROL_IMM r6, 25
+1b7a: ADD r5, r6
+1b7d: MOV r7, r5
+1b80: SBOX_XOR r5, r7, shr=0, shl=56
+1b85: SBOX_XOR r5, r7, shr=16, shl=32
+1b8a: SBOX_XOR r5, r7, shr=40, shl=8
+1b8f: SBOX_LOAD r8, r2, shr=24
+1b93: MUL_IMM r8, 0x101010101010101
+1b9d: ADD r5, r8
+1ba0: MUL_IMM r5, 0xd6e8feb86659fd93
+1baa: MOV r6, r5
+1bad: ADD r6, r2
+1bb0: MOV r8, r5
+1bb3: SHR_IMM r8, 58
+1bb6: AND_IMM r8, 0x1f
+1bc0: ADD_IMM r8, 0x5
+1bca: ROL r6, r8
+1bcd: XOR r5, r6
+1bd0: ADD_IMM r5, 0x7ee3b966d741a70f
+1bda: MOV r6, r5
+1bdd: SHR_IMM r6, 23
+1be0: XOR r5, r6
+1be3: MUL_IMM r5, 0x9fb21c651e98df25
+1bed: MOV r6, r5
+1bf0: SHR_IMM r6, 29
+1bf3: XOR r5, r6
+1bf6: MOV r6, r2
+1bf9: ROL_IMM r6, 17
+1bfc: ADD r5, r6
+1bff: MOV r6, r5
+1c02: SHR_IMM r6, 32
+1c05: XOR r5, r6
+1c08: MOV r10, r0
+1c0b: XOR r10, r4
+1c0e: MOV r11, r1
+1c11: XOR r11, r5
+1c14: MOV r0, r2
+1c17: MOV r1, r3
+1c1a: MOV r2, r10
+1c1d: MOV r3, r11
+1c20: LOAD_IMM r12, 0xc2d8568ba613df32
+1c2a: CMP_EQ r12, r12
+1c2d: JNZ +1 -> 0x1c33
+1c32: FAIL
+1c33: LOAD_IMM r13, 0x82fef442dea715aa
+1c3d: ROL_IMM r13, 43
+1c40: ROR_IMM r13, 43
+1c43: XOR_IMM r13, 0xd0ab27c122b363a6
+1c4d: XOR_IMM r13, 0xd0ab27c122b363a6
+1c57: JMP +6 -> 0x1c62
+1c5c: NOT r0
+1c5e: SWAP r0, r3
+1c61: FAIL
+1c62: MOV r4, r2
+1c65: XOR_IMM r4, 0x22a704b842aa8ff1
+1c6f: MOV r6, r3
+1c72: XOR_IMM r6, 0xa0761d6478bd642f
+1c7c: ROL_IMM r6, 54
+1c7f: ADD r4, r6
+1c82: MOV r7, r4
+1c85: SBOX_XOR r4, r7, shr=0, shl=56
+1c8a: SBOX_XOR r4, r7, shr=16, shl=32
+1c8f: SBOX_XOR r4, r7, shr=40, shl=8
+1c94: SBOX_LOAD r8, r3, shr=24
+1c98: MUL_IMM r8, 0x101010101010101
+1ca2: ADD r4, r8
+1ca5: MUL_IMM r4, 0xd6e8feb86659fd93
+1caf: MOV r6, r4
+1cb2: ADD r6, r3
+1cb5: MOV r8, r4
+1cb8: SHR_IMM r8, 58
+1cbb: AND_IMM r8, 0x1f
+1cc5: ADD_IMM r8, 0x5
+1ccf: ROL r6, r8
+1cd2: XOR r4, r6
+1cd5: ADD_IMM r4, 0xd1906865666c54d0
+1cdf: MOV r6, r4
+1ce2: SHR_IMM r6, 23
+1ce5: XOR r4, r6
+1ce8: MUL_IMM r4, 0x9fb21c651e98df25
+1cf2: MOV r6, r4
+1cf5: SHR_IMM r6, 29
+1cf8: XOR r4, r6
+1cfb: MOV r6, r3
+1cfe: ROL_IMM r6, 17
+1d01: ADD r4, r6
+1d04: MOV r6, r4
+1d07: SHR_IMM r6, 32
+1d0a: XOR r4, r6
+1d0d: MOV r5, r3
+1d10: XOR_IMM r5, 0x8a73b90ed0fd8c48
+1d1a: MOV r6, r2
+1d1d: XOR_IMM r6, 0xa0761d6478bd642f
+1d27: ROL_IMM r6, 32
+1d2a: ADD r5, r6
+1d2d: MOV r7, r5
+1d30: SBOX_XOR r5, r7, shr=0, shl=56
+1d35: SBOX_XOR r5, r7, shr=16, shl=32
+1d3a: SBOX_XOR r5, r7, shr=40, shl=8
+1d3f: SBOX_LOAD r8, r2, shr=24
+1d43: MUL_IMM r8, 0x101010101010101
+1d4d: ADD r5, r8
+1d50: MUL_IMM r5, 0xd6e8feb86659fd93
+1d5a: MOV r6, r5
+1d5d: ADD r6, r2
+1d60: MOV r8, r5
+1d63: SHR_IMM r8, 58
+1d66: AND_IMM r8, 0x1f
+1d70: ADD_IMM r8, 0x5
+1d7a: ROL r6, r8
+1d7d: XOR r5, r6
+1d80: ADD_IMM r5, 0x1cbb232c508a2312
+1d8a: MOV r6, r5
+1d8d: SHR_IMM r6, 23
+1d90: XOR r5, r6
+1d93: MUL_IMM r5, 0x9fb21c651e98df25
+1d9d: MOV r6, r5
+1da0: SHR_IMM r6, 29
+1da3: XOR r5, r6
+1da6: MOV r6, r2
+1da9: ROL_IMM r6, 17
+1dac: ADD r5, r6
+1daf: MOV r6, r5
+1db2: SHR_IMM r6, 32
+1db5: XOR r5, r6
+1db8: MOV r10, r0
+1dbb: XOR r10, r4
+1dbe: MOV r11, r1
+1dc1: XOR r11, r5
+1dc4: MOV r0, r2
+1dc7: MOV r1, r3
+1dca: MOV r2, r10
+1dcd: MOV r3, r11
+1dd0: LOAD_IMM r12, 0xdb28b6b1ac1be9ac
+1dda: CMP_EQ r12, r12
+1ddd: JNZ +1 -> 0x1de3
+1de2: FAIL
+1de3: LOAD_IMM r13, 0x2522f99799a5e00c
+1ded: ROL_IMM r13, 52
+1df0: ROR_IMM r13, 52
+1df3: XOR_IMM r13, 0x12548ebd19b9ea78
+1dfd: XOR_IMM r13, 0x12548ebd19b9ea78
+1e07: JMP +6 -> 0x1e12
+1e0c: NOT r0
+1e0e: SWAP r0, r3
+1e11: FAIL
+1e12: LOAD_IMM r4, 0xffe472913819fb83
+1e1c: CMP_EQ r0, r4
+1e1f: JZ +55 -> 0x1e5b
+1e24: LOAD_IMM r4, 0xff12a1c6dff42510
+1e2e: CMP_EQ r1, r4
+1e31: JZ +37 -> 0x1e5b
+1e36: LOAD_IMM r4, 0xaba41a37d8f557ea
+1e40: CMP_EQ r2, r4
+1e43: JZ +19 -> 0x1e5b
+1e48: LOAD_IMM r4, 0xdf68174149473fc4
+1e52: CMP_EQ r3, r4
+1e55: JZ +1 -> 0x1e5b
+1e5a: SUCCESS

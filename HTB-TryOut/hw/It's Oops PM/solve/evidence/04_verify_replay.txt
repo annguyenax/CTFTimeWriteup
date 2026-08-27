@@ -1,0 +1,6 @@
+Q: independent TCP replay same flag? |+ same HTB{...} |- different/none
+banner=The input must be a binary signal of 16 bits.
+send=1111111111101001
+Output: 0110001111100001
+You triggered the backdoor here is the flag: HTB{4_7yp1c41_53cu23_TPM_ch1p}
+FLAG=HTB{4_7yp1c41_53cu23_TPM_ch1p}

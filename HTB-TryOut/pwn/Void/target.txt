@@ -1,0 +1,6 @@
+# pwn/Void — HTB Try Out remote target
+# Dán IP:port (hoặc URL) instance bạn vừa Spawn trên HTB vào dòng dưới:
+TARGET=
+# ví dụ web:  TARGET=http://83.136.xxx.xx:4xxxx
+# ví dụ pwn:  TARGET=83.136.xxx.xx 4xxxx   (nc host port)
+# Assigned to: (Grok / Codex / Gemini / dsh)

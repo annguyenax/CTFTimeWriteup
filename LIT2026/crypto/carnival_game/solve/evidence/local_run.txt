@@ -1,0 +1,2 @@
+Congratulations! Here's your flag b'LITCTF{fake_flag_for_local_test}'
+WIN: True

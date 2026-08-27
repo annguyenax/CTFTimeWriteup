@@ -1,0 +1,16 @@
+FLAG: HTB{Th3Phr3aksReadyT0Att4ck}
+SOURCE: files/_work/reassembled.bin (phreaks_plan.pdf, 15 parts concatenated)
+Page 2 stream (FlateDecode) contains:
+  "Key for secure communication: HTB{Th3Phr3aksReadyT0Att4ck}."
+Pipeline (reproducible):
+  1. phreaky.pcap (zip pwd: hackthebox)
+  2. 15 SMTP emails (caleb@thephreaks.com -> resources@thetalents.com), port 25
+  3. Each email: body "Password: <pwd>" + application/zip attachment (AES/deflate-encrypted zip)
+  4. Each zip contains phreaks_plan.pdf.partN (N=1..15), extract with email password
+  5. Concatenate part1..part15 -> valid PDF (%PDF-1.3 ... %%EOF)
+  6. Decompress page-2 content stream -> flag
+
+Passwords:
+01 S3W8yzixNoL8  02 r5Q6YQEcGWEF  03 TVm9aC1UycxF  04 jISlbC8145Ox  05 AdtJYhF4sFgv
+06 j2SRRDraIvUZ  07 xh161WSXX7tB  08 yH5vqnkm7Ixa  09 tJPUTUfceO1P  10 2qKlZHZlBPQz
+11 mbkUvLZ1koxu  12 ZN4yKAYrtf8x  13 0eA143t4432M  14 oea41WCJrWwN  15 gdOvbPtB0xCK

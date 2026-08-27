@@ -1,0 +1,90 @@
+# ============================================================
+#  CTF writeup repository — keep writeups, solve scripts and
+#  small evidence.  Original challenge distributables, extracted
+#  working trees and large binaries are intentionally excluded
+#  (GitHub 100 MB/file limit; these are reproducible from the
+#  original challenge sources).
+# ============================================================
+
+# ── Local secrets / editor / MCP config ──
+.mcp.json
+.vscode/
+.env
+*.key
+*-key.txt
+*.pem
+
+# ── Original challenge material & working trees ──
+**/files/
+**/_work/
+**/extract/
+**/extracted/
+**/unpacked/
+**/Crashpad/
+**/_dbg/
+**/raw/
+
+# ── Nested upstream tool (available from its own repo) ──
+KaliCTF2026/skyline-parser/
+
+# ── Archives & disk / memory images ──
+*.zip
+*.tar
+*.tar.*
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.iso
+*.vmdk
+*.vhd
+*.vhdx
+*.img
+*.dd
+*.raw
+*.dmp
+*.mem
+
+# ── Captures, media, model weights ──
+*.pcap
+*.pcapng
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.avi
+
+# ── Binaries / libraries ──
+*.exe
+*.dll
+*.pyd
+*.so
+*.so.*
+*.deb
+*.flp
+*.bin
+
+# ── Wordlists ──
+rockyou.txt
+
+# ── Tooling cruft ──
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# ── Disposable scratch / working dirs (solve experiments, downloaded object stores) ──
+**/ctf-scratch/
+**/_scratch/
+**/scratch/

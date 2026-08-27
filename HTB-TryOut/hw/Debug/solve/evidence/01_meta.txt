@@ -1,0 +1,6 @@
+Q: What is in hw_debug.sal?
+rate=25000000
+enabled=[{type:Digital,index:0 TX},{type:Digital,index:1 RX}]
+duration=37.46758656
+internal_header=<SALEAE> ver=1 type=100 (NOT documented export type 0)
+Q: UART decode from internal bins? |- type=100 is render mipmap; no type=0 export on disk

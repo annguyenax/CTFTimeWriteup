@@ -1,0 +1,39 @@
+2 J
+0.57 w
+BT /F1 12.00 Tf ET
+BT 98.16 795.77 Td (Operation Spotlight: The Phreaks' Grand Scheme Against The Talents) Tj ET
+BT 31.19 767.42 Td (Execution Plan) Tj ET
+BT /F3 12.00 Tf ET
+BT 31.19 724.90 Td (Phase 1: Infiltration) Tj ET
+4.586 Tw
+BT 31.19 696.55 Td (Utilizing our expertise in telecommunications, we will intercept and manipulate The Talents') Tj ET
+0 Tw
+BT 31.19 668.21 Td (communications, gaining access to their internal networks.) Tj ET
+BT 31.19 611.51 Td (Phase 2: Main Operation) Tj ET
+5.802 Tw
+BT 31.19 583.17 Td (With access secured, we will deploy malware and launch DDoS attacks to cripple their) Tj ET
+0 Tw
+BT 31.19 554.82 Td (infrastructure, while planting false information to erode trust in their leadership.) Tj ET
+BT 31.19 498.13 Td (Phase 3: Exit Strategy) Tj ET
+0.667 Tw
+BT 31.19 469.78 Td (Our exit will be as silent as our entrance, erasing traces of our presence and leaving behind a web) Tj ET
+0 Tw
+BT 31.19 441.44 Td (of confusion and disarray.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.19 384.74 Td (Conclusion) Tj ET
+BT /F3 12.00 Tf ET
+0.358 Tw
+BT 31.19 342.22 Td (The successful execution of this plan will not only diminish The Talents' hold over public opinion but) Tj ET
+0.076 Tw
+BT 31.19 313.88 Td (will also cement The Phreaks' position as a dominant force within KORP. Through strategic planning) Tj ET
+0 Tw
+BT 31.19 285.53 Td (and flawless execution, we will emerge victorious.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.19 228.84 Td (Appendix: Communication Protocols) Tj ET
+BT /F3 12.00 Tf ET
+0.224 Tw
+BT 31.19 186.32 Td (For secure communication, all operatives are required to use encrypted channels only. Coordination) Tj ET
+1.763 Tw
+BT 31.19 157.97 Td (of the attack will follow predefined code phrases to maintain operational security. Key for secure) Tj ET
+0 Tw
+BT 31.19 129.63 Td (communication: HTB{Th3Phr3aksReadyT0Att4ck}.) Tj ET

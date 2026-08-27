@@ -1,0 +1,632 @@
+[
+  {
+    "path": "sv_hall\\0088_Hall_Hall_Street_153.jpg",
+    "good_matches": 35,
+    "inliers": 21,
+    "inlier_ratio": 0.6,
+    "median_error": 0.493408739566803
+  },
+  {
+    "path": "sv_hall\\0028_Hall_Loftus_Street_333.jpg",
+    "good_matches": 27,
+    "inliers": 17,
+    "inlier_ratio": 0.6296296296296297,
+    "median_error": 0.44954782724380493
+  },
+  {
+    "path": "sv_hall\\0009_Hall_Gladstone_Street_60.jpg",
+    "good_matches": 27,
+    "inliers": 15,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 1.0713752508163452
+  },
+  {
+    "path": "sv_hall\\0005_Hall_Victoria_Street_117.jpg",
+    "good_matches": 50,
+    "inliers": 15,
+    "inlier_ratio": 0.3,
+    "median_error": 0.9457615613937378
+  },
+  {
+    "path": "sv_hall\\0063_Hall_Hoskins_Street_58.jpg",
+    "good_matches": 26,
+    "inliers": 13,
+    "inlier_ratio": 0.5,
+    "median_error": 1.304206371307373
+  },
+  {
+    "path": "sv_hall\\0031_Hall_Loftus_Street_330.jpg",
+    "good_matches": 37,
+    "inliers": 13,
+    "inlier_ratio": 0.35135135135135137,
+    "median_error": 0.0002895151556003839
+  },
+  {
+    "path": "sv_hall\\0022_Hall_Gladstone_Street_244.jpg",
+    "good_matches": 20,
+    "inliers": 11,
+    "inlier_ratio": 0.55,
+    "median_error": 2.0673205852508545
+  },
+  {
+    "path": "sv_hall\\0038_Hall_Loftus_Street_63.jpg",
+    "good_matches": 28,
+    "inliers": 11,
+    "inlier_ratio": 0.39285714285714285,
+    "median_error": 1.8148008584976196
+  },
+  {
+    "path": "sv_hall\\0007_Hall_Victoria_Street_151.jpg",
+    "good_matches": 22,
+    "inliers": 10,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 1.3284015655517578
+  },
+  {
+    "path": "sv_hall\\0027_Hall_Gladstone_Street_46.jpg",
+    "good_matches": 17,
+    "inliers": 9,
+    "inlier_ratio": 0.5294117647058824,
+    "median_error": 0.6748339533805847
+  },
+  {
+    "path": "sv_hall\\0077_Hall_Gibbes_Street_330.jpg",
+    "good_matches": 27,
+    "inliers": 9,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 1.06528639793396
+  },
+  {
+    "path": "sv_hall\\0040_Hall_Loftus_Street_241.jpg",
+    "good_matches": 13,
+    "inliers": 8,
+    "inlier_ratio": 0.6153846153846154,
+    "median_error": 1.3663921356201172
+  },
+  {
+    "path": "sv_hall\\0087_Hall_Hall_Street_338.jpg",
+    "good_matches": 15,
+    "inliers": 8,
+    "inlier_ratio": 0.5333333333333333,
+    "median_error": 0.4056975841522217
+  },
+  {
+    "path": "sv_hall\\0012_Hall_Gladstone_Street_241.jpg",
+    "good_matches": 21,
+    "inliers": 8,
+    "inlier_ratio": 0.38095238095238093,
+    "median_error": 0.027717921882867813
+  },
+  {
+    "path": "sv_hall\\0037_Hall_Loftus_Street_38.jpg",
+    "good_matches": 25,
+    "inliers": 8,
+    "inlier_ratio": 0.32,
+    "median_error": 0.10448615252971649
+  },
+  {
+    "path": "sv_hall\\0002_Hall_Victoria_Street_239.jpg",
+    "good_matches": 14,
+    "inliers": 7,
+    "inlier_ratio": 0.5,
+    "median_error": 0.8326862454414368
+  },
+  {
+    "path": "sv_hall\\0076_Hall_Gibbes_Street_150.jpg",
+    "good_matches": 16,
+    "inliers": 7,
+    "inlier_ratio": 0.4375,
+    "median_error": 2.2412307262420654
+  },
+  {
+    "path": "sv_hall\\0067_Hall_Hoskins_Street_63.jpg",
+    "good_matches": 17,
+    "inliers": 7,
+    "inlier_ratio": 0.4117647058823529,
+    "median_error": 1.0615758895874023
+  },
+  {
+    "path": "sv_hall\\0013_Hall_Gladstone_Street_61.jpg",
+    "good_matches": 18,
+    "inliers": 7,
+    "inlier_ratio": 0.3888888888888889,
+    "median_error": 0.9734753370285034
+  },
+  {
+    "path": "sv_hall\\0074_Hall_Gibbes_Street_333.jpg",
+    "good_matches": 18,
+    "inliers": 7,
+    "inlier_ratio": 0.3888888888888889,
+    "median_error": 1.0746783018112183
+  },
+  {
+    "path": "sv_hall\\0070_Hall_Gibbes_Street_243.jpg",
+    "good_matches": 19,
+    "inliers": 7,
+    "inlier_ratio": 0.3684210526315789,
+    "median_error": 1.4702147245407104
+  },
+  {
+    "path": "sv_hall\\0000_Hall_Victoria_Street_65.jpg",
+    "good_matches": 20,
+    "inliers": 7,
+    "inlier_ratio": 0.35,
+    "median_error": 0.015591406263411045
+  },
+  {
+    "path": "sv_hall\\0069_Hall_Hoskins_Street_62.jpg",
+    "good_matches": 24,
+    "inliers": 7,
+    "inlier_ratio": 0.2916666666666667,
+    "median_error": 1.0293951034545898
+  },
+  {
+    "path": "sv_hall\\0082_Hall_Gibbes_Street_338.jpg",
+    "good_matches": 24,
+    "inliers": 7,
+    "inlier_ratio": 0.2916666666666667,
+    "median_error": 0.717710554599762
+  },
+  {
+    "path": "sv_hall\\0003_Hall_Victoria_Street_59.jpg",
+    "good_matches": 11,
+    "inliers": 6,
+    "inlier_ratio": 0.5454545454545454,
+    "median_error": 0.9935668110847473
+  },
+  {
+    "path": "sv_hall\\0010_Hall_Gladstone_Street_52.jpg",
+    "good_matches": 11,
+    "inliers": 6,
+    "inlier_ratio": 0.5454545454545454,
+    "median_error": 0.1484180986881256
+  },
+  {
+    "path": "sv_hall\\0045_Hall_Loftus_Street_60.jpg",
+    "good_matches": 11,
+    "inliers": 6,
+    "inlier_ratio": 0.5454545454545454,
+    "median_error": 0.016799863427877426
+  },
+  {
+    "path": "sv_hall\\0014_Hall_Gladstone_Street_240.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 0.4484400749206543
+  },
+  {
+    "path": "sv_hall\\0059_Hall_Hoskins_Street_30.jpg",
+    "good_matches": 14,
+    "inliers": 6,
+    "inlier_ratio": 0.42857142857142855,
+    "median_error": 0.6315081715583801
+  },
+  {
+    "path": "sv_hall\\0015_Hall_Gladstone_Street_60.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.8043267726898193
+  },
+  {
+    "path": "sv_hall\\0034_Hall_Loftus_Street_63.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.09224730730056763
+  },
+  {
+    "path": "sv_hall\\0053_Hall_Hoskins_Street_42.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.27029576897621155
+  },
+  {
+    "path": "sv_hall\\0058_Hall_Hoskins_Street_210.jpg",
+    "good_matches": 16,
+    "inliers": 6,
+    "inlier_ratio": 0.375,
+    "median_error": 0.5815639495849609
+  },
+  {
+    "path": "sv_hall\\0019_Hall_Gladstone_Street_68.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.7957644462585449
+  },
+  {
+    "path": "sv_hall\\0020_Hall_Gladstone_Street_246.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.7930953502655029
+  },
+  {
+    "path": "sv_hall\\0072_Hall_Gibbes_Street_61.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.1077430471777916
+  },
+  {
+    "path": "sv_hall\\0085_Hall_Gibbes_Street_340.jpg",
+    "good_matches": 17,
+    "inliers": 6,
+    "inlier_ratio": 0.35294117647058826,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0081_Hall_Gibbes_Street_329.jpg",
+    "good_matches": 19,
+    "inliers": 6,
+    "inlier_ratio": 0.3157894736842105,
+    "median_error": 0.826858639717102
+  },
+  {
+    "path": "sv_hall\\0008_Hall_Gladstone_Street_240.jpg",
+    "good_matches": 20,
+    "inliers": 6,
+    "inlier_ratio": 0.3,
+    "median_error": 1.1404657363891602
+  },
+  {
+    "path": "sv_hall\\0029_Hall_Loftus_Street_153.jpg",
+    "good_matches": 21,
+    "inliers": 6,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.4333769977092743
+  },
+  {
+    "path": "sv_hall\\0052_Hall_Hoskins_Street_222.jpg",
+    "good_matches": 6,
+    "inliers": 5,
+    "inlier_ratio": 0.8333333333333334,
+    "median_error": 0.030806738883256912
+  },
+  {
+    "path": "sv_hall\\0078_Hall_Gibbes_Street_330.jpg",
+    "good_matches": 6,
+    "inliers": 5,
+    "inlier_ratio": 0.8333333333333334,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0048_Hall_Hoskins_Street_180.jpg",
+    "good_matches": 8,
+    "inliers": 5,
+    "inlier_ratio": 0.625,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0025_Hall_Gladstone_Street_50.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0035_Hall_Loftus_Street_243.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.8563681840896606
+  },
+  {
+    "path": "sv_hall\\0054_Hall_Hoskins_Street_60.jpg",
+    "good_matches": 9,
+    "inliers": 5,
+    "inlier_ratio": 0.5555555555555556,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0036_Hall_Loftus_Street_218.jpg",
+    "good_matches": 10,
+    "inliers": 5,
+    "inlier_ratio": 0.5,
+    "median_error": 0.21203073859214783
+  },
+  {
+    "path": "sv_hall\\0033_Hall_Loftus_Street_243.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.04355910047888756
+  },
+  {
+    "path": "sv_hall\\0071_Hall_Gibbes_Street_63.jpg",
+    "good_matches": 11,
+    "inliers": 5,
+    "inlier_ratio": 0.45454545454545453,
+    "median_error": 0.08218393474817276
+  },
+  {
+    "path": "sv_hall\\0023_Hall_Gladstone_Street_64.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.031554244458675385
+  },
+  {
+    "path": "sv_hall\\0046_Hall_Hoskins_Street_355.jpg",
+    "good_matches": 12,
+    "inliers": 5,
+    "inlier_ratio": 0.4166666666666667,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0075_Hall_Gibbes_Street_153.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.14861829578876495
+  },
+  {
+    "path": "sv_hall\\0079_Hall_Gibbes_Street_150.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0083_Hall_Gibbes_Street_158.jpg",
+    "good_matches": 13,
+    "inliers": 5,
+    "inlier_ratio": 0.38461538461538464,
+    "median_error": 0.1448587328195572
+  },
+  {
+    "path": "sv_hall\\0039_Hall_Loftus_Street_243.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0089_Hall_Hall_Street_333.jpg",
+    "good_matches": 14,
+    "inliers": 5,
+    "inlier_ratio": 0.35714285714285715,
+    "median_error": 0.45278170704841614
+  },
+  {
+    "path": "sv_hall\\0051_Hall_Hoskins_Street_223.jpg",
+    "good_matches": 16,
+    "inliers": 5,
+    "inlier_ratio": 0.3125,
+    "median_error": 0.24414069950580597
+  },
+  {
+    "path": "sv_hall\\0042_Hall_Loftus_Street_61.jpg",
+    "good_matches": 17,
+    "inliers": 5,
+    "inlier_ratio": 0.29411764705882354,
+    "median_error": 0.6905755996704102
+  },
+  {
+    "path": "sv_hall\\0016_Hall_Gladstone_Street_246.jpg",
+    "good_matches": 19,
+    "inliers": 5,
+    "inlier_ratio": 0.2631578947368421,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0043_Hall_Loftus_Street_241.jpg",
+    "good_matches": 25,
+    "inliers": 5,
+    "inlier_ratio": 0.2,
+    "median_error": 0.8355310559272766
+  },
+  {
+    "path": "sv_hall\\0066_Hall_Hoskins_Street_243.jpg",
+    "good_matches": 4,
+    "inliers": 4,
+    "inlier_ratio": 1.0,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0080_Hall_Gibbes_Street_149.jpg",
+    "good_matches": 6,
+    "inliers": 4,
+    "inlier_ratio": 0.6666666666666666,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0055_Hall_Hoskins_Street_240.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0056_Hall_Hoskins_Street_240.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0084_Hall_Gibbes_Street_160.jpg",
+    "good_matches": 7,
+    "inliers": 4,
+    "inlier_ratio": 0.5714285714285714,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0060_Hall_Hoskins_Street_195.jpg",
+    "good_matches": 8,
+    "inliers": 4,
+    "inlier_ratio": 0.5,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0049_Hall_Hoskins_Street_0.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0057_Hall_Hoskins_Street_60.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0061_Hall_Hoskins_Street_15.jpg",
+    "good_matches": 9,
+    "inliers": 4,
+    "inlier_ratio": 0.4444444444444444,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0004_Hall_Victoria_Street_297.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0011_Hall_Gladstone_Street_232.jpg",
+    "good_matches": 10,
+    "inliers": 4,
+    "inlier_ratio": 0.4,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0006_Hall_Victoria_Street_331.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0024_Hall_Gladstone_Street_230.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.054575733840465546
+  },
+  {
+    "path": "sv_hall\\0086_Hall_Hall_Street_158.jpg",
+    "good_matches": 11,
+    "inliers": 4,
+    "inlier_ratio": 0.36363636363636365,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0068_Hall_Hoskins_Street_242.jpg",
+    "good_matches": 12,
+    "inliers": 4,
+    "inlier_ratio": 0.3333333333333333,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0026_Hall_Gladstone_Street_226.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0030_Hall_Loftus_Street_150.jpg",
+    "good_matches": 13,
+    "inliers": 4,
+    "inlier_ratio": 0.3076923076923077,
+    "median_error": 0.0
+  },
+  {
+    "path": "sv_hall\\0047_Hall_Hoskins_Street_175.jpg",
+    "good_matches": 14,
+    "inliers": 4,
+    "inlier_ratio": 0.2857142857142857,
+    "median_error": 0.3297126591205597
+  },
+  {
+    "path": "sv_hall\\0032_Hall_Loftus_Street_63.jpg",
+    "good_matches": 15,
+    "inliers": 4,
+    "inlier_ratio": 0.26666666666666666,
+    "median_error": 0.010399816557765007
+  },
+  {
+    "path": "sv_hall\\0018_Hall_Gladstone_Street_248.jpg",
+    "good_matches": 18,
+    "inliers": 4,
+    "inlier_ratio": 0.2222222222222222,
+    "median_error": 2.457515001296997
+  },
+  {
+    "path": "sv_hall\\0021_Hall_Gladstone_Street_66.jpg",
+    "good_matches": 21,
+    "inliers": 4,
+    "inlier_ratio": 0.19047619047619047,
+    "median_error": 0.06336142867803574
+  },
+  {
+    "path": "sv_hall\\0001_Hall_Victoria_Street_245.jpg",
+    "good_matches": 10,
+    "inliers": 3,
+    "inlier_ratio": 0.3,
+    "median_error": 0.6874092817306519
+  },
+  {
+    "path": "sv_hall\\0062_Hall_Hoskins_Street_238.jpg",
+    "good_matches": 11,
+    "inliers": 3,
+    "inlier_ratio": 0.2727272727272727,
+    "median_error": 3.5338895320892334
+  },
+  {
+    "path": "sv_hall\\0064_Hall_Hoskins_Street_239.jpg",
+    "good_matches": 12,
+    "inliers": 3,
+    "inlier_ratio": 0.25,
+    "median_error": 1.3182344436645508
+  },
+  {
+    "path": "sv_hall\\0073_Hall_Gibbes_Street_241.jpg",
+    "good_matches": 14,
+    "inliers": 3,
+    "inlier_ratio": 0.21428571428571427,
+    "median_error": 0.815073549747467
+  },
+  {
+    "path": "sv_hall\\0050_Hall_Hoskins_Street_43.jpg",
+    "good_matches": 19,
+    "inliers": 3,
+    "inlier_ratio": 0.15789473684210525,
+    "median_error": 1.4070613384246826
+  },
+  {
+    "path": "sv_hall\\0017_Hall_Gladstone_Street_66.jpg",
+    "good_matches": 21,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_hall\\0065_Hall_Hoskins_Street_59.jpg",
+    "good_matches": 12,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_hall\\0044_Hall_Loftus_Street_240.jpg",
+    "good_matches": 5,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  },
+  {
+    "path": "sv_hall\\0041_Hall_Loftus_Street_61.jpg",
+    "good_matches": 3,
+    "inliers": 0,
+    "inlier_ratio": 0.0,
+    "median_error": null
+  }
+]

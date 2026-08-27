@@ -1,0 +1,7 @@
+TPM simulation (offline, from VHDL sources)
+backdoor trigger D == 0xFFE9  (1111111111101001)
+leaked key       K == 0x63E1     (0110001111100001)
+encrypt(0xFFFF)  = 0x9C1E
+encrypt(0x0000)  = 0x43A0
+tpm(trigger)     = 0x63E1  (== KEY -> backdoor fired)
+NOTE: flag text is returned by the live satellite service; absent from files.

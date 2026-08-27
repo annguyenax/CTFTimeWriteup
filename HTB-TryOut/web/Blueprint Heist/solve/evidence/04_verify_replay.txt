@@ -1,0 +1,3 @@
+Q: independent GET 404 SSTI?
+status=404
+FLAG=HTB{ch41ning_m4st3rs_b4y0nd_1m4g1nary_3dfb9cf1df1e4de4cddde2d22493e0fd}

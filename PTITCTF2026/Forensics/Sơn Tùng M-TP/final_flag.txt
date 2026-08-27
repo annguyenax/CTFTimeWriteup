@@ -1,0 +1,5 @@
+UNSOLVED
+# spectrogram decoy — do not submit:
+# PTITCTF{n1c3_try_ju57_try_h4rd3r_i_gu355}
+# previous misread, also wrong:
+# PTITCTF{N0T_JUST_MUSIC_BUT_A_MASTERPIECE}

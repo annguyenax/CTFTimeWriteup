@@ -1,0 +1,14 @@
+Key strings recovered from rev_dontpanic/dontpanic (ELF64 LE, Rust, ~3.8 MB):
+
+0x047000: "src.rs🤖💬 < Have you got a message for me? > 🗨️ 🤖: couldn't read stdin😌"
+           -> source file was src.rs; interactive chatbot-style prompt
+0x047040: "couldn't read stdin😌... All is well 😌😌😌\n😱😱😱 You made me panic! 😱😱😱"
+           -> success message: "All is well"; failure: panic "You made me panic!"
+0x0470b0: "attempt to subtract with overflow"   (panic message used by checkers)
+0x0470e0: "attempt to add with overflow"        (panic message used by checkers)
+
+Symbols of interest (objdump -t):
+  0000000000009060 l F .text 000001c1  _ZN3src10check_flag17h397d174e03dc8c74E  (check_flag)
+  0000000000009030 l F .text 00000027  _ZN3src14remove_newline17h49daf0023bf5b77cE (remove_newline)
+  0000000000009230 l F .text 0000024f  _ZN3src4main17hf9bc229851763ab9E       (main)
+  0000000000009490 g F .text 00000027  main                                    (C entry)

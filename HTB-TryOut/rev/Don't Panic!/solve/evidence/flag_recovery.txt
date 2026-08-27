@@ -1,0 +1,62 @@
+Flag recovery trace — rev "Don't Panic!" (HTB TryOut 2026)
+
+check_flag(buf, len) @ 0x9060:
+    if len != 31 -> assert_failed (panic)
+    table[31] = fn pointers built in prologue (lea rip-relative -> mov to [rsp+0x10..0x100])
+    for i in 0..31: table[i](buf[i])
+      (a wrong byte calls the panic path printing "You made me panic!")
+
+Each checker closure (all identical shape, e.g. @0x8b80):
+    50                       push   %rax
+    40 80 ff 48              cmp    $0x48,%dil      <- the expected byte
+    72 04                    jb     panic
+    75 1b                    jne    panic
+    58 / c3                  pop; ret
+
+address -> expected byte (parsed straight from the ELF):
+    0x8a40 'h'   0x8a80 'p'   0x8ac0 't'   0x8b00 '_'
+    0x8b40 'c'   0x8b80 'H'   0x8bc0 'o'   0x8c00 '0'
+    0x8c40 'r'   0x8c80 'n'   0x8cc0 '1'   0x8d00 '4'
+    0x8d40 'B'   0x8d80 'T'   0x8dc0 'e'   0x8e00 '{'
+    0x8e40 'd'   0x8e80 '3'   0x8ec0 '}'
+
+Function-pointer table order (slot 0x10+8*i in check_flag) -> byte:
+    i:0  0x8b80 -> 'H'
+    i:1  0x8d80 -> 'T'
+    i:2  0x8d40 -> 'B'
+    i:3  0x8e00 -> '{'
+    i:4  0x8e40 -> 'd'
+    i:5  0x8c00 -> '0'
+    i:6  0x8c80 -> 'n'
+    i:7  0x8ac0 -> 't'
+    i:8  0x8b00 -> '_'
+    i:9  0x8a80 -> 'p'
+    i:10 0x8d00 -> '4'
+    i:11 0x8c80 -> 'n'
+    i:12 0x8cc0 -> '1'
+    i:13 0x8b40 -> 'c'
+    i:14 0x8b00 -> '_'
+    i:15 0x8b40 -> 'c'
+    i:16 0x8d00 -> '4'
+    i:17 0x8ac0 -> 't'
+    i:18 0x8b40 -> 'c'
+    i:19 0x8a40 -> 'h'
+    i:20 0x8b00 -> '_'
+    i:21 0x8ac0 -> 't'
+    i:22 0x8a40 -> 'h'
+    i:23 0x8dc0 -> 'e'
+    i:24 0x8b00 -> '_'
+    i:25 0x8e80 -> '3'
+    i:26 0x8c40 -> 'r'
+    i:27 0x8c40 -> 'r'
+    i:28 0x8bc0 -> 'o'
+    i:29 0x8c40 -> 'r'
+    i:30 0x8ec0 -> '}'
+
+FLAG = HTB{d0nt_p4n1c_c4tch_the_3rror}
+
+Verification:
+  - length == 31, matches HTB{...} format
+  - solve.py re-parses the ELF (program headers -> prologue emulation -> cmp
+    immediates) and replays all 31 checks; result identical.
+  - manual disassembly trace and programmatic extraction agree byte-for-byte.

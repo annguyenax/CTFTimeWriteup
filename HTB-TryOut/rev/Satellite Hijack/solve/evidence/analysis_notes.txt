@@ -1,0 +1,67 @@
+# Satellite Hijack — HTB TryOut (rev) — Analysis Notes
+
+## TRIAGE
+- Artifacts: `satellite` (16,936 B) + `library.so` (18,416 B) inside `rev_satellitehijack.zip`.
+- Both: ELF 64-bit LSB **ET_DYN (PIE) x86-64**, gcc-built (satellite: Debian 10.2.1;
+  library.so: GCC 13.2.1). No UPX packer signature — the "packing" is a runtime memfrob layer.
+- `satellite` imports: `putchar, puts, setbuf, printf, read, send_satellite_message` (from library.so).
+- `library.so` imports: `strcmp, getauxval, mmap, memcpy, memfrob, strlen, realloc, strcat,
+  strcpy, getenv, __stack_chk_fail`; exports `send_satellite_message`.
+- The `memfrob` import (GNU function = XOR with 42) is the key tell for runtime decryption.
+
+## REVERSE ENGINEERING
+
+### satellite (main @ 0x1185)
+- `puts(banner)`, then `send_satellite_message(0, 0x21ec)` once.
+- Infinite loop: print "> ", `read(1, buf, 0x400)`, null-terminate, `printf`, then
+  `send_satellite_message(0, buf)`.
+
+### library.so — exported send_satellite_message (0x25d0) is a TAMPERED stub
+- Builds a 20-byte stack string from three movabs immediates, decrements each byte by 1:
+  => env var name `SAT_PRODENVIRONMENT`.
+- `getenv(SAT_PRODENVIRONMENT)`; if set, calls unpacker 0x23e3. (Original "control code"
+  logic has been replaced by this stub — matches the challenge story: the panel was tampered.)
+
+### unpacker 0x23e3
+- `getauxval(3)` (AT_PHDR) → page-align = ELF load base.
+- `mmap` anonymous RWX (0x2000), `memcpy` 0x1000 bytes from `.text` [0x11a9,0x21a9),
+  then `memfrob` (XOR 42) that copy => real code is encrypted in the file, decrypted at runtime.
+
+### Decryption (done offline in solver)
+Since `.text` virtual address == file offset, region = file bytes [0x11a9,0x21a9).
+`decrypted[i] = file[0x11a9+i] ^ 42`. Patched copy: `library_dec.so`.
+
+### Real flag-check routine @ 0x11a9 (decrypted)
+- Signature: (fd?, buf, len). Calls helper 0x134d, then scans buf for magic `0x7b425448`
+  = little-endian `"HTB{"`.
+- For each "HTB{" occurrence at `p`, calls checker `0x1235(p_after_HTB, len_remaining)`.
+- On success, memsets the buffer and returns -1 (invalidates input so no re-echo of flag).
+
+### Checker 0x1235 (decrypted)
+- Builds a 28-byte key on the stack from four movabs immediates (overlapping writes at
+  rsp-0x28/-0x20/-0x1b/-0x13):
+  ```
+  imms = 0x37593076307b356c, 0x3a7c3e753f665666, 0x784c7c214f3a7c3e, 0x663b2c6a246f21
+  key = "l5{0v0Y7fVf?u>|:O!|Lx!o$j,;f"   (28 bytes)
+  ```
+- Loop i=0..27: require `input[i] XOR key[i] == i`; if the 28th index is reached with all
+  matches, return 1 (valid).
+- Therefore the 28 inner bytes after `HTB{` are:  `flag_inner[i] = key[i] ^ i`.
+
+## SOLVE
+```
+flag_inner = bytes(key[i] ^ i for i in range(28))
+           = "l4y3r5_0n_l4y3r5_0n_l4y3r5!}"
+flag = "HTB{" + flag_inner
+     = HTB{l4y3r5_0n_l4y3r5_0n_l4y3r5!}
+```
+
+## VERIFY (2 independent, per ctf-ai-system gate)
+1. `solve/solve.py` re-extracts the 4 immediates from the binary, rebuilds the key with the
+   exact overlapping-write layout, derives `flag_inner`, and re-simulates the 0x1235 checker
+   on it (assert `key[i]^inner[i]==i` for i=0..27) — passes.
+2. Manual cross-check against `objdump -d` of the decrypted region: the movabs immediates and
+   the `xor; cmp rax,rdx` loop in the printed disassembly match exactly.
+
+## DETERMINISTIC OUTPUT
+`final_flag.txt` = HTB{l4y3r5_0n_l4y3r5_0n_l4y3r5!}

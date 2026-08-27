@@ -1,0 +1,3 @@
+Q: /getToken + forged admin JWT?
+user[:20]=eyJhbGciOiJIUzI1NiIs
+admin=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4ifQ.D7iHaTKv4dc5SlTfWrVHi4HIEEFq3PbiU-KTUyS9SG4

@@ -1,0 +1,4 @@
+# web/HTB Proxy  (HTB Try Out — snapshot spawn 2026-08-19; port đổi nếu reset instance)
+TYPE=Web
+TARGET=154.57.164.77:32208
+CONNECT=http://154.57.164.77:32208

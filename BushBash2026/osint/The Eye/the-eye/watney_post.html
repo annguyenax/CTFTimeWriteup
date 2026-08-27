@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solve / Upload Image - Watney Astrometry</title>
+    <script type="importmap">{
+  "imports": {
+    "./js/site.js": "./js/site.xfbjdyvppk.js",
+    "./js/upload.js": "./js/upload.dazx9g5g9w.js",
+    "./lib/bootstrap/dist/js/bootstrap.bundle.js": "./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js",
+    "./lib/bootstrap/dist/js/bootstrap.bundle.min.js": "./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js",
+    "./lib/bootstrap/dist/js/bootstrap.esm.min.js": "./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js",
+    "./lib/bootstrap/dist/js/bootstrap.esm.js": "./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js",
+    "./lib/bootstrap/dist/js/bootstrap.min.js": "./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js",
+    "./lib/bootstrap/dist/js/bootstrap.js": "./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js",
+    "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js": "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.47otxtyo56.js",
+    "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js": "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
+    "./lib/jquery-validation/dist/additional-methods.js": "./lib/jquery-validation/dist/additional-methods.ilo7uva0vt.js",
+    "./lib/jquery-validation/dist/additional-methods.min.js": "./lib/jquery-validation/dist/additional-methods.min.qlccset4i1.js",
+    "./lib/jquery-validation/dist/jquery.validate.js": "./lib/jquery-validation/dist/jquery.validate.lzl9nlhx6b.js",
+    "./lib/jquery-validation/dist/jquery.validate.min.js": "./lib/jquery-validation/dist/jquery.validate.min.ag7o75518u.js",
+    "./lib/jquery/dist/jquery.js": "./lib/jquery/dist/jquery.0i3buxo5is.js",
+    "./lib/jquery/dist/jquery.min.js": "./lib/jquery/dist/jquery.min.o1o13a6vjx.js",
+    "./lib/jquery/dist/jquery.slim.js": "./lib/jquery/dist/jquery.slim.2z0ns9nrw6.js",
+    "./lib/jquery/dist/jquery.slim.min.js": "./lib/jquery/dist/jquery.slim.min.muycvpuwrr.js"
+  },
+  "integrity": {
+    "./js/site.js": "sha256-UxpLXP08qQevzt5RC/YDXU2A+BxyGspoN+BbaR+//fI=",
+    "./js/site.xfbjdyvppk.js": "sha256-UxpLXP08qQevzt5RC/YDXU2A+BxyGspoN+BbaR+//fI=",
+    "./js/upload.dazx9g5g9w.js": "sha256-G5ZeF+xq7Y3hiq66KKveMC4K413xbVPn1nqTRykjlx4=",
+    "./js/upload.js": "sha256-G5ZeF+xq7Y3hiq66KKveMC4K413xbVPn1nqTRykjlx4=",
+    "./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js": "sha256-mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=",
+    "./lib/bootstrap/dist/js/bootstrap.bundle.js": "sha256-mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=",
+    "./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js": "sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=",
+    "./lib/bootstrap/dist/js/bootstrap.bundle.min.js": "sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=",
+    "./lib/bootstrap/dist/js/bootstrap.esm.js": "sha256-exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA=",
+    "./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js": "sha256-QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ=",
+    "./lib/bootstrap/dist/js/bootstrap.esm.min.js": "sha256-QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ=",
+    "./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js": "sha256-exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA=",
+    "./lib/bootstrap/dist/js/bootstrap.js": "sha256-+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=",
+    "./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
+    "./lib/bootstrap/dist/js/bootstrap.min.js": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
+    "./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js": "sha256-+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=",
+    "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.47otxtyo56.js": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
+    "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
+    "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.4v8eqarkd7.js": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
+    "./lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
+    "./lib/jquery-validation/dist/additional-methods.ilo7uva0vt.js": "sha256-RtK5/xaX3H1GQNw5gX7lTEGtDXcqlD8j/rgs0bEPA6c=",
+    "./lib/jquery-validation/dist/additional-methods.js": "sha256-RtK5/xaX3H1GQNw5gX7lTEGtDXcqlD8j/rgs0bEPA6c=",
+    "./lib/jquery-validation/dist/additional-methods.min.js": "sha256-MtEA819Zls6dtLt5S5BpEMOhifPyz7gfzfgtNtY75lE=",
+    "./lib/jquery-validation/dist/additional-methods.min.qlccset4i1.js": "sha256-MtEA819Zls6dtLt5S5BpEMOhifPyz7gfzfgtNtY75lE=",
+    "./lib/jquery-validation/dist/jquery.validate.js": "sha256-kRL82372ur5YrVTjFWp9muao9yeU8AoLiJxSb5ekmHg=",
+    "./lib/jquery-validation/dist/jquery.validate.lzl9nlhx6b.js": "sha256-kRL82372ur5YrVTjFWp9muao9yeU8AoLiJxSb5ekmHg=",
+    "./lib/jquery-validation/dist/jquery.validate.min.ag7o75518u.js": "sha256-umbTaFxP31Fv6O1itpLS/3+v5fOAWDLOUzlmvOGaKV4=",
+    "./lib/jquery-validation/dist/jquery.validate.min.js": "sha256-umbTaFxP31Fv6O1itpLS/3+v5fOAWDLOUzlmvOGaKV4=",
+    "./lib/jquery/dist/jquery.0i3buxo5is.js": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=",
+    "./lib/jquery/dist/jquery.js": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=",
+    "./lib/jquery/dist/jquery.min.js": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+    "./lib/jquery/dist/jquery.min.o1o13a6vjx.js": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+    "./lib/jquery/dist/jquery.slim.2z0ns9nrw6.js": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=",
+    "./lib/jquery/dist/jquery.slim.js": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=",
+    "./lib/jquery/dist/jquery.slim.min.js": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=",
+    "./lib/jquery/dist/jquery.slim.min.muycvpuwrr.js": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+  }
+}</script>
+    <link rel="shortcut icon" href="/favicon.bv4rux6qej.png" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css" />
+    <link rel="stylesheet" href="/css/site.xkxsucg0jx.css" />
+</head>
+<body data-bs-theme="dark">
+    <header b-5mpll40s2i>
+        <nav b-5mpll40s2i class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+            <div b-5mpll40s2i class="container">
+                <a class="navbar-brand" href="/">Watney Astrometry</a>
+                <button b-5mpll40s2i class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-5mpll40s2i class="navbar-toggler-icon"></span>
+                </button>
+                <div b-5mpll40s2i class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-5mpll40s2i class="navbar-nav flex-grow-1">
+                        <li b-5mpll40s2i class="nav-item">
+                            <a class="nav-link text-light" href="/">Gallery</a>
+                        </li>
+                        <li b-5mpll40s2i class="nav-item">
+                            <a class="nav-link text-light" href="/upload">Upload</a>
+                        </li>
+                        <li b-5mpll40s2i class="nav-item">
+                            <a class="nav-link text-light" href="/about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div b-5mpll40s2i class="container">
+        <main b-5mpll40s2i role="main" class="pb-3">
+            
+<h1>Solve an Image</h1>
+
+<form method="post" enctype="multipart/form-data" id="upload-form">
+    <div class="mb-4">
+        <div id="drop-zone" class="border border-2 border-dashed rounded p-5 text-center text-muted"
+             style="cursor: pointer; min-height: 180px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <div id="drop-zone-prompt">
+                <p class="mb-2 fs-5">Drag &amp; drop an image here, or click to select</p>
+                <small>Supported formats: FITS, JPEG, PNG</small>
+            </div>
+            <div id="drop-zone-preview" class="d-none" style="width: 100%;">
+                <img id="preview-image" src="" alt="Preview" class="d-none mb-2" 
+                     style="max-height: 420px; max-width: 100%; object-fit: contain; border-radius: 8px; box-shadow: 2px 2px 2px rgba(14, 20, 26, 0.61);" />
+                <p id="preview-unavailable" class="d-none mb-0 fs-6 text-muted fst-italic">Preview unavailable for FITS</p>
+                <div id="preview-filename" class="text-muted"></div>
+            </div>
+            <input type="file" id="file-input" name="imageFile" accept=".fits,.fit,.jpg,.jpeg,.png" class="d-none" />
+            <input type="hidden" id="id-token" name="idToken" value="" />
+        </div>
+        <div id="selected-file-name" class="mt-2 text-success d-none"></div>
+    </div>
+
+    <p class="text-muted">
+        Solve parameters will be selected automatically based on your image.
+    </p>
+
+    <div class="mb-3">
+        <label class="form-label">Hardware queue</label>
+        <select name="queueName" class="form-select" id="queueName">
+                <option value="solve-default">
+                    &#x1F7E2; VPS 2-core vCPU (server hardware) (online)
+                </option>
+                <option value="solve-udoo">
+                    &#x1F7E2; Udoo X86 4-core SBC (2017) (online)
+                </option>
+                <option value="solve-es1131">
+                    &#x1F534; ES 1-131 2-core laptop (2015) (offline)
+                </option>
+        </select>
+        <hr />
+        <div id="queueOfflineWarning" class="alert alert-danger" role="alert" style="display:none">
+            Queue solver is offline. If you use this queue, there are no guarantees when the image will be processed (i.e. it will get solved when the queue gets back online).
+            <br />
+            The solve request will be automatically discarded if a solver is not available for 48h.
+        </div>
+    </div>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Terms &amp; Conditions</h5>
+            <div class="mb-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="allowPublic" id="allowPublic" value="true" />
+                    <label class="form-check-label" for="allowPublic">
+                        Allow others to see this submission on the front page
+                    </label>
+                </div>
+            </div>
+            <div class="mb-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="agreeTerms" id="agreeTerms" value="true" required />
+                    <label class="form-check-label" for="agreeTerms">
+                        I have read, understood and I agree to the
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">terms of submission</a>
+                        (required)
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Ah0C5pYJoxBn-es5sKyWxbyJn4XwTIWeAe4WjAgtk0PYaaS6Itg3DLBZvmH4kDJoz3pSxvWTOBgcVuyH9DGadi3es-5GfgVuuOIbaoQ1UgWNYtENHMwSbCw9ngY8okXBONL0b1QGOS9Y6NPyd8A3yg" /></form>
+
+<div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="termsModalLabel">Terms of Submission</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1 id="terms-of-submission">Terms of Submission</h1>
+<p>By submitting an image to Watney Astrometry, you agree to the following:</p>
+<ol>
+<li><strong>You own the image or have permission to submit it.</strong> Do not upload images you do not own or have rights to.</li>
+<li><strong>You agree to let this site to process, host and display the image.</strong> The image will be resized/compressed for web use.</li>
+<li><strong>No inappropriate content.</strong> Images must be astronomical in nature.</li>
+<li><strong>Public submissions:</strong> If you tick the &quot;Allow others to see this submission&quot; checkbox, you accept that the image and solve results will be shown publicly in the gallery.</li>
+<li><strong>Private submissions:</strong> non-public submissions will be viewable by a direct link to the submission. Anyone with the link is able to access it.</li>
+<li><strong>No guarantees.</strong> The astrometric solver may fail for some images. Results are provided as-is.</li>
+<li><strong>Data retention.</strong> Submitted images are stored for the purpose of solving and display. We reserve the right to remove any content at any time.</li>
+</ol>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </main>
+        <div b-5mpll40s2i style="height: 2rem"></div>
+    </div>
+
+    <footer b-5mpll40s2i class="border-top footer text-muted mt-4">
+        <div b-5mpll40s2i class="container py-2 text-center">
+            <img src="/images/site/gh.i4uqbo7w8l.png" height="32" style="margin-right: 0.5rem" />
+            Watney Astrometric solver is open source.
+            <a b-5mpll40s2i href="https://github.com/Jusas/WatneyAstrometry" target="_blank">Check it out in Github!</a>
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.o1o13a6vjx.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js"></script>
+    <script src="/js/site.xfbjdyvppk.js"></script>
+
+    
+    <script src="/js/upload.dazx9g5g9w.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+# pwn/Abyss  (HTB Try Out — snapshot spawn 2026-08-19; port đổi nếu reset instance)
+TYPE=TCP
+TARGET=154.57.164.82:32138
+CONNECT=nc 154.57.164.82 32138
