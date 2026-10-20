@@ -65,4 +65,22 @@ canonical layout `<event>/<category>/<challenge>/{solve/,writeup/,final_flag.txt
 - Full-scan with HexStrike by default  
 - Fabricate flags  
 - Skip knowledge capture  
-- Clone HexStrike / ctf-ai-system into temporary Grok worktrees  
+- Clone HexStrike / ctf-ai-system into temporary Grok worktrees
+
+## Cursor Cloud
+
+The three repositories are checked out as siblings. When `D:\download\` is absent, resolve paths from this repository's parent directory:
+
+| Sibling | Role |
+|---------|------|
+| `../CTFTimeWriteup` | This repo — event writeups |
+| `../ctf-ai-system` | Skill pack, knowledge cards, and `OUTPUT/` |
+| `../annguyenax` | Profile README |
+
+Cloud Agents have the local toolchain on the default `PATH`: `python3` with pwntools, PyCryptodome, z3, gmpy2, sympy, Pillow, and requests; plus `gdb`, `xxd`, `exiftool`, and `pwsh`. HexStrike stays on the external Kali host and is not started here.
+
+Validate a captured solve from this repo with:
+
+```bash
+pwsh -File ../ctf-ai-system/scripts/Test-CtfAiSystem.ps1 -ChallengeId <id>
+```
